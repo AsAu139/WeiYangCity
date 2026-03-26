@@ -1,0 +1,6 @@
+{
+  "Team_name": "xxx",
+  "python_version": "3.12",
+  "entry_class": "BaselineAgent",
+  "entry_method": "solve"
+}
