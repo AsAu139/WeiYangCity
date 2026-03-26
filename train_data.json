@@ -1,5 +1,5 @@
 [
-  {
+  {(),
     "question_id": "PHY_001",
     "type": "单选题",
     "knowledge_point": "二维碰撞，动量守恒",
