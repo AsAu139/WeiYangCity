@@ -5,7 +5,7 @@
     "knowledge_point": "二维碰撞，动量守恒",
     "difficulty": "中等",
     "question": "光滑水平面上有一质量为 $m$ 的粒子，以速率 $v$ 自左向右运动，与一质量为 $2m$ 的静止粒子碰撞。若碰后该入射粒子偏转 $45^\\circ$，以速率 $v/2$ 飞离，则质量为 $2m$ 的粒子碰后的速率为：\n(A) $\\frac{v}{2}\\sqrt{5-2\\sqrt{2}}$\n(B) $\\frac{v}{4}\\sqrt{5-2\\sqrt{2}}$\n(C) $\\frac{v}{2}\\sqrt{5-\\sqrt{2}}$\n(D) $\\frac{v}{4}\\sqrt{5-\\sqrt{2}}$",
-    "answer": "B\n",
+    "answer": "B",
     "reasoning_process": "根据动量守恒定律，系统在水平（x轴）和垂直（y轴）方向上的动量均守恒。设碰撞后质量为 $2m$ 的粒子速率为 $v'$，其运动方向与入射方向夹角为 $\\theta$。\n1. **水平方向（x轴）动量守恒：**\n   $$mv = m \\cdot \\frac{v}{2} \\cos 45^\\circ + 2m \\cdot v'_x$$\n   $$v = \\frac{v}{2} \\cdot \\frac{\\sqrt{2}}{2} + 2v'_x \\implies 2v'_x = v - \\frac{\\sqrt{2}}{4}v = v(1 - \\frac{\\sqrt{2}}{4})$$\n   $$v'_x = \\frac{v}{2}(1 - \\frac{\\sqrt{2}}{4}) = \\frac{v(4-\\sqrt{2})}{8}$$\n2. **垂直方向（y轴）动量守恒：**\n   $$0 = m \\cdot \\frac{v}{2} \\sin 45^\\circ - 2m \\cdot v'_y$$\n   $$2v'_y = \\frac{v}{2} \\cdot \\frac{\\sqrt{2}}{2} \\implies v'_y = \\frac{\\sqrt{2}v}{8}$$\n3. **计算合速率 $v'$：**\n   $$v' = \\sqrt{(v'_x)^2 + (v'_y)^2} = \\sqrt{\\left(\\frac{v(4-\\sqrt{2})}{8}\\right)^2 + \\left(\\frac{\\sqrt{2}v}{8}\\right)^2}$$\n   $$v' = \\frac{v}{8} \\sqrt{(16 - 8\\sqrt{2} + 2) + 2} = \\frac{v}{8} \\sqrt{20 - 8\\sqrt{2}}$$\n   提取根号下的公因子 $4$：\n   $$v' = \\frac{v}{8} \\cdot 2\\sqrt{5 - 2\\sqrt{2}} = \\frac{v}{4}\\sqrt{5 - 2\\sqrt{2}}$$\n由此得出选项 (B) 为正确答案。"
   },
   {
