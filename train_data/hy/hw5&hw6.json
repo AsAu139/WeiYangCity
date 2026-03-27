@@ -1,0 +1,122 @@
+[
+  {
+    "question_id": "PHY-001",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "弹道摆问题：一质量为 m 的子弹以速度 v 水平射入并嵌入质量为 M 的摆块中，摆长为 l。碰撞后系统上升到最大偏角 φ。求子弹初速度 v。",
+    "answer": "v = ((M+m)/m)*sqrt(2*g*l*(1-cosφ))",
+    "reasoning_process": "分两阶段分析：\n1）完全非弹性碰撞：动量守恒\nmv = (M+m)V\n\n2）摆上升过程：机械能守恒\n(1/2)(M+m)V^2 = (M+m)g l(1-cosφ)\n\n解得 V = sqrt(2g l(1-cosφ))\n\n代回得：v = ((M+m)/m)*sqrt(2*g*l*(1-cosφ))"
+  },
+  {
+    "question_id": "PHY-002",
+    "type": "证明题",
+    "difficulty": "基础",
+    "question": "一质点在水平面上做圆周运动，绳子提供向心力。证明：(a) 角动量守恒；(b) 拉力做功等于动能变化。",
+    "answer": "(a) L=mr^2θ_dot=const；(b) W=ΔK",
+    "reasoning_process": "（a）拉力始终沿径向，力矩 τ = r×F = 0，因此角动量守恒。\n\n（b）当半径变化时，拉力做功：W = ∫F·dr\n根据功-能定理：W = ΔK"
+  },
+  {
+    "question_id": "PHY-003",
+    "type": "证明题",
+    "difficulty": "中等",
+    "question": "一个质量为 M 的光滑圆环上有两个质量为 m 的小珠对称分布，从顶部释放。分析在什么条件下圆环会上升，并求 M=0 时的特殊结果。",
+    "answer": "m>3M/2 时环上升；M=0 时 cosθ=2/3",
+    "reasoning_process": "系统无外力，质心高度不变。\n\n两小珠下降导致质心下降趋势，若系统质心不变，则圆环必须上升。\n\n列质心表达式并求变化条件，得到：m > 3M/2\n\n当 M=0 时，解几何关系得 cosθ = 2/3"
+  },
+  {
+    "question_id": "PHY-004",
+    "type": "证明题",
+    "difficulty": "困难",
+    "question": "证明：一个两体放能反应在自由空间中不能同时满足动量守恒和能量守恒。",
+    "answer": "两体放能反应不可能发生",
+    "reasoning_process": "设初始粒子静止，总动量为0。\n\n反应后两粒子动量大小相等反向。\n\n动能表达：K = p^2/(2m1) + p^2/(2m2)\n\n若释放能量 Q，则 K=Q。\n\n但 p 已由动量约束确定，无法匹配任意 Q，矛盾。\n\n因此必须有第三体参与。"
+  },
+  {
+    "question_id": "PHY-005",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "质量为 M 的物块连接弹簧振动，质量为 m 的物体粘附其上。求新周期、振幅变化和能量变化。",
+    "answer": "T=2π√((M+m)/k)，振幅依赖相位，机械能减少",
+    "reasoning_process": "完全非弹性碰撞：动量守恒，能量损失。\n\n新系统质量为 M+m，周期：T=2π√((M+m)/k)\n\n振幅由碰撞时刻决定。\n\n因动能损失，总机械能减少。"
+  },
+  {
+    "question_id": "PHY-006",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一条链条从桌面滑落到秤上，求秤的最大读数。",
+    "answer": "最大读数为 3Mg",
+    "reasoning_process": "秤受力 = 已落部分重量 + 动量流率。\n\n动量变化率 = λv^2\n\n综合得到最大值为 3Mg。"
+  },
+  {
+    "question_id": "PHY-007",
+    "type": "证明题",
+    "difficulty": "中等",
+    "question": "Lennard-Jones 势：求平衡位置和小振动频率。",
+    "answer": "r_min=r0，ω=12√(ε/(r0^2 m))",
+    "reasoning_process": "平衡位置：dU/dr=0 → r=r0\n\n在 r0 附近展开：U≈二次函数\n\nω = sqrt(U''/m)\n\n计算得 ω=12√(ε/(r0^2 m))"
+  },
+  {
+    "question_id": "PHY-008",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "已知力 F = B - A/x^2，求势能、平衡点及小振动频率。",
+    "answer": "U=-Bx + A/x；x0=√(A/B)；ω=√(2B^2/(mA))",
+    "reasoning_process": "F = -dU/dx → 积分得 U=-Bx + A/x\n\n平衡点：F=0 → x0=√(A/B)\n\n二阶展开求频率：ω=√(U''/m)=√(2B^2/(mA))"
+  },
+  {
+    "question_id": "PHY-009",
+    "type": "应用题",
+    "difficulty": "基础",
+    "question": "雪地摩托在上坡和下坡时功率相同，求速度。",
+    "answer": "45 mi/h",
+    "reasoning_process": "功率 P = Fv\n\n上下坡阻力不同但功率相同\n\n列方程解得速度为 45 mi/h"
+  },
+  {
+    "question_id": "PHY-010",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "传送带不断加速落下的沙子，求所需功率。",
+    "answer": "P=(1/2)ṁV^2",
+    "reasoning_process": "单位时间加速质量 ṁ\n\n动能增加率 = (1/2)ṁV^2\n\n即为所需功率"
+  },
+  {
+    "question_id": "PHY-011",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "绳子以恒速被拉起，求所需拉力。",
+    "answer": "F=λyg + λv0^2",
+    "reasoning_process": "拉力 = 重力 + 动量变化率\n\n重力 = λyg\n\n动量项 = λv0^2\n\n合得 F=λyg + λv0^2"
+  },
+  {
+    "question_id": "PHY-012",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "超级弹力球从高度 h 落下，反弹高度是多少？",
+    "answer": "h'=9h",
+    "reasoning_process": "弹性碰撞速度反弹约为 3v\n\n高度 ∝ v^2\n\n故 h' = 9h"
+  },
+  {
+    "question_id": "PHY-013",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "核反应的阈值问题，求最小入射能量。",
+    "answer": "约 0.15 MeV",
+    "reasoning_process": "利用动量守恒 + 能量守恒\n\n在质心系分析阈值条件\n\n计算得到最小能量约为 0.15 MeV"
+  },
+  {
+    "question_id": "PHY-014",
+    "type": "证明题",
+    "difficulty": "中等",
+    "question": "小球在两墙之间弹跳，求平均力及墙移动时变化规律。",
+    "answer": "F=mv0^2/l；移动时 F∝1/x^3",
+    "reasoning_process": "平均力 = 动量变化率\n\n单位时间碰撞次数 × 动量变化\n\n得 F=mv0^2/l\n\n若墙移动，碰撞频率变化 → F∝1/x^3"
+  },
+  {
+    "question_id": "PHY-015",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "两物体弹性散射，已知入射速度 v0 和散射角 θ，求末速度。",
+    "answer": "vf=(v0/(m+M))*√(m^2+M^2+2mMcosθ)",
+    "reasoning_process": "在质心系中分析碰撞\n\n速度大小不变，仅方向改变\n\n再变换回实验室系\n\n得到最终速度表达式"
+  }
+]
