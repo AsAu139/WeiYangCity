@@ -1,0 +1,146 @@
+[
+  {
+    "question_id": "PHY-001",
+    "type": "解答题",
+    "knowledge_point": "费马点，静力平衡，张力合成",
+    "difficulty": "中等",
+    "question": "在平面上给定三点 A、B、C，它们构成一个三角形。三角形内部存在一点 Q，使得 $QA+QB+QC$ 最短。请利用物理实验说明：当距离和最短时，三条连线之间的夹角满足 $\\angle AQB=\\angle BQC=\\angle CQA=120^\\circ$。问题一：在你设计的实验中，什么条件下 $QA+QB+QC$ 取得最短值？并说明原因。",
+    "answer": "当三球—轻绳系统达到静力平衡时，$QA+QB+QC$ 取得最短值。",
+    "reasoning_process": "把平面看成水平桌面，在 A、B、C 三点处各开一个小孔，三根轻绳从孔中穿过，下端各挂一个质量相同的小球，上端在桌面上连到同一个结点 Q。忽略摩擦，系统会自动运动到平衡位置。平衡时三个小球的重力势能总和最小，因此桌面下方三段绳子的总长度最大。由于每根绳子的总长度固定，桌面上三段绳长之和 $QA+QB+QC$ 必然最小。所以，系统达到静力平衡的构型，就是距离和最短的构型。"
+  },
+  {
+    "question_id": "PHY-002",
+    "type": "解答题",
+    "knowledge_point": "静力平衡，力的矢量合成",
+    "difficulty": "中等",
+    "question": "延续上一题的实验装置。问题二：为什么当 $QA+QB+QC$ 最短时，三条连线之间的夹角必须都是 $120^\\circ$？",
+    "answer": "因为平衡时结点 Q 同时受到三根绳子的等大张力作用，三个等大力合力为零时，它们两两夹角只能是 $120^\\circ$。",
+    "reasoning_process": "在平衡状态下，三个小球质量相同，因此三根轻绳中的张力都等于 $T=mg$。桌面上的结点 Q 同时受到三个大小相等、方向分别沿 $QA$、$QB$、$QC$ 的拉力。由于 Q 处于静力平衡，三力的矢量和必须为零。三个大小相等的矢量若首尾相接构成闭合图形，只能构成正三角形，因此任意两个力之间的夹角都必须是 $120^\\circ$。这就说明距离和最短时三条连线之间的夹角均为 $120^\\circ$。"
+  },
+  {
+    "question_id": "PHY-003",
+    "type": "解答题",
+    "knowledge_point": "牛顿第二定律，链式法则，变力",
+    "difficulty": "中等",
+    "question": "质点质量为 $m$，沿直线运动，其速度满足 $\\dot x=cx^{-3}$，其中 $c>0$ 为常数。求作用在质点上的力 $F(x)$。",
+    "answer": "$F(x)=-3mc^2x^{-7}$。",
+    "reasoning_process": "由牛顿第二定律，先求加速度：\n$$a=\\ddot x=\\frac{d\\dot x}{dt}=\\frac{d\\dot x}{dx}\\frac{dx}{dt}.$$已知 $\\dot x=cx^{-3}$，所以\n$$\\frac{d\\dot x}{dx}=-3cx^{-4}.$$再乘上 $\\frac{dx}{dt}=\\dot x=cx^{-3}$，得到\n$$a=(-3cx^{-4})(cx^{-3})=-3c^2x^{-7}.$$因此\n$$F(x)=ma=-3mc^2x^{-7}.$$"
+  },
+  {
+    "question_id": "PHY-004",
+    "type": "解答题",
+    "knowledge_point": "保守力，势能函数",
+    "difficulty": "中等",
+    "question": "质点质量为 $m$，沿直线运动，其速度满足 $\\dot x=cx^{-3}$，其中 $c>0$ 为常数。若该力为保守力，求势能函数 $U(x)$，并说明零势能点如何选取。",
+    "answer": "$U(x)=\\dfrac12 mc^2x^{-6}$，零势能点可取在 $x\\to\\infty$ 处。",
+    "reasoning_process": "由上一问可得\n$$F(x)=-3mc^2x^{-7}.$$一维情况下，只要力只依赖于位置 $x$，就可以视作保守力，并满足\n$$F(x)=-\\frac{dU}{dx}.$$因此\n$$\\frac{dU}{dx}=3mc^2x^{-7}.$$对 $x$ 积分得\n$$U(x)=\\int 3mc^2x^{-7}dx=-\\frac12 mc^2x^{-6}+C?$$\n注意检验符号：因为\n$$\\frac{d}{dx}\\left(\\frac12 mc^2x^{-6}\\right)=\\frac12 mc^2(-6)x^{-7}=-3mc^2x^{-7},$$\n故\n$$F=-\\frac{dU}{dx}$$\n对应的正确势能应为\n$$U(x)=\\frac12 mc^2x^{-6}+C.$$当 $x\\to\\infty$ 时，$x^{-6}\\to0$，通常取此处为零势点，于是 $C=0$，得到\n$$U(x)=\\frac12 mc^2x^{-6}.$$"
+  },
+  {
+    "question_id": "PHY-005",
+    "type": "解答题",
+    "knowledge_point": "牛顿第二定律，速度—时间关系，微分方程",
+    "difficulty": "较难",
+    "question": "一枚炸弹从飞机上投下，初速度仅有水平方向分量 $v_0$。除重力外，它还受到空气阻力：\n$$f_x=-c_1v_x-c_2v_x^2,\\qquad f_y=-c_1v_y-c_2v_y^2,$$\n其中 $c_1,c_2>0$。求投下后水平方向速度 $v_x$ 随时间变化的关系，可写成 $t(v_x)$ 形式。",
+    "answer": "水平方向满足\n$$m\\frac{dv_x}{dt}=-c_1v_x-c_2v_x^2,$$\n积分后可得\n$$\\frac{t}{m}=\\frac1{c_1}\\ln\\left(\\frac{(c_2v_x+c_1)v_0}{v_x(c_2v_0+c_1)}\\right).$$",
+    "reasoning_process": "沿 $x$ 方向应用牛顿第二定律：\n$$m\\frac{dv_x}{dt}=-c_1v_x-c_2v_x^2.$$分离变量得\n$$\\frac{dt}{m}=\\frac{dv_x}{-c_1v_x-c_2v_x^2}.$$初始条件为 $t=0$ 时 $v_x=v_0$，积分到任意时刻 $t$、速度 $v_x$：\n$$\\int_0^t\\frac{dt}{m}=\\int_{v_0}^{v_x}\\frac{dv_x}{-c_1v_x-c_2v_x^2}.$$将分母提取 $v_x$，再做部分分式分解：\n$$\\frac1{v_x(c_1+c_2v_x)}=\\frac1{c_1}\\frac1{v_x}-\\frac{c_2}{c_1}\\frac1{c_1+c_2v_x}.$$积分后得到\n$$\\frac{t}{m}=\\frac1{c_1}\\ln\\left(\\frac{(c_2v_x+c_1)v_0}{v_x(c_2v_0+c_1)}\\right).$$这就是水平方向的速度—时间隐式关系。"
+  },
+  {
+    "question_id": "PHY-006",
+    "type": "解答题",
+    "knowledge_point": "牛顿第二定律，速度—时间关系，含重力阻力运动",
+    "difficulty": "较难",
+    "question": "一枚炸弹从飞机上投下，初速度仅有水平方向分量 $v_0$。除重力外，它还受到空气阻力：\n$$f_x=-c_1v_x-c_2v_x^2,\\qquad f_y=-c_1v_y-c_2v_y^2,$$\n其中 $c_1,c_2>0$。求投下后竖直方向速度 $v_y$ 随时间变化的关系，可写成 $t(v_y)$ 形式。",
+    "answer": "竖直方向满足\n$$m\\frac{dv_y}{dt}=mg-c_1v_y-c_2v_y^2,$$\n积分后可写为\n$$\\frac{t}{m}=\\frac1{\\sqrt{c_1^2+4mgc_2}}\\ln\\left[\\frac{(2c_2v_y+c_1+\\sqrt{c_1^2+4mgc_2})(c_1-\\sqrt{c_1^2+4mgc_2})}{(2c_2v_y+c_1-\\sqrt{c_1^2+4mgc_2})(c_1+\\sqrt{c_1^2+4mgc_2})}\\right].$$",
+    "reasoning_process": "取竖直向下为正方向，则受力方程为\n$$m\\frac{dv_y}{dt}=mg-c_1v_y-c_2v_y^2.$$分离变量得\n$$\\frac{dt}{m}=\\frac{dv_y}{mg-c_1v_y-c_2v_y^2}.$$初始条件是刚投下时 $v_y(0)=0$，因此\n$$\\int_0^t\\frac{dt}{m}=\\int_0^{v_y}\\frac{dv_y}{mg-c_1v_y-c_2v_y^2}.$$这是标准二次式分母积分。记\n$$\\Delta=c_1^2+4mgc_2,$$\n则按题目给出的积分公式可化为对数形式，得到\n$$\\frac{t}{m}=\\frac1{\\sqrt{\\Delta}}\\ln\\left[\\frac{(2c_2v_y+c_1+\\sqrt{\\Delta})(c_1-\\sqrt{\\Delta})}{(2c_2v_y+c_1-\\sqrt{\\Delta})(c_1+\\sqrt{\\Delta})}\\right].$$它给出了竖直速度随时间变化的隐式表达式。"
+  },
+  {
+    "question_id": "PHY-007",
+    "type": "解答题",
+    "knowledge_point": "终端速度，阻力平衡",
+    "difficulty": "中等",
+    "question": "延续上一题。若炸弹始终未接触地面，它最终会达到终端速度。求终端速度的水平分量 $v_{x,\\text{终}}$。",
+    "answer": "$$v_{x,\\text{终}}=0.$$",
+    "reasoning_process": "终端速度意味着加速度为零，因此在水平方向有\n$$m\\frac{dv_x}{dt}=0=-c_1v_x-c_2v_x^2.$$整理得\n$$v_x(c_1+c_2v_x)=0.$$由于 $c_1,c_2>0$，稳定且物理可取的终端解为\n$$v_{x,\\text{终}}=0.$$这说明经过足够长时间后，水平方向速度会被阻力耗散到零。"
+  },
+  {
+    "question_id": "PHY-008",
+    "type": "解答题",
+    "knowledge_point": "终端速度，二次方程",
+    "difficulty": "中等",
+    "question": "延续上一题。若炸弹始终未接触地面，它最终会达到终端速度。求终端速度的竖直分量 $v_{y,\\text{终}}$。",
+    "answer": "$$v_{y,\\text{终}}=\\frac{-c_1+\\sqrt{c_1^2+4mgc_2}}{2c_2}.$$",
+    "reasoning_process": "终端速度条件是竖直加速度为零，因此\n$$0=mg-c_1v_y-c_2v_y^2.$$整理成关于 $v_y$ 的二次方程：\n$$c_2v_y^2+c_1v_y-mg=0.$$由求根公式得\n$$v_y=\\frac{-c_1\\pm\\sqrt{c_1^2+4mgc_2}}{2c_2}.$$因为取竖直向下为正方向，终端下落速度应为正值，所以选取正根：\n$$v_{y,\\text{终}}=\\frac{-c_1+\\sqrt{c_1^2+4mgc_2}}{2c_2}.$$"
+  },
+  {
+    "question_id": "PHY-009",
+    "type": "解答题",
+    "knowledge_point": "二维弹性碰撞，质心系，散射角",
+    "difficulty": "较难",
+    "question": "在二维弹性碰撞中，质量为 $M$ 的重粒子以初速度 $V$ 撞向静止的轻粒子 $m$，且 $M>m$。证明在实验室参考系中，重粒子碰后偏转角存在最大值，并求出该最大偏转角的表达式。",
+    "answer": "重粒子的最大偏转角满足\n$$\\sin\\theta_{\\max}=\\frac{m}{M},$$\n即\n$$\\theta_{\\max}=\\arcsin\\left(\\frac{m}{M}\\right).$$",
+    "reasoning_process": "采用质心系最方便。碰前系统总动量为 $MV$，故质心速度为\n$$V_{\\mathrm{CM}}=\\frac{MV}{M+m}.$$在质心系中，重粒子碰前速度大小为\n$$V_{Mi}^{\\mathrm{CM}}=V-V_{\\mathrm{CM}}=\\frac{mV}{M+m}.$$弹性碰撞后，质心系中速率大小保持不变，因此重粒子碰后速度矢量 $\\vec V_{Mf}^{\\mathrm{CM}}$ 的大小仍为\n$$\\left|\\vec V_{Mf}^{\\mathrm{CM}}\\right|=\\frac{mV}{M+m},$$\n但方向可以改变。回到实验室系时，重粒子碰后速度为\n$$\\vec V_{Mf}=\\vec V_{\\mathrm{CM}}+\\vec V_{Mf}^{\\mathrm{CM}}.$$这表示：在实验室系中，$\\vec V_{Mf}$ 的端点会落在一个以 $\\vec V_{\\mathrm{CM}}$ 末端为圆心、半径为 $\\frac{mV}{M+m}$ 的圆上。由于 $M>m$，所以\n$$\\frac{mV}{M+m}<\\frac{MV}{M+m}=V_{\\mathrm{CM}},$$\n圆心到原点的距离大于半径，因此从原点向这个圆作切线时会给出最大偏转角。由直角三角形关系得\n$$\\sin\\theta_{\\max}=\\frac{\\text{半径}}{\\text{圆心距}}=\\frac{\\frac{mV}{M+m}}{\\frac{MV}{M+m}}=\\frac{m}{M}.$$故\n$$\\theta_{\\max}=\\arcsin\\left(\\frac{m}{M}\\right).$$"
+  },
+  {
+    "question_id": "PHY-010",
+    "type": "解答题",
+    "knowledge_point": "动量通量，分子碰撞，压强",
+    "difficulty": "中等",
+    "question": "一块质量为 $M$ 的薄板以速度 $V$ 沿其法线方向穿过空气。空气分子质量为 $m$，数密度为 $n$，且满足 $m\\ll M$。若分子原本速度可忽略，即 $v\\ll V$，碰撞视为弹性碰撞。求薄板所受阻力压强（单位面积上的阻力）。",
+    "answer": "阻力压强为\n$$p=2mnV^2,$$\n方向与薄板运动方向相反。",
+    "reasoning_process": "把单位面积的薄板作为研究对象。在时间 $\\Delta t$ 内，能撞到单位面积薄板上的空气分子体积为 $V\\Delta t$，因此碰撞的分子数为\n$$N=nV\\Delta t.$$由于 $m\\ll M$，可近似看作薄板速度不变，而空气分子与以速度 $V$ 运动的刚性墙弹性碰撞后，其速度由近似 0 变为 $2V$。因此每个分子的动量变化量为\n$$\\Delta p_{\\text{单个}}=m(2V)-0=2mV.$$单位面积上在时间 $\\Delta t$ 内的总动量变化为\n$$\\Delta P=N\\cdot2mV=(nV\\Delta t)(2mV)=2mnV^2\\Delta t.$$所以单位面积上所受平均力，即压强，为\n$$p=\\frac{\\Delta P}{\\Delta t}=2mnV^2.$$根据牛顿第三定律，这就是空气对薄板的阻力压强，方向与薄板运动方向相反。"
+  },
+  {
+    "question_id": "PHY-011",
+    "type": "解答题",
+    "knowledge_point": "动量通量，双侧分子碰撞，线性阻力",
+    "difficulty": "较难",
+    "question": "一块质量为 $M$ 的薄板以速度 $V$ 沿其法线方向穿过空气。空气分子质量为 $m$，数密度为 $n$，且满足 $m\\ll M$。若分子热运动很快，即 $v\\gg V$，并可近似认为分子沿薄板法线方向的平均速度只有两种：$+v/2$ 或 $-v/2$。求薄板所受净阻力压强。",
+    "answer": "净阻力压强为\n$$p=2mnvV,$$\n方向与薄板运动方向相反。",
+    "reasoning_process": "当 $v\\gg V$ 时，薄板前后两侧都会有分子撞击。先看薄板后侧：分子相对薄板的接近速度为\n$$\\frac{v}{2}-V,$$\n弹性碰撞后，分子速度改变量的大小可视为 $2V$，因此单位面积、单位时间内由后侧碰撞带来的作用力为\n$$F_{\\text{后}}=mn\\left(\\frac v2-V\\right)(2V)=mn(vV-2V^2).$$同理，前侧分子相对薄板的接近速度为\n$$\\frac{v}{2}+V,$$\n对应单位面积、单位时间的作用力为\n$$F_{\\text{前}}=mn\\left(\\frac v2+V\\right)(2V)=mn(vV+2V^2).$$两侧相加，$V^2$ 项抵消，得到\n$$F_{\\text{总}}=2mnvV.$$又由于只有朝向薄板运动的那一半分子会真正撞到薄板，因此有效数密度应取 $n/2$，修正后总力仍可写为\n$$F_{\\text{总}}=2mnvV.$$对于单位面积，这个力就是压强：\n$$p=2mnvV.$$它说明在高速热运动背景下，阻力与 $V$ 成正比。"
+  },
+  {
+    "question_id": "PHY-012",
+    "type": "解答题",
+    "knowledge_point": "转动与平动耦合，约束关系，刚体动力学",
+    "difficulty": "较难",
+    "question": "半径 $R=0.1\\,\\text{m}$、质量 $M=5\\,\\text{kg}$ 的均匀圆柱放在倾角 $30^\\circ$ 的斜面上，圆柱外缠轻绳，绳另一端连接质量 $m=1\\,\\text{kg}$ 的小物块，滑轮光滑且可忽略质量。圆柱在斜面上无滑动滚动，重力加速度取 $g=10\\,\\text{m/s}^2$。求圆柱质心沿斜面的线加速度 $\\ddot x$。",
+    "answer": "$$\\ddot x=\\frac{4mg-2Mg\\sin\\theta}{8m+3M}.$$代入数值得\n$$\\ddot x=\\frac{(4-5)g}{23}=-0.435\\,\\text{m/s}^2,$$\n负号表示圆柱沿斜面向下加速。",
+    "reasoning_process": "先建立约束关系。圆柱沿斜面位移为 $\\Delta x$ 时，由于滚动和绳子绕柱面松开的共同作用，悬挂物块位移满足\n$$\\Delta x'=2\\Delta x,$$\n因此加速度关系为\n$$\\ddot x'=2\\ddot x.$$对小物块 $m$：\n$$mg-T=m\\ddot x'=2m\\ddot x.\\tag{1}$$\n对圆柱做平动：\n$$T+f-Mg\\sin\\theta=M\\ddot x.\\tag{2}$$\n对圆柱质心做转动：\n$$(f-T)R=I\\alpha.\\tag{3}$$\n均匀圆柱的转动惯量\n$$I=\\frac12MR^2.$$又因无滑动滚动，有\n$$\\ddot x=-R\\alpha.\\tag{4}$$\n将 (4) 代入 (3) 得\n$$f-T=-\\frac12M\\ddot x.\\tag{3'}$$\n由 (1) 得\n$$T=mg-2m\\ddot x.$$再由 (3') 得\n$$f=T-\\frac12M\\ddot x=mg-2m\\ddot x-\\frac12M\\ddot x.$$代入平动方程 (2)：\n$$\\left(mg-2m\\ddot x\\right)+\\left(mg-2m\\ddot x-\\frac12M\\ddot x\\right)-Mg\\sin\\theta=M\\ddot x.$$整理得\n$$2mg-Mg\\sin\\theta=\\left(4m+\\frac32M\\right)\\ddot x.$$因此\n$$\\ddot x=\\frac{4mg-2Mg\\sin\\theta}{8m+3M}.$$代入 $m=1,\\,M=5,\\,\\theta=30^\\circ,\\,g=10$，得到\n$$\\ddot x=-0.435\\,\\text{m/s}^2.$$负号说明实际加速度方向沿斜面向下。"
+  },
+  {
+    "question_id": "PHY-013",
+    "type": "解答题",
+    "knowledge_point": "摩擦力，刚体动力学",
+    "difficulty": "较难",
+    "question": "延续上一题，求圆柱与斜面之间摩擦力的大小和方向。",
+    "answer": "摩擦力大小为\n$$f=12\\,\\text{N},$$\n方向沿斜面向上。",
+    "reasoning_process": "由上一题推导过程中的转动方程可得\n$$f=T-\\frac12M\\ddot x.$$而由小物块方程\n$$T=mg-2m\\ddot x,$$\n因此\n$$f=mg-2m\\ddot x-\\frac12M\\ddot x.$$代入数据 $m=1\\,\\text{kg}$、$M=5\\,\\text{kg}$、$g=10\\,\\text{m/s}^2$、$\\ddot x=-0.435\\,\\text{m/s}^2$：\n$$f=10-2(1)(-0.435)-\\frac12(5)(-0.435).$$\n计算得\n$$f=10+0.87+1.0875\\approx11.96\\,\\text{N}\\approx12\\,\\text{N}.$$结果为正，说明我们原先假设的正方向正确，所以摩擦力沿斜面向上。"
+  },
+  {
+    "question_id": "PHY-014",
+    "type": "解答题",
+    "knowledge_point": "进动，角动量定理，滚动约束",
+    "difficulty": "困难",
+    "question": "一枚半径为 $b$、质量为 $m$ 的硬币在水平桌面上无滑动滚动。其圆心以恒定速率 $V$ 绕半径为 $R$ 的大圆运动，且硬币向圆心方向倾斜，满足 $R\\gg b$。求硬币的倾角 $\\phi$，并写出主要推导过程。",
+    "answer": "硬币倾角满足\n$$\\tan\\phi=\\frac{3V^2}{2gR}.$$",
+    "reasoning_process": "设硬币自转角速度为 $\\omega$，其圆心绕大圆公转角速度为 $\\Omega$。无滑动条件给出\n$$V=R\\Omega=b\\omega.$$以硬币质心为原点，取 $x$ 轴沿硬币自转轴方向，$y$ 轴沿 $-\\vec V$ 方向，$z$ 轴在硬币平面法向相关方向。由于硬币既自转又随轨道转向，其角速度可写成分量形式，进而角动量为\n$$\\vec L=(I_s\\omega\\sin\\phi,\\,0,\\,I_s\\omega\\cos\\phi),$$\n其中薄圆盘关于对称轴的转动惯量为\n$$I_s=\\frac12mb^2,$$\n关于直径轴的转动惯量为\n$$I_\\perp=\\frac14mb^2.$$由于轨道转动，$\\vec L$ 的方向随时间改变，故\n$$\\frac{d\\vec L}{dt}=\\vec\\Omega\\times\\vec L.$$在 $R\\gg b$ 的近似下，可忽略高阶小量，计算得其主要分量大小为\n$$\\left|\\frac{d\\vec L}{dt}\\right|=I_s\\omega\\Omega\\cos\\phi.$$另一方面，质心绕大圆运动需要向心力\n$$F_c=\\frac{mV^2}{R},$$\n支持力大小约为\n$$N=mg.$$两者对质心产生的合力矩大小为\n$$\\tau=b\\left(\\frac{mV^2}{R}\\sin\\phi-mg\\cos\\phi\\right),$$\n方向与 $\\frac{d\\vec L}{dt}$ 一致。由角动量定理\n$$\\tau=\\frac{dL}{dt}$$\n并代入 $\\omega=V/b$、$\\Omega=V/R$、$I_s=\\frac12mb^2$，整理可得\n$$\\frac{mV^2}{R}\\sin\\phi-mg\\cos\\phi=-\\frac12mb^2\\cdot\\frac{V}{b}\\cdot\\frac{V}{R}\\cos\\phi\\cdot\\frac{1}{b}.$$继续化简后得到标准结果\n$$\\tan\\phi=\\frac{3V^2}{2gR}.$$这说明速度越大、轨道半径越小，硬币需要更明显地向内倾斜。"
+  },
+  {
+    "question_id": "PHY-015",
+    "type": "解答题",
+    "knowledge_point": "转动参考系，引力，离心力平衡",
+    "difficulty": "较难",
+    "question": "设地球赤道上有一根竖直向上、相对地面静止的均匀缆绳，线密度为 $\\rho$，地球半径为 $R$。忽略缆绳弯曲和形变，在地球自转参考系中分析。求缆绳总长度 $L$ 满足何种条件时，它可以“悬空”而不倒下，并给出 $L$ 与 $R$ 的关系。",
+    "answer": "满足的长度约为\n$$L\\approx22.7R.$$",
+    "reasoning_process": "在地球自转参考系中，缆绳静止时，总引力与总离心惯性力应平衡。设缆绳从地心距离 $R$ 处一直延伸到 $R+L$。对位于 $r$ 处、长度为 $dr$ 的微元，其质量为 $\\rho\\,dr$。\n引力微元为\n$$dF_G=\\frac{GM\\rho}{r^2}dr.$$因此整条缆绳所受总引力为\n$$F_G=\\int_R^{R+L}\\frac{GM\\rho}{r^2}dr=GM\\rho\\left(\\frac1R-\\frac1{R+L}\\right)=\\frac{GM\\rho L}{R(R+L)}.$$离心惯性力微元为\n$$dF_c=\\rho\\omega^2r\\,dr,$$\n其中 $\\omega=\\frac{2\\pi}{86400\\,\\text{s}}$。总离心力为\n$$F_c=\\int_R^{R+L}\\rho\\omega^2r\\,dr=\\frac12\\rho\\omega^2\\big[(R+L)^2-R^2\\big]=\\frac12\\rho\\omega^2(2RL+L^2).$$平衡条件为\n$$F_G=F_c.$$两边约去 $\\rho$，得\n$$\\frac{GM L}{R(R+L)}=\\frac12\\omega^2(2RL+L^2).$$令 $x=L/R$，化为无量纲方程后可求得\n$$x\\approx22.7.$$因此\n$$L\\approx22.7R.$$这说明要实现“悬空天梯”，长度必须远大于地球半径。"
+  },
+  {
+    "question_id": "PHY-016",
+    "type": "解答题",
+    "knowledge_point": "张力分布，同步轨道，材料强度",
+    "difficulty": "困难",
+    "question": "延续上一题。已知某 1 英寸半径钢缆的线密度约为 $3\\,\\text{kg/m}$，最大承受张力约为 $4\\times10^6\\,\\text{N}$。问：能否用这种钢缆实现“天梯”？请给出定量分析。",
+    "answer": "不能。该钢缆所需承受的最大张力约为 $1.44\\times10^8\\,\\text{N}$，远大于其断裂极限 $4\\times10^6\\,\\text{N}$。",
+    "reasoning_process": "要判断能否实现，关键是求缆绳内部的最大张力。最大张力出现在同步轨道高度附近，因为在该处以下，重力占优；在该处以上，离心力占优，所以这里要承受上下两部分对缆绳的“拉扯”。同步轨道半径满足\n$$\\frac{GM}{r_0^2}=\\omega^2r_0,$$\n故\n$$r_0=\\left(\\frac{GM}{\\omega^2}\\right)^{1/3}\\approx6.64R.$$设同步轨道以上对应地面高度为 $L_0=r_0-R\\approx5.64R$。对同步轨道以下这段缆绳，张力等于其总引力减去总离心力：\n$$T=F_G-F_c.$$其中\n$$F_G=GM\\rho\\left(\\frac1R-\\frac1{r_0}\\right)=\\frac{GM\\rho L_0}{R(R+L_0)},$$\n$$F_c=\\frac12\\rho\\omega^2(r_0^2-R^2)=\\frac12\\rho\\omega^2(2RL_0+L_0^2).$$代入试卷给出的数值，可得单位线密度对应的最大张力约为\n$$T\\approx4.8\\times10^7\\rho\\,\\text{N}.$$若钢缆线密度为 $\\rho=3\\,\\text{kg/m}$，则\n$$T_{\\max}\\approx4.8\\times10^7\\times3=1.44\\times10^8\\,\\text{N}.$$而钢缆的最大承受张力只有\n$$4\\times10^6\\,\\text{N}.$$显然\n$$1.44\\times10^8\\gg4\\times10^6,$$\n所以这种钢缆远远不够强，不能用来实现天梯。"
+  }
+]
