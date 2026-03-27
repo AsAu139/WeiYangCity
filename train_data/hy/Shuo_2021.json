@@ -1,0 +1,103 @@
+[
+  {
+    "question_id": "PHY_001",
+    "type": "计算题",
+    "knowledge_point": "流体静力学，简谐振动，阻尼振动，品质因数",
+    "difficulty": "中等",
+    "question": "下图所示装置可用于利用比重计测量液体的密度和粘度。\n\n该比重计总质量为 m；其底部较重，因此可以稳定地漂浮在液体中（可以上下运动，但不会侧向倾斜）。细长颈部具有均匀横截面积 A。比重计在液体中的平衡位置定义为 x=0。当比重计从平衡位置被位移 x（如图所示，x 始终在颈部范围内）时，它将开始振动。通过测量振动频率和振幅衰减，可以推断液体的密度和粘度。\n\n1）忽略液体粘性引起的摩擦：\nA）写出比重计位移 x 的运动方程；\nB）用液体密度 ρ、比重计质量 m、重力加速度 g 等表示其固有角频率 ω0。\n\n2）若液体具有粘性，会产生阻力：\nF_friction / m = -γ x_dot\nγ 称为阻尼系数或粘滞系数。若希望比重计尽快回到稳定平衡位置，γ 应与 ω0 满足什么关系？\n\n3）在实际测量中，液体不应过于粘稠以保证比重计可以振动。可以直接测量位移 x（例如将比重计顶部作为电容器的阴极，另一固定板作为阳极，通过测量电压差来得到与 x 成正比的量）。实验结果如下：\n- 第1个峰到第9个峰的时间为 4 秒；\n- 第9个峰的幅值约为第1个峰的 e^{-1}。\n根据这些数据，计算：\na）阻尼振动周期 T；\nb）角频率 ω；\nc）固有角频率 ω0 和粘滞系数 γ；\nd）振子的品质因数 Q。",
+    "answer": {
+      "1A": "取竖直向上位移为 $x$。当浮子上移 $x$ 时，排开液体体积减少 $Ax$，浮力相对平衡位置减少 $\\rho gAx$，故回复力为 $F=-\\rho gAx$。运动方程为 $$m\\ddot x+\\rho gA\\,x=0.$$",
+      "1B": "因此自然角频率 $$\\omega_0=\\sqrt{\\frac{\\rho gA}{m}}.$$",
+      "2": "有粘滞阻力时方程为 $$\\ddot x+\\gamma \\dot x+\\omega_0^2x=0.$$ 若希望“尽快回到平衡且不振荡”，应取临界阻尼，故 $$\\gamma=2\\omega_0.$$",
+      "3a": "第 1 个峰到第 9 个峰跨越了 8 个周期，而总时长为 4 s，所以 $$T=\\frac{4}{8}=0.5\\ \\text{s}.$$",
+      "3b": "阻尼振动角频率 $$\\omega=\\frac{2\\pi}{T}=4\\pi\\ \\text{rad/s}\\approx 12.57\\ \\text{rad/s}.$$",
+      "3c": "振幅包络满足 $A(t)\\propto e^{-\\gamma t/2}$。已知 4 s 后第 9 个峰约为第 1 个峰的 $e^{-1}$，因此 $$e^{-\\gamma\\cdot 4/2}=e^{-1}\\Rightarrow \\gamma=\\frac12\\ \\text{s}^{-1}.$$ 又 $$\\omega=\\sqrt{\\omega_0^2-\\frac{\\gamma^2}{4}},$$ 所以 $$\\omega_0=\\sqrt{\\omega^2+\\frac{\\gamma^2}{4}}=\\sqrt{(4\\pi)^2+\\frac{1}{16}}\\approx 12.57\\ \\text{rad/s}.$$",
+      "3d": "品质因数 $$Q=\\frac{\\omega_0}{\\gamma}\\approx \\frac{12.57}{0.5}\\approx 25.1.$$"
+    },
+    "reasoning_process": "1. **无阻尼时的回复力**  \n平衡位置满足浮力与重力相等。若浮子沿颈部上移 $x$，由于颈部横截面积恒为 $A$，排开液体体积减少\n$$\\Delta V=Ax.$$\n因此浮力减少\n$$\\Delta F_b=\\rho g\\,\\Delta V=\\rho gAx.$$\n这个变化总是把浮子拉回平衡位置，所以回复力为\n$$F=-\\rho gAx.$$\n\n2. **建立简谐振动方程**  \n由牛顿第二定律：\n$$m\\ddot x=-\\rho gAx,$$\n整理得\n$$m\\ddot x+\\rho gAx=0.$$\n这就是标准简谐振动方程\n$$\\ddot x+\\omega_0^2x=0,$$\n故\n$$\\omega_0^2=\\frac{\\rho gA}{m},\\qquad \\omega_0=\\sqrt{\\frac{\\rho gA}{m}}.$$\n\n3. **加入阻尼项**  \n题目已给出阻力满足\n$$\\frac{F_{\\text{friction}}}{m}=-\\gamma \\dot x,$$\n所以方程变为\n$$\\ddot x+\\gamma \\dot x+\\omega_0^2x=0.$$\n若要求“尽快回到平衡位置”，最优情况是**临界阻尼**，判据为\n$$\\gamma=2\\omega_0.$$\n\n4. **由实验数据求阻尼振动参数**  \n第 1 个峰到第 9 个峰之间有 8 个周期，总时间是 4 s，所以\n$$T=\\frac{4}{8}=0.5\\ \\text{s},\\qquad \\omega=\\frac{2\\pi}{T}=4\\pi\\ \\text{rad/s}.$$\n\n又因为阻尼振幅按\n$$A(t)=A_0e^{-\\gamma t/2}$$\n衰减，而第 9 个峰约是第 1 个峰的 $e^{-1}$，故在 4 s 内有\n$$e^{-\\gamma\\cdot 4/2}=e^{-1},$$\n从而\n$$\\gamma=\\frac12\\ \\text{s}^{-1}.$$\n\n5. **由阻尼频率反推自然频率**  \n欠阻尼系统满足\n$$\\omega=\\sqrt{\\omega_0^2-\\frac{\\gamma^2}{4}},$$\n所以\n$$\\omega_0=\\sqrt{\\omega^2+\\frac{\\gamma^2}{4}}\n=\\sqrt{(4\\pi)^2+\\frac1{16}}\n\\approx 12.57\\ \\text{rad/s}.$$\n\n6. **品质因数**  \n写成标准形式后，品质因数\n$$Q=\\frac{\\omega_0}{\\gamma}\\approx 25.1.$$\n\n因此本题全部结果为：  \n$$m\\ddot x+\\rho gAx=0,\\quad \\omega_0=\\sqrt{\\frac{\\rho gA}{m}},\\quad \\gamma_{\\text{critical}}=2\\omega_0,$$\n$$T=0.5\\ \\text{s},\\quad \\omega=4\\pi\\ \\text{rad/s},\\quad \\gamma=0.5\\ \\text{s}^{-1},\\quad \\omega_0\\approx 12.57\\ \\text{rad/s},\\quad Q\\approx 25.1.$$"
+  },
+  {
+    "question_id": "PHY_002",
+    "type": "计算题",
+    "knowledge_point": "玻尔模型，德布罗意波，库仑势，氢原子基态",
+    "difficulty": "中等",
+    "question": "中心力问题：利用玻尔轨道模型和德布罗意物质波假设，计算氢原子基态电子的轨道能量、角动量、半径和速度。\n\n玻尔认为电子像粒子一样在库仑力作用下绕原子核运动，做圆周运动。其轨道半径为 R（称为玻尔半径），能量为 E，角动量为 L，速度为 v。根据德布罗意波，稳定存在的最长波长需满足：\nλ = 2πR\n并且动量与波长关系为：\np = h / λ\nh = 6.63 × 10^{-34}\n\n氢原子中电子与质子之间的库仑势能为：\nU = -A / r\nA = 2.3 × 10^{-28}\n\n电子质量为：\nm_e = 9.11 × 10^{-31} kg\n（可忽略约化质量差异）\n\n计算：\nA）角动量 L（用 h 表示）；\nB）玻尔半径 R（单位 Å）；\nC）能量 E（单位 eV）；\nD）轨道速度 v = αc，写出 α 的表达式并计算其值。",
+    "answer": {
+      "A": "基态轨道角动量 $$L=m_evR=\\frac{h}{2\\pi}=\\hbar.$$",
+      "B": "Bohr 半径 $$R=\\frac{h^2}{4\\pi^2m_eA}=\\frac{\\hbar^2}{m_eA}\\approx 5.31\\times10^{-11}\\ \\text{m}=0.531\\ \\text{\\AA}.$$",
+      "C": "基态能量 $$E=-\\frac{A}{2R}\\approx -2.16\\times10^{-18}\\ \\text{J}\\approx -13.5\\ \\text{eV}.$$",
+      "D": "轨道速度 $$v=\\frac{A}{\\hbar},\\qquad \\alpha=\\frac{v}{c}=\\frac{A}{\\hbar c}=\\frac{A}{m_ec^2R}.$$ 数值上 $$v\\approx2.18\\times10^6\\ \\text{m/s},\\qquad \\alpha\\approx 7.27\\times10^{-3}\\approx \\frac1{137}. $$"
+    },
+    "reasoning_process": "1. **de Broglie 驻波条件**  \n基态为最长稳定驻波，对应\n$$\\lambda=2\\pi R.$$\n又由 de Broglie 关系\n$$p=\\frac{h}{\\lambda}=m_ev,$$\n所以\n$$m_ev=\\frac{h}{2\\pi R}.$$\n两边乘以 $R$，得到角动量\n$$L=m_evR=\\frac{h}{2\\pi}=\\hbar.$$\n\n2. **向心力由库仑力提供**  \n已知势能\n$$U=-\\frac{A}{r},$$\n故相应的库仑力大小为\n$$F=\\frac{A}{R^2}.$$\n圆周运动满足\n$$\\frac{m_ev^2}{R}=\\frac{A}{R^2},$$\n即\n$$m_ev^2=\\frac{A}{R}. \\tag{1}$$\n\n3. **求轨道半径 $R$**  \n由角动量关系\n$$v=\\frac{\\hbar}{m_eR}.$$\n代入式 (1)：\n$$m_e\\left(\\frac{\\hbar}{m_eR}\\right)^2=\\frac{A}{R}.$$\n化简得\n$$\\frac{\\hbar^2}{m_eR^2}=\\frac{A}{R}\n\\Rightarrow\nR=\\frac{\\hbar^2}{m_eA}\n=\\frac{h^2}{4\\pi^2m_eA}.$$\n代入数值后\n$$R\\approx 5.31\\times10^{-11}\\ \\text{m}=0.531\\ \\text{\\AA}.$$\n\n4. **求总能量**  \n动能\n$$K=\\frac12m_ev^2.$$\n而由 (1) 知\n$$m_ev^2=\\frac{A}{R}\\Rightarrow K=\\frac{A}{2R}.$$\n势能\n$$U=-\\frac{A}{R}.$$\n所以总能量\n$$E=K+U=\\frac{A}{2R}-\\frac{A}{R}=-\\frac{A}{2R}.$$\n代入数值得\n$$E\\approx -2.16\\times10^{-18}\\ \\text{J}\\approx -13.5\\ \\text{eV}.$$\n\n5. **求轨道速度与精细结构常数形式**  \n由\n$$L=m_evR=\\hbar$$\n和\n$$m_ev^2=\\frac{A}{R}$$\n可消去 $R$，得到\n$$v=\\frac{A}{\\hbar}.$$\n于是\n$$\\alpha=\\frac{v}{c}=\\frac{A}{\\hbar c}.$$\n又因为\n$$R=\\frac{\\hbar^2}{m_eA},$$\n故也可写成\n$$\\alpha=\\frac{A}{m_ec^2R}.$$\n数值上\n$$v\\approx2.18\\times10^6\\ \\text{m/s},\\qquad\n\\alpha\\approx 7.27\\times10^{-3}\\approx \\frac1{137}.$$\n\n因此答案为：\n$$L=\\hbar,\\quad R\\approx0.531\\ \\text{\\AA},\\quad E\\approx -13.5\\ \\text{eV},\\quad \\alpha=\\frac{A}{\\hbar c}\\approx \\frac1{137}.$$ "
+  },
+  {
+    "question_id": "PHY_003",
+    "type": "计算题",
+    "knowledge_point": "光学干涉，迈克耳孙干涉仪，引力波应变，相位差",
+    "difficulty": "中等",
+    "question": "干涉：LIGO 利用干涉测量引力波引起的空间伸缩。\n\n如图所示，它本质上是一个大型迈克耳孙干涉仪，两臂长度 L0=4000 m。内部反射镜使光往返反射 N=300 次，从而延长光程。当引力波通过时，一条臂被拉长，另一条被压缩，其差异由应变 δ 表示：\nΔL = δL0\n\n无引力波时，两臂等长，光发生完全消干涉（暗纹）。有引力波时，干涉强度发生变化，从而测量 δ。\n\n实验数据如图：纵轴为 δ，横轴为时间，两组数据来自两个观测站。\n\n1）估计 δ 的量级以及 ΔL；\n2）计算光的相位差（λ=1064 nm）；\n3）计算光强变化（I0=1000 W）；\n4）解释为什么信号不是环境噪声。",
+    "answer": {
+      "1": "由图中纵轴量级可读出应变系数约为 $$\\delta\\sim 10^{-21}.$$ 因而两臂长度差 $$\\Delta L=\\delta L_0\\sim 10^{-21}\\times 4000\\ \\text{m}\\approx 4\\times10^{-18}\\ \\text{m}.$$",
+      "2": "由于光在每个臂内来回反射 $N=300$ 次，额外光程差约为 $$\\Delta s=2N\\Delta L.$$ 相位差 $$\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta s=\\frac{4\\pi N\\Delta L}{\\lambda}\\approx 1.42\\times10^{-8}\\ \\text{rad}. $$",
+      "3": "原本工作在消干涉暗点，加入一个很小附加相位差后，探测端光强从 0 变为 $$I=I_0\\sin^2\\frac{\\Delta\\phi}{2}\\approx I_0\\frac{\\Delta\\phi^2}{4}.$$ 代入 $I_0=1000\\ \\text{W}$ 得 $$I\\approx 5.0\\times10^{-14}\\ \\text{W}. $$",
+      "4": "不是局部环境噪声的主要理由：① 两个相距很远的台站都观测到几乎相同的波形，只存在与引力波传播一致的时间延迟；② 信号形状与广义相对论模板吻合；③ 局部地震、温度波动、工具掉落等噪声通常不会在两个台站同步出现同样波形；④ 残差接近随机噪声。"
+    },
+    "reasoning_process": "1. **读图估计应变量级**  \n图中纵轴标注为 Strain $[10^{-21}]$，而信号峰值大约是 1 的量级，因此应变\n$$\\delta\\sim 10^{-21}.$$\n\n2. **求两臂长度差**  \n题目已给\n$$\\Delta L=\\delta L_0,$$\n其中\n$$L_0=4000\\ \\text{m}.$$\n所以\n$$\\Delta L\\sim 10^{-21}\\times 4000=4\\times10^{-18}\\ \\text{m}.$$\n\n3. **求相位差**  \nMichelson 干涉仪中，相位差来自两束光的光程差。每条臂中光被来回反射 $N=300$ 次，因此等效光程差增加为\n$$\\Delta s=2N\\Delta L.$$\n于是相位差\n$$\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta s\n=\\frac{4\\pi N\\Delta L}{\\lambda}.$$\n代入\n$$N=300,\\quad \\Delta L=4\\times10^{-18}\\ \\text{m},\\quad \\lambda=1064\\ \\text{nm}=1.064\\times10^{-6}\\ \\text{m},$$\n得到\n$$\\Delta\\phi\\approx 1.42\\times10^{-8}\\ \\text{rad}.$$\n\n4. **由相位差求光强变化**  \n无引力波时系统工作在暗纹位置，探测端光强约为 0。  \n若出现一个很小附加相位差 $\\Delta\\phi$，探测强度变为\n$$I=I_0\\sin^2\\frac{\\Delta\\phi}{2}.$$\n当 $\\Delta\\phi\\ll 1$ 时，\n$$\\sin\\frac{\\Delta\\phi}{2}\\approx \\frac{\\Delta\\phi}{2},$$\n故\n$$I\\approx I_0\\frac{\\Delta\\phi^2}{4}.$$\n代入 $I_0=1000\\ \\text{W}$：\n$$I\\approx 1000\\times \\frac{(1.42\\times10^{-8})^2}{4}\n\\approx 5.0\\times10^{-14}\\ \\text{W}.$$\n\n5. **为什么不是局部噪声**  \n若只是地震、温度涨落、设备碰撞等局部环境噪声，那么它们只会影响单个观测站，不会在相距很远的 Hanford 与 Livingston 两站同时出现几乎相同的特征波形。  \n而图中两站都观测到了彼此对应、仅有传播时延差的信号，并且与理论模板非常吻合，减去模板后的残差接近随机噪声。  \n所以该信号更符合真正的引力波事件，而不是局部环境扰动。"
+  },
+  {
+    "question_id": "PHY_004",
+    "type": "计算题",
+    "knowledge_point": "薄膜干涉，劈尖干涉，折射率",
+    "difficulty": "中等",
+    "question": "如图楔形薄膜：\n\n初始为空气（n=1），入射光波长 500 nm。\n\n1）描述干涉条纹形状；\n2）充入气体后条纹向哪移动？\n3）条纹间距由 1 mm 变为 0.8 mm，求气体折射率。",
+    "answer": {
+      "1": "在反射光中可见到一组**平直、彼此平行、与楔形交线平行**的干涉条纹；由于一侧存在 $\\pi$ 相位反转，接触处通常是暗纹。",
+      "2": "充入折射率 $n>1$ 的气体后，条纹整体会**向交线（薄端）移动**。",
+      "3": "楔形膜条纹间距满足 $$\\Delta x=\\frac{\\lambda}{2n\\alpha}.$$ 因而 $$\\frac{\\Delta x_{\\text{air}}}{\\Delta x_{\\text{gas}}}=\\frac{n}{1}.$$ 已知 $\\Delta x_{\\text{air}}=1.0\\ \\text{mm}$，$\\Delta x_{\\text{gas}}=0.8\\ \\text{mm}$，故 $$n=\\frac{1.0}{0.8}=1.25.$$"
+    },
+    "reasoning_process": "1. **条纹形状**  \n这是标准的楔形薄膜干涉。膜厚只沿着离交线的垂直方向变化，因此等厚线是与交线平行的直线，所以观察到的条纹也是一组**平行直条纹**。  \n在反射干涉中，通常有一束反射光经历 $\\pi$ 相位变换，因此在接触点（膜厚趋于 0 处）常出现暗纹。\n\n2. **条纹移动方向**  \n设距离交线的横向坐标为 $x$，则膜厚\n$$t=\\alpha x \\qquad (\\alpha\\ll 1).$$\n充入折射率为 $n$ 的气体后，光程差变成\n$$2nt.$$\n某一级条纹对应固定的光程差条件，因此其位置满足\n$$x_m\\propto \\frac{1}{n}.$$\n当 $n$ 变大时，$x_m$ 变小，所以同一级条纹会向**更小的 $x$** 移动，即向交线、向薄端移动。\n\n3. **条纹间距与折射率**  \n相邻明纹或暗纹对应的膜厚差为\n$$\\Delta t=\\frac{\\lambda}{2n}.$$\n而 $t=\\alpha x$，所以条纹间距\n$$\\Delta x=\\frac{\\Delta t}{\\alpha}=\\frac{\\lambda}{2n\\alpha}.$$\n由此得\n$$\\Delta x\\propto \\frac1n.$$\n空气中 $n_{\\text{air}}\\approx 1$，故\n$$\\frac{\\Delta x_{\\text{air}}}{\\Delta x_{\\text{gas}}}\n=\\frac{n_{\\text{gas}}}{n_{\\text{air}}}\n=n_{\\text{gas}}.$$\n代入\n$$\\Delta x_{\\text{air}}=1.0\\ \\text{mm},\\qquad\n\\Delta x_{\\text{gas}}=0.8\\ \\text{mm},$$\n得\n$$n_{\\text{gas}}=\\frac{1.0}{0.8}=1.25.$$\n\n所以答案为：条纹是平行直条纹，充气后向交线移动，未知气体折射率为\n$$n=1.25.$$ "
+  },
+  {
+    "question_id": "PHY_005",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，长度收缩，同时性，信号传播",
+    "difficulty": "困难",
+    "question": "如图：\n\n一根长度为 L0 的杆以速度 v 运动，头端撞墙停止，停止信号以光速传递到尾端。\n\n1）在实验室系求刻度 n；\n2）在杆参考系画图并说明长度和速度；\n3）在该系求 n'。",
+    "answer": {
+      "1": "在实验室系 $S$ 中，杆的收缩长度为 $$L=\\frac{L_0}{\\gamma_{\\!v}},\\qquad \\gamma_{\\!v}=\\frac1{\\sqrt{1-\\beta^2}}.$$ 停止信号从头端向左以速度 $c$ 传播，而尾端仍以速度 $v$ 向右运动，所以相遇时间 $$t=\\frac{L}{c+v}.$$ 此时尾端位置 $$x_T=-L+vt=-\\frac{L}{1+\\beta}.$$ 因而对应地面刻度 $$n=\\frac{|x_T|}{\\Delta d}=\\frac{L_0}{\\gamma_{\\!v}(1+\\beta)}=L_0\\sqrt{\\frac{1-\\beta}{1+\\beta}}.$$",
+      "2": "在尾端初始静止的系 $S'$ 中：杆长为其本征长度 $$L_0,$$ 地面刻度间距因尺缩变为 $$\\Delta d'=\\frac{\\Delta d}{\\gamma_{\\!v}}=\\frac1{\\gamma_{\\!v}},$$ 墙和地面刻度整体都以速度 $v$ 向左运动。对应图 a 的时刻，尾端静止、头端在右侧与墙接触。",
+      "3": "在 $S'$ 中，尾端始终位于 $x'=-L_0$。由洛伦兹变换可得尾端停止事件发生在 $$t'=\\frac{L_0}{c}.$$ 在这段时间内地面刻度向左移动了 $$vt'=\\beta L_0,$$ 因此该事件对应的刻度号为 $$n'=\\frac{L_0-\\beta L_0}{\\Delta d'}=\\frac{(1-\\beta)L_0}{1/\\gamma_{\\!v}}=\\gamma_{\\!v}L_0(1-\\beta)=L_0\\sqrt{\\frac{1-\\beta}{1+\\beta}}.$$ 因而 $$n'=n.$$"
+    },
+    "reasoning_process": "1. **在实验室系 $S$ 中求尾端停止的位置**  \n杆的本征长度为 $L_0$，在实验室系中以速度 $v=\\beta c$ 运动，因此长度收缩后为\n$$L=\\frac{L_0}{\\gamma_{\\!v}},\\qquad \\gamma_{\\!v}=\\frac1{\\sqrt{1-\\beta^2}}.$$\n设头端撞墙并停止的事件为 $t=0$，墙在 $x=0$，则此时尾端在\n$$x=-L.$$\n\n2. **停止信号与尾端相遇**  \n题目说停止信号在系 $S$ 中以速度 $c$ 从头端沿杆向尾端传播，因此其轨迹是向左的速度 $c$；同时尾端仍以速度 $v$ 向右移动。  \n两者初始间距是 $L$，相对靠近速度是 $c+v$，故相遇时间为\n$$t=\\frac{L}{c+v}=\\frac{L}{c(1+\\beta)}.$$\n\n3. **尾端停止时的位置与刻度号**  \n在这段时间内，尾端从 $x=-L$ 向右移动了\n$$vt=\\frac{vL}{c+v}=\\frac{\\beta L}{1+\\beta}.$$\n所以尾端停止时坐标\n$$x_T=-L+vt\n=-L+\\frac{\\beta L}{1+\\beta}\n=-\\frac{L}{1+\\beta}.$$\n地面刻度间距给为 $\\Delta d=1$，因此对应刻度号\n$$n=\\frac{|x_T|}{\\Delta d}\n=\\frac{L}{1+\\beta}\n=\\frac{L_0}{\\gamma_{\\!v}(1+\\beta)}.\n$$\n利用\n$$\\frac{1}{\\gamma_{\\!v}(1+\\beta)}=\\sqrt{\\frac{1-\\beta}{1+\\beta}},$$\n可写成\n$$n=L_0\\sqrt{\\frac{1-\\beta}{1+\\beta}}.$$\n\n4. **切换到杆尾初始静止系 $S'$**  \n在 $S'$ 中，杆本身静止，所以长度就是本征长度\n$$L_0.$$\n地面刻度和墙整体以速度 $v$ 向左运动。  \n地面刻度在自身静止系中的间距是 $\\Delta d=1$，因此在 $S'$ 中发生长度收缩：\n$$\\Delta d'=\\frac{1}{\\gamma_{\\!v}}.$$\n\n5. **在 $S'$ 中求对应刻度号 $n'$**  \n尾端在 $S'$ 中固定在\n$$x'=-L_0.$$\n把尾端停止事件从 $S$ 变换到 $S'$，可得\n$$t'=\\frac{L_0}{c}.$$\n因此在这段时间内，地面刻度向左移动距离\n$$vt'=\\beta L_0.$$\n也就是说，在 $t'=0$ 时位于\n$$x'_0=-L_0+\\beta L_0=-(1-\\beta)L_0$$\n的那条刻度，会在 $t'=L_0/c$ 时来到尾端位置。  \n由于刻度间距是 $\\Delta d'=1/\\gamma_{\\!v}$，故其刻度号为\n$$n'=\\frac{(1-\\beta)L_0}{1/\\gamma_{\\!v}}\n=\\gamma_{\\!v}L_0(1-\\beta)\n=L_0\\sqrt{\\frac{1-\\beta}{1+\\beta}}.$$\n\n因此\n$$n'=n=L_0\\sqrt{\\frac{1-\\beta}{1+\\beta}}.$$\n\n这也说明“哪一条刻度被尾端压住”这个物理结果与参考系无关。"
+  },
+  {
+    "question_id": "PHY_006",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹变换，相对论速度变换，四动量",
+    "difficulty": "困难",
+    "question": "A 向 (4ls,3ls) 发射子弹，速度 0.5c，与目标发生完全非弹性碰撞。\n\nB 相对 A 以 0.8c 运动。\n\n1）求 B 系中的碰撞事件坐标；\n2）求子弹在 B 系速度；\n3）用速度变换验证；\n4）求 A 系动量与能量；\n5）求 B 系动量与能量。",
+    "answer": {
+      "1": "在 A 的地面系中，子弹从原点射向 $(4\\,\\text{ls},3\\,\\text{ls})$，距离为 $5\\,\\text{ls}$，速度为 $0.5c$，所以命中时间 $$t=10\\ \\text{s}.$$ 对 B（沿 $+y$ 方向以 $0.8c$ 运动）做洛伦兹变换：$$x'=x=4\\,\\text{ls},$$ $$y'=\\gamma(y-vt)=\\frac53(3-8)\\,\\text{ls}=-\\frac{25}{3}\\,\\text{ls},$$ $$t'=\\gamma\\!\\left(t-\\frac{vy}{c^2}\\right)=\\frac53(10-2.4)\\,\\text{s}=\\frac{38}{3}\\,\\text{s}. $$",
+      "2": "由 1) 的结果，B 直接测得子弹速度为 $$u'_x=\\frac{x'}{t'}=\\frac{6}{19}c,\\qquad u'_y=\\frac{y'}{t'}=-\\frac{25}{38}c.$$",
+      "3": "从 A 系看子弹速度分量为 $$u_x=0.4c,\\qquad u_y=0.3c.$$ 对沿 $y$ 方向速度 $v=0.8c$ 的变换，有 $$u'_x=\\frac{u_x}{\\gamma_v\\left(1-\\frac{vu_y}{c^2}\\right)},\\qquad u'_y=\\frac{u_y-v}{1-\\frac{vu_y}{c^2}}.$$ 代入后得到同样结果 $$u'_x=\\frac{6}{19}c,\\qquad u'_y=-\\frac{25}{38}c.$$",
+      "4": "在 A 系中，碰后并在一起运动的总动量等于碰前总动量：目标球初始静止，子弹的洛伦兹因子 $$\\gamma_u=\\frac1{\\sqrt{1-0.5^2}}=\\frac{2}{\\sqrt3}.$$ 因而 $$p_x=\\gamma_um(0.4c)=\\frac{0.8}{\\sqrt3}mc,\\qquad p_y=\\gamma_um(0.3c)=\\frac{0.6}{\\sqrt3}mc.$$ 总能量 $$E=\\gamma_umc^2+mc^2=\\left(1+\\frac{2}{\\sqrt3}\\right)mc^2.$$",
+      "5": "在 B 系中，对 4) 的总四动量做沿 $y$ 方向的洛伦兹变换：$$p'_x=p_x=\\frac{0.8}{\\sqrt3}mc,$$ $$p'_y=\\gamma_v\\!\\left(p_y-\\frac{vE}{c^2}\\right)=\\left(-\\frac43-\\frac{5\\sqrt3}{9}\\right)mc\\approx -2.296\\,mc,$$ $$E'=\\gamma_v(E-vp_y)=\\left(\\frac53+\\frac{38\\sqrt3}{45}\\right)mc^2\\approx 3.129\\,mc^2.$$"
+    },
+    "reasoning_process": "1. **先在 A 系中求击中事件**  \n目标球位于\n$$(x,y)=(4\\,\\text{ls},3\\,\\text{ls}),$$\n所以从原点到目标的距离为\n$$\\sqrt{4^2+3^2}=5\\ \\text{ls}.$$\n子弹速度大小为 $0.5c$，因此飞行时间\n$$t=\\frac{5\\,\\text{ls}}{0.5c}=10\\ \\text{s}.$$\n故击中事件在 A 系中的坐标是\n$$\\bigl(x,y,t\\bigr)=\\bigl(4\\,\\text{ls},\\,3\\,\\text{ls},\\,10\\,\\text{s}\\bigr).$$\n\n2. **变换到 B 系**  \nB 相对 A 沿 $+y$ 方向以\n$$v=0.8c,\\qquad \\gamma_v=\\frac1{\\sqrt{1-0.8^2}}=\\frac53$$\n运动。  \n沿 $y$ 方向的洛伦兹变换是\n$$x'=x,$$\n$$y'=\\gamma_v(y-vt),$$\n$$t'=\\gamma_v\\left(t-\\frac{vy}{c^2}\\right).$$\n代入\n$$x=4\\,\\text{ls},\\quad y=3\\,\\text{ls},\\quad t=10\\,\\text{s},\\quad vt=8\\,\\text{ls},$$\n得\n$$x'=4\\,\\text{ls},$$\n$$y'=\\frac53(3-8)\\,\\text{ls}=-\\frac{25}{3}\\,\\text{ls},$$\n$$t'=\\frac53\\left(10-\\frac{0.8c\\cdot 3\\,\\text{ls}}{c^2}\\right)\n=\\frac53(10-2.4)\\,\\text{s}\n=\\frac{38}{3}\\,\\text{s}.$$\n\n3. **由事件坐标直接求 B 系中的子弹速度**  \n由于发射事件在两系原点重合，即\n$$x'=y'=t'=0,$$\n所以子弹从原点出发到击中事件，速度分量就是\n$$u'_x=\\frac{x'}{t'}=\\frac{4}{38/3}c=\\frac{6}{19}c,$$\n$$u'_y=\\frac{y'}{t'}=\\frac{-25/3}{38/3}c=-\\frac{25}{38}c.$$\n\n4. **从 A 系速度变换复核**  \nA 系中子弹速度方向沿 $(4,3)$，大小为 $0.5c$，所以\n$$u_x=0.5c\\cdot \\frac45=0.4c,\\qquad u_y=0.5c\\cdot \\frac35=0.3c.$$\n沿 $y$ 方向的速度变换公式：\n$$u'_x=\\frac{u_x}{\\gamma_v\\left(1-\\frac{vu_y}{c^2}\\right)},\\qquad\nu'_y=\\frac{u_y-v}{1-\\frac{vu_y}{c^2}}.$$\n因为\n$$1-\\frac{vu_y}{c^2}=1-0.8\\times0.3=0.76,$$\n所以\n$$u'_x=\\frac{0.4}{(5/3)\\cdot 0.76}c=\\frac{6}{19}c,$$\n$$u'_y=\\frac{0.3-0.8}{0.76}c=-\\frac{25}{38}c,$$\n与上一步一致。\n\n5. **A 系中碰后总动量和总能量**  \n完全非弹性碰撞后，两者粘在一起，所以总动量、总能量守恒。  \n子弹的洛伦兹因子\n$$\\gamma_u=\\frac1{\\sqrt{1-0.5^2}}=\\frac{2}{\\sqrt3}.$$\n故子弹动量分量\n$$p_x=\\gamma_um u_x=\\frac{2}{\\sqrt3}m(0.4c)=\\frac{0.8}{\\sqrt3}mc,$$\n$$p_y=\\gamma_um u_y=\\frac{2}{\\sqrt3}m(0.3c)=\\frac{0.6}{\\sqrt3}mc.$$\n目标球初始静止，因此碰前总动量就是上式，碰后也相同。  \n总能量为\n$$E=\\gamma_umc^2+mc^2=\\left(1+\\frac{2}{\\sqrt3}\\right)mc^2.$$\n\n6. **B 系中的碰后总动量和总能量**  \n总四动量在系之间按洛伦兹变换：\n$$p'_x=p_x,$$\n$$p'_y=\\gamma_v\\left(p_y-\\frac{vE}{c^2}\\right),$$\n$$E'=\\gamma_v(E-vp_y).$$\n代入\n$$\\gamma_v=\\frac53,\\quad v=0.8c,\\quad\np_y=\\frac{0.6}{\\sqrt3}mc,\\quad\nE=\\left(1+\\frac{2}{\\sqrt3}\\right)mc^2,$$\n得到\n$$p'_x=\\frac{0.8}{\\sqrt3}mc,$$\n$$p'_y=\\left(-\\frac43-\\frac{5\\sqrt3}{9}\\right)mc\\approx -2.296\\,mc,$$\n$$E'=\\left(\\frac53+\\frac{38\\sqrt3}{45}\\right)mc^2\\approx 3.129\\,mc^2.$$\n\n因此本题各问结果全部确定。"
+  },
+  {
+    "question_id": "PHY_007",
+    "type": "证明题",
+    "knowledge_point": "康普顿散射，四动量守恒，康普顿波长",
+    "difficulty": "困难",
+    "question": "康普顿散射：\n\n光子与静止电子碰撞。\n\n1）写出四动量守恒、能量守恒、动量守恒；\n2）推导 Δλ 与 θ 的关系；\n3）写出康普顿波长并计算；\n4）若换成质子，求其康普顿波长。",
+    "answer": {
+      "1a": "四动量守恒可写为 $$P_\\gamma^{(i)}+P_e^{(i)}=P_\\gamma^{(f)}+P_e^{(f)}.$$ 其中初态光子、初态电子、末态光子、末态电子分别对应四个四动量。",
+      "1b": "能量守恒：$$E_i+m_ec^2=E_f+E_e.$$ 动量守恒（分量）：$$\\frac{E_i}{c}=\\frac{E_f}{c}\\cos\\theta+p_e\\cos\\phi,$$ $$0=\\frac{E_f}{c}\\sin\\theta-p_e\\sin\\phi.$$",
+      "2": "康普顿散射公式为 $$\\Delta\\lambda=\\lambda_f-\\lambda_i=\\frac{h}{m_ec}(1-\\cos\\theta).$$",
+      "3": "因此电子的康普顿波长 $$\\lambda_c=\\frac{h}{m_ec}\\approx 2.43\\times10^{-12}\\ \\text{m}. $$",
+      "4": "若换成质子，$$\\lambda_{c,p}=\\frac{h}{m_pc}=\\frac1{1800}\\frac{h}{m_ec}\\approx \\frac{2.43\\times10^{-12}}{1800}\\ \\text{m}\\approx 1.35\\times10^{-15}\\ \\text{m}. $$"
+    },
+    "reasoning_process": "1. **写出四动量守恒**  \n设入射光子沿 $x$ 方向，能量为 $E_i$，末态散射光子能量为 $E_f$、方向与 $x$ 轴夹角为 $\\theta$；电子初始静止，末态电子动量大小为 $p_e$、方向与 $x$ 轴夹角为 $\\phi$。  \n过程满足\n$$P_\\gamma^{(i)}+P_e^{(i)}=P_\\gamma^{(f)}+P_e^{(f)}.$$\n\n可分别写为\n$$P_\\gamma^{(i)}=\\left(\\frac{E_i}{c},\\,\\frac{E_i}{c},\\,0,\\,0\\right),$$\n$$P_e^{(i)}=\\left(m_ec,\\,0,\\,0,\\,0\\right),$$\n$$P_\\gamma^{(f)}=\\left(\\frac{E_f}{c},\\,\\frac{E_f}{c}\\cos\\theta,\\,\\frac{E_f}{c}\\sin\\theta,\\,0\\right),$$\n$$P_e^{(f)}=\\left(\\frac{E_e}{c},\\,p_e\\cos\\phi,\\,p_e\\sin\\phi,\\,0\\right).$$\n\n2. **写出能量与动量守恒分量式**  \n能量守恒：\n$$E_i+m_ec^2=E_f+E_e.$$\n$x$ 方向动量守恒：\n$$\\frac{E_i}{c}=\\frac{E_f}{c}\\cos\\theta+p_e\\cos\\phi.$$\n$y$ 方向动量守恒：\n$$0=\\frac{E_f}{c}\\sin\\theta-p_e\\sin\\phi.$$\n\n3. **消去电子动量，得到光子能量关系**  \n由两方向动量守恒可得电子末态动量平方：\n$$p_e^2=\\left(\\frac{E_i}{c}-\\frac{E_f}{c}\\cos\\theta\\right)^2+\\left(\\frac{E_f}{c}\\sin\\theta\\right)^2\n=\\frac{E_i^2+E_f^2-2E_iE_f\\cos\\theta}{c^2}. \\tag{1}$$\n\n另一方面，对电子有相对论能量关系\n$$E_e^2=p_e^2c^2+m_e^2c^4. \\tag{2}$$\n而由能量守恒\n$$E_e=E_i-E_f+m_ec^2. \\tag{3}$$\n把 (1)(3) 代入 (2)，化简后可得\n$$\\frac{1}{E_f}-\\frac{1}{E_i}=\\frac{1-\\cos\\theta}{m_ec^2}. \\tag{4}$$\n\n4. **改写成波长公式**  \n由光子关系\n$$E=\\frac{hc}{\\lambda}\\quad \\Rightarrow\\quad \\frac1E=\\frac{\\lambda}{hc},$$\n将其代入 (4)：\n$$\\frac{\\lambda_f-\\lambda_i}{hc}=\\frac{1-\\cos\\theta}{m_ec^2}.$$\n于是得到\n$$\\Delta\\lambda=\\lambda_f-\\lambda_i=\\frac{h}{m_ec}(1-\\cos\\theta).$$\n这就是康普顿散射公式。\n\n5. **识别康普顿波长**  \n与题目给出的形式\n$$\\Delta\\lambda=\\lambda_c(1-\\cos\\theta)$$\n比较可知\n$$\\lambda_c=\\frac{h}{m_ec}.$$\n代入\n$$h=6.63\\times10^{-34}\\ \\text{J·s},\\qquad\nm_e=9.1\\times10^{-31}\\ \\text{kg},\\qquad\nc=3.0\\times10^8\\ \\text{m/s},$$\n得\n$$\\lambda_c\\approx 2.43\\times10^{-12}\\ \\text{m}. $$\n\n6. **若散射体改为质子**  \n只需把电子质量换成质子质量 $m_p=1800m_e$：\n$$\\lambda_{c,p}=\\frac{h}{m_pc}=\\frac{1}{1800}\\frac{h}{m_ec}\n=\\frac{\\lambda_c}{1800}.$$\n因此\n$$\\lambda_{c,p}\\approx \\frac{2.43\\times10^{-12}}{1800}\\ \\text{m}\n\\approx1.35\\times10^{-15}\\ \\text{m}. $$\n\n所以本题结论为：\n$$\\Delta\\lambda=\\frac{h}{m_ec}(1-\\cos\\theta),\\qquad\n\\lambda_c=\\frac{h}{m_ec}\\approx2.43\\times10^{-12}\\ \\text{m},\\qquad\n\\lambda_{c,p}\\approx1.35\\times10^{-15}\\ \\text{m}. $$"
+  }
+]
