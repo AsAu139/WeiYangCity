@@ -1,0 +1,1802 @@
+[
+  {
+    "question_id": "PHY_HARD_001",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 1 kg 和 3 kg，初速度分别为 2 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈-1.00 m/s，v2'≈1.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=1\\,\\mathrm{kg}$、$m_2=3\\,\\mathrm{kg}$，初速度分别为 $v_1=2\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx -1.00\\,\\mathrm{m/s}$，$v_2'\\approx 1.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈-1.00 m/s，v2'≈1.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_002",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 4 kg，初速度分别为 5 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈1.57 m/s，v2'≈4.57 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.57\\,\\mathrm{m/s}$，$v_2'\\approx 4.57\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.57 m/s，v2'≈4.57 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_003",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 2 kg，初速度分别为 2 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈2.00 m/s，v2'≈2.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=2\\,\\mathrm{kg}$，初速度分别为 $v_1=2\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 2.00\\,\\mathrm{m/s}$，$v_2'\\approx 2.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈2.00 m/s，v2'≈2.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_004",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 1 kg 和 1 kg，初速度分别为 4 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈0.00 m/s，v2'≈4.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=1\\,\\mathrm{kg}$、$m_2=1\\,\\mathrm{kg}$，初速度分别为 $v_1=4\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 0.00\\,\\mathrm{m/s}$，$v_2'\\approx 4.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈0.00 m/s，v2'≈4.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_005",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 1 kg，初速度分别为 5 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈3.00 m/s，v2'≈6.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=1\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 3.00\\,\\mathrm{m/s}$，$v_2'\\approx 6.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈3.00 m/s，v2'≈6.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_006",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 2 kg，初速度分别为 5 m/s 和 1 m/s。求碰后速度。",
+    "answer": "v1'≈1.00 m/s，v2'≈5.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=2\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=1\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.00\\,\\mathrm{m/s}$，$v_2'\\approx 5.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.00 m/s，v2'≈5.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_007",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 3 kg，初速度分别为 5 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈1.40 m/s，v2'≈4.40 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=3\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.40\\,\\mathrm{m/s}$，$v_2'\\approx 4.40\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.40 m/s，v2'≈4.40 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_008",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 1 kg，初速度分别为 4 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈2.00 m/s，v2'≈6.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=1\\,\\mathrm{kg}$，初速度分别为 $v_1=4\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 2.00\\,\\mathrm{m/s}$，$v_2'\\approx 6.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈2.00 m/s，v2'≈6.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_009",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 3 kg，初速度分别为 4 m/s 和 1 m/s。求碰后速度。",
+    "answer": "v1'≈1.00 m/s，v2'≈4.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=3\\,\\mathrm{kg}$，初速度分别为 $v_1=4\\,\\mathrm{m/s}$、$v_2=1\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.00\\,\\mathrm{m/s}$，$v_2'\\approx 4.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.00 m/s，v2'≈4.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_010",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 1 kg 和 3 kg，初速度分别为 2 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈2.00 m/s，v2'≈2.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=1\\,\\mathrm{kg}$、$m_2=3\\,\\mathrm{kg}$，初速度分别为 $v_1=2\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 2.00\\,\\mathrm{m/s}$，$v_2'\\approx 2.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈2.00 m/s，v2'≈2.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_011",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 3 kg，初速度分别为 5 m/s 和 1 m/s。求碰后速度。",
+    "answer": "v1'≈0.20 m/s，v2'≈4.20 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=3\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=1\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 0.20\\,\\mathrm{m/s}$，$v_2'\\approx 4.20\\,\\mathrm{m/s}$。\n因此答案为：v1'≈0.20 m/s，v2'≈4.20 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_012",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 1 kg 和 4 kg，初速度分别为 5 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈-3.00 m/s，v2'≈2.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=1\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx -3.00\\,\\mathrm{m/s}$，$v_2'\\approx 2.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈-3.00 m/s，v2'≈2.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_013",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 4 kg，初速度分别为 5 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈1.00 m/s，v2'≈4.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.00\\,\\mathrm{m/s}$，$v_2'\\approx 4.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.00 m/s，v2'≈4.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_014",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 4 kg，初速度分别为 5 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈1.00 m/s，v2'≈4.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.00\\,\\mathrm{m/s}$，$v_2'\\approx 4.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.00 m/s，v2'≈4.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_015",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 1 kg，初速度分别为 3 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈1.50 m/s，v2'≈4.50 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=1\\,\\mathrm{kg}$，初速度分别为 $v_1=3\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.50\\,\\mathrm{m/s}$，$v_2'\\approx 4.50\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.50 m/s，v2'≈4.50 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_016",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 1 kg 和 1 kg，初速度分别为 5 m/s 和 1 m/s。求碰后速度。",
+    "answer": "v1'≈1.00 m/s，v2'≈5.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=1\\,\\mathrm{kg}$、$m_2=1\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=1\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.00\\,\\mathrm{m/s}$，$v_2'\\approx 5.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.00 m/s，v2'≈5.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_017",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 1 kg 和 4 kg，初速度分别为 3 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈-1.80 m/s，v2'≈1.20 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=1\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=3\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx -1.80\\,\\mathrm{m/s}$，$v_2'\\approx 1.20\\,\\mathrm{m/s}$。\n因此答案为：v1'≈-1.80 m/s，v2'≈1.20 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_018",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 4 kg，初速度分别为 5 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈1.57 m/s，v2'≈4.57 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.57\\,\\mathrm{m/s}$，$v_2'\\approx 4.57\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.57 m/s，v2'≈4.57 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_019",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 3 kg，初速度分别为 5 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈2.00 m/s，v2'≈5.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=3\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 2.00\\,\\mathrm{m/s}$，$v_2'\\approx 5.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈2.00 m/s，v2'≈5.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_020",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 4 kg，初速度分别为 5 m/s 和 1 m/s。求碰后速度。",
+    "answer": "v1'≈-0.33 m/s，v2'≈3.67 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=1\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx -0.33\\,\\mathrm{m/s}$，$v_2'\\approx 3.67\\,\\mathrm{m/s}$。\n因此答案为：v1'≈-0.33 m/s，v2'≈3.67 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_021",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 1 kg 和 3 kg，初速度分别为 4 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈-2.00 m/s，v2'≈2.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=1\\,\\mathrm{kg}$、$m_2=3\\,\\mathrm{kg}$，初速度分别为 $v_1=4\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx -2.00\\,\\mathrm{m/s}$，$v_2'\\approx 2.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈-2.00 m/s，v2'≈2.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_022",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 1 kg 和 2 kg，初速度分别为 5 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈1.00 m/s，v2'≈4.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=1\\,\\mathrm{kg}$、$m_2=2\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.00\\,\\mathrm{m/s}$，$v_2'\\approx 4.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.00 m/s，v2'≈4.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_023",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 3 kg，初速度分别为 3 m/s 和 1 m/s。求碰后速度。",
+    "answer": "v1'≈0.60 m/s，v2'≈2.60 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=3\\,\\mathrm{kg}$，初速度分别为 $v_1=3\\,\\mathrm{m/s}$、$v_2=1\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 0.60\\,\\mathrm{m/s}$，$v_2'\\approx 2.60\\,\\mathrm{m/s}$。\n因此答案为：v1'≈0.60 m/s，v2'≈2.60 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_024",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 4 kg，初速度分别为 5 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈1.57 m/s，v2'≈4.57 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.57\\,\\mathrm{m/s}$，$v_2'\\approx 4.57\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.57 m/s，v2'≈4.57 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_025",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 4 kg，初速度分别为 2 m/s 和 1 m/s。求碰后速度。",
+    "answer": "v1'≈0.67 m/s，v2'≈1.67 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=2\\,\\mathrm{m/s}$、$v_2=1\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 0.67\\,\\mathrm{m/s}$，$v_2'\\approx 1.67\\,\\mathrm{m/s}$。\n因此答案为：v1'≈0.67 m/s，v2'≈1.67 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_026",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 4 kg，初速度分别为 2 m/s 和 1 m/s。求碰后速度。",
+    "answer": "v1'≈0.67 m/s，v2'≈1.67 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=2\\,\\mathrm{m/s}$、$v_2=1\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 0.67\\,\\mathrm{m/s}$，$v_2'\\approx 1.67\\,\\mathrm{m/s}$。\n因此答案为：v1'≈0.67 m/s，v2'≈1.67 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_027",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 3 kg，初速度分别为 5 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈0.00 m/s，v2'≈5.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=3\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 0.00\\,\\mathrm{m/s}$，$v_2'\\approx 5.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈0.00 m/s，v2'≈5.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_028",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 4 kg，初速度分别为 2 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈2.00 m/s，v2'≈2.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=2\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 2.00\\,\\mathrm{m/s}$，$v_2'\\approx 2.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈2.00 m/s，v2'≈2.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_029",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 4 kg，初速度分别为 4 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈-1.33 m/s，v2'≈2.67 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=4\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx -1.33\\,\\mathrm{m/s}$，$v_2'\\approx 2.67\\,\\mathrm{m/s}$。\n因此答案为：v1'≈-1.33 m/s，v2'≈2.67 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_030",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 1 kg 和 4 kg，初速度分别为 3 m/s 和 1 m/s。求碰后速度。",
+    "answer": "v1'≈-0.20 m/s，v2'≈1.80 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=1\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=3\\,\\mathrm{m/s}$、$v_2=1\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx -0.20\\,\\mathrm{m/s}$，$v_2'\\approx 1.80\\,\\mathrm{m/s}$。\n因此答案为：v1'≈-0.20 m/s，v2'≈1.80 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_031",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 1 kg 和 1 kg，初速度分别为 2 m/s 和 1 m/s。求碰后速度。",
+    "answer": "v1'≈1.00 m/s，v2'≈2.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=1\\,\\mathrm{kg}$、$m_2=1\\,\\mathrm{kg}$，初速度分别为 $v_1=2\\,\\mathrm{m/s}$、$v_2=1\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.00\\,\\mathrm{m/s}$，$v_2'\\approx 2.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.00 m/s，v2'≈2.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_032",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 1 kg，初速度分别为 3 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈1.50 m/s，v2'≈4.50 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=1\\,\\mathrm{kg}$，初速度分别为 $v_1=3\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.50\\,\\mathrm{m/s}$，$v_2'\\approx 4.50\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.50 m/s，v2'≈4.50 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_033",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 1 kg 和 1 kg，初速度分别为 4 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈2.00 m/s，v2'≈4.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=1\\,\\mathrm{kg}$、$m_2=1\\,\\mathrm{kg}$，初速度分别为 $v_1=4\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 2.00\\,\\mathrm{m/s}$，$v_2'\\approx 4.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈2.00 m/s，v2'≈4.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_034",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 3 kg，初速度分别为 3 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈0.00 m/s，v2'≈3.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=3\\,\\mathrm{kg}$，初速度分别为 $v_1=3\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 0.00\\,\\mathrm{m/s}$，$v_2'\\approx 3.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈0.00 m/s，v2'≈3.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_035",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 4 kg，初速度分别为 3 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈1.67 m/s，v2'≈2.67 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=3\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.67\\,\\mathrm{m/s}$，$v_2'\\approx 2.67\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.67 m/s，v2'≈2.67 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_036",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 1 kg 和 4 kg，初速度分别为 3 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈1.40 m/s，v2'≈2.40 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=1\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=3\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.40\\,\\mathrm{m/s}$，$v_2'\\approx 2.40\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.40 m/s，v2'≈2.40 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_037",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 3 kg，初速度分别为 2 m/s 和 1 m/s。求碰后速度。",
+    "answer": "v1'≈1.00 m/s，v2'≈2.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=3\\,\\mathrm{kg}$，初速度分别为 $v_1=2\\,\\mathrm{m/s}$、$v_2=1\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.00\\,\\mathrm{m/s}$，$v_2'\\approx 2.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.00 m/s，v2'≈2.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_038",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 2 kg，初速度分别为 3 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈2.20 m/s，v2'≈3.20 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=2\\,\\mathrm{kg}$，初速度分别为 $v_1=3\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 2.20\\,\\mathrm{m/s}$，$v_2'\\approx 3.20\\,\\mathrm{m/s}$。\n因此答案为：v1'≈2.20 m/s，v2'≈3.20 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_039",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 4 kg，初速度分别为 5 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈-1.67 m/s，v2'≈3.33 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx -1.67\\,\\mathrm{m/s}$，$v_2'\\approx 3.33\\,\\mathrm{m/s}$。\n因此答案为：v1'≈-1.67 m/s，v2'≈3.33 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_040",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 2 kg，初速度分别为 5 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈1.00 m/s，v2'≈6.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=2\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.00\\,\\mathrm{m/s}$，$v_2'\\approx 6.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.00 m/s，v2'≈6.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_041",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 1 kg 和 4 kg，初速度分别为 2 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈-1.20 m/s，v2'≈0.80 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=1\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=2\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx -1.20\\,\\mathrm{m/s}$，$v_2'\\approx 0.80\\,\\mathrm{m/s}$。\n因此答案为：v1'≈-1.20 m/s，v2'≈0.80 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_042",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 3 kg，初速度分别为 2 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈-0.40 m/s，v2'≈1.60 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=3\\,\\mathrm{kg}$，初速度分别为 $v_1=2\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx -0.40\\,\\mathrm{m/s}$，$v_2'\\approx 1.60\\,\\mathrm{m/s}$。\n因此答案为：v1'≈-0.40 m/s，v2'≈1.60 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_043",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 4 kg，初速度分别为 4 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈1.71 m/s，v2'≈3.71 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=4\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.71\\,\\mathrm{m/s}$，$v_2'\\approx 3.71\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.71 m/s，v2'≈3.71 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_044",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 4 kg，初速度分别为 4 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈-1.33 m/s，v2'≈2.67 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=4\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx -1.33\\,\\mathrm{m/s}$，$v_2'\\approx 2.67\\,\\mathrm{m/s}$。\n因此答案为：v1'≈-1.33 m/s，v2'≈2.67 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_045",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 4 kg，初速度分别为 3 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈-1.00 m/s，v2'≈2.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=3\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx -1.00\\,\\mathrm{m/s}$，$v_2'\\approx 2.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈-1.00 m/s，v2'≈2.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_046",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 2 kg，初速度分别为 5 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈2.60 m/s，v2'≈5.60 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=2\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 2.60\\,\\mathrm{m/s}$，$v_2'\\approx 5.60\\,\\mathrm{m/s}$。\n因此答案为：v1'≈2.60 m/s，v2'≈5.60 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_047",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 4 kg，初速度分别为 3 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈1.67 m/s，v2'≈2.67 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=3\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.67\\,\\mathrm{m/s}$，$v_2'\\approx 2.67\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.67 m/s，v2'≈2.67 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_048",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 1 kg，初速度分别为 5 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈2.50 m/s，v2'≈7.50 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=1\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 2.50\\,\\mathrm{m/s}$，$v_2'\\approx 7.50\\,\\mathrm{m/s}$。\n因此答案为：v1'≈2.50 m/s，v2'≈7.50 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_049",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 1 kg 和 2 kg，初速度分别为 2 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈2.00 m/s，v2'≈2.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=1\\,\\mathrm{kg}$、$m_2=2\\,\\mathrm{kg}$，初速度分别为 $v_1=2\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 2.00\\,\\mathrm{m/s}$，$v_2'\\approx 2.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈2.00 m/s，v2'≈2.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_050",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 1 kg，初速度分别为 5 m/s 和 2 m/s。求碰后速度。",
+    "answer": "v1'≈3.50 m/s，v2'≈6.50 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=1\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=2\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 3.50\\,\\mathrm{m/s}$，$v_2'\\approx 6.50\\,\\mathrm{m/s}$。\n因此答案为：v1'≈3.50 m/s，v2'≈6.50 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_051",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 1 kg 和 4 kg，初速度分别为 2 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈-1.20 m/s，v2'≈0.80 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=1\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=2\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx -1.20\\,\\mathrm{m/s}$，$v_2'\\approx 0.80\\,\\mathrm{m/s}$。\n因此答案为：v1'≈-1.20 m/s，v2'≈0.80 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_052",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 2 kg，初速度分别为 3 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈0.60 m/s，v2'≈3.60 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=2\\,\\mathrm{kg}$，初速度分别为 $v_1=3\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 0.60\\,\\mathrm{m/s}$，$v_2'\\approx 3.60\\,\\mathrm{m/s}$。\n因此答案为：v1'≈0.60 m/s，v2'≈3.60 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_053",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 2 kg，初速度分别为 5 m/s 和 1 m/s。求碰后速度。",
+    "answer": "v1'≈1.80 m/s，v2'≈5.80 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=2\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=1\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.80\\,\\mathrm{m/s}$，$v_2'\\approx 5.80\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.80 m/s，v2'≈5.80 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_054",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 4 kg，初速度分别为 2 m/s 和 1 m/s。求碰后速度。",
+    "answer": "v1'≈0.67 m/s，v2'≈1.67 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=2\\,\\mathrm{m/s}$、$v_2=1\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 0.67\\,\\mathrm{m/s}$，$v_2'\\approx 1.67\\,\\mathrm{m/s}$。\n因此答案为：v1'≈0.67 m/s，v2'≈1.67 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_055",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 2 kg，初速度分别为 4 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈0.00 m/s，v2'≈4.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=2\\,\\mathrm{kg}$，初速度分别为 $v_1=4\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 0.00\\,\\mathrm{m/s}$，$v_2'\\approx 4.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈0.00 m/s，v2'≈4.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_056",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 4 kg，初速度分别为 5 m/s 和 1 m/s。求碰后速度。",
+    "answer": "v1'≈-0.33 m/s，v2'≈3.67 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=1\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx -0.33\\,\\mathrm{m/s}$，$v_2'\\approx 3.67\\,\\mathrm{m/s}$。\n因此答案为：v1'≈-0.33 m/s，v2'≈3.67 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_057",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 2 kg 和 4 kg，初速度分别为 3 m/s 和 1 m/s。求碰后速度。",
+    "answer": "v1'≈0.33 m/s，v2'≈2.33 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=2\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=3\\,\\mathrm{m/s}$、$v_2=1\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 0.33\\,\\mathrm{m/s}$，$v_2'\\approx 2.33\\,\\mathrm{m/s}$。\n因此答案为：v1'≈0.33 m/s，v2'≈2.33 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_058",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 4 kg，初速度分别为 5 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈-0.71 m/s，v2'≈4.29 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=4\\,\\mathrm{kg}$，初速度分别为 $v_1=5\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx -0.71\\,\\mathrm{m/s}$，$v_2'\\approx 4.29\\,\\mathrm{m/s}$。\n因此答案为：v1'≈-0.71 m/s，v2'≈4.29 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_059",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 3 kg 和 3 kg，初速度分别为 2 m/s 和 0 m/s。求碰后速度。",
+    "answer": "v1'≈0.00 m/s，v2'≈2.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=3\\,\\mathrm{kg}$、$m_2=3\\,\\mathrm{kg}$，初速度分别为 $v_1=2\\,\\mathrm{m/s}$、$v_2=0\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 0.00\\,\\mathrm{m/s}$，$v_2'\\approx 2.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈0.00 m/s，v2'≈2.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_060",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞，动量与能量守恒",
+    "difficulty": "困难",
+    "question": "两个小球在光滑直线上发生正碰，质量分别为 1 kg 和 1 kg，初速度分别为 2 m/s 和 1 m/s。求碰后速度。",
+    "answer": "v1'≈1.00 m/s，v2'≈2.00 m/s",
+    "reasoning_process": "这是光滑直线上的正碰问题，且题目默认采用完全弹性碰撞模型，因此同时满足动量守恒和机械能守恒。\n1. 设碰前两球质量分别为 $m_1=1\\,\\mathrm{kg}$、$m_2=1\\,\\mathrm{kg}$，初速度分别为 $v_1=2\\,\\mathrm{m/s}$、$v_2=1\\,\\mathrm{m/s}$。\n2. 由动量守恒可得：$m_1v_1+m_2v_2=m_1v_1'+m_2v_2'$。\n3. 由弹性碰撞的动能守恒可得：$\\frac12 m_1v_1^2+\\frac12 m_2v_2^2=\\frac12 m_1{v_1'}^2+\\frac12 m_2{v_2'}^2$。\n4. 联立两式，或直接使用一维完全弹性碰撞公式：\n   $v_1'=\\dfrac{m_1-m_2}{m_1+m_2}v_1+\\dfrac{2m_2}{m_1+m_2}v_2$，\n   $v_2'=\\dfrac{2m_1}{m_1+m_2}v_1+\\dfrac{m_2-m_1}{m_1+m_2}v_2$。\n5. 代入数值后得到：$v_1'\\approx 1.00\\,\\mathrm{m/s}$，$v_2'\\approx 2.00\\,\\mathrm{m/s}$。\n因此答案为：v1'≈1.00 m/s，v2'≈2.00 m/s。"
+  },
+  {
+    "question_id": "PHY_HARD_061",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 3 kg 的质点在半径 1 m 处做圆周运动，角速度为 4 rad/s，求转动动能。",
+    "answer": "24.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=3\\,\\mathrm{kg}$，转动半径 $r=1\\,\\mathrm{m}$，角速度 $\\omega=4\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=3\\times 1^2=3.00\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 3.00\\times 4^2=24.00\\,\\mathrm{J}$。\n因此转动动能为 24.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_062",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 3 kg 的质点在半径 1.5 m 处做圆周运动，角速度为 2 rad/s，求转动动能。",
+    "answer": "13.50 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=3\\,\\mathrm{kg}$，转动半径 $r=1.5\\,\\mathrm{m}$，角速度 $\\omega=2\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=3\\times 1.5^2=6.75\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 6.75\\times 2^2=13.50\\,\\mathrm{J}$。\n因此转动动能为 13.50 J。"
+  },
+  {
+    "question_id": "PHY_HARD_063",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 1 kg 的质点在半径 1 m 处做圆周运动，角速度为 2 rad/s，求转动动能。",
+    "answer": "2.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=1\\,\\mathrm{kg}$，转动半径 $r=1\\,\\mathrm{m}$，角速度 $\\omega=2\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=1\\times 1^2=1.00\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 1.00\\times 2^2=2.00\\,\\mathrm{J}$。\n因此转动动能为 2.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_064",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 2 kg 的质点在半径 1.5 m 处做圆周运动，角速度为 6 rad/s，求转动动能。",
+    "answer": "81.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=2\\,\\mathrm{kg}$，转动半径 $r=1.5\\,\\mathrm{m}$，角速度 $\\omega=6\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=2\\times 1.5^2=4.50\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 4.50\\times 6^2=81.00\\,\\mathrm{J}$。\n因此转动动能为 81.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_065",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 3 kg 的质点在半径 1.5 m 处做圆周运动，角速度为 2 rad/s，求转动动能。",
+    "answer": "13.50 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=3\\,\\mathrm{kg}$，转动半径 $r=1.5\\,\\mathrm{m}$，角速度 $\\omega=2\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=3\\times 1.5^2=6.75\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 6.75\\times 2^2=13.50\\,\\mathrm{J}$。\n因此转动动能为 13.50 J。"
+  },
+  {
+    "question_id": "PHY_HARD_066",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 1 kg 的质点在半径 1.5 m 处做圆周运动，角速度为 6 rad/s，求转动动能。",
+    "answer": "40.50 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=1\\,\\mathrm{kg}$，转动半径 $r=1.5\\,\\mathrm{m}$，角速度 $\\omega=6\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=1\\times 1.5^2=2.25\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 2.25\\times 6^2=40.50\\,\\mathrm{J}$。\n因此转动动能为 40.50 J。"
+  },
+  {
+    "question_id": "PHY_HARD_067",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 2 kg 的质点在半径 1.5 m 处做圆周运动，角速度为 6 rad/s，求转动动能。",
+    "answer": "81.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=2\\,\\mathrm{kg}$，转动半径 $r=1.5\\,\\mathrm{m}$，角速度 $\\omega=6\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=2\\times 1.5^2=4.50\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 4.50\\times 6^2=81.00\\,\\mathrm{J}$。\n因此转动动能为 81.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_068",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 3 kg 的质点在半径 0.5 m 处做圆周运动，角速度为 6 rad/s，求转动动能。",
+    "answer": "13.50 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=3\\,\\mathrm{kg}$，转动半径 $r=0.5\\,\\mathrm{m}$，角速度 $\\omega=6\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=3\\times 0.5^2=0.75\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 0.75\\times 6^2=13.50\\,\\mathrm{J}$。\n因此转动动能为 13.50 J。"
+  },
+  {
+    "question_id": "PHY_HARD_069",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 2 kg 的质点在半径 1.5 m 处做圆周运动，角速度为 4 rad/s，求转动动能。",
+    "answer": "36.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=2\\,\\mathrm{kg}$，转动半径 $r=1.5\\,\\mathrm{m}$，角速度 $\\omega=4\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=2\\times 1.5^2=4.50\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 4.50\\times 4^2=36.00\\,\\mathrm{J}$。\n因此转动动能为 36.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_070",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 3 kg 的质点在半径 1.5 m 处做圆周运动，角速度为 2 rad/s，求转动动能。",
+    "answer": "13.50 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=3\\,\\mathrm{kg}$，转动半径 $r=1.5\\,\\mathrm{m}$，角速度 $\\omega=2\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=3\\times 1.5^2=6.75\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 6.75\\times 2^2=13.50\\,\\mathrm{J}$。\n因此转动动能为 13.50 J。"
+  },
+  {
+    "question_id": "PHY_HARD_071",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 1 kg 的质点在半径 1 m 处做圆周运动，角速度为 2 rad/s，求转动动能。",
+    "answer": "2.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=1\\,\\mathrm{kg}$，转动半径 $r=1\\,\\mathrm{m}$，角速度 $\\omega=2\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=1\\times 1^2=1.00\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 1.00\\times 2^2=2.00\\,\\mathrm{J}$。\n因此转动动能为 2.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_072",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 2 kg 的质点在半径 0.5 m 处做圆周运动，角速度为 2 rad/s，求转动动能。",
+    "answer": "1.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=2\\,\\mathrm{kg}$，转动半径 $r=0.5\\,\\mathrm{m}$，角速度 $\\omega=2\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=2\\times 0.5^2=0.50\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 0.50\\times 2^2=1.00\\,\\mathrm{J}$。\n因此转动动能为 1.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_073",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 3 kg 的质点在半径 0.5 m 处做圆周运动，角速度为 4 rad/s，求转动动能。",
+    "answer": "6.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=3\\,\\mathrm{kg}$，转动半径 $r=0.5\\,\\mathrm{m}$，角速度 $\\omega=4\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=3\\times 0.5^2=0.75\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 0.75\\times 4^2=6.00\\,\\mathrm{J}$。\n因此转动动能为 6.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_074",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 3 kg 的质点在半径 0.5 m 处做圆周运动，角速度为 6 rad/s，求转动动能。",
+    "answer": "13.50 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=3\\,\\mathrm{kg}$，转动半径 $r=0.5\\,\\mathrm{m}$，角速度 $\\omega=6\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=3\\times 0.5^2=0.75\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 0.75\\times 6^2=13.50\\,\\mathrm{J}$。\n因此转动动能为 13.50 J。"
+  },
+  {
+    "question_id": "PHY_HARD_075",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 3 kg 的质点在半径 0.5 m 处做圆周运动，角速度为 6 rad/s，求转动动能。",
+    "answer": "13.50 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=3\\,\\mathrm{kg}$，转动半径 $r=0.5\\,\\mathrm{m}$，角速度 $\\omega=6\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=3\\times 0.5^2=0.75\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 0.75\\times 6^2=13.50\\,\\mathrm{J}$。\n因此转动动能为 13.50 J。"
+  },
+  {
+    "question_id": "PHY_HARD_076",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 2 kg 的质点在半径 1 m 处做圆周运动，角速度为 6 rad/s，求转动动能。",
+    "answer": "36.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=2\\,\\mathrm{kg}$，转动半径 $r=1\\,\\mathrm{m}$，角速度 $\\omega=6\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=2\\times 1^2=2.00\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 2.00\\times 6^2=36.00\\,\\mathrm{J}$。\n因此转动动能为 36.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_077",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 1 kg 的质点在半径 1 m 处做圆周运动，角速度为 4 rad/s，求转动动能。",
+    "answer": "8.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=1\\,\\mathrm{kg}$，转动半径 $r=1\\,\\mathrm{m}$，角速度 $\\omega=4\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=1\\times 1^2=1.00\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 1.00\\times 4^2=8.00\\,\\mathrm{J}$。\n因此转动动能为 8.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_078",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 1 kg 的质点在半径 1 m 处做圆周运动，角速度为 4 rad/s，求转动动能。",
+    "answer": "8.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=1\\,\\mathrm{kg}$，转动半径 $r=1\\,\\mathrm{m}$，角速度 $\\omega=4\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=1\\times 1^2=1.00\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 1.00\\times 4^2=8.00\\,\\mathrm{J}$。\n因此转动动能为 8.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_079",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 1 kg 的质点在半径 0.5 m 处做圆周运动，角速度为 4 rad/s，求转动动能。",
+    "answer": "2.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=1\\,\\mathrm{kg}$，转动半径 $r=0.5\\,\\mathrm{m}$，角速度 $\\omega=4\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=1\\times 0.5^2=0.25\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 0.25\\times 4^2=2.00\\,\\mathrm{J}$。\n因此转动动能为 2.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_080",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 2 kg 的质点在半径 1 m 处做圆周运动，角速度为 2 rad/s，求转动动能。",
+    "answer": "4.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=2\\,\\mathrm{kg}$，转动半径 $r=1\\,\\mathrm{m}$，角速度 $\\omega=2\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=2\\times 1^2=2.00\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 2.00\\times 2^2=4.00\\,\\mathrm{J}$。\n因此转动动能为 4.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_081",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 1 kg 的质点在半径 0.5 m 处做圆周运动，角速度为 2 rad/s，求转动动能。",
+    "answer": "0.50 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=1\\,\\mathrm{kg}$，转动半径 $r=0.5\\,\\mathrm{m}$，角速度 $\\omega=2\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=1\\times 0.5^2=0.25\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 0.25\\times 2^2=0.50\\,\\mathrm{J}$。\n因此转动动能为 0.50 J。"
+  },
+  {
+    "question_id": "PHY_HARD_082",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 1 kg 的质点在半径 1 m 处做圆周运动，角速度为 2 rad/s，求转动动能。",
+    "answer": "2.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=1\\,\\mathrm{kg}$，转动半径 $r=1\\,\\mathrm{m}$，角速度 $\\omega=2\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=1\\times 1^2=1.00\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 1.00\\times 2^2=2.00\\,\\mathrm{J}$。\n因此转动动能为 2.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_083",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 1 kg 的质点在半径 1.5 m 处做圆周运动，角速度为 6 rad/s，求转动动能。",
+    "answer": "40.50 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=1\\,\\mathrm{kg}$，转动半径 $r=1.5\\,\\mathrm{m}$，角速度 $\\omega=6\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=1\\times 1.5^2=2.25\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 2.25\\times 6^2=40.50\\,\\mathrm{J}$。\n因此转动动能为 40.50 J。"
+  },
+  {
+    "question_id": "PHY_HARD_084",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 3 kg 的质点在半径 1 m 处做圆周运动，角速度为 4 rad/s，求转动动能。",
+    "answer": "24.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=3\\,\\mathrm{kg}$，转动半径 $r=1\\,\\mathrm{m}$，角速度 $\\omega=4\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=3\\times 1^2=3.00\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 3.00\\times 4^2=24.00\\,\\mathrm{J}$。\n因此转动动能为 24.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_085",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 2 kg 的质点在半径 1.5 m 处做圆周运动，角速度为 6 rad/s，求转动动能。",
+    "answer": "81.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=2\\,\\mathrm{kg}$，转动半径 $r=1.5\\,\\mathrm{m}$，角速度 $\\omega=6\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=2\\times 1.5^2=4.50\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 4.50\\times 6^2=81.00\\,\\mathrm{J}$。\n因此转动动能为 81.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_086",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 3 kg 的质点在半径 1.5 m 处做圆周运动，角速度为 6 rad/s，求转动动能。",
+    "answer": "121.50 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=3\\,\\mathrm{kg}$，转动半径 $r=1.5\\,\\mathrm{m}$，角速度 $\\omega=6\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=3\\times 1.5^2=6.75\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 6.75\\times 6^2=121.50\\,\\mathrm{J}$。\n因此转动动能为 121.50 J。"
+  },
+  {
+    "question_id": "PHY_HARD_087",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 1 kg 的质点在半径 1 m 处做圆周运动，角速度为 4 rad/s，求转动动能。",
+    "answer": "8.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=1\\,\\mathrm{kg}$，转动半径 $r=1\\,\\mathrm{m}$，角速度 $\\omega=4\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=1\\times 1^2=1.00\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 1.00\\times 4^2=8.00\\,\\mathrm{J}$。\n因此转动动能为 8.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_088",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 3 kg 的质点在半径 0.5 m 处做圆周运动，角速度为 6 rad/s，求转动动能。",
+    "answer": "13.50 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=3\\,\\mathrm{kg}$，转动半径 $r=0.5\\,\\mathrm{m}$，角速度 $\\omega=6\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=3\\times 0.5^2=0.75\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 0.75\\times 6^2=13.50\\,\\mathrm{J}$。\n因此转动动能为 13.50 J。"
+  },
+  {
+    "question_id": "PHY_HARD_089",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 2 kg 的质点在半径 1 m 处做圆周运动，角速度为 6 rad/s，求转动动能。",
+    "answer": "36.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=2\\,\\mathrm{kg}$，转动半径 $r=1\\,\\mathrm{m}$，角速度 $\\omega=6\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=2\\times 1^2=2.00\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 2.00\\times 6^2=36.00\\,\\mathrm{J}$。\n因此转动动能为 36.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_090",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 1 kg 的质点在半径 1.5 m 处做圆周运动，角速度为 4 rad/s，求转动动能。",
+    "answer": "18.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=1\\,\\mathrm{kg}$，转动半径 $r=1.5\\,\\mathrm{m}$，角速度 $\\omega=4\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=1\\times 1.5^2=2.25\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 2.25\\times 4^2=18.00\\,\\mathrm{J}$。\n因此转动动能为 18.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_091",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 3 kg 的质点在半径 1.5 m 处做圆周运动，角速度为 4 rad/s，求转动动能。",
+    "answer": "54.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=3\\,\\mathrm{kg}$，转动半径 $r=1.5\\,\\mathrm{m}$，角速度 $\\omega=4\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=3\\times 1.5^2=6.75\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 6.75\\times 4^2=54.00\\,\\mathrm{J}$。\n因此转动动能为 54.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_092",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 2 kg 的质点在半径 1 m 处做圆周运动，角速度为 4 rad/s，求转动动能。",
+    "answer": "16.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=2\\,\\mathrm{kg}$，转动半径 $r=1\\,\\mathrm{m}$，角速度 $\\omega=4\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=2\\times 1^2=2.00\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 2.00\\times 4^2=16.00\\,\\mathrm{J}$。\n因此转动动能为 16.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_093",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 1 kg 的质点在半径 1.5 m 处做圆周运动，角速度为 6 rad/s，求转动动能。",
+    "answer": "40.50 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=1\\,\\mathrm{kg}$，转动半径 $r=1.5\\,\\mathrm{m}$，角速度 $\\omega=6\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=1\\times 1.5^2=2.25\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 2.25\\times 6^2=40.50\\,\\mathrm{J}$。\n因此转动动能为 40.50 J。"
+  },
+  {
+    "question_id": "PHY_HARD_094",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 2 kg 的质点在半径 0.5 m 处做圆周运动，角速度为 4 rad/s，求转动动能。",
+    "answer": "4.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=2\\,\\mathrm{kg}$，转动半径 $r=0.5\\,\\mathrm{m}$，角速度 $\\omega=4\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=2\\times 0.5^2=0.50\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 0.50\\times 4^2=4.00\\,\\mathrm{J}$。\n因此转动动能为 4.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_095",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 3 kg 的质点在半径 1 m 处做圆周运动，角速度为 4 rad/s，求转动动能。",
+    "answer": "24.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=3\\,\\mathrm{kg}$，转动半径 $r=1\\,\\mathrm{m}$，角速度 $\\omega=4\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=3\\times 1^2=3.00\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 3.00\\times 4^2=24.00\\,\\mathrm{J}$。\n因此转动动能为 24.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_096",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 3 kg 的质点在半径 0.5 m 处做圆周运动，角速度为 4 rad/s，求转动动能。",
+    "answer": "6.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=3\\,\\mathrm{kg}$，转动半径 $r=0.5\\,\\mathrm{m}$，角速度 $\\omega=4\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=3\\times 0.5^2=0.75\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 0.75\\times 4^2=6.00\\,\\mathrm{J}$。\n因此转动动能为 6.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_097",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 2 kg 的质点在半径 1 m 处做圆周运动，角速度为 6 rad/s，求转动动能。",
+    "answer": "36.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=2\\,\\mathrm{kg}$，转动半径 $r=1\\,\\mathrm{m}$，角速度 $\\omega=6\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=2\\times 1^2=2.00\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 2.00\\times 6^2=36.00\\,\\mathrm{J}$。\n因此转动动能为 36.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_098",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 1 kg 的质点在半径 1.5 m 处做圆周运动，角速度为 4 rad/s，求转动动能。",
+    "answer": "18.00 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=1\\,\\mathrm{kg}$，转动半径 $r=1.5\\,\\mathrm{m}$，角速度 $\\omega=4\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=1\\times 1.5^2=2.25\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 2.25\\times 4^2=18.00\\,\\mathrm{J}$。\n因此转动动能为 18.00 J。"
+  },
+  {
+    "question_id": "PHY_HARD_099",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 1 kg 的质点在半径 1.5 m 处做圆周运动，角速度为 2 rad/s，求转动动能。",
+    "answer": "4.50 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=1\\,\\mathrm{kg}$，转动半径 $r=1.5\\,\\mathrm{m}$，角速度 $\\omega=2\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=1\\times 1.5^2=2.25\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 2.25\\times 2^2=4.50\\,\\mathrm{J}$。\n因此转动动能为 4.50 J。"
+  },
+  {
+    "question_id": "PHY_HARD_100",
+    "type": "计算题",
+    "knowledge_point": "刚体转动，转动惯量与转动动能",
+    "difficulty": "困难",
+    "question": "质量为 3 kg 的质点在半径 0.5 m 处做圆周运动，角速度为 2 rad/s，求转动动能。",
+    "answer": "1.50 J",
+    "reasoning_process": "本题可以把该质点看作绕固定轴转动的刚体模型。\n1. 已知质点质量 $m=3\\,\\mathrm{kg}$，转动半径 $r=0.5\\,\\mathrm{m}$，角速度 $\\omega=2\\,\\mathrm{rad/s}$。\n2. 质点对转轴的转动惯量为：$I=mr^2$。\n   因而 $I=3\\times 0.5^2=0.75\\,\\mathrm{kg\\cdot m^2}$。\n3. 转动动能公式为：$E_k=\\frac12 I\\omega^2$。\n4. 代入得到：$E_k=\\frac12\\times 0.75\\times 2^2=1.50\\,\\mathrm{J}$。\n因此转动动能为 1.50 J。"
+  },
+  {
+    "question_id": "PHY_HARD_101",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 0.5 m，在磁场 B=1.5 T 中以速度 2 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "1.50 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1.5\\,\\mathrm{T}$，导体棒长度 $l=0.5\\,\\mathrm{m}$，运动速度 $v=2\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1.5\\times 0.5\\times 2=1.50\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 1.50 V。"
+  },
+  {
+    "question_id": "PHY_HARD_102",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 0.5 m，在磁场 B=0.5 T 中以速度 4 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "1.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=0.5\\,\\mathrm{T}$，导体棒长度 $l=0.5\\,\\mathrm{m}$，运动速度 $v=4\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=0.5\\times 0.5\\times 4=1.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 1.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_103",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 2 m，在磁场 B=1 T 中以速度 4 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "8.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1\\,\\mathrm{T}$，导体棒长度 $l=2\\,\\mathrm{m}$，运动速度 $v=4\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1\\times 2\\times 4=8.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 8.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_104",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 1 m，在磁场 B=1.5 T 中以速度 2 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "3.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1.5\\,\\mathrm{T}$，导体棒长度 $l=1\\,\\mathrm{m}$，运动速度 $v=2\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1.5\\times 1\\times 2=3.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 3.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_105",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 2 m，在磁场 B=1 T 中以速度 2 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "4.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1\\,\\mathrm{T}$，导体棒长度 $l=2\\,\\mathrm{m}$，运动速度 $v=2\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1\\times 2\\times 2=4.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 4.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_106",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 1 m，在磁场 B=1 T 中以速度 3 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "3.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1\\,\\mathrm{T}$，导体棒长度 $l=1\\,\\mathrm{m}$，运动速度 $v=3\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1\\times 1\\times 3=3.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 3.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_107",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 0.5 m，在磁场 B=1 T 中以速度 3 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "1.50 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1\\,\\mathrm{T}$，导体棒长度 $l=0.5\\,\\mathrm{m}$，运动速度 $v=3\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1\\times 0.5\\times 3=1.50\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 1.50 V。"
+  },
+  {
+    "question_id": "PHY_HARD_108",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 0.5 m，在磁场 B=1.5 T 中以速度 2 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "1.50 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1.5\\,\\mathrm{T}$，导体棒长度 $l=0.5\\,\\mathrm{m}$，运动速度 $v=2\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1.5\\times 0.5\\times 2=1.50\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 1.50 V。"
+  },
+  {
+    "question_id": "PHY_HARD_109",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 2 m，在磁场 B=0.5 T 中以速度 2 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "2.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=0.5\\,\\mathrm{T}$，导体棒长度 $l=2\\,\\mathrm{m}$，运动速度 $v=2\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=0.5\\times 2\\times 2=2.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 2.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_110",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 2 m，在磁场 B=1.5 T 中以速度 4 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "12.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1.5\\,\\mathrm{T}$，导体棒长度 $l=2\\,\\mathrm{m}$，运动速度 $v=4\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1.5\\times 2\\times 4=12.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 12.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_111",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 2 m，在磁场 B=1.5 T 中以速度 3 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "9.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1.5\\,\\mathrm{T}$，导体棒长度 $l=2\\,\\mathrm{m}$，运动速度 $v=3\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1.5\\times 2\\times 3=9.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 9.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_112",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 0.5 m，在磁场 B=1 T 中以速度 2 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "1.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1\\,\\mathrm{T}$，导体棒长度 $l=0.5\\,\\mathrm{m}$，运动速度 $v=2\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1\\times 0.5\\times 2=1.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 1.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_113",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 0.5 m，在磁场 B=0.5 T 中以速度 3 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "0.75 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=0.5\\,\\mathrm{T}$，导体棒长度 $l=0.5\\,\\mathrm{m}$，运动速度 $v=3\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=0.5\\times 0.5\\times 3=0.75\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 0.75 V。"
+  },
+  {
+    "question_id": "PHY_HARD_114",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 1 m，在磁场 B=1.5 T 中以速度 3 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "4.50 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1.5\\,\\mathrm{T}$，导体棒长度 $l=1\\,\\mathrm{m}$，运动速度 $v=3\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1.5\\times 1\\times 3=4.50\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 4.50 V。"
+  },
+  {
+    "question_id": "PHY_HARD_115",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 1 m，在磁场 B=1 T 中以速度 2 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "2.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1\\,\\mathrm{T}$，导体棒长度 $l=1\\,\\mathrm{m}$，运动速度 $v=2\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1\\times 1\\times 2=2.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 2.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_116",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 2 m，在磁场 B=1.5 T 中以速度 2 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "6.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1.5\\,\\mathrm{T}$，导体棒长度 $l=2\\,\\mathrm{m}$，运动速度 $v=2\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1.5\\times 2\\times 2=6.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 6.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_117",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 2 m，在磁场 B=0.5 T 中以速度 2 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "2.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=0.5\\,\\mathrm{T}$，导体棒长度 $l=2\\,\\mathrm{m}$，运动速度 $v=2\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=0.5\\times 2\\times 2=2.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 2.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_118",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 2 m，在磁场 B=1.5 T 中以速度 3 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "9.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1.5\\,\\mathrm{T}$，导体棒长度 $l=2\\,\\mathrm{m}$，运动速度 $v=3\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1.5\\times 2\\times 3=9.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 9.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_119",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 2 m，在磁场 B=1 T 中以速度 4 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "8.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1\\,\\mathrm{T}$，导体棒长度 $l=2\\,\\mathrm{m}$，运动速度 $v=4\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1\\times 2\\times 4=8.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 8.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_120",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 1 m，在磁场 B=1.5 T 中以速度 2 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "3.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1.5\\,\\mathrm{T}$，导体棒长度 $l=1\\,\\mathrm{m}$，运动速度 $v=2\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1.5\\times 1\\times 2=3.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 3.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_121",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 0.5 m，在磁场 B=1.5 T 中以速度 4 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "3.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1.5\\,\\mathrm{T}$，导体棒长度 $l=0.5\\,\\mathrm{m}$，运动速度 $v=4\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1.5\\times 0.5\\times 4=3.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 3.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_122",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 1 m，在磁场 B=0.5 T 中以速度 2 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "1.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=0.5\\,\\mathrm{T}$，导体棒长度 $l=1\\,\\mathrm{m}$，运动速度 $v=2\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=0.5\\times 1\\times 2=1.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 1.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_123",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 2 m，在磁场 B=0.5 T 中以速度 4 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "4.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=0.5\\,\\mathrm{T}$，导体棒长度 $l=2\\,\\mathrm{m}$，运动速度 $v=4\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=0.5\\times 2\\times 4=4.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 4.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_124",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 2 m，在磁场 B=0.5 T 中以速度 3 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "3.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=0.5\\,\\mathrm{T}$，导体棒长度 $l=2\\,\\mathrm{m}$，运动速度 $v=3\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=0.5\\times 2\\times 3=3.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 3.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_125",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 1 m，在磁场 B=1.5 T 中以速度 2 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "3.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1.5\\,\\mathrm{T}$，导体棒长度 $l=1\\,\\mathrm{m}$，运动速度 $v=2\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1.5\\times 1\\times 2=3.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 3.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_126",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 1 m，在磁场 B=1.5 T 中以速度 3 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "4.50 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1.5\\,\\mathrm{T}$，导体棒长度 $l=1\\,\\mathrm{m}$，运动速度 $v=3\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1.5\\times 1\\times 3=4.50\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 4.50 V。"
+  },
+  {
+    "question_id": "PHY_HARD_127",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 1 m，在磁场 B=0.5 T 中以速度 3 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "1.50 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=0.5\\,\\mathrm{T}$，导体棒长度 $l=1\\,\\mathrm{m}$，运动速度 $v=3\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=0.5\\times 1\\times 3=1.50\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 1.50 V。"
+  },
+  {
+    "question_id": "PHY_HARD_128",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 2 m，在磁场 B=1 T 中以速度 3 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "6.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1\\,\\mathrm{T}$，导体棒长度 $l=2\\,\\mathrm{m}$，运动速度 $v=3\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1\\times 2\\times 3=6.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 6.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_129",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 1 m，在磁场 B=1.5 T 中以速度 4 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "6.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1.5\\,\\mathrm{T}$，导体棒长度 $l=1\\,\\mathrm{m}$，运动速度 $v=4\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1.5\\times 1\\times 4=6.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 6.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_130",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 1 m，在磁场 B=1.5 T 中以速度 2 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "3.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1.5\\,\\mathrm{T}$，导体棒长度 $l=1\\,\\mathrm{m}$，运动速度 $v=2\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1.5\\times 1\\times 2=3.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 3.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_131",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 2 m，在磁场 B=0.5 T 中以速度 3 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "3.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=0.5\\,\\mathrm{T}$，导体棒长度 $l=2\\,\\mathrm{m}$，运动速度 $v=3\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=0.5\\times 2\\times 3=3.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 3.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_132",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 1 m，在磁场 B=0.5 T 中以速度 2 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "1.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=0.5\\,\\mathrm{T}$，导体棒长度 $l=1\\,\\mathrm{m}$，运动速度 $v=2\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=0.5\\times 1\\times 2=1.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 1.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_133",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 2 m，在磁场 B=1 T 中以速度 4 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "8.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1\\,\\mathrm{T}$，导体棒长度 $l=2\\,\\mathrm{m}$，运动速度 $v=4\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1\\times 2\\times 4=8.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 8.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_134",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 0.5 m，在磁场 B=1 T 中以速度 4 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "2.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1\\,\\mathrm{T}$，导体棒长度 $l=0.5\\,\\mathrm{m}$，运动速度 $v=4\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1\\times 0.5\\times 4=2.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 2.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_135",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 0.5 m，在磁场 B=0.5 T 中以速度 3 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "0.75 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=0.5\\,\\mathrm{T}$，导体棒长度 $l=0.5\\,\\mathrm{m}$，运动速度 $v=3\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=0.5\\times 0.5\\times 3=0.75\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 0.75 V。"
+  },
+  {
+    "question_id": "PHY_HARD_136",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 2 m，在磁场 B=1 T 中以速度 4 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "8.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1\\,\\mathrm{T}$，导体棒长度 $l=2\\,\\mathrm{m}$，运动速度 $v=4\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1\\times 2\\times 4=8.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 8.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_137",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 0.5 m，在磁场 B=1 T 中以速度 4 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "2.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1\\,\\mathrm{T}$，导体棒长度 $l=0.5\\,\\mathrm{m}$，运动速度 $v=4\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1\\times 0.5\\times 4=2.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 2.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_138",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 0.5 m，在磁场 B=1.5 T 中以速度 2 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "1.50 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1.5\\,\\mathrm{T}$，导体棒长度 $l=0.5\\,\\mathrm{m}$，运动速度 $v=2\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1.5\\times 0.5\\times 2=1.50\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 1.50 V。"
+  },
+  {
+    "question_id": "PHY_HARD_139",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 0.5 m，在磁场 B=1.5 T 中以速度 4 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "3.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1.5\\,\\mathrm{T}$，导体棒长度 $l=0.5\\,\\mathrm{m}$，运动速度 $v=4\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1.5\\times 0.5\\times 4=3.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 3.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_140",
+    "type": "计算题",
+    "knowledge_point": "电磁感应，动生电动势",
+    "difficulty": "困难",
+    "question": "导体棒长 1 m，在磁场 B=1.5 T 中以速度 4 m/s 垂直切割磁感线运动，求感应电动势。",
+    "answer": "6.00 V",
+    "reasoning_process": "本题属于导体棒切割磁感线产生动生电动势的问题。\n1. 已知磁感应强度 $B=1.5\\,\\mathrm{T}$，导体棒长度 $l=1\\,\\mathrm{m}$，运动速度 $v=4\\,\\mathrm{m/s}$。\n2. 当导体棒垂直切割磁感线运动时，动生电动势公式为：$\\mathcal{E}=Blv$。\n3. 代入得：$\\mathcal{E}=1.5\\times 1\\times 4=6.00\\,\\mathrm{V}$。\n4. 该结果也可理解为单位电荷在棒两端受到洛伦兹力分离所形成的电势差。\n因此感应电动势为 6.00 V。"
+  },
+  {
+    "question_id": "PHY_HARD_141",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.6 的介质射向折射率 1.0 的介质，求临界角的正弦值。",
+    "answer": "0.62",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.6$ 射向折射率较小的介质 $n_1=1$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1/1.6=0.62$。\n因此临界角的正弦值为 0.62。"
+  },
+  {
+    "question_id": "PHY_HARD_142",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.5 的介质射向折射率 1.33 的介质，求临界角的正弦值。",
+    "answer": "0.89",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.5$ 射向折射率较小的介质 $n_1=1.33$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1.33/1.5=0.89$。\n因此临界角的正弦值为 0.89。"
+  },
+  {
+    "question_id": "PHY_HARD_143",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.5 的介质射向折射率 1.0 的介质，求临界角的正弦值。",
+    "answer": "0.67",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.5$ 射向折射率较小的介质 $n_1=1$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1/1.5=0.67$。\n因此临界角的正弦值为 0.67。"
+  },
+  {
+    "question_id": "PHY_HARD_144",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.6 的介质射向折射率 1.0 的介质，求临界角的正弦值。",
+    "answer": "0.62",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.6$ 射向折射率较小的介质 $n_1=1$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1/1.6=0.62$。\n因此临界角的正弦值为 0.62。"
+  },
+  {
+    "question_id": "PHY_HARD_145",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.6 的介质射向折射率 1.33 的介质，求临界角的正弦值。",
+    "answer": "0.83",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.6$ 射向折射率较小的介质 $n_1=1.33$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1.33/1.6=0.83$。\n因此临界角的正弦值为 0.83。"
+  },
+  {
+    "question_id": "PHY_HARD_146",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.5 的介质射向折射率 1.33 的介质，求临界角的正弦值。",
+    "answer": "0.89",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.5$ 射向折射率较小的介质 $n_1=1.33$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1.33/1.5=0.89$。\n因此临界角的正弦值为 0.89。"
+  },
+  {
+    "question_id": "PHY_HARD_147",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.5 的介质射向折射率 1.0 的介质，求临界角的正弦值。",
+    "answer": "0.67",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.5$ 射向折射率较小的介质 $n_1=1$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1/1.5=0.67$。\n因此临界角的正弦值为 0.67。"
+  },
+  {
+    "question_id": "PHY_HARD_148",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.6 的介质射向折射率 1.33 的介质，求临界角的正弦值。",
+    "answer": "0.83",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.6$ 射向折射率较小的介质 $n_1=1.33$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1.33/1.6=0.83$。\n因此临界角的正弦值为 0.83。"
+  },
+  {
+    "question_id": "PHY_HARD_149",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.6 的介质射向折射率 1.33 的介质，求临界角的正弦值。",
+    "answer": "0.83",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.6$ 射向折射率较小的介质 $n_1=1.33$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1.33/1.6=0.83$。\n因此临界角的正弦值为 0.83。"
+  },
+  {
+    "question_id": "PHY_HARD_150",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.6 的介质射向折射率 1.0 的介质，求临界角的正弦值。",
+    "answer": "0.62",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.6$ 射向折射率较小的介质 $n_1=1$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1/1.6=0.62$。\n因此临界角的正弦值为 0.62。"
+  },
+  {
+    "question_id": "PHY_HARD_151",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.5 的介质射向折射率 1.0 的介质，求临界角的正弦值。",
+    "answer": "0.67",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.5$ 射向折射率较小的介质 $n_1=1$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1/1.5=0.67$。\n因此临界角的正弦值为 0.67。"
+  },
+  {
+    "question_id": "PHY_HARD_152",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.6 的介质射向折射率 1.33 的介质，求临界角的正弦值。",
+    "answer": "0.83",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.6$ 射向折射率较小的介质 $n_1=1.33$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1.33/1.6=0.83$。\n因此临界角的正弦值为 0.83。"
+  },
+  {
+    "question_id": "PHY_HARD_153",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.5 的介质射向折射率 1.33 的介质，求临界角的正弦值。",
+    "answer": "0.89",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.5$ 射向折射率较小的介质 $n_1=1.33$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1.33/1.5=0.89$。\n因此临界角的正弦值为 0.89。"
+  },
+  {
+    "question_id": "PHY_HARD_154",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.5 的介质射向折射率 1.0 的介质，求临界角的正弦值。",
+    "answer": "0.67",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.5$ 射向折射率较小的介质 $n_1=1$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1/1.5=0.67$。\n因此临界角的正弦值为 0.67。"
+  },
+  {
+    "question_id": "PHY_HARD_155",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.5 的介质射向折射率 1.33 的介质，求临界角的正弦值。",
+    "answer": "0.89",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.5$ 射向折射率较小的介质 $n_1=1.33$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1.33/1.5=0.89$。\n因此临界角的正弦值为 0.89。"
+  },
+  {
+    "question_id": "PHY_HARD_156",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.5 的介质射向折射率 1.0 的介质，求临界角的正弦值。",
+    "answer": "0.67",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.5$ 射向折射率较小的介质 $n_1=1$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1/1.5=0.67$。\n因此临界角的正弦值为 0.67。"
+  },
+  {
+    "question_id": "PHY_HARD_157",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.5 的介质射向折射率 1.0 的介质，求临界角的正弦值。",
+    "answer": "0.67",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.5$ 射向折射率较小的介质 $n_1=1$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1/1.5=0.67$。\n因此临界角的正弦值为 0.67。"
+  },
+  {
+    "question_id": "PHY_HARD_158",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.5 的介质射向折射率 1.33 的介质，求临界角的正弦值。",
+    "answer": "0.89",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.5$ 射向折射率较小的介质 $n_1=1.33$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1.33/1.5=0.89$。\n因此临界角的正弦值为 0.89。"
+  },
+  {
+    "question_id": "PHY_HARD_159",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.6 的介质射向折射率 1.33 的介质，求临界角的正弦值。",
+    "answer": "0.83",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.6$ 射向折射率较小的介质 $n_1=1.33$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1.33/1.6=0.83$。\n因此临界角的正弦值为 0.83。"
+  },
+  {
+    "question_id": "PHY_HARD_160",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.5 的介质射向折射率 1.0 的介质，求临界角的正弦值。",
+    "answer": "0.67",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.5$ 射向折射率较小的介质 $n_1=1$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1/1.5=0.67$。\n因此临界角的正弦值为 0.67。"
+  },
+  {
+    "question_id": "PHY_HARD_161",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.5 的介质射向折射率 1.0 的介质，求临界角的正弦值。",
+    "answer": "0.67",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.5$ 射向折射率较小的介质 $n_1=1$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1/1.5=0.67$。\n因此临界角的正弦值为 0.67。"
+  },
+  {
+    "question_id": "PHY_HARD_162",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.6 的介质射向折射率 1.0 的介质，求临界角的正弦值。",
+    "answer": "0.62",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.6$ 射向折射率较小的介质 $n_1=1$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1/1.6=0.62$。\n因此临界角的正弦值为 0.62。"
+  },
+  {
+    "question_id": "PHY_HARD_163",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.5 的介质射向折射率 1.33 的介质，求临界角的正弦值。",
+    "answer": "0.89",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.5$ 射向折射率较小的介质 $n_1=1.33$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1.33/1.5=0.89$。\n因此临界角的正弦值为 0.89。"
+  },
+  {
+    "question_id": "PHY_HARD_164",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.6 的介质射向折射率 1.0 的介质，求临界角的正弦值。",
+    "answer": "0.62",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.6$ 射向折射率较小的介质 $n_1=1$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1/1.6=0.62$。\n因此临界角的正弦值为 0.62。"
+  },
+  {
+    "question_id": "PHY_HARD_165",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.6 的介质射向折射率 1.33 的介质，求临界角的正弦值。",
+    "answer": "0.83",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.6$ 射向折射率较小的介质 $n_1=1.33$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1.33/1.6=0.83$。\n因此临界角的正弦值为 0.83。"
+  },
+  {
+    "question_id": "PHY_HARD_166",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.6 的介质射向折射率 1.0 的介质，求临界角的正弦值。",
+    "answer": "0.62",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.6$ 射向折射率较小的介质 $n_1=1$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1/1.6=0.62$。\n因此临界角的正弦值为 0.62。"
+  },
+  {
+    "question_id": "PHY_HARD_167",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.6 的介质射向折射率 1.33 的介质，求临界角的正弦值。",
+    "answer": "0.83",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.6$ 射向折射率较小的介质 $n_1=1.33$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1.33/1.6=0.83$。\n因此临界角的正弦值为 0.83。"
+  },
+  {
+    "question_id": "PHY_HARD_168",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.5 的介质射向折射率 1.0 的介质，求临界角的正弦值。",
+    "answer": "0.67",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.5$ 射向折射率较小的介质 $n_1=1$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1/1.5=0.67$。\n因此临界角的正弦值为 0.67。"
+  },
+  {
+    "question_id": "PHY_HARD_169",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.6 的介质射向折射率 1.33 的介质，求临界角的正弦值。",
+    "answer": "0.83",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.6$ 射向折射率较小的介质 $n_1=1.33$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1.33/1.6=0.83$。\n因此临界角的正弦值为 0.83。"
+  },
+  {
+    "question_id": "PHY_HARD_170",
+    "type": "计算题",
+    "knowledge_point": "全反射，临界角",
+    "difficulty": "困难",
+    "question": "光从折射率 1.5 的介质射向折射率 1.33 的介质，求临界角的正弦值。",
+    "answer": "0.89",
+    "reasoning_process": "这是全反射临界角问题。\n1. 光线从折射率较大的介质 $n_2=1.5$ 射向折射率较小的介质 $n_1=1.33$，满足发生全反射的基本条件。\n2. 临界角 $C$ 满足折射角为 $90^\\circ$，由折射定律有：\n   $n_2\\sin C=n_1\\sin 90^\\circ=n_1$。\n3. 因而：$\\sin C=\\dfrac{n_1}{n_2}$。\n4. 代入得：$\\sin C=1.33/1.5=0.89$。\n因此临界角的正弦值为 0.89。"
+  },
+  {
+    "question_id": "PHY_HARD_171",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.6c，求洛伦兹因子。",
+    "answer": "1.25",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.6$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.6^2}}\\approx 1.25$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.25。"
+  },
+  {
+    "question_id": "PHY_HARD_172",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.6c，求洛伦兹因子。",
+    "answer": "1.25",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.6$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.6^2}}\\approx 1.25$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.25。"
+  },
+  {
+    "question_id": "PHY_HARD_173",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.8c，求洛伦兹因子。",
+    "answer": "1.67",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.8$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.8^2}}\\approx 1.67$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.67。"
+  },
+  {
+    "question_id": "PHY_HARD_174",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.8c，求洛伦兹因子。",
+    "answer": "1.67",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.8$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.8^2}}\\approx 1.67$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.67。"
+  },
+  {
+    "question_id": "PHY_HARD_175",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.8c，求洛伦兹因子。",
+    "answer": "1.67",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.8$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.8^2}}\\approx 1.67$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.67。"
+  },
+  {
+    "question_id": "PHY_HARD_176",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.9c，求洛伦兹因子。",
+    "answer": "2.29",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.9$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.9^2}}\\approx 2.29$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 2.29。"
+  },
+  {
+    "question_id": "PHY_HARD_177",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.6c，求洛伦兹因子。",
+    "answer": "1.25",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.6$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.6^2}}\\approx 1.25$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.25。"
+  },
+  {
+    "question_id": "PHY_HARD_178",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.6c，求洛伦兹因子。",
+    "answer": "1.25",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.6$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.6^2}}\\approx 1.25$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.25。"
+  },
+  {
+    "question_id": "PHY_HARD_179",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.8c，求洛伦兹因子。",
+    "answer": "1.67",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.8$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.8^2}}\\approx 1.67$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.67。"
+  },
+  {
+    "question_id": "PHY_HARD_180",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.8c，求洛伦兹因子。",
+    "answer": "1.67",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.8$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.8^2}}\\approx 1.67$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.67。"
+  },
+  {
+    "question_id": "PHY_HARD_181",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.9c，求洛伦兹因子。",
+    "answer": "2.29",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.9$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.9^2}}\\approx 2.29$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 2.29。"
+  },
+  {
+    "question_id": "PHY_HARD_182",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.9c，求洛伦兹因子。",
+    "answer": "2.29",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.9$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.9^2}}\\approx 2.29$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 2.29。"
+  },
+  {
+    "question_id": "PHY_HARD_183",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.8c，求洛伦兹因子。",
+    "answer": "1.67",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.8$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.8^2}}\\approx 1.67$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.67。"
+  },
+  {
+    "question_id": "PHY_HARD_184",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.8c，求洛伦兹因子。",
+    "answer": "1.67",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.8$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.8^2}}\\approx 1.67$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.67。"
+  },
+  {
+    "question_id": "PHY_HARD_185",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.9c，求洛伦兹因子。",
+    "answer": "2.29",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.9$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.9^2}}\\approx 2.29$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 2.29。"
+  },
+  {
+    "question_id": "PHY_HARD_186",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.9c，求洛伦兹因子。",
+    "answer": "2.29",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.9$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.9^2}}\\approx 2.29$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 2.29。"
+  },
+  {
+    "question_id": "PHY_HARD_187",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.8c，求洛伦兹因子。",
+    "answer": "1.67",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.8$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.8^2}}\\approx 1.67$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.67。"
+  },
+  {
+    "question_id": "PHY_HARD_188",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.8c，求洛伦兹因子。",
+    "answer": "1.67",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.8$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.8^2}}\\approx 1.67$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.67。"
+  },
+  {
+    "question_id": "PHY_HARD_189",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.8c，求洛伦兹因子。",
+    "answer": "1.67",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.8$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.8^2}}\\approx 1.67$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.67。"
+  },
+  {
+    "question_id": "PHY_HARD_190",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.6c，求洛伦兹因子。",
+    "answer": "1.25",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.6$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.6^2}}\\approx 1.25$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.25。"
+  },
+  {
+    "question_id": "PHY_HARD_191",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.6c，求洛伦兹因子。",
+    "answer": "1.25",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.6$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.6^2}}\\approx 1.25$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.25。"
+  },
+  {
+    "question_id": "PHY_HARD_192",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.8c，求洛伦兹因子。",
+    "answer": "1.67",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.8$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.8^2}}\\approx 1.67$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.67。"
+  },
+  {
+    "question_id": "PHY_HARD_193",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.6c，求洛伦兹因子。",
+    "answer": "1.25",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.6$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.6^2}}\\approx 1.25$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.25。"
+  },
+  {
+    "question_id": "PHY_HARD_194",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.9c，求洛伦兹因子。",
+    "answer": "2.29",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.9$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.9^2}}\\approx 2.29$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 2.29。"
+  },
+  {
+    "question_id": "PHY_HARD_195",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.8c，求洛伦兹因子。",
+    "answer": "1.67",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.8$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.8^2}}\\approx 1.67$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.67。"
+  },
+  {
+    "question_id": "PHY_HARD_196",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.8c，求洛伦兹因子。",
+    "answer": "1.67",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.8$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.8^2}}\\approx 1.67$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.67。"
+  },
+  {
+    "question_id": "PHY_HARD_197",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.8c，求洛伦兹因子。",
+    "answer": "1.67",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.8$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.8^2}}\\approx 1.67$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.67。"
+  },
+  {
+    "question_id": "PHY_HARD_198",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.9c，求洛伦兹因子。",
+    "answer": "2.29",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.9$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.9^2}}\\approx 2.29$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 2.29。"
+  },
+  {
+    "question_id": "PHY_HARD_199",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.8c，求洛伦兹因子。",
+    "answer": "1.67",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.8$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.8^2}}\\approx 1.67$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.67。"
+  },
+  {
+    "question_id": "PHY_HARD_200",
+    "type": "计算题",
+    "knowledge_point": "狭义相对论，洛伦兹因子",
+    "difficulty": "困难",
+    "question": "粒子速度为 0.6c，求洛伦兹因子。",
+    "answer": "1.25",
+    "reasoning_process": "本题要求计算狭义相对论中的洛伦兹因子。\n1. 设粒子速度与光速之比为 $\\beta=v/c=0.6$。\n2. 洛伦兹因子的定义式为：$\\gamma=\\dfrac{1}{\\sqrt{1-\\beta^2}}$。\n3. 代入得：$\\gamma=\\dfrac{1}{\\sqrt{1-0.6^2}}\\approx 1.25$。\n4. 洛伦兹因子反映了高速运动下时间延缓、长度收缩和相对论动量增长等效应的强弱。\n因此该粒子的洛伦兹因子为 1.25。"
+  }
+]
