@@ -1,0 +1,4002 @@
+[
+  {
+    "question_id": "PHY_001",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=2Ω，两端电压U=14V，求电流。",
+    "answer": "7.0A",
+    "reasoning_process": "I=U/R=14/2=7.0A"
+  },
+  {
+    "question_id": "PHY_002",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "电阻R=1Ω，两端电压U=7V，求电流。",
+    "answer": "7.0A",
+    "reasoning_process": "I=U/R=7/1=7.0A"
+  },
+  {
+    "question_id": "PHY_003",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=10Ω，两端电压U=16V，求电流。",
+    "answer": "1.6A",
+    "reasoning_process": "I=U/R=16/10=1.6A"
+  },
+  {
+    "question_id": "PHY_004",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "一质量为8kg的物体以速度1m/s运动，求动能。",
+    "answer": "4.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×8×1^2=4.0J"
+  },
+  {
+    "question_id": "PHY_005",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为5kg的物体以速度1m/s运动，求动能。",
+    "answer": "2.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×5×1^2=2.5J"
+  },
+  {
+    "question_id": "PHY_006",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度2m/s，加速度4m/s²，时间5s，求末速度。",
+    "answer": "22m/s",
+    "reasoning_process": "v=v0+at=2+4×5=22m/s"
+  },
+  {
+    "question_id": "PHY_007",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为2kg的物体以速度9m/s运动，求动能。",
+    "answer": "81.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×2×9^2=81.0J"
+  },
+  {
+    "question_id": "PHY_008",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数63N/m，伸长0.3m，求弹力。",
+    "answer": "18.9N",
+    "reasoning_process": "F=kx=63×0.3=18.9N"
+  },
+  {
+    "question_id": "PHY_009",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度39m，求落地速度(g取9.8)。",
+    "answer": "27.65m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×39)=27.65m/s"
+  },
+  {
+    "question_id": "PHY_010",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为9kg的物体以速度1m/s运动，求动能。",
+    "answer": "4.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×9×1^2=4.5J"
+  },
+  {
+    "question_id": "PHY_011",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数96N/m，伸长1.0m，求弹力。",
+    "answer": "96.0N",
+    "reasoning_process": "F=kx=96×1.0=96.0N"
+  },
+  {
+    "question_id": "PHY_012",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "自由落体高度50m，求落地速度(g取9.8)。",
+    "answer": "31.30m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×50)=31.30m/s"
+  },
+  {
+    "question_id": "PHY_013",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度5m/s，加速度4m/s²，时间3s，求末速度。",
+    "answer": "17m/s",
+    "reasoning_process": "v=v0+at=5+4×3=17m/s"
+  },
+  {
+    "question_id": "PHY_014",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一质量为1kg的物体以速度5m/s运动，求动能。",
+    "answer": "12.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×1×5^2=12.5J"
+  },
+  {
+    "question_id": "PHY_015",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度10m/s，加速度4m/s²，时间5s，求末速度。",
+    "answer": "30m/s",
+    "reasoning_process": "v=v0+at=10+4×5=30m/s"
+  },
+  {
+    "question_id": "PHY_016",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "电阻R=2Ω，两端电压U=13V，求电流。",
+    "answer": "6.5A",
+    "reasoning_process": "I=U/R=13/2=6.5A"
+  },
+  {
+    "question_id": "PHY_017",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "电阻R=6Ω，两端电压U=8V，求电流。",
+    "answer": "1.3333333333333333A",
+    "reasoning_process": "I=U/R=8/6=1.3333333333333333A"
+  },
+  {
+    "question_id": "PHY_018",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "电阻R=1Ω，两端电压U=18V，求电流。",
+    "answer": "18.0A",
+    "reasoning_process": "I=U/R=18/1=18.0A"
+  },
+  {
+    "question_id": "PHY_019",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=3Ω，两端电压U=14V，求电流。",
+    "answer": "4.666666666666667A",
+    "reasoning_process": "I=U/R=14/3=4.666666666666667A"
+  },
+  {
+    "question_id": "PHY_020",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为4kg的物体以速度5m/s运动，求动能。",
+    "answer": "50.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×4×5^2=50.0J"
+  },
+  {
+    "question_id": "PHY_021",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为1kg的物体以速度2m/s运动，求动能。",
+    "answer": "2.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×1×2^2=2.0J"
+  },
+  {
+    "question_id": "PHY_022",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "弹簧劲度系数69N/m，伸长0.3m，求弹力。",
+    "answer": "20.7N",
+    "reasoning_process": "F=kx=69×0.3=20.7N"
+  },
+  {
+    "question_id": "PHY_023",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "电阻R=8Ω，两端电压U=20V，求电流。",
+    "answer": "2.5A",
+    "reasoning_process": "I=U/R=20/8=2.5A"
+  },
+  {
+    "question_id": "PHY_024",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数170N/m，伸长0.7m，求弹力。",
+    "answer": "118.99999999999999N",
+    "reasoning_process": "F=kx=170×0.7=118.99999999999999N"
+  },
+  {
+    "question_id": "PHY_025",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一质量为9kg的物体以速度8m/s运动，求动能。",
+    "answer": "288.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×9×8^2=288.0J"
+  },
+  {
+    "question_id": "PHY_026",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度4m/s，加速度3m/s²，时间2s，求末速度。",
+    "answer": "10m/s",
+    "reasoning_process": "v=v0+at=4+3×2=10m/s"
+  },
+  {
+    "question_id": "PHY_027",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为4kg的物体以速度3m/s运动，求动能。",
+    "answer": "18.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×4×3^2=18.0J"
+  },
+  {
+    "question_id": "PHY_028",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "自由落体高度47m，求落地速度(g取9.8)。",
+    "answer": "30.35m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×47)=30.35m/s"
+  },
+  {
+    "question_id": "PHY_029",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度6m/s，加速度4m/s²，时间4s，求末速度。",
+    "answer": "22m/s",
+    "reasoning_process": "v=v0+at=6+4×4=22m/s"
+  },
+  {
+    "question_id": "PHY_030",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "电阻R=10Ω，两端电压U=11V，求电流。",
+    "answer": "1.1A",
+    "reasoning_process": "I=U/R=11/10=1.1A"
+  },
+  {
+    "question_id": "PHY_031",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数58N/m，伸长0.1m，求弹力。",
+    "answer": "5.800000000000001N",
+    "reasoning_process": "F=kx=58×0.1=5.800000000000001N"
+  },
+  {
+    "question_id": "PHY_032",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "自由落体高度46m，求落地速度(g取9.8)。",
+    "answer": "30.03m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×46)=30.03m/s"
+  },
+  {
+    "question_id": "PHY_033",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为6kg的物体以速度8m/s运动，求动能。",
+    "answer": "192.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×6×8^2=192.0J"
+  },
+  {
+    "question_id": "PHY_034",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数17N/m，伸长0.5m，求弹力。",
+    "answer": "8.5N",
+    "reasoning_process": "F=kx=17×0.5=8.5N"
+  },
+  {
+    "question_id": "PHY_035",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "自由落体高度27m，求落地速度(g取9.8)。",
+    "answer": "23.00m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×27)=23.00m/s"
+  },
+  {
+    "question_id": "PHY_036",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度22m，求落地速度(g取9.8)。",
+    "answer": "20.77m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×22)=20.77m/s"
+  },
+  {
+    "question_id": "PHY_037",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数20N/m，伸长0.9m，求弹力。",
+    "answer": "18.0N",
+    "reasoning_process": "F=kx=20×0.9=18.0N"
+  },
+  {
+    "question_id": "PHY_038",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度10m/s，加速度4m/s²，时间1s，求末速度。",
+    "answer": "14m/s",
+    "reasoning_process": "v=v0+at=10+4×1=14m/s"
+  },
+  {
+    "question_id": "PHY_039",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度1m/s，加速度4m/s²，时间1s，求末速度。",
+    "answer": "5m/s",
+    "reasoning_process": "v=v0+at=1+4×1=5m/s"
+  },
+  {
+    "question_id": "PHY_040",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数64N/m，伸长0.8m，求弹力。",
+    "answer": "51.2N",
+    "reasoning_process": "F=kx=64×0.8=51.2N"
+  },
+  {
+    "question_id": "PHY_041",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度10m/s，加速度5m/s²，时间2s，求末速度。",
+    "answer": "20m/s",
+    "reasoning_process": "v=v0+at=10+5×2=20m/s"
+  },
+  {
+    "question_id": "PHY_042",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "电阻R=9Ω，两端电压U=2V，求电流。",
+    "answer": "0.2222222222222222A",
+    "reasoning_process": "I=U/R=2/9=0.2222222222222222A"
+  },
+  {
+    "question_id": "PHY_043",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为4kg的物体以速度7m/s运动，求动能。",
+    "answer": "98.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×4×7^2=98.0J"
+  },
+  {
+    "question_id": "PHY_044",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数69N/m，伸长0.1m，求弹力。",
+    "answer": "6.9N",
+    "reasoning_process": "F=kx=69×0.1=6.9N"
+  },
+  {
+    "question_id": "PHY_045",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数42N/m，伸长0.6m，求弹力。",
+    "answer": "25.2N",
+    "reasoning_process": "F=kx=42×0.6=25.2N"
+  },
+  {
+    "question_id": "PHY_046",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度11m，求落地速度(g取9.8)。",
+    "answer": "14.68m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×11)=14.68m/s"
+  },
+  {
+    "question_id": "PHY_047",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "一质量为2kg的物体以速度8m/s运动，求动能。",
+    "answer": "64.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×2×8^2=64.0J"
+  },
+  {
+    "question_id": "PHY_048",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度1m，求落地速度(g取9.8)。",
+    "answer": "4.43m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×1)=4.43m/s"
+  },
+  {
+    "question_id": "PHY_049",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数43N/m，伸长0.1m，求弹力。",
+    "answer": "4.3N",
+    "reasoning_process": "F=kx=43×0.1=4.3N"
+  },
+  {
+    "question_id": "PHY_050",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数70N/m，伸长0.6m，求弹力。",
+    "answer": "42.0N",
+    "reasoning_process": "F=kx=70×0.6=42.0N"
+  },
+  {
+    "question_id": "PHY_051",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=8Ω，两端电压U=7V，求电流。",
+    "answer": "0.875A",
+    "reasoning_process": "I=U/R=7/8=0.875A"
+  },
+  {
+    "question_id": "PHY_052",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=3Ω，两端电压U=17V，求电流。",
+    "answer": "5.666666666666667A",
+    "reasoning_process": "I=U/R=17/3=5.666666666666667A"
+  },
+  {
+    "question_id": "PHY_053",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度35m，求落地速度(g取9.8)。",
+    "answer": "26.19m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×35)=26.19m/s"
+  },
+  {
+    "question_id": "PHY_054",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "电阻R=8Ω，两端电压U=19V，求电流。",
+    "answer": "2.375A",
+    "reasoning_process": "I=U/R=19/8=2.375A"
+  },
+  {
+    "question_id": "PHY_055",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "自由落体高度13m，求落地速度(g取9.8)。",
+    "answer": "15.96m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×13)=15.96m/s"
+  },
+  {
+    "question_id": "PHY_056",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度1m/s，加速度1m/s²，时间4s，求末速度。",
+    "answer": "5m/s",
+    "reasoning_process": "v=v0+at=1+1×4=5m/s"
+  },
+  {
+    "question_id": "PHY_057",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "自由落体高度20m，求落地速度(g取9.8)。",
+    "answer": "19.80m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×20)=19.80m/s"
+  },
+  {
+    "question_id": "PHY_058",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为9kg的物体以速度4m/s运动，求动能。",
+    "answer": "72.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×9×4^2=72.0J"
+  },
+  {
+    "question_id": "PHY_059",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=7Ω，两端电压U=12V，求电流。",
+    "answer": "1.7142857142857142A",
+    "reasoning_process": "I=U/R=12/7=1.7142857142857142A"
+  },
+  {
+    "question_id": "PHY_060",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度1m，求落地速度(g取9.8)。",
+    "answer": "4.43m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×1)=4.43m/s"
+  },
+  {
+    "question_id": "PHY_061",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数30N/m，伸长0.6m，求弹力。",
+    "answer": "18.0N",
+    "reasoning_process": "F=kx=30×0.6=18.0N"
+  },
+  {
+    "question_id": "PHY_062",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=2Ω，两端电压U=10V，求电流。",
+    "answer": "5.0A",
+    "reasoning_process": "I=U/R=10/2=5.0A"
+  },
+  {
+    "question_id": "PHY_063",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "电阻R=8Ω，两端电压U=1V，求电流。",
+    "answer": "0.125A",
+    "reasoning_process": "I=U/R=1/8=0.125A"
+  },
+  {
+    "question_id": "PHY_064",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=7Ω，两端电压U=19V，求电流。",
+    "answer": "2.7142857142857144A",
+    "reasoning_process": "I=U/R=19/7=2.7142857142857144A"
+  },
+  {
+    "question_id": "PHY_065",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度1m/s，加速度4m/s²，时间3s，求末速度。",
+    "answer": "13m/s",
+    "reasoning_process": "v=v0+at=1+4×3=13m/s"
+  },
+  {
+    "question_id": "PHY_066",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为2kg的物体以速度9m/s运动，求动能。",
+    "answer": "81.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×2×9^2=81.0J"
+  },
+  {
+    "question_id": "PHY_067",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度5m/s，加速度3m/s²，时间4s，求末速度。",
+    "answer": "17m/s",
+    "reasoning_process": "v=v0+at=5+3×4=17m/s"
+  },
+  {
+    "question_id": "PHY_068",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度33m，求落地速度(g取9.8)。",
+    "answer": "25.43m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×33)=25.43m/s"
+  },
+  {
+    "question_id": "PHY_069",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "电阻R=9Ω，两端电压U=12V，求电流。",
+    "answer": "1.3333333333333333A",
+    "reasoning_process": "I=U/R=12/9=1.3333333333333333A"
+  },
+  {
+    "question_id": "PHY_070",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为5kg的物体以速度2m/s运动，求动能。",
+    "answer": "10.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×5×2^2=10.0J"
+  },
+  {
+    "question_id": "PHY_071",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "自由落体高度19m，求落地速度(g取9.8)。",
+    "answer": "19.30m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×19)=19.30m/s"
+  },
+  {
+    "question_id": "PHY_072",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "电阻R=6Ω，两端电压U=15V，求电流。",
+    "answer": "2.5A",
+    "reasoning_process": "I=U/R=15/6=2.5A"
+  },
+  {
+    "question_id": "PHY_073",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数92N/m，伸长0.6m，求弹力。",
+    "answer": "55.199999999999996N",
+    "reasoning_process": "F=kx=92×0.6=55.199999999999996N"
+  },
+  {
+    "question_id": "PHY_074",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一质量为4kg的物体以速度3m/s运动，求动能。",
+    "answer": "18.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×4×3^2=18.0J"
+  },
+  {
+    "question_id": "PHY_075",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度47m，求落地速度(g取9.8)。",
+    "answer": "30.35m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×47)=30.35m/s"
+  },
+  {
+    "question_id": "PHY_076",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数125N/m，伸长0.3m，求弹力。",
+    "answer": "37.5N",
+    "reasoning_process": "F=kx=125×0.3=37.5N"
+  },
+  {
+    "question_id": "PHY_077",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度9m/s，加速度3m/s²，时间2s，求末速度。",
+    "answer": "15m/s",
+    "reasoning_process": "v=v0+at=9+3×2=15m/s"
+  },
+  {
+    "question_id": "PHY_078",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一质量为1kg的物体以速度10m/s运动，求动能。",
+    "answer": "50.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×1×10^2=50.0J"
+  },
+  {
+    "question_id": "PHY_079",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "电阻R=4Ω，两端电压U=13V，求电流。",
+    "answer": "3.25A",
+    "reasoning_process": "I=U/R=13/4=3.25A"
+  },
+  {
+    "question_id": "PHY_080",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为1kg的物体以速度4m/s运动，求动能。",
+    "answer": "8.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×1×4^2=8.0J"
+  },
+  {
+    "question_id": "PHY_081",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为7kg的物体以速度2m/s运动，求动能。",
+    "answer": "14.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×7×2^2=14.0J"
+  },
+  {
+    "question_id": "PHY_082",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为5kg的物体以速度1m/s运动，求动能。",
+    "answer": "2.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×5×1^2=2.5J"
+  },
+  {
+    "question_id": "PHY_083",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "电阻R=5Ω，两端电压U=10V，求电流。",
+    "answer": "2.0A",
+    "reasoning_process": "I=U/R=10/5=2.0A"
+  },
+  {
+    "question_id": "PHY_084",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度10m/s，加速度1m/s²，时间5s，求末速度。",
+    "answer": "15m/s",
+    "reasoning_process": "v=v0+at=10+1×5=15m/s"
+  },
+  {
+    "question_id": "PHY_085",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "电阻R=9Ω，两端电压U=10V，求电流。",
+    "answer": "1.1111111111111112A",
+    "reasoning_process": "I=U/R=10/9=1.1111111111111112A"
+  },
+  {
+    "question_id": "PHY_086",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为3kg的物体以速度7m/s运动，求动能。",
+    "answer": "73.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×3×7^2=73.5J"
+  },
+  {
+    "question_id": "PHY_087",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一质量为5kg的物体以速度6m/s运动，求动能。",
+    "answer": "90.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×5×6^2=90.0J"
+  },
+  {
+    "question_id": "PHY_088",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为9kg的物体以速度10m/s运动，求动能。",
+    "answer": "450.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×9×10^2=450.0J"
+  },
+  {
+    "question_id": "PHY_089",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数181N/m，伸长0.6m，求弹力。",
+    "answer": "108.6N",
+    "reasoning_process": "F=kx=181×0.6=108.6N"
+  },
+  {
+    "question_id": "PHY_090",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度8m/s，加速度2m/s²，时间1s，求末速度。",
+    "answer": "10m/s",
+    "reasoning_process": "v=v0+at=8+2×1=10m/s"
+  },
+  {
+    "question_id": "PHY_091",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为2kg的物体以速度1m/s运动，求动能。",
+    "answer": "1.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×2×1^2=1.0J"
+  },
+  {
+    "question_id": "PHY_092",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度6m/s，加速度2m/s²，时间3s，求末速度。",
+    "answer": "12m/s",
+    "reasoning_process": "v=v0+at=6+2×3=12m/s"
+  },
+  {
+    "question_id": "PHY_093",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=7Ω，两端电压U=6V，求电流。",
+    "answer": "0.8571428571428571A",
+    "reasoning_process": "I=U/R=6/7=0.8571428571428571A"
+  },
+  {
+    "question_id": "PHY_094",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一质量为7kg的物体以速度5m/s运动，求动能。",
+    "answer": "87.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×7×5^2=87.5J"
+  },
+  {
+    "question_id": "PHY_095",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为3kg的物体以速度5m/s运动，求动能。",
+    "answer": "37.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×3×5^2=37.5J"
+  },
+  {
+    "question_id": "PHY_096",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数19N/m，伸长0.1m，求弹力。",
+    "answer": "1.9000000000000001N",
+    "reasoning_process": "F=kx=19×0.1=1.9000000000000001N"
+  },
+  {
+    "question_id": "PHY_097",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "电阻R=4Ω，两端电压U=13V，求电流。",
+    "answer": "3.25A",
+    "reasoning_process": "I=U/R=13/4=3.25A"
+  },
+  {
+    "question_id": "PHY_098",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度33m，求落地速度(g取9.8)。",
+    "answer": "25.43m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×33)=25.43m/s"
+  },
+  {
+    "question_id": "PHY_099",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度7m/s，加速度4m/s²，时间5s，求末速度。",
+    "answer": "27m/s",
+    "reasoning_process": "v=v0+at=7+4×5=27m/s"
+  },
+  {
+    "question_id": "PHY_100",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "电阻R=1Ω，两端电压U=15V，求电流。",
+    "answer": "15.0A",
+    "reasoning_process": "I=U/R=15/1=15.0A"
+  },
+  {
+    "question_id": "PHY_101",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "电阻R=8Ω，两端电压U=14V，求电流。",
+    "answer": "1.75A",
+    "reasoning_process": "I=U/R=14/8=1.75A"
+  },
+  {
+    "question_id": "PHY_102",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "自由落体高度48m，求落地速度(g取9.8)。",
+    "answer": "30.67m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×48)=30.67m/s"
+  },
+  {
+    "question_id": "PHY_103",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度30m，求落地速度(g取9.8)。",
+    "answer": "24.25m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×30)=24.25m/s"
+  },
+  {
+    "question_id": "PHY_104",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为3kg的物体以速度6m/s运动，求动能。",
+    "answer": "54.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×3×6^2=54.0J"
+  },
+  {
+    "question_id": "PHY_105",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度34m，求落地速度(g取9.8)。",
+    "answer": "25.81m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×34)=25.81m/s"
+  },
+  {
+    "question_id": "PHY_106",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度3m/s，加速度2m/s²，时间4s，求末速度。",
+    "answer": "11m/s",
+    "reasoning_process": "v=v0+at=3+2×4=11m/s"
+  },
+  {
+    "question_id": "PHY_107",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度37m，求落地速度(g取9.8)。",
+    "answer": "26.93m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×37)=26.93m/s"
+  },
+  {
+    "question_id": "PHY_108",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度1m/s，加速度4m/s²，时间1s，求末速度。",
+    "answer": "5m/s",
+    "reasoning_process": "v=v0+at=1+4×1=5m/s"
+  },
+  {
+    "question_id": "PHY_109",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "自由落体高度10m，求落地速度(g取9.8)。",
+    "answer": "14.00m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×10)=14.00m/s"
+  },
+  {
+    "question_id": "PHY_110",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数35N/m，伸长0.6m，求弹力。",
+    "answer": "21.0N",
+    "reasoning_process": "F=kx=35×0.6=21.0N"
+  },
+  {
+    "question_id": "PHY_111",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度7m/s，加速度4m/s²，时间1s，求末速度。",
+    "answer": "11m/s",
+    "reasoning_process": "v=v0+at=7+4×1=11m/s"
+  },
+  {
+    "question_id": "PHY_112",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为2kg的物体以速度4m/s运动，求动能。",
+    "answer": "16.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×2×4^2=16.0J"
+  },
+  {
+    "question_id": "PHY_113",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度6m/s，加速度1m/s²，时间4s，求末速度。",
+    "answer": "10m/s",
+    "reasoning_process": "v=v0+at=6+1×4=10m/s"
+  },
+  {
+    "question_id": "PHY_114",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "自由落体高度29m，求落地速度(g取9.8)。",
+    "answer": "23.84m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×29)=23.84m/s"
+  },
+  {
+    "question_id": "PHY_115",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "弹簧劲度系数83N/m，伸长0.6m，求弹力。",
+    "answer": "49.8N",
+    "reasoning_process": "F=kx=83×0.6=49.8N"
+  },
+  {
+    "question_id": "PHY_116",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度3m/s，加速度5m/s²，时间1s，求末速度。",
+    "answer": "8m/s",
+    "reasoning_process": "v=v0+at=3+5×1=8m/s"
+  },
+  {
+    "question_id": "PHY_117",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度10m/s，加速度3m/s²，时间2s，求末速度。",
+    "answer": "16m/s",
+    "reasoning_process": "v=v0+at=10+3×2=16m/s"
+  },
+  {
+    "question_id": "PHY_118",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度27m，求落地速度(g取9.8)。",
+    "answer": "23.00m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×27)=23.00m/s"
+  },
+  {
+    "question_id": "PHY_119",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度1m/s，加速度1m/s²，时间1s，求末速度。",
+    "answer": "2m/s",
+    "reasoning_process": "v=v0+at=1+1×1=2m/s"
+  },
+  {
+    "question_id": "PHY_120",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "电阻R=3Ω，两端电压U=13V，求电流。",
+    "answer": "4.333333333333333A",
+    "reasoning_process": "I=U/R=13/3=4.333333333333333A"
+  },
+  {
+    "question_id": "PHY_121",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度22m，求落地速度(g取9.8)。",
+    "answer": "20.77m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×22)=20.77m/s"
+  },
+  {
+    "question_id": "PHY_122",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "电阻R=2Ω，两端电压U=13V，求电流。",
+    "answer": "6.5A",
+    "reasoning_process": "I=U/R=13/2=6.5A"
+  },
+  {
+    "question_id": "PHY_123",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=6Ω，两端电压U=18V，求电流。",
+    "answer": "3.0A",
+    "reasoning_process": "I=U/R=18/6=3.0A"
+  },
+  {
+    "question_id": "PHY_124",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为3kg的物体以速度8m/s运动，求动能。",
+    "answer": "96.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×3×8^2=96.0J"
+  },
+  {
+    "question_id": "PHY_125",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "电阻R=7Ω，两端电压U=7V，求电流。",
+    "answer": "1.0A",
+    "reasoning_process": "I=U/R=7/7=1.0A"
+  },
+  {
+    "question_id": "PHY_126",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数90N/m，伸长0.9m，求弹力。",
+    "answer": "81.0N",
+    "reasoning_process": "F=kx=90×0.9=81.0N"
+  },
+  {
+    "question_id": "PHY_127",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为2kg的物体以速度3m/s运动，求动能。",
+    "answer": "9.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×2×3^2=9.0J"
+  },
+  {
+    "question_id": "PHY_128",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "电阻R=9Ω，两端电压U=19V，求电流。",
+    "answer": "2.111111111111111A",
+    "reasoning_process": "I=U/R=19/9=2.111111111111111A"
+  },
+  {
+    "question_id": "PHY_129",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "电阻R=10Ω，两端电压U=12V，求电流。",
+    "answer": "1.2A",
+    "reasoning_process": "I=U/R=12/10=1.2A"
+  },
+  {
+    "question_id": "PHY_130",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "电阻R=6Ω，两端电压U=4V，求电流。",
+    "answer": "0.6666666666666666A",
+    "reasoning_process": "I=U/R=4/6=0.6666666666666666A"
+  },
+  {
+    "question_id": "PHY_131",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "自由落体高度2m，求落地速度(g取9.8)。",
+    "answer": "6.26m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×2)=6.26m/s"
+  },
+  {
+    "question_id": "PHY_132",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "弹簧劲度系数109N/m，伸长0.3m，求弹力。",
+    "answer": "32.699999999999996N",
+    "reasoning_process": "F=kx=109×0.3=32.699999999999996N"
+  },
+  {
+    "question_id": "PHY_133",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "弹簧劲度系数96N/m，伸长0.5m，求弹力。",
+    "answer": "48.0N",
+    "reasoning_process": "F=kx=96×0.5=48.0N"
+  },
+  {
+    "question_id": "PHY_134",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为3kg的物体以速度8m/s运动，求动能。",
+    "answer": "96.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×3×8^2=96.0J"
+  },
+  {
+    "question_id": "PHY_135",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=5Ω，两端电压U=10V，求电流。",
+    "answer": "2.0A",
+    "reasoning_process": "I=U/R=10/5=2.0A"
+  },
+  {
+    "question_id": "PHY_136",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "自由落体高度18m，求落地速度(g取9.8)。",
+    "answer": "18.78m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×18)=18.78m/s"
+  },
+  {
+    "question_id": "PHY_137",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为6kg的物体以速度7m/s运动，求动能。",
+    "answer": "147.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×6×7^2=147.0J"
+  },
+  {
+    "question_id": "PHY_138",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=4Ω，两端电压U=9V，求电流。",
+    "answer": "2.25A",
+    "reasoning_process": "I=U/R=9/4=2.25A"
+  },
+  {
+    "question_id": "PHY_139",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "电阻R=1Ω，两端电压U=1V，求电流。",
+    "answer": "1.0A",
+    "reasoning_process": "I=U/R=1/1=1.0A"
+  },
+  {
+    "question_id": "PHY_140",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度2m/s，加速度3m/s²，时间2s，求末速度。",
+    "answer": "8m/s",
+    "reasoning_process": "v=v0+at=2+3×2=8m/s"
+  },
+  {
+    "question_id": "PHY_141",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数195N/m，伸长0.6m，求弹力。",
+    "answer": "117.0N",
+    "reasoning_process": "F=kx=195×0.6=117.0N"
+  },
+  {
+    "question_id": "PHY_142",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "电阻R=7Ω，两端电压U=4V，求电流。",
+    "answer": "0.5714285714285714A",
+    "reasoning_process": "I=U/R=4/7=0.5714285714285714A"
+  },
+  {
+    "question_id": "PHY_143",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度7m，求落地速度(g取9.8)。",
+    "answer": "11.71m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×7)=11.71m/s"
+  },
+  {
+    "question_id": "PHY_144",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "电阻R=6Ω，两端电压U=15V，求电流。",
+    "answer": "2.5A",
+    "reasoning_process": "I=U/R=15/6=2.5A"
+  },
+  {
+    "question_id": "PHY_145",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一质量为4kg的物体以速度9m/s运动，求动能。",
+    "answer": "162.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×4×9^2=162.0J"
+  },
+  {
+    "question_id": "PHY_146",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为4kg的物体以速度1m/s运动，求动能。",
+    "answer": "2.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×4×1^2=2.0J"
+  },
+  {
+    "question_id": "PHY_147",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "电阻R=4Ω，两端电压U=10V，求电流。",
+    "answer": "2.5A",
+    "reasoning_process": "I=U/R=10/4=2.5A"
+  },
+  {
+    "question_id": "PHY_148",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度36m，求落地速度(g取9.8)。",
+    "answer": "26.56m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×36)=26.56m/s"
+  },
+  {
+    "question_id": "PHY_149",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "电阻R=5Ω，两端电压U=18V，求电流。",
+    "answer": "3.6A",
+    "reasoning_process": "I=U/R=18/5=3.6A"
+  },
+  {
+    "question_id": "PHY_150",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度3m，求落地速度(g取9.8)。",
+    "answer": "7.67m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×3)=7.67m/s"
+  },
+  {
+    "question_id": "PHY_151",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "自由落体高度48m，求落地速度(g取9.8)。",
+    "answer": "30.67m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×48)=30.67m/s"
+  },
+  {
+    "question_id": "PHY_152",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为10kg的物体以速度7m/s运动，求动能。",
+    "answer": "245.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×10×7^2=245.0J"
+  },
+  {
+    "question_id": "PHY_153",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数41N/m，伸长0.3m，求弹力。",
+    "answer": "12.299999999999999N",
+    "reasoning_process": "F=kx=41×0.3=12.299999999999999N"
+  },
+  {
+    "question_id": "PHY_154",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "电阻R=2Ω，两端电压U=18V，求电流。",
+    "answer": "9.0A",
+    "reasoning_process": "I=U/R=18/2=9.0A"
+  },
+  {
+    "question_id": "PHY_155",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度7m，求落地速度(g取9.8)。",
+    "answer": "11.71m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×7)=11.71m/s"
+  },
+  {
+    "question_id": "PHY_156",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "一质量为4kg的物体以速度7m/s运动，求动能。",
+    "answer": "98.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×4×7^2=98.0J"
+  },
+  {
+    "question_id": "PHY_157",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一质量为8kg的物体以速度3m/s运动，求动能。",
+    "answer": "36.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×8×3^2=36.0J"
+  },
+  {
+    "question_id": "PHY_158",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度3m/s，加速度5m/s²，时间1s，求末速度。",
+    "answer": "8m/s",
+    "reasoning_process": "v=v0+at=3+5×1=8m/s"
+  },
+  {
+    "question_id": "PHY_159",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度9m/s，加速度3m/s²，时间5s，求末速度。",
+    "answer": "24m/s",
+    "reasoning_process": "v=v0+at=9+3×5=24m/s"
+  },
+  {
+    "question_id": "PHY_160",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数163N/m，伸长0.6m，求弹力。",
+    "answer": "97.8N",
+    "reasoning_process": "F=kx=163×0.6=97.8N"
+  },
+  {
+    "question_id": "PHY_161",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一质量为8kg的物体以速度6m/s运动，求动能。",
+    "answer": "144.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×8×6^2=144.0J"
+  },
+  {
+    "question_id": "PHY_162",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数123N/m，伸长0.3m，求弹力。",
+    "answer": "36.9N",
+    "reasoning_process": "F=kx=123×0.3=36.9N"
+  },
+  {
+    "question_id": "PHY_163",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数33N/m，伸长0.6m，求弹力。",
+    "answer": "19.8N",
+    "reasoning_process": "F=kx=33×0.6=19.8N"
+  },
+  {
+    "question_id": "PHY_164",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "电阻R=10Ω，两端电压U=15V，求电流。",
+    "answer": "1.5A",
+    "reasoning_process": "I=U/R=15/10=1.5A"
+  },
+  {
+    "question_id": "PHY_165",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一质量为9kg的物体以速度4m/s运动，求动能。",
+    "answer": "72.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×9×4^2=72.0J"
+  },
+  {
+    "question_id": "PHY_166",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "电阻R=1Ω，两端电压U=19V，求电流。",
+    "answer": "19.0A",
+    "reasoning_process": "I=U/R=19/1=19.0A"
+  },
+  {
+    "question_id": "PHY_167",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度8m，求落地速度(g取9.8)。",
+    "answer": "12.52m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×8)=12.52m/s"
+  },
+  {
+    "question_id": "PHY_168",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "一质量为8kg的物体以速度8m/s运动，求动能。",
+    "answer": "256.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×8×8^2=256.0J"
+  },
+  {
+    "question_id": "PHY_169",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数91N/m，伸长0.7m，求弹力。",
+    "answer": "63.699999999999996N",
+    "reasoning_process": "F=kx=91×0.7=63.699999999999996N"
+  },
+  {
+    "question_id": "PHY_170",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度1m/s，加速度1m/s²，时间3s，求末速度。",
+    "answer": "4m/s",
+    "reasoning_process": "v=v0+at=1+1×3=4m/s"
+  },
+  {
+    "question_id": "PHY_171",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度6m/s，加速度1m/s²，时间4s，求末速度。",
+    "answer": "10m/s",
+    "reasoning_process": "v=v0+at=6+1×4=10m/s"
+  },
+  {
+    "question_id": "PHY_172",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度7m/s，加速度2m/s²，时间4s，求末速度。",
+    "answer": "15m/s",
+    "reasoning_process": "v=v0+at=7+2×4=15m/s"
+  },
+  {
+    "question_id": "PHY_173",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为5kg的物体以速度9m/s运动，求动能。",
+    "answer": "202.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×5×9^2=202.5J"
+  },
+  {
+    "question_id": "PHY_174",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "自由落体高度38m，求落地速度(g取9.8)。",
+    "answer": "27.29m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×38)=27.29m/s"
+  },
+  {
+    "question_id": "PHY_175",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数89N/m，伸长0.9m，求弹力。",
+    "answer": "80.10000000000001N",
+    "reasoning_process": "F=kx=89×0.9=80.10000000000001N"
+  },
+  {
+    "question_id": "PHY_176",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数79N/m，伸长1.0m，求弹力。",
+    "answer": "79.0N",
+    "reasoning_process": "F=kx=79×1.0=79.0N"
+  },
+  {
+    "question_id": "PHY_177",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数107N/m，伸长0.5m，求弹力。",
+    "answer": "53.5N",
+    "reasoning_process": "F=kx=107×0.5=53.5N"
+  },
+  {
+    "question_id": "PHY_178",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数10N/m，伸长0.6m，求弹力。",
+    "answer": "6.0N",
+    "reasoning_process": "F=kx=10×0.6=6.0N"
+  },
+  {
+    "question_id": "PHY_179",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数59N/m，伸长0.2m，求弹力。",
+    "answer": "11.8N",
+    "reasoning_process": "F=kx=59×0.2=11.8N"
+  },
+  {
+    "question_id": "PHY_180",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "电阻R=6Ω，两端电压U=19V，求电流。",
+    "answer": "3.1666666666666665A",
+    "reasoning_process": "I=U/R=19/6=3.1666666666666665A"
+  },
+  {
+    "question_id": "PHY_181",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度2m/s，加速度3m/s²，时间4s，求末速度。",
+    "answer": "14m/s",
+    "reasoning_process": "v=v0+at=2+3×4=14m/s"
+  },
+  {
+    "question_id": "PHY_182",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度7m/s，加速度4m/s²，时间4s，求末速度。",
+    "answer": "23m/s",
+    "reasoning_process": "v=v0+at=7+4×4=23m/s"
+  },
+  {
+    "question_id": "PHY_183",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度7m/s，加速度4m/s²，时间1s，求末速度。",
+    "answer": "11m/s",
+    "reasoning_process": "v=v0+at=7+4×1=11m/s"
+  },
+  {
+    "question_id": "PHY_184",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度7m/s，加速度1m/s²，时间2s，求末速度。",
+    "answer": "9m/s",
+    "reasoning_process": "v=v0+at=7+1×2=9m/s"
+  },
+  {
+    "question_id": "PHY_185",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=8Ω，两端电压U=13V，求电流。",
+    "answer": "1.625A",
+    "reasoning_process": "I=U/R=13/8=1.625A"
+  },
+  {
+    "question_id": "PHY_186",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度2m/s，加速度5m/s²，时间3s，求末速度。",
+    "answer": "17m/s",
+    "reasoning_process": "v=v0+at=2+5×3=17m/s"
+  },
+  {
+    "question_id": "PHY_187",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度19m，求落地速度(g取9.8)。",
+    "answer": "19.30m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×19)=19.30m/s"
+  },
+  {
+    "question_id": "PHY_188",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度9m/s，加速度4m/s²，时间1s，求末速度。",
+    "answer": "13m/s",
+    "reasoning_process": "v=v0+at=9+4×1=13m/s"
+  },
+  {
+    "question_id": "PHY_189",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数164N/m，伸长0.8m，求弹力。",
+    "answer": "131.20000000000002N",
+    "reasoning_process": "F=kx=164×0.8=131.20000000000002N"
+  },
+  {
+    "question_id": "PHY_190",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为8kg的物体以速度6m/s运动，求动能。",
+    "answer": "144.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×8×6^2=144.0J"
+  },
+  {
+    "question_id": "PHY_191",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度19m，求落地速度(g取9.8)。",
+    "answer": "19.30m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×19)=19.30m/s"
+  },
+  {
+    "question_id": "PHY_192",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "电阻R=3Ω，两端电压U=19V，求电流。",
+    "answer": "6.333333333333333A",
+    "reasoning_process": "I=U/R=19/3=6.333333333333333A"
+  },
+  {
+    "question_id": "PHY_193",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为5kg的物体以速度9m/s运动，求动能。",
+    "answer": "202.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×5×9^2=202.5J"
+  },
+  {
+    "question_id": "PHY_194",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度43m，求落地速度(g取9.8)。",
+    "answer": "29.03m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×43)=29.03m/s"
+  },
+  {
+    "question_id": "PHY_195",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数23N/m，伸长0.3m，求弹力。",
+    "answer": "6.8999999999999995N",
+    "reasoning_process": "F=kx=23×0.3=6.8999999999999995N"
+  },
+  {
+    "question_id": "PHY_196",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度3m/s，加速度4m/s²，时间2s，求末速度。",
+    "answer": "11m/s",
+    "reasoning_process": "v=v0+at=3+4×2=11m/s"
+  },
+  {
+    "question_id": "PHY_197",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数48N/m，伸长0.8m，求弹力。",
+    "answer": "38.400000000000006N",
+    "reasoning_process": "F=kx=48×0.8=38.400000000000006N"
+  },
+  {
+    "question_id": "PHY_198",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=10Ω，两端电压U=17V，求电流。",
+    "answer": "1.7A",
+    "reasoning_process": "I=U/R=17/10=1.7A"
+  },
+  {
+    "question_id": "PHY_199",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "自由落体高度29m，求落地速度(g取9.8)。",
+    "answer": "23.84m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×29)=23.84m/s"
+  },
+  {
+    "question_id": "PHY_200",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度1m/s，加速度5m/s²，时间4s，求末速度。",
+    "answer": "21m/s",
+    "reasoning_process": "v=v0+at=1+5×4=21m/s"
+  },
+  {
+    "question_id": "PHY_201",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数80N/m，伸长0.6m，求弹力。",
+    "answer": "48.0N",
+    "reasoning_process": "F=kx=80×0.6=48.0N"
+  },
+  {
+    "question_id": "PHY_202",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=3Ω，两端电压U=9V，求电流。",
+    "answer": "3.0A",
+    "reasoning_process": "I=U/R=9/3=3.0A"
+  },
+  {
+    "question_id": "PHY_203",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为7kg的物体以速度7m/s运动，求动能。",
+    "answer": "171.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×7×7^2=171.5J"
+  },
+  {
+    "question_id": "PHY_204",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数63N/m，伸长0.1m，求弹力。",
+    "answer": "6.300000000000001N",
+    "reasoning_process": "F=kx=63×0.1=6.300000000000001N"
+  },
+  {
+    "question_id": "PHY_205",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数11N/m，伸长0.2m，求弹力。",
+    "answer": "2.2N",
+    "reasoning_process": "F=kx=11×0.2=2.2N"
+  },
+  {
+    "question_id": "PHY_206",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数121N/m，伸长0.4m，求弹力。",
+    "answer": "48.400000000000006N",
+    "reasoning_process": "F=kx=121×0.4=48.400000000000006N"
+  },
+  {
+    "question_id": "PHY_207",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=3Ω，两端电压U=5V，求电流。",
+    "answer": "1.6666666666666667A",
+    "reasoning_process": "I=U/R=5/3=1.6666666666666667A"
+  },
+  {
+    "question_id": "PHY_208",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为8kg的物体以速度4m/s运动，求动能。",
+    "answer": "64.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×8×4^2=64.0J"
+  },
+  {
+    "question_id": "PHY_209",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为3kg的物体以速度2m/s运动，求动能。",
+    "answer": "6.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×3×2^2=6.0J"
+  },
+  {
+    "question_id": "PHY_210",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数111N/m，伸长0.9m，求弹力。",
+    "answer": "99.9N",
+    "reasoning_process": "F=kx=111×0.9=99.9N"
+  },
+  {
+    "question_id": "PHY_211",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=7Ω，两端电压U=14V，求电流。",
+    "answer": "2.0A",
+    "reasoning_process": "I=U/R=14/7=2.0A"
+  },
+  {
+    "question_id": "PHY_212",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数164N/m，伸长0.7m，求弹力。",
+    "answer": "114.8N",
+    "reasoning_process": "F=kx=164×0.7=114.8N"
+  },
+  {
+    "question_id": "PHY_213",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度3m/s，加速度4m/s²，时间1s，求末速度。",
+    "answer": "7m/s",
+    "reasoning_process": "v=v0+at=3+4×1=7m/s"
+  },
+  {
+    "question_id": "PHY_214",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度4m/s，加速度4m/s²，时间1s，求末速度。",
+    "answer": "8m/s",
+    "reasoning_process": "v=v0+at=4+4×1=8m/s"
+  },
+  {
+    "question_id": "PHY_215",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为5kg的物体以速度8m/s运动，求动能。",
+    "answer": "160.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×5×8^2=160.0J"
+  },
+  {
+    "question_id": "PHY_216",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度5m/s，加速度5m/s²，时间5s，求末速度。",
+    "answer": "30m/s",
+    "reasoning_process": "v=v0+at=5+5×5=30m/s"
+  },
+  {
+    "question_id": "PHY_217",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数10N/m，伸长0.9m，求弹力。",
+    "answer": "9.0N",
+    "reasoning_process": "F=kx=10×0.9=9.0N"
+  },
+  {
+    "question_id": "PHY_218",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "自由落体高度4m，求落地速度(g取9.8)。",
+    "answer": "8.85m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×4)=8.85m/s"
+  },
+  {
+    "question_id": "PHY_219",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为2kg的物体以速度2m/s运动，求动能。",
+    "answer": "4.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×2×2^2=4.0J"
+  },
+  {
+    "question_id": "PHY_220",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度5m/s，加速度5m/s²，时间5s，求末速度。",
+    "answer": "30m/s",
+    "reasoning_process": "v=v0+at=5+5×5=30m/s"
+  },
+  {
+    "question_id": "PHY_221",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度7m/s，加速度1m/s²，时间2s，求末速度。",
+    "answer": "9m/s",
+    "reasoning_process": "v=v0+at=7+1×2=9m/s"
+  },
+  {
+    "question_id": "PHY_222",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为10kg的物体以速度10m/s运动，求动能。",
+    "answer": "500.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×10×10^2=500.0J"
+  },
+  {
+    "question_id": "PHY_223",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数109N/m，伸长0.1m，求弹力。",
+    "answer": "10.9N",
+    "reasoning_process": "F=kx=109×0.1=10.9N"
+  },
+  {
+    "question_id": "PHY_224",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=4Ω，两端电压U=12V，求电流。",
+    "answer": "3.0A",
+    "reasoning_process": "I=U/R=12/4=3.0A"
+  },
+  {
+    "question_id": "PHY_225",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度30m，求落地速度(g取9.8)。",
+    "answer": "24.25m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×30)=24.25m/s"
+  },
+  {
+    "question_id": "PHY_226",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "自由落体高度28m，求落地速度(g取9.8)。",
+    "answer": "23.43m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×28)=23.43m/s"
+  },
+  {
+    "question_id": "PHY_227",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为8kg的物体以速度9m/s运动，求动能。",
+    "answer": "324.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×8×9^2=324.0J"
+  },
+  {
+    "question_id": "PHY_228",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为2kg的物体以速度7m/s运动，求动能。",
+    "answer": "49.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×2×7^2=49.0J"
+  },
+  {
+    "question_id": "PHY_229",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度4m/s，加速度5m/s²，时间3s，求末速度。",
+    "answer": "19m/s",
+    "reasoning_process": "v=v0+at=4+5×3=19m/s"
+  },
+  {
+    "question_id": "PHY_230",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数77N/m，伸长0.8m，求弹力。",
+    "answer": "61.6N",
+    "reasoning_process": "F=kx=77×0.8=61.6N"
+  },
+  {
+    "question_id": "PHY_231",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数153N/m，伸长0.7m，求弹力。",
+    "answer": "107.1N",
+    "reasoning_process": "F=kx=153×0.7=107.1N"
+  },
+  {
+    "question_id": "PHY_232",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "自由落体高度37m，求落地速度(g取9.8)。",
+    "answer": "26.93m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×37)=26.93m/s"
+  },
+  {
+    "question_id": "PHY_233",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为2kg的物体以速度3m/s运动，求动能。",
+    "answer": "9.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×2×3^2=9.0J"
+  },
+  {
+    "question_id": "PHY_234",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=6Ω，两端电压U=2V，求电流。",
+    "answer": "0.3333333333333333A",
+    "reasoning_process": "I=U/R=2/6=0.3333333333333333A"
+  },
+  {
+    "question_id": "PHY_235",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "电阻R=1Ω，两端电压U=18V，求电流。",
+    "answer": "18.0A",
+    "reasoning_process": "I=U/R=18/1=18.0A"
+  },
+  {
+    "question_id": "PHY_236",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度9m/s，加速度5m/s²，时间5s，求末速度。",
+    "answer": "34m/s",
+    "reasoning_process": "v=v0+at=9+5×5=34m/s"
+  },
+  {
+    "question_id": "PHY_237",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数137N/m，伸长0.8m，求弹力。",
+    "answer": "109.60000000000001N",
+    "reasoning_process": "F=kx=137×0.8=109.60000000000001N"
+  },
+  {
+    "question_id": "PHY_238",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一质量为8kg的物体以速度7m/s运动，求动能。",
+    "answer": "196.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×8×7^2=196.0J"
+  },
+  {
+    "question_id": "PHY_239",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为3kg的物体以速度1m/s运动，求动能。",
+    "answer": "1.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×3×1^2=1.5J"
+  },
+  {
+    "question_id": "PHY_240",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度7m/s，加速度4m/s²，时间2s，求末速度。",
+    "answer": "15m/s",
+    "reasoning_process": "v=v0+at=7+4×2=15m/s"
+  },
+  {
+    "question_id": "PHY_241",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为7kg的物体以速度10m/s运动，求动能。",
+    "answer": "350.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×7×10^2=350.0J"
+  },
+  {
+    "question_id": "PHY_242",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度8m/s，加速度3m/s²，时间2s，求末速度。",
+    "answer": "14m/s",
+    "reasoning_process": "v=v0+at=8+3×2=14m/s"
+  },
+  {
+    "question_id": "PHY_243",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "自由落体高度10m，求落地速度(g取9.8)。",
+    "answer": "14.00m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×10)=14.00m/s"
+  },
+  {
+    "question_id": "PHY_244",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度35m，求落地速度(g取9.8)。",
+    "answer": "26.19m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×35)=26.19m/s"
+  },
+  {
+    "question_id": "PHY_245",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度29m，求落地速度(g取9.8)。",
+    "answer": "23.84m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×29)=23.84m/s"
+  },
+  {
+    "question_id": "PHY_246",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度17m，求落地速度(g取9.8)。",
+    "answer": "18.25m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×17)=18.25m/s"
+  },
+  {
+    "question_id": "PHY_247",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数98N/m，伸长0.5m，求弹力。",
+    "answer": "49.0N",
+    "reasoning_process": "F=kx=98×0.5=49.0N"
+  },
+  {
+    "question_id": "PHY_248",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度2m/s，加速度5m/s²，时间2s，求末速度。",
+    "answer": "12m/s",
+    "reasoning_process": "v=v0+at=2+5×2=12m/s"
+  },
+  {
+    "question_id": "PHY_249",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一质量为5kg的物体以速度8m/s运动，求动能。",
+    "answer": "160.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×5×8^2=160.0J"
+  },
+  {
+    "question_id": "PHY_250",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度42m，求落地速度(g取9.8)。",
+    "answer": "28.69m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×42)=28.69m/s"
+  },
+  {
+    "question_id": "PHY_251",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数94N/m，伸长0.7m，求弹力。",
+    "answer": "65.8N",
+    "reasoning_process": "F=kx=94×0.7=65.8N"
+  },
+  {
+    "question_id": "PHY_252",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=4Ω，两端电压U=5V，求电流。",
+    "answer": "1.25A",
+    "reasoning_process": "I=U/R=5/4=1.25A"
+  },
+  {
+    "question_id": "PHY_253",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数72N/m，伸长0.7m，求弹力。",
+    "answer": "50.4N",
+    "reasoning_process": "F=kx=72×0.7=50.4N"
+  },
+  {
+    "question_id": "PHY_254",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "弹簧劲度系数112N/m，伸长0.9m，求弹力。",
+    "answer": "100.8N",
+    "reasoning_process": "F=kx=112×0.9=100.8N"
+  },
+  {
+    "question_id": "PHY_255",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为9kg的物体以速度6m/s运动，求动能。",
+    "answer": "162.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×9×6^2=162.0J"
+  },
+  {
+    "question_id": "PHY_256",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度8m/s，加速度3m/s²，时间1s，求末速度。",
+    "answer": "11m/s",
+    "reasoning_process": "v=v0+at=8+3×1=11m/s"
+  },
+  {
+    "question_id": "PHY_257",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "电阻R=10Ω，两端电压U=18V，求电流。",
+    "answer": "1.8A",
+    "reasoning_process": "I=U/R=18/10=1.8A"
+  },
+  {
+    "question_id": "PHY_258",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度3m/s，加速度3m/s²，时间2s，求末速度。",
+    "answer": "9m/s",
+    "reasoning_process": "v=v0+at=3+3×2=9m/s"
+  },
+  {
+    "question_id": "PHY_259",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为2kg的物体以速度2m/s运动，求动能。",
+    "answer": "4.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×2×2^2=4.0J"
+  },
+  {
+    "question_id": "PHY_260",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数101N/m，伸长0.3m，求弹力。",
+    "answer": "30.299999999999997N",
+    "reasoning_process": "F=kx=101×0.3=30.299999999999997N"
+  },
+  {
+    "question_id": "PHY_261",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度10m/s，加速度5m/s²，时间5s，求末速度。",
+    "answer": "35m/s",
+    "reasoning_process": "v=v0+at=10+5×5=35m/s"
+  },
+  {
+    "question_id": "PHY_262",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "弹簧劲度系数114N/m，伸长0.5m，求弹力。",
+    "answer": "57.0N",
+    "reasoning_process": "F=kx=114×0.5=57.0N"
+  },
+  {
+    "question_id": "PHY_263",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为3kg的物体以速度9m/s运动，求动能。",
+    "answer": "121.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×3×9^2=121.5J"
+  },
+  {
+    "question_id": "PHY_264",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度39m，求落地速度(g取9.8)。",
+    "answer": "27.65m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×39)=27.65m/s"
+  },
+  {
+    "question_id": "PHY_265",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为9kg的物体以速度1m/s运动，求动能。",
+    "answer": "4.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×9×1^2=4.5J"
+  },
+  {
+    "question_id": "PHY_266",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为7kg的物体以速度10m/s运动，求动能。",
+    "answer": "350.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×7×10^2=350.0J"
+  },
+  {
+    "question_id": "PHY_267",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数164N/m，伸长0.4m，求弹力。",
+    "answer": "65.60000000000001N",
+    "reasoning_process": "F=kx=164×0.4=65.60000000000001N"
+  },
+  {
+    "question_id": "PHY_268",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度48m，求落地速度(g取9.8)。",
+    "answer": "30.67m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×48)=30.67m/s"
+  },
+  {
+    "question_id": "PHY_269",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "电阻R=4Ω，两端电压U=12V，求电流。",
+    "answer": "3.0A",
+    "reasoning_process": "I=U/R=12/4=3.0A"
+  },
+  {
+    "question_id": "PHY_270",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度37m，求落地速度(g取9.8)。",
+    "answer": "26.93m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×37)=26.93m/s"
+  },
+  {
+    "question_id": "PHY_271",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为8kg的物体以速度4m/s运动，求动能。",
+    "answer": "64.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×8×4^2=64.0J"
+  },
+  {
+    "question_id": "PHY_272",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "自由落体高度41m，求落地速度(g取9.8)。",
+    "answer": "28.35m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×41)=28.35m/s"
+  },
+  {
+    "question_id": "PHY_273",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "电阻R=1Ω，两端电压U=10V，求电流。",
+    "answer": "10.0A",
+    "reasoning_process": "I=U/R=10/1=10.0A"
+  },
+  {
+    "question_id": "PHY_274",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "弹簧劲度系数134N/m，伸长0.8m，求弹力。",
+    "answer": "107.2N",
+    "reasoning_process": "F=kx=134×0.8=107.2N"
+  },
+  {
+    "question_id": "PHY_275",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为7kg的物体以速度1m/s运动，求动能。",
+    "answer": "3.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×7×1^2=3.5J"
+  },
+  {
+    "question_id": "PHY_276",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=3Ω，两端电压U=3V，求电流。",
+    "answer": "1.0A",
+    "reasoning_process": "I=U/R=3/3=1.0A"
+  },
+  {
+    "question_id": "PHY_277",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "自由落体高度14m，求落地速度(g取9.8)。",
+    "answer": "16.57m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×14)=16.57m/s"
+  },
+  {
+    "question_id": "PHY_278",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度18m，求落地速度(g取9.8)。",
+    "answer": "18.78m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×18)=18.78m/s"
+  },
+  {
+    "question_id": "PHY_279",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度7m，求落地速度(g取9.8)。",
+    "answer": "11.71m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×7)=11.71m/s"
+  },
+  {
+    "question_id": "PHY_280",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一质量为4kg的物体以速度6m/s运动，求动能。",
+    "answer": "72.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×4×6^2=72.0J"
+  },
+  {
+    "question_id": "PHY_281",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度5m/s，加速度2m/s²，时间2s，求末速度。",
+    "answer": "9m/s",
+    "reasoning_process": "v=v0+at=5+2×2=9m/s"
+  },
+  {
+    "question_id": "PHY_282",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "弹簧劲度系数91N/m，伸长0.9m，求弹力。",
+    "answer": "81.9N",
+    "reasoning_process": "F=kx=91×0.9=81.9N"
+  },
+  {
+    "question_id": "PHY_283",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "电阻R=4Ω，两端电压U=11V，求电流。",
+    "answer": "2.75A",
+    "reasoning_process": "I=U/R=11/4=2.75A"
+  },
+  {
+    "question_id": "PHY_284",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数123N/m，伸长0.4m，求弹力。",
+    "answer": "49.2N",
+    "reasoning_process": "F=kx=123×0.4=49.2N"
+  },
+  {
+    "question_id": "PHY_285",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "电阻R=5Ω，两端电压U=2V，求电流。",
+    "answer": "0.4A",
+    "reasoning_process": "I=U/R=2/5=0.4A"
+  },
+  {
+    "question_id": "PHY_286",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "弹簧劲度系数193N/m，伸长0.1m，求弹力。",
+    "answer": "19.3N",
+    "reasoning_process": "F=kx=193×0.1=19.3N"
+  },
+  {
+    "question_id": "PHY_287",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "弹簧劲度系数194N/m，伸长0.1m，求弹力。",
+    "answer": "19.400000000000002N",
+    "reasoning_process": "F=kx=194×0.1=19.400000000000002N"
+  },
+  {
+    "question_id": "PHY_288",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数97N/m，伸长0.7m，求弹力。",
+    "answer": "67.89999999999999N",
+    "reasoning_process": "F=kx=97×0.7=67.89999999999999N"
+  },
+  {
+    "question_id": "PHY_289",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度4m/s，加速度1m/s²，时间4s，求末速度。",
+    "answer": "8m/s",
+    "reasoning_process": "v=v0+at=4+1×4=8m/s"
+  },
+  {
+    "question_id": "PHY_290",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "一质量为3kg的物体以速度6m/s运动，求动能。",
+    "answer": "54.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×3×6^2=54.0J"
+  },
+  {
+    "question_id": "PHY_291",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一质量为3kg的物体以速度2m/s运动，求动能。",
+    "answer": "6.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×3×2^2=6.0J"
+  },
+  {
+    "question_id": "PHY_292",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "电阻R=1Ω，两端电压U=8V，求电流。",
+    "answer": "8.0A",
+    "reasoning_process": "I=U/R=8/1=8.0A"
+  },
+  {
+    "question_id": "PHY_293",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "电阻R=5Ω，两端电压U=12V，求电流。",
+    "answer": "2.4A",
+    "reasoning_process": "I=U/R=12/5=2.4A"
+  },
+  {
+    "question_id": "PHY_294",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一质量为7kg的物体以速度6m/s运动，求动能。",
+    "answer": "126.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×7×6^2=126.0J"
+  },
+  {
+    "question_id": "PHY_295",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度26m，求落地速度(g取9.8)。",
+    "answer": "22.57m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×26)=22.57m/s"
+  },
+  {
+    "question_id": "PHY_296",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度3m/s，加速度3m/s²，时间4s，求末速度。",
+    "answer": "15m/s",
+    "reasoning_process": "v=v0+at=3+3×4=15m/s"
+  },
+  {
+    "question_id": "PHY_297",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=8Ω，两端电压U=7V，求电流。",
+    "answer": "0.875A",
+    "reasoning_process": "I=U/R=7/8=0.875A"
+  },
+  {
+    "question_id": "PHY_298",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数27N/m，伸长1.0m，求弹力。",
+    "answer": "27.0N",
+    "reasoning_process": "F=kx=27×1.0=27.0N"
+  },
+  {
+    "question_id": "PHY_299",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数197N/m，伸长0.2m，求弹力。",
+    "answer": "39.400000000000006N",
+    "reasoning_process": "F=kx=197×0.2=39.400000000000006N"
+  },
+  {
+    "question_id": "PHY_300",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度15m，求落地速度(g取9.8)。",
+    "answer": "17.15m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×15)=17.15m/s"
+  },
+  {
+    "question_id": "PHY_301",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度35m，求落地速度(g取9.8)。",
+    "answer": "26.19m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×35)=26.19m/s"
+  },
+  {
+    "question_id": "PHY_302",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "自由落体高度35m，求落地速度(g取9.8)。",
+    "answer": "26.19m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×35)=26.19m/s"
+  },
+  {
+    "question_id": "PHY_303",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=3Ω，两端电压U=18V，求电流。",
+    "answer": "6.0A",
+    "reasoning_process": "I=U/R=18/3=6.0A"
+  },
+  {
+    "question_id": "PHY_304",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "自由落体高度16m，求落地速度(g取9.8)。",
+    "answer": "17.71m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×16)=17.71m/s"
+  },
+  {
+    "question_id": "PHY_305",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=9Ω，两端电压U=12V，求电流。",
+    "answer": "1.3333333333333333A",
+    "reasoning_process": "I=U/R=12/9=1.3333333333333333A"
+  },
+  {
+    "question_id": "PHY_306",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=10Ω，两端电压U=18V，求电流。",
+    "answer": "1.8A",
+    "reasoning_process": "I=U/R=18/10=1.8A"
+  },
+  {
+    "question_id": "PHY_307",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度7m/s，加速度3m/s²，时间4s，求末速度。",
+    "answer": "19m/s",
+    "reasoning_process": "v=v0+at=7+3×4=19m/s"
+  },
+  {
+    "question_id": "PHY_308",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为10kg的物体以速度4m/s运动，求动能。",
+    "answer": "80.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×10×4^2=80.0J"
+  },
+  {
+    "question_id": "PHY_309",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度9m/s，加速度4m/s²，时间2s，求末速度。",
+    "answer": "17m/s",
+    "reasoning_process": "v=v0+at=9+4×2=17m/s"
+  },
+  {
+    "question_id": "PHY_310",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为2kg的物体以速度7m/s运动，求动能。",
+    "answer": "49.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×2×7^2=49.0J"
+  },
+  {
+    "question_id": "PHY_311",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度9m/s，加速度4m/s²，时间2s，求末速度。",
+    "answer": "17m/s",
+    "reasoning_process": "v=v0+at=9+4×2=17m/s"
+  },
+  {
+    "question_id": "PHY_312",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=8Ω，两端电压U=16V，求电流。",
+    "answer": "2.0A",
+    "reasoning_process": "I=U/R=16/8=2.0A"
+  },
+  {
+    "question_id": "PHY_313",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数191N/m，伸长1.0m，求弹力。",
+    "answer": "191.0N",
+    "reasoning_process": "F=kx=191×1.0=191.0N"
+  },
+  {
+    "question_id": "PHY_314",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为9kg的物体以速度1m/s运动，求动能。",
+    "answer": "4.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×9×1^2=4.5J"
+  },
+  {
+    "question_id": "PHY_315",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "电阻R=5Ω，两端电压U=5V，求电流。",
+    "answer": "1.0A",
+    "reasoning_process": "I=U/R=5/5=1.0A"
+  },
+  {
+    "question_id": "PHY_316",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度10m/s，加速度4m/s²，时间5s，求末速度。",
+    "answer": "30m/s",
+    "reasoning_process": "v=v0+at=10+4×5=30m/s"
+  },
+  {
+    "question_id": "PHY_317",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "电阻R=7Ω，两端电压U=19V，求电流。",
+    "answer": "2.7142857142857144A",
+    "reasoning_process": "I=U/R=19/7=2.7142857142857144A"
+  },
+  {
+    "question_id": "PHY_318",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "电阻R=6Ω，两端电压U=6V，求电流。",
+    "answer": "1.0A",
+    "reasoning_process": "I=U/R=6/6=1.0A"
+  },
+  {
+    "question_id": "PHY_319",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度3m/s，加速度1m/s²，时间2s，求末速度。",
+    "answer": "5m/s",
+    "reasoning_process": "v=v0+at=3+1×2=5m/s"
+  },
+  {
+    "question_id": "PHY_320",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度4m/s，加速度1m/s²，时间3s，求末速度。",
+    "answer": "7m/s",
+    "reasoning_process": "v=v0+at=4+1×3=7m/s"
+  },
+  {
+    "question_id": "PHY_321",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一质量为4kg的物体以速度10m/s运动，求动能。",
+    "answer": "200.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×4×10^2=200.0J"
+  },
+  {
+    "question_id": "PHY_322",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "一质量为3kg的物体以速度2m/s运动，求动能。",
+    "answer": "6.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×3×2^2=6.0J"
+  },
+  {
+    "question_id": "PHY_323",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度10m/s，加速度4m/s²，时间3s，求末速度。",
+    "answer": "22m/s",
+    "reasoning_process": "v=v0+at=10+4×3=22m/s"
+  },
+  {
+    "question_id": "PHY_324",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数195N/m，伸长0.2m，求弹力。",
+    "answer": "39.0N",
+    "reasoning_process": "F=kx=195×0.2=39.0N"
+  },
+  {
+    "question_id": "PHY_325",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "电阻R=7Ω，两端电压U=4V，求电流。",
+    "answer": "0.5714285714285714A",
+    "reasoning_process": "I=U/R=4/7=0.5714285714285714A"
+  },
+  {
+    "question_id": "PHY_326",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一质量为6kg的物体以速度3m/s运动，求动能。",
+    "answer": "27.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×6×3^2=27.0J"
+  },
+  {
+    "question_id": "PHY_327",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "弹簧劲度系数120N/m，伸长0.5m，求弹力。",
+    "answer": "60.0N",
+    "reasoning_process": "F=kx=120×0.5=60.0N"
+  },
+  {
+    "question_id": "PHY_328",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度12m，求落地速度(g取9.8)。",
+    "answer": "15.34m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×12)=15.34m/s"
+  },
+  {
+    "question_id": "PHY_329",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "一质量为8kg的物体以速度8m/s运动，求动能。",
+    "answer": "256.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×8×8^2=256.0J"
+  },
+  {
+    "question_id": "PHY_330",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "弹簧劲度系数39N/m，伸长0.6m，求弹力。",
+    "answer": "23.4N",
+    "reasoning_process": "F=kx=39×0.6=23.4N"
+  },
+  {
+    "question_id": "PHY_331",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度31m，求落地速度(g取9.8)。",
+    "answer": "24.65m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×31)=24.65m/s"
+  },
+  {
+    "question_id": "PHY_332",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度4m/s，加速度3m/s²，时间4s，求末速度。",
+    "answer": "16m/s",
+    "reasoning_process": "v=v0+at=4+3×4=16m/s"
+  },
+  {
+    "question_id": "PHY_333",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "自由落体高度46m，求落地速度(g取9.8)。",
+    "answer": "30.03m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×46)=30.03m/s"
+  },
+  {
+    "question_id": "PHY_334",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度45m，求落地速度(g取9.8)。",
+    "answer": "29.70m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×45)=29.70m/s"
+  },
+  {
+    "question_id": "PHY_335",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度8m/s，加速度1m/s²，时间5s，求末速度。",
+    "answer": "13m/s",
+    "reasoning_process": "v=v0+at=8+1×5=13m/s"
+  },
+  {
+    "question_id": "PHY_336",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=9Ω，两端电压U=12V，求电流。",
+    "answer": "1.3333333333333333A",
+    "reasoning_process": "I=U/R=12/9=1.3333333333333333A"
+  },
+  {
+    "question_id": "PHY_337",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为10kg的物体以速度3m/s运动，求动能。",
+    "answer": "45.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×10×3^2=45.0J"
+  },
+  {
+    "question_id": "PHY_338",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数183N/m，伸长0.3m，求弹力。",
+    "answer": "54.9N",
+    "reasoning_process": "F=kx=183×0.3=54.9N"
+  },
+  {
+    "question_id": "PHY_339",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为6kg的物体以速度9m/s运动，求动能。",
+    "answer": "243.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×6×9^2=243.0J"
+  },
+  {
+    "question_id": "PHY_340",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "自由落体高度12m，求落地速度(g取9.8)。",
+    "answer": "15.34m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×12)=15.34m/s"
+  },
+  {
+    "question_id": "PHY_341",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "弹簧劲度系数177N/m，伸长0.7m，求弹力。",
+    "answer": "123.89999999999999N",
+    "reasoning_process": "F=kx=177×0.7=123.89999999999999N"
+  },
+  {
+    "question_id": "PHY_342",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "自由落体高度2m，求落地速度(g取9.8)。",
+    "answer": "6.26m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×2)=6.26m/s"
+  },
+  {
+    "question_id": "PHY_343",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度6m/s，加速度2m/s²，时间1s，求末速度。",
+    "answer": "8m/s",
+    "reasoning_process": "v=v0+at=6+2×1=8m/s"
+  },
+  {
+    "question_id": "PHY_344",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数138N/m，伸长0.6m，求弹力。",
+    "answer": "82.8N",
+    "reasoning_process": "F=kx=138×0.6=82.8N"
+  },
+  {
+    "question_id": "PHY_345",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度9m/s，加速度5m/s²，时间2s，求末速度。",
+    "answer": "19m/s",
+    "reasoning_process": "v=v0+at=9+5×2=19m/s"
+  },
+  {
+    "question_id": "PHY_346",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "电阻R=10Ω，两端电压U=15V，求电流。",
+    "answer": "1.5A",
+    "reasoning_process": "I=U/R=15/10=1.5A"
+  },
+  {
+    "question_id": "PHY_347",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数125N/m，伸长0.1m，求弹力。",
+    "answer": "12.5N",
+    "reasoning_process": "F=kx=125×0.1=12.5N"
+  },
+  {
+    "question_id": "PHY_348",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度9m/s，加速度3m/s²，时间2s，求末速度。",
+    "answer": "15m/s",
+    "reasoning_process": "v=v0+at=9+3×2=15m/s"
+  },
+  {
+    "question_id": "PHY_349",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度9m/s，加速度3m/s²，时间4s，求末速度。",
+    "answer": "21m/s",
+    "reasoning_process": "v=v0+at=9+3×4=21m/s"
+  },
+  {
+    "question_id": "PHY_350",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=5Ω，两端电压U=6V，求电流。",
+    "answer": "1.2A",
+    "reasoning_process": "I=U/R=6/5=1.2A"
+  },
+  {
+    "question_id": "PHY_351",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "自由落体高度25m，求落地速度(g取9.8)。",
+    "answer": "22.14m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×25)=22.14m/s"
+  },
+  {
+    "question_id": "PHY_352",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数131N/m，伸长0.9m，求弹力。",
+    "answer": "117.9N",
+    "reasoning_process": "F=kx=131×0.9=117.9N"
+  },
+  {
+    "question_id": "PHY_353",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为9kg的物体以速度1m/s运动，求动能。",
+    "answer": "4.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×9×1^2=4.5J"
+  },
+  {
+    "question_id": "PHY_354",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度13m，求落地速度(g取9.8)。",
+    "answer": "15.96m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×13)=15.96m/s"
+  },
+  {
+    "question_id": "PHY_355",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度4m/s，加速度3m/s²，时间1s，求末速度。",
+    "answer": "7m/s",
+    "reasoning_process": "v=v0+at=4+3×1=7m/s"
+  },
+  {
+    "question_id": "PHY_356",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度3m/s，加速度2m/s²，时间3s，求末速度。",
+    "answer": "9m/s",
+    "reasoning_process": "v=v0+at=3+2×3=9m/s"
+  },
+  {
+    "question_id": "PHY_357",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数118N/m，伸长0.3m，求弹力。",
+    "answer": "35.4N",
+    "reasoning_process": "F=kx=118×0.3=35.4N"
+  },
+  {
+    "question_id": "PHY_358",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为2kg的物体以速度6m/s运动，求动能。",
+    "answer": "36.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×2×6^2=36.0J"
+  },
+  {
+    "question_id": "PHY_359",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度9m/s，加速度5m/s²，时间1s，求末速度。",
+    "answer": "14m/s",
+    "reasoning_process": "v=v0+at=9+5×1=14m/s"
+  },
+  {
+    "question_id": "PHY_360",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "电阻R=1Ω，两端电压U=1V，求电流。",
+    "answer": "1.0A",
+    "reasoning_process": "I=U/R=1/1=1.0A"
+  },
+  {
+    "question_id": "PHY_361",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "电阻R=5Ω，两端电压U=6V，求电流。",
+    "answer": "1.2A",
+    "reasoning_process": "I=U/R=6/5=1.2A"
+  },
+  {
+    "question_id": "PHY_362",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度9m/s，加速度2m/s²，时间1s，求末速度。",
+    "answer": "11m/s",
+    "reasoning_process": "v=v0+at=9+2×1=11m/s"
+  },
+  {
+    "question_id": "PHY_363",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "电阻R=2Ω，两端电压U=1V，求电流。",
+    "answer": "0.5A",
+    "reasoning_process": "I=U/R=1/2=0.5A"
+  },
+  {
+    "question_id": "PHY_364",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=10Ω，两端电压U=5V，求电流。",
+    "answer": "0.5A",
+    "reasoning_process": "I=U/R=5/10=0.5A"
+  },
+  {
+    "question_id": "PHY_365",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一质量为3kg的物体以速度3m/s运动，求动能。",
+    "answer": "13.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×3×3^2=13.5J"
+  },
+  {
+    "question_id": "PHY_366",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为10kg的物体以速度9m/s运动，求动能。",
+    "answer": "405.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×10×9^2=405.0J"
+  },
+  {
+    "question_id": "PHY_367",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度8m/s，加速度5m/s²，时间5s，求末速度。",
+    "answer": "33m/s",
+    "reasoning_process": "v=v0+at=8+5×5=33m/s"
+  },
+  {
+    "question_id": "PHY_368",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=8Ω，两端电压U=3V，求电流。",
+    "answer": "0.375A",
+    "reasoning_process": "I=U/R=3/8=0.375A"
+  },
+  {
+    "question_id": "PHY_369",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "电阻R=1Ω，两端电压U=10V，求电流。",
+    "answer": "10.0A",
+    "reasoning_process": "I=U/R=10/1=10.0A"
+  },
+  {
+    "question_id": "PHY_370",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度9m/s，加速度2m/s²，时间4s，求末速度。",
+    "answer": "17m/s",
+    "reasoning_process": "v=v0+at=9+2×4=17m/s"
+  },
+  {
+    "question_id": "PHY_371",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=3Ω，两端电压U=9V，求电流。",
+    "answer": "3.0A",
+    "reasoning_process": "I=U/R=9/3=3.0A"
+  },
+  {
+    "question_id": "PHY_372",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=3Ω，两端电压U=4V，求电流。",
+    "answer": "1.3333333333333333A",
+    "reasoning_process": "I=U/R=4/3=1.3333333333333333A"
+  },
+  {
+    "question_id": "PHY_373",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一质量为7kg的物体以速度7m/s运动，求动能。",
+    "answer": "171.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×7×7^2=171.5J"
+  },
+  {
+    "question_id": "PHY_374",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为6kg的物体以速度6m/s运动，求动能。",
+    "answer": "108.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×6×6^2=108.0J"
+  },
+  {
+    "question_id": "PHY_375",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为6kg的物体以速度2m/s运动，求动能。",
+    "answer": "12.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×6×2^2=12.0J"
+  },
+  {
+    "question_id": "PHY_376",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "自由落体高度16m，求落地速度(g取9.8)。",
+    "answer": "17.71m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×16)=17.71m/s"
+  },
+  {
+    "question_id": "PHY_377",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为5kg的物体以速度3m/s运动，求动能。",
+    "answer": "22.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×5×3^2=22.5J"
+  },
+  {
+    "question_id": "PHY_378",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数167N/m，伸长0.7m，求弹力。",
+    "answer": "116.89999999999999N",
+    "reasoning_process": "F=kx=167×0.7=116.89999999999999N"
+  },
+  {
+    "question_id": "PHY_379",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=9Ω，两端电压U=13V，求电流。",
+    "answer": "1.4444444444444444A",
+    "reasoning_process": "I=U/R=13/9=1.4444444444444444A"
+  },
+  {
+    "question_id": "PHY_380",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度45m，求落地速度(g取9.8)。",
+    "answer": "29.70m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×45)=29.70m/s"
+  },
+  {
+    "question_id": "PHY_381",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度39m，求落地速度(g取9.8)。",
+    "answer": "27.65m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×39)=27.65m/s"
+  },
+  {
+    "question_id": "PHY_382",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度1m/s，加速度5m/s²，时间5s，求末速度。",
+    "answer": "26m/s",
+    "reasoning_process": "v=v0+at=1+5×5=26m/s"
+  },
+  {
+    "question_id": "PHY_383",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数152N/m，伸长0.4m，求弹力。",
+    "answer": "60.800000000000004N",
+    "reasoning_process": "F=kx=152×0.4=60.800000000000004N"
+  },
+  {
+    "question_id": "PHY_384",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度1m/s，加速度2m/s²，时间3s，求末速度。",
+    "answer": "7m/s",
+    "reasoning_process": "v=v0+at=1+2×3=7m/s"
+  },
+  {
+    "question_id": "PHY_385",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度41m，求落地速度(g取9.8)。",
+    "answer": "28.35m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×41)=28.35m/s"
+  },
+  {
+    "question_id": "PHY_386",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "电阻R=6Ω，两端电压U=3V，求电流。",
+    "answer": "0.5A",
+    "reasoning_process": "I=U/R=3/6=0.5A"
+  },
+  {
+    "question_id": "PHY_387",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一质量为4kg的物体以速度2m/s运动，求动能。",
+    "answer": "8.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×4×2^2=8.0J"
+  },
+  {
+    "question_id": "PHY_388",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数31N/m，伸长1.0m，求弹力。",
+    "answer": "31.0N",
+    "reasoning_process": "F=kx=31×1.0=31.0N"
+  },
+  {
+    "question_id": "PHY_389",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "电阻R=10Ω，两端电压U=1V，求电流。",
+    "answer": "0.1A",
+    "reasoning_process": "I=U/R=1/10=0.1A"
+  },
+  {
+    "question_id": "PHY_390",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "电阻R=10Ω，两端电压U=10V，求电流。",
+    "answer": "1.0A",
+    "reasoning_process": "I=U/R=10/10=1.0A"
+  },
+  {
+    "question_id": "PHY_391",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "电阻R=1Ω，两端电压U=10V，求电流。",
+    "answer": "10.0A",
+    "reasoning_process": "I=U/R=10/1=10.0A"
+  },
+  {
+    "question_id": "PHY_392",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为9kg的物体以速度4m/s运动，求动能。",
+    "answer": "72.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×9×4^2=72.0J"
+  },
+  {
+    "question_id": "PHY_393",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度14m，求落地速度(g取9.8)。",
+    "answer": "16.57m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×14)=16.57m/s"
+  },
+  {
+    "question_id": "PHY_394",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度6m/s，加速度5m/s²，时间5s，求末速度。",
+    "answer": "31m/s",
+    "reasoning_process": "v=v0+at=6+5×5=31m/s"
+  },
+  {
+    "question_id": "PHY_395",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度20m，求落地速度(g取9.8)。",
+    "answer": "19.80m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×20)=19.80m/s"
+  },
+  {
+    "question_id": "PHY_396",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "自由落体高度44m，求落地速度(g取9.8)。",
+    "answer": "29.37m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×44)=29.37m/s"
+  },
+  {
+    "question_id": "PHY_397",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数144N/m，伸长1.0m，求弹力。",
+    "answer": "144.0N",
+    "reasoning_process": "F=kx=144×1.0=144.0N"
+  },
+  {
+    "question_id": "PHY_398",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "自由落体高度3m，求落地速度(g取9.8)。",
+    "answer": "7.67m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×3)=7.67m/s"
+  },
+  {
+    "question_id": "PHY_399",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度22m，求落地速度(g取9.8)。",
+    "answer": "20.77m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×22)=20.77m/s"
+  },
+  {
+    "question_id": "PHY_400",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度6m/s，加速度5m/s²，时间2s，求末速度。",
+    "answer": "16m/s",
+    "reasoning_process": "v=v0+at=6+5×2=16m/s"
+  },
+  {
+    "question_id": "PHY_401",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "自由落体高度43m，求落地速度(g取9.8)。",
+    "answer": "29.03m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×43)=29.03m/s"
+  },
+  {
+    "question_id": "PHY_402",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数197N/m，伸长0.3m，求弹力。",
+    "answer": "59.099999999999994N",
+    "reasoning_process": "F=kx=197×0.3=59.099999999999994N"
+  },
+  {
+    "question_id": "PHY_403",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数166N/m，伸长0.9m，求弹力。",
+    "answer": "149.4N",
+    "reasoning_process": "F=kx=166×0.9=149.4N"
+  },
+  {
+    "question_id": "PHY_404",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度23m，求落地速度(g取9.8)。",
+    "answer": "21.23m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×23)=21.23m/s"
+  },
+  {
+    "question_id": "PHY_405",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度10m，求落地速度(g取9.8)。",
+    "answer": "14.00m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×10)=14.00m/s"
+  },
+  {
+    "question_id": "PHY_406",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度7m/s，加速度3m/s²，时间1s，求末速度。",
+    "answer": "10m/s",
+    "reasoning_process": "v=v0+at=7+3×1=10m/s"
+  },
+  {
+    "question_id": "PHY_407",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "电阻R=8Ω，两端电压U=1V，求电流。",
+    "answer": "0.125A",
+    "reasoning_process": "I=U/R=1/8=0.125A"
+  },
+  {
+    "question_id": "PHY_408",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度2m/s，加速度2m/s²，时间2s，求末速度。",
+    "answer": "6m/s",
+    "reasoning_process": "v=v0+at=2+2×2=6m/s"
+  },
+  {
+    "question_id": "PHY_409",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "电阻R=5Ω，两端电压U=18V，求电流。",
+    "answer": "3.6A",
+    "reasoning_process": "I=U/R=18/5=3.6A"
+  },
+  {
+    "question_id": "PHY_410",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为2kg的物体以速度10m/s运动，求动能。",
+    "answer": "100.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×2×10^2=100.0J"
+  },
+  {
+    "question_id": "PHY_411",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "弹簧劲度系数141N/m，伸长0.2m，求弹力。",
+    "answer": "28.200000000000003N",
+    "reasoning_process": "F=kx=141×0.2=28.200000000000003N"
+  },
+  {
+    "question_id": "PHY_412",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度5m/s，加速度4m/s²，时间5s，求末速度。",
+    "answer": "25m/s",
+    "reasoning_process": "v=v0+at=5+4×5=25m/s"
+  },
+  {
+    "question_id": "PHY_413",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数180N/m，伸长0.9m，求弹力。",
+    "answer": "162.0N",
+    "reasoning_process": "F=kx=180×0.9=162.0N"
+  },
+  {
+    "question_id": "PHY_414",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度4m/s，加速度1m/s²，时间4s，求末速度。",
+    "answer": "8m/s",
+    "reasoning_process": "v=v0+at=4+1×4=8m/s"
+  },
+  {
+    "question_id": "PHY_415",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度7m/s，加速度4m/s²，时间5s，求末速度。",
+    "answer": "27m/s",
+    "reasoning_process": "v=v0+at=7+4×5=27m/s"
+  },
+  {
+    "question_id": "PHY_416",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度2m/s，加速度3m/s²，时间1s，求末速度。",
+    "answer": "5m/s",
+    "reasoning_process": "v=v0+at=2+3×1=5m/s"
+  },
+  {
+    "question_id": "PHY_417",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为7kg的物体以速度7m/s运动，求动能。",
+    "answer": "171.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×7×7^2=171.5J"
+  },
+  {
+    "question_id": "PHY_418",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度8m/s，加速度3m/s²，时间1s，求末速度。",
+    "answer": "11m/s",
+    "reasoning_process": "v=v0+at=8+3×1=11m/s"
+  },
+  {
+    "question_id": "PHY_419",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数165N/m，伸长0.1m，求弹力。",
+    "answer": "16.5N",
+    "reasoning_process": "F=kx=165×0.1=16.5N"
+  },
+  {
+    "question_id": "PHY_420",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数19N/m，伸长0.7m，求弹力。",
+    "answer": "13.299999999999999N",
+    "reasoning_process": "F=kx=19×0.7=13.299999999999999N"
+  },
+  {
+    "question_id": "PHY_421",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "电阻R=9Ω，两端电压U=7V，求电流。",
+    "answer": "0.7777777777777778A",
+    "reasoning_process": "I=U/R=7/9=0.7777777777777778A"
+  },
+  {
+    "question_id": "PHY_422",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数130N/m，伸长0.6m，求弹力。",
+    "answer": "78.0N",
+    "reasoning_process": "F=kx=130×0.6=78.0N"
+  },
+  {
+    "question_id": "PHY_423",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "自由落体高度48m，求落地速度(g取9.8)。",
+    "answer": "30.67m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×48)=30.67m/s"
+  },
+  {
+    "question_id": "PHY_424",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=9Ω，两端电压U=10V，求电流。",
+    "answer": "1.1111111111111112A",
+    "reasoning_process": "I=U/R=10/9=1.1111111111111112A"
+  },
+  {
+    "question_id": "PHY_425",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度3m/s，加速度5m/s²，时间3s，求末速度。",
+    "answer": "18m/s",
+    "reasoning_process": "v=v0+at=3+5×3=18m/s"
+  },
+  {
+    "question_id": "PHY_426",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=3Ω，两端电压U=14V，求电流。",
+    "answer": "4.666666666666667A",
+    "reasoning_process": "I=U/R=14/3=4.666666666666667A"
+  },
+  {
+    "question_id": "PHY_427",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "电阻R=8Ω，两端电压U=12V，求电流。",
+    "answer": "1.5A",
+    "reasoning_process": "I=U/R=12/8=1.5A"
+  },
+  {
+    "question_id": "PHY_428",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=6Ω，两端电压U=7V，求电流。",
+    "answer": "1.1666666666666667A",
+    "reasoning_process": "I=U/R=7/6=1.1666666666666667A"
+  },
+  {
+    "question_id": "PHY_429",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=1Ω，两端电压U=10V，求电流。",
+    "answer": "10.0A",
+    "reasoning_process": "I=U/R=10/1=10.0A"
+  },
+  {
+    "question_id": "PHY_430",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "弹簧劲度系数69N/m，伸长0.2m，求弹力。",
+    "answer": "13.8N",
+    "reasoning_process": "F=kx=69×0.2=13.8N"
+  },
+  {
+    "question_id": "PHY_431",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=5Ω，两端电压U=17V，求电流。",
+    "answer": "3.4A",
+    "reasoning_process": "I=U/R=17/5=3.4A"
+  },
+  {
+    "question_id": "PHY_432",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度1m/s，加速度5m/s²，时间1s，求末速度。",
+    "answer": "6m/s",
+    "reasoning_process": "v=v0+at=1+5×1=6m/s"
+  },
+  {
+    "question_id": "PHY_433",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "一质量为4kg的物体以速度7m/s运动，求动能。",
+    "answer": "98.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×4×7^2=98.0J"
+  },
+  {
+    "question_id": "PHY_434",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度29m，求落地速度(g取9.8)。",
+    "answer": "23.84m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×29)=23.84m/s"
+  },
+  {
+    "question_id": "PHY_435",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度9m/s，加速度2m/s²，时间5s，求末速度。",
+    "answer": "19m/s",
+    "reasoning_process": "v=v0+at=9+2×5=19m/s"
+  },
+  {
+    "question_id": "PHY_436",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度2m/s，加速度5m/s²，时间2s，求末速度。",
+    "answer": "12m/s",
+    "reasoning_process": "v=v0+at=2+5×2=12m/s"
+  },
+  {
+    "question_id": "PHY_437",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数46N/m，伸长0.3m，求弹力。",
+    "answer": "13.799999999999999N",
+    "reasoning_process": "F=kx=46×0.3=13.799999999999999N"
+  },
+  {
+    "question_id": "PHY_438",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数100N/m，伸长0.1m，求弹力。",
+    "answer": "10.0N",
+    "reasoning_process": "F=kx=100×0.1=10.0N"
+  },
+  {
+    "question_id": "PHY_439",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "电阻R=10Ω，两端电压U=2V，求电流。",
+    "answer": "0.2A",
+    "reasoning_process": "I=U/R=2/10=0.2A"
+  },
+  {
+    "question_id": "PHY_440",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数52N/m，伸长1.0m，求弹力。",
+    "answer": "52.0N",
+    "reasoning_process": "F=kx=52×1.0=52.0N"
+  },
+  {
+    "question_id": "PHY_441",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为8kg的物体以速度2m/s运动，求动能。",
+    "answer": "16.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×8×2^2=16.0J"
+  },
+  {
+    "question_id": "PHY_442",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度5m/s，加速度1m/s²，时间5s，求末速度。",
+    "answer": "10m/s",
+    "reasoning_process": "v=v0+at=5+1×5=10m/s"
+  },
+  {
+    "question_id": "PHY_443",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数107N/m，伸长0.7m，求弹力。",
+    "answer": "74.89999999999999N",
+    "reasoning_process": "F=kx=107×0.7=74.89999999999999N"
+  },
+  {
+    "question_id": "PHY_444",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度2m/s，加速度5m/s²，时间3s，求末速度。",
+    "answer": "17m/s",
+    "reasoning_process": "v=v0+at=2+5×3=17m/s"
+  },
+  {
+    "question_id": "PHY_445",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度8m/s，加速度1m/s²，时间5s，求末速度。",
+    "answer": "13m/s",
+    "reasoning_process": "v=v0+at=8+1×5=13m/s"
+  },
+  {
+    "question_id": "PHY_446",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "弹簧劲度系数159N/m，伸长0.1m，求弹力。",
+    "answer": "15.9N",
+    "reasoning_process": "F=kx=159×0.1=15.9N"
+  },
+  {
+    "question_id": "PHY_447",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度9m/s，加速度2m/s²，时间1s，求末速度。",
+    "answer": "11m/s",
+    "reasoning_process": "v=v0+at=9+2×1=11m/s"
+  },
+  {
+    "question_id": "PHY_448",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=6Ω，两端电压U=5V，求电流。",
+    "answer": "0.8333333333333334A",
+    "reasoning_process": "I=U/R=5/6=0.8333333333333334A"
+  },
+  {
+    "question_id": "PHY_449",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "自由落体高度43m，求落地速度(g取9.8)。",
+    "answer": "29.03m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×43)=29.03m/s"
+  },
+  {
+    "question_id": "PHY_450",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为8kg的物体以速度1m/s运动，求动能。",
+    "answer": "4.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×8×1^2=4.0J"
+  },
+  {
+    "question_id": "PHY_451",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "弹簧劲度系数54N/m，伸长0.2m，求弹力。",
+    "answer": "10.8N",
+    "reasoning_process": "F=kx=54×0.2=10.8N"
+  },
+  {
+    "question_id": "PHY_452",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数94N/m，伸长0.9m，求弹力。",
+    "answer": "84.60000000000001N",
+    "reasoning_process": "F=kx=94×0.9=84.60000000000001N"
+  },
+  {
+    "question_id": "PHY_453",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数193N/m，伸长0.7m，求弹力。",
+    "answer": "135.1N",
+    "reasoning_process": "F=kx=193×0.7=135.1N"
+  },
+  {
+    "question_id": "PHY_454",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度1m/s，加速度5m/s²，时间2s，求末速度。",
+    "answer": "11m/s",
+    "reasoning_process": "v=v0+at=1+5×2=11m/s"
+  },
+  {
+    "question_id": "PHY_455",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为2kg的物体以速度5m/s运动，求动能。",
+    "answer": "25.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×2×5^2=25.0J"
+  },
+  {
+    "question_id": "PHY_456",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一质量为5kg的物体以速度9m/s运动，求动能。",
+    "answer": "202.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×5×9^2=202.5J"
+  },
+  {
+    "question_id": "PHY_457",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "自由落体高度10m，求落地速度(g取9.8)。",
+    "answer": "14.00m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×10)=14.00m/s"
+  },
+  {
+    "question_id": "PHY_458",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为8kg的物体以速度1m/s运动，求动能。",
+    "answer": "4.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×8×1^2=4.0J"
+  },
+  {
+    "question_id": "PHY_459",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数157N/m，伸长1.0m，求弹力。",
+    "answer": "157.0N",
+    "reasoning_process": "F=kx=157×1.0=157.0N"
+  },
+  {
+    "question_id": "PHY_460",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "自由落体高度33m，求落地速度(g取9.8)。",
+    "answer": "25.43m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×33)=25.43m/s"
+  },
+  {
+    "question_id": "PHY_461",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=7Ω，两端电压U=12V，求电流。",
+    "answer": "1.7142857142857142A",
+    "reasoning_process": "I=U/R=12/7=1.7142857142857142A"
+  },
+  {
+    "question_id": "PHY_462",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "一质量为10kg的物体以速度6m/s运动，求动能。",
+    "answer": "180.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×10×6^2=180.0J"
+  },
+  {
+    "question_id": "PHY_463",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "自由落体高度41m，求落地速度(g取9.8)。",
+    "answer": "28.35m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×41)=28.35m/s"
+  },
+  {
+    "question_id": "PHY_464",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度25m，求落地速度(g取9.8)。",
+    "answer": "22.14m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×25)=22.14m/s"
+  },
+  {
+    "question_id": "PHY_465",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为6kg的物体以速度2m/s运动，求动能。",
+    "answer": "12.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×6×2^2=12.0J"
+  },
+  {
+    "question_id": "PHY_466",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "弹簧劲度系数15N/m，伸长0.8m，求弹力。",
+    "answer": "12.0N",
+    "reasoning_process": "F=kx=15×0.8=12.0N"
+  },
+  {
+    "question_id": "PHY_467",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度8m/s，加速度5m/s²，时间2s，求末速度。",
+    "answer": "18m/s",
+    "reasoning_process": "v=v0+at=8+5×2=18m/s"
+  },
+  {
+    "question_id": "PHY_468",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "电阻R=3Ω，两端电压U=10V，求电流。",
+    "answer": "3.3333333333333335A",
+    "reasoning_process": "I=U/R=10/3=3.3333333333333335A"
+  },
+  {
+    "question_id": "PHY_469",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "自由落体高度31m，求落地速度(g取9.8)。",
+    "answer": "24.65m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×31)=24.65m/s"
+  },
+  {
+    "question_id": "PHY_470",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数135N/m，伸长0.9m，求弹力。",
+    "answer": "121.5N",
+    "reasoning_process": "F=kx=135×0.9=121.5N"
+  },
+  {
+    "question_id": "PHY_471",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数114N/m，伸长0.1m，求弹力。",
+    "answer": "11.4N",
+    "reasoning_process": "F=kx=114×0.1=11.4N"
+  },
+  {
+    "question_id": "PHY_472",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "一质量为3kg的物体以速度4m/s运动，求动能。",
+    "answer": "24.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×3×4^2=24.0J"
+  },
+  {
+    "question_id": "PHY_473",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=1Ω，两端电压U=10V，求电流。",
+    "answer": "10.0A",
+    "reasoning_process": "I=U/R=10/1=10.0A"
+  },
+  {
+    "question_id": "PHY_474",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度3m/s，加速度2m/s²，时间3s，求末速度。",
+    "answer": "9m/s",
+    "reasoning_process": "v=v0+at=3+2×3=9m/s"
+  },
+  {
+    "question_id": "PHY_475",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数27N/m，伸长0.8m，求弹力。",
+    "answer": "21.6N",
+    "reasoning_process": "F=kx=27×0.8=21.6N"
+  },
+  {
+    "question_id": "PHY_476",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "电阻R=2Ω，两端电压U=5V，求电流。",
+    "answer": "2.5A",
+    "reasoning_process": "I=U/R=5/2=2.5A"
+  },
+  {
+    "question_id": "PHY_477",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度2m/s，加速度3m/s²，时间2s，求末速度。",
+    "answer": "8m/s",
+    "reasoning_process": "v=v0+at=2+3×2=8m/s"
+  },
+  {
+    "question_id": "PHY_478",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数74N/m，伸长0.3m，求弹力。",
+    "answer": "22.2N",
+    "reasoning_process": "F=kx=74×0.3=22.2N"
+  },
+  {
+    "question_id": "PHY_479",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数117N/m，伸长0.2m，求弹力。",
+    "answer": "23.400000000000002N",
+    "reasoning_process": "F=kx=117×0.2=23.400000000000002N"
+  },
+  {
+    "question_id": "PHY_480",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "自由落体高度17m，求落地速度(g取9.8)。",
+    "answer": "18.25m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×17)=18.25m/s"
+  },
+  {
+    "question_id": "PHY_481",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "自由落体高度13m，求落地速度(g取9.8)。",
+    "answer": "15.96m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×13)=15.96m/s"
+  },
+  {
+    "question_id": "PHY_482",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数87N/m，伸长0.5m，求弹力。",
+    "answer": "43.5N",
+    "reasoning_process": "F=kx=87×0.5=43.5N"
+  },
+  {
+    "question_id": "PHY_483",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度3m/s，加速度5m/s²，时间2s，求末速度。",
+    "answer": "13m/s",
+    "reasoning_process": "v=v0+at=3+5×2=13m/s"
+  },
+  {
+    "question_id": "PHY_484",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度6m/s，加速度3m/s²，时间3s，求末速度。",
+    "answer": "15m/s",
+    "reasoning_process": "v=v0+at=6+3×3=15m/s"
+  },
+  {
+    "question_id": "PHY_485",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为9kg的物体以速度1m/s运动，求动能。",
+    "answer": "4.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×9×1^2=4.5J"
+  },
+  {
+    "question_id": "PHY_486",
+    "type": "计算题",
+    "difficulty": "基础",
+    "question": "电阻R=9Ω，两端电压U=12V，求电流。",
+    "answer": "1.3333333333333333A",
+    "reasoning_process": "I=U/R=12/9=1.3333333333333333A"
+  },
+  {
+    "question_id": "PHY_487",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "弹簧劲度系数117N/m，伸长0.2m，求弹力。",
+    "answer": "23.400000000000002N",
+    "reasoning_process": "F=kx=117×0.2=23.400000000000002N"
+  },
+  {
+    "question_id": "PHY_488",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一质量为8kg的物体以速度8m/s运动，求动能。",
+    "answer": "256.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×8×8^2=256.0J"
+  },
+  {
+    "question_id": "PHY_489",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "自由落体高度40m，求落地速度(g取9.8)。",
+    "answer": "28.00m/s",
+    "reasoning_process": "v=√(2gh)=√(2×9.8×40)=28.00m/s"
+  },
+  {
+    "question_id": "PHY_490",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一质量为5kg的物体以速度3m/s运动，求动能。",
+    "answer": "22.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×5×3^2=22.5J"
+  },
+  {
+    "question_id": "PHY_491",
+    "type": "填空题",
+    "difficulty": "基础",
+    "question": "一物体做匀加速直线运动，初速度1m/s，加速度5m/s²，时间4s，求末速度。",
+    "answer": "21m/s",
+    "reasoning_process": "v=v0+at=1+5×4=21m/s"
+  },
+  {
+    "question_id": "PHY_492",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度2m/s，加速度4m/s²，时间3s，求末速度。",
+    "answer": "14m/s",
+    "reasoning_process": "v=v0+at=2+4×3=14m/s"
+  },
+  {
+    "question_id": "PHY_493",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数142N/m，伸长0.9m，求弹力。",
+    "answer": "127.8N",
+    "reasoning_process": "F=kx=142×0.9=127.8N"
+  },
+  {
+    "question_id": "PHY_494",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为5kg的物体以速度7m/s运动，求动能。",
+    "answer": "122.5J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×5×7^2=122.5J"
+  },
+  {
+    "question_id": "PHY_495",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一质量为6kg的物体以速度6m/s运动，求动能。",
+    "answer": "108.0J",
+    "reasoning_process": "Ek=1/2mv^2=1/2×6×6^2=108.0J"
+  },
+  {
+    "question_id": "PHY_496",
+    "type": "填空题",
+    "difficulty": "困难",
+    "question": "一物体做匀加速直线运动，初速度7m/s，加速度1m/s²，时间1s，求末速度。",
+    "answer": "8m/s",
+    "reasoning_process": "v=v0+at=7+1×1=8m/s"
+  },
+  {
+    "question_id": "PHY_497",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "电阻R=7Ω，两端电压U=14V，求电流。",
+    "answer": "2.0A",
+    "reasoning_process": "I=U/R=14/7=2.0A"
+  },
+  {
+    "question_id": "PHY_498",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "电阻R=10Ω，两端电压U=13V，求电流。",
+    "answer": "1.3A",
+    "reasoning_process": "I=U/R=13/10=1.3A"
+  },
+  {
+    "question_id": "PHY_499",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "一物体做匀加速直线运动，初速度5m/s，加速度4m/s²，时间1s，求末速度。",
+    "answer": "9m/s",
+    "reasoning_process": "v=v0+at=5+4×1=9m/s"
+  },
+  {
+    "question_id": "PHY_500",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "弹簧劲度系数170N/m，伸长0.3m，求弹力。",
+    "answer": "51.0N",
+    "reasoning_process": "F=kx=170×0.3=51.0N"
+  }
+]
