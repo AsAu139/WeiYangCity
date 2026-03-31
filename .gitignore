@@ -1,0 +1,13 @@
+# 屏蔽 VS 的本地缓存文件夹
+.vs/
+FileContentIndex/
+v17/
+*.suo
+*.user
+
+# 屏蔽 Python 产生的缓存
+__pycache__/
+*.pyc
+
+# 屏蔽你的隐私 API Key
+.env
