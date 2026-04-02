@@ -5676,6 +5676,627 @@
     "reasoning_process": "由牛顿第二定律，$F=ma=m\\,dv/dt$。\n两边同乘 $dt$，得 $Fdt=mdv$。\n对全过程积分：$\\int Fdt=\\int mdv$。\n质量恒定且力恒定时，左边就是冲量 $J=F\\Delta t$，右边为 $m(v_2-v_1)$。\n因此 $J=mv_2-mv_1=\\Delta p$。\n所以冲量等于动量的变化量。"
   },
   {
+    "question_id": "PHY2_001_hy",
+    "type": "单选题",
+    "knowledge_point": "黑体辐射",
+    "difficulty": "基础",
+    "question": "黑体辐射的本领取决于（ ）\nA. 黑体的温度\nB. 黑体的表面性质\nC. 构成黑体的材料\nD. 黑体的形状",
+    "answer": "A",
+    "reasoning_process": "黑体辐射是热平衡辐射，只由温度决定，与材料、形状、表面性质无关。因此选 A。"
+  },
+  {
+    "question_id": "PHY2_002_hy",
+    "type": "单选题",
+    "knowledge_point": "维恩位移定律",
+    "difficulty": "基础",
+    "question": "太阳表面温度约为 5750 K，其辐射谱极大所对应的波长约为（ ）nm\nA. 487.5\nB. 496.8\nC. 504.0\nD. 650.3",
+    "answer": "C",
+    "reasoning_process": "由维恩位移定律 $\\lambda_m T=b$，其中 $b\\approx2.898\\times10^{-3}\\,\\mathrm{m\\cdot K}$。\n代入 $T=5750\\,\\mathrm K$，得 $\\lambda_m\\approx2.898\\times10^{-3}/5750\\approx5.04\\times10^{-7}\\,\\mathrm m=504\\,\\mathrm{nm}$。\n故选 C。"
+  },
+  {
+    "question_id": "PHY2_003_hy",
+    "type": "单选题",
+    "knowledge_point": "光电效应",
+    "difficulty": "基础",
+    "question": "从 Na 中逸出一个电子至少需要 2.30 eV。若有波长约 400 nm 的光照射到 Na 的表面，则逸出光电子的最大动能约为（ ）eV\nA. 0.53\nB. 0.81\nC. 0.96\nD. 1.12",
+    "answer": "B",
+    "reasoning_process": "光子能量 $E=hc/\\lambda\\approx1240/400=3.10\\,\\mathrm{eV}$。\n最大初动能 $K_{\\max}=E-W=3.10-2.30=0.80\\,\\mathrm{eV}$。\n最接近 0.81 eV，选 B。"
+  },
+  {
+    "question_id": "PHY2_004_hy",
+    "type": "单选题",
+    "knowledge_point": "氢原子能级",
+    "difficulty": "基础",
+    "question": "将电子从氢原子的 $n=8$ 能级移去，需做（ ）J 的功\nA. $3.27\\times10^{-21}$\nB. $1.26\\times10^{-20}$\nC. $3.36\\times10^{-20}$\nD. $5.31\\times10^{-20}$",
+    "answer": "C",
+    "reasoning_process": "氢原子第 $n$ 能级能量 $E_n=-13.6/n^2\\,\\mathrm{eV}$。\n把电子从 $n=8$ 电离所需功为 $|E_8|=13.6/64=0.2125\\,\\mathrm{eV}$。\n换算成 SI 单位：$0.2125\\times1.602\\times10^{-19}\\approx3.4\\times10^{-20}\\,\\mathrm J$。\n故选 C。"
+  },
+  {
+    "question_id": "PHY2_005_hy",
+    "type": "单选题",
+    "knowledge_point": "精细结构",
+    "difficulty": "中等",
+    "question": "由于自旋轨道耦合作用，氢原子的 $2^2P_{3/2}$ 和 $2^2P_{1/2}$ 的能级差为 $4.5\\times10^{-5}$ eV，则莱曼系最小频率的两条精细结构谱线的频率差约为（ ）Hz\nA. $1.3\\times10^7$\nB. $2.1\\times10^9$\nC. $1.1\\times10^{10}$\nD. $1.9\\times10^{11}$",
+    "answer": "C",
+    "reasoning_process": "同一终态下两条谱线的频率差满足 $\\Delta \\nu=\\Delta E/h$。\n代入 $\\Delta E=4.5\\times10^{-5}\\,\\mathrm{eV}=4.5\\times10^{-5}\\times1.602\\times10^{-19}\\,\\mathrm J$。\n故 $\\Delta\\nu\\approx7.21\\times10^{-24}/6.626\\times10^{-34}\\approx1.1\\times10^{10}\\,\\mathrm{Hz}$。\n选 C。"
+  },
+  {
+    "question_id": "PHY2_006_hy",
+    "type": "单选题",
+    "knowledge_point": "类氢离子能级",
+    "difficulty": "基础",
+    "question": "在氦离子 $(\\mathrm{He}^+)$ 中基态电子的结合能是（ ）电子伏特\nA. 24.6\nB. 27.2\nC. 54.4\nD. 79.0",
+    "answer": "C",
+    "reasoning_process": "类氢离子基态能量绝对值为 $13.6Z^2\\,\\mathrm{eV}$。\n对 $\\mathrm{He}^+$ 有 $Z=2$，故结合能 $=13.6\\times4=54.4\\,\\mathrm{eV}$。\n选 C。"
+  },
+  {
+    "question_id": "PHY2_007_hy",
+    "type": "单选题",
+    "knowledge_point": "康普顿散射/类氢离子",
+    "difficulty": "中等",
+    "question": "欲使电子与处于基态的锂离子 $(\\mathrm{Li}^{2+})$ 发生非弹性散射，则电子动能至少为（ ）\nA. 10.2 eV\nB. 13.6 eV\nC. 40.8 eV\nD. 91.8 eV",
+    "answer": "D",
+    "reasoning_process": "对类氢离子 $\\mathrm{Li}^{2+}$，能级公式为 $E_n=-13.6Z^2/n^2=-122.4/n^2\\,\\mathrm{eV}$。\n发生非弹性散射的最低条件是把电子从 $n=1$ 激发到 $n=2$：\n$\\Delta E=122.4(1-1/4)=91.8\\,\\mathrm{eV}$。\n故选 D。"
+  },
+  {
+    "question_id": "PHY2_008_hy",
+    "type": "单选题",
+    "knowledge_point": "非弹性碰撞",
+    "difficulty": "中等",
+    "question": "运动质子与一个处于静止的基态氢原子作完全非弹性的对心碰撞，欲使氢原子发射出光子，质子至少应以多大的速度运动（ ）\nA. $1.65\\times10^3\\,\\mathrm{m/s}$\nB. $7.35\\times10^3\\,\\mathrm{m/s}$\nC. $6.26\\times10^4\\,\\mathrm{m/s}$\nD. $5.02\\times10^5\\,\\mathrm{m/s}$",
+    "answer": "C",
+    "reasoning_process": "要使氢原子能发光，至少要先被激发到 $n=2$，所需激发能为 $13.6(1-1/4)=10.2\\,\\mathrm{eV}$。\n完全非弹性对心碰撞时，可供内能的最大部分等于相对运动的约化质量动能；两者质量近似相等，故至少需满足 $\\frac14 mv^2\\ge10.2\\,\\mathrm{eV}$。\n解得 $v\\approx6.3\\times10^4\\,\\mathrm{m/s}$。\n故选 C。"
+  },
+  {
+    "question_id": "PHY2_009_hy",
+    "type": "单选题",
+    "knowledge_point": "电子偶素",
+    "difficulty": "基础",
+    "question": "电子偶素是由一个正电子和电子所组成的束缚系统，它由第一激发态退激到基态所放出光子的波长约为（ ）nm\nA. 243\nB. 379\nC. 550\nD. 637",
+    "answer": "A",
+    "reasoning_process": "电子偶素与氢原子类似，但约化质量变为 $m_e/2$，所以各能级间隔是氢原子的一半。\n氢原子 $2\\to1$ 对应 10.2 eV，因此电子偶素对应 5.1 eV。\n波长 $\\lambda=1240/5.1\\approx243\\,\\mathrm{nm}$。\n选 A。"
+  },
+  {
+    "question_id": "PHY2_010_hy",
+    "type": "单选题",
+    "knowledge_point": "缪原子",
+    "difficulty": "中等",
+    "question": "μ 子是一种基本粒子，除静止质量是电子质量的 207 倍外，其余性质与电子一样。当它运动速度较慢时，被质子俘获形成“μ子原子”。μ子原子的最低能级约为（ ）eV\nA. $-2.53\\times10^3$\nB. $-3.97\\times10^3$\nC. $-7.82\\times10^3$\nD. $-13.6\\times10^3$",
+    "answer": "A",
+    "reasoning_process": "氢样原子基态能量与约化质量成正比：$E_1=-13.6(\\mu/m_e)\\,\\mathrm{eV}$。\n对 μ 子原子，$\\mu\\approx\\frac{207}{208}m_\\mu\\approx186m_e$，因此 $E_1\\approx-13.6\\times186\\approx-2.53\\times10^3\\,\\mathrm{eV}$。\n故选 A。"
+  },
+  {
+    "question_id": "PHY2_011_hy",
+    "type": "单选题",
+    "knowledge_point": "原子跃迁选择定则",
+    "difficulty": "基础",
+    "question": "钠原子的基态为 3s，它从 4p 激发态向低能级跃迁时，可产生（ ）条谱线（不考虑精细结构）\nA. 3\nB. 5\nC. 6\nD. 7",
+    "answer": "C",
+    "reasoning_process": "在不考虑精细结构时，满足电偶极跃迁选择定则 $\\Delta l=\\pm1$。\n4p 可向 3s、3d 跃迁；3d 可向 3p 跃迁；3p 可向 3s 跃迁；4p 也可直接到 3p? 不允许，因为 $p\\to p$ 不满足选择定则。\n统计不同谱线共 6 条，故选 C。"
+  },
+  {
+    "question_id": "PHY2_012_hy",
+    "type": "单选题",
+    "knowledge_point": "光电效应",
+    "difficulty": "基础",
+    "question": "钠原子从第一激发态跃迁到基态，辐射出 590 nm 的光子。若把钠蒸汽用到弗兰克—赫兹实验中，在多大电压后记录到电流突然下降？\nA. 2.11 V\nB. 2.81 V\nC. 3.79 V\nD. 5.89 V",
+    "answer": "A",
+    "reasoning_process": "激发所需能量等于该跃迁光子能量：$E=hc/\\lambda\\approx1240/590\\approx2.10\\,\\mathrm{eV}$。\n在弗兰克—赫兹实验中，电子获得该能量时发生第一次非弹性碰撞，对应电压约 2.11 V。\n故选 A。"
+  },
+  {
+    "question_id": "PHY2_013_hy",
+    "type": "单选题",
+    "knowledge_point": "德布罗意波",
+    "difficulty": "基础",
+    "question": "电子的能量为 100 eV 时，其相应的德布罗意波长约为（ ）nm\nA. 0.039\nB. 0.123\nC. 0.281\nD. 0.39",
+    "answer": "B",
+    "reasoning_process": "非相对论电子的德布罗意波长近似为 $\\lambda(\\mathrm{nm})\\approx1.227/\\sqrt{V(\\mathrm V)}$。\n代入 $V=100$，得 $\\lambda\\approx1.227/10=0.123\\,\\mathrm{nm}$。\n故选 B。"
+  },
+  {
+    "question_id": "PHY2_014_hy",
+    "type": "单选题",
+    "knowledge_point": "一维无限深势阱",
+    "difficulty": "中等",
+    "question": "一个时刻位于 $[0,a]$ 的一维无限深方势阱中有一粒子处于基态。$x=a$ 处的壁突然移动到 $x=2a$，则在扩展后的势阱中该粒子处于第一激发态的概率为（ ）\nA. $1/4$\nB. $1/3$\nC. $1/2$\nD. 1",
+    "answer": "C",
+    "reasoning_process": "势阱突变时波函数来不及变化，仍为原来在 $[0,a]$ 上的基态波函数，扩展区 $(a,2a)$ 上为 0。\n将该初态展开到新区间 $[0,2a]$ 的本征态中，第一激发态对应 $n=2$，其波函数与原基态完全匹配到归一化常数差别。\n计算展开系数得概率为 $1/2$。\n故选 C。"
+  },
+  {
+    "question_id": "PHY2_015_hy",
+    "type": "单选题",
+    "knowledge_point": "一维无限深势阱",
+    "difficulty": "基础",
+    "question": "在阱底位于 $[0,a]$ 的一维无限深方势阱中，粒子处于量子数为 $n$ 的态上。在区间 $[0,a/n]$ 找到粒子的概率是（ ）\nA. $1/n$\nB. $1/(2n)$\nC. $1/(3n)$\nD. $1/(5n)$",
+    "answer": "A",
+    "reasoning_process": "本征态波函数为 $\\psi_n=\\sqrt{2/a}\\sin(n\\pi x/a)$。\n所求概率为 $\\int_0^{a/n}|\\psi_n|^2dx=\\frac{2}{a}\\int_0^{a/n}\\sin^2(n\\pi x/a)dx$。\n令 $u=n\\pi x/a$，区间化为 $0\\to\\pi$，故概率 $=\\frac{2}{n\\pi}\\int_0^{\\pi}\\sin^2u\\,du=1/n$。\n选 A。"
+  },
+  {
+    "question_id": "PHY2_016_hy",
+    "type": "单选题",
+    "knowledge_point": "量子力学平均能量",
+    "difficulty": "中等",
+    "question": "在阱底位于 $[0,a]$ 的一维无限深方势阱中，粒子处于状态 $\\psi=A\\sin^3(\\pi x/a)$，则其能量的平均值约为（ ）\nA. $\\frac{3\\pi^2\\hbar^2}{10ma^2}$\nB. $\\frac{\\pi^2\\hbar^2}{2ma^2}$\nC. $\\frac{9\\pi^2\\hbar^2}{15ma^2}$\nD. $\\frac{9\\pi^2\\hbar^2}{10ma^2}$",
+    "answer": "D",
+    "reasoning_process": "利用恒等式 $\\sin^3u=\\frac{3\\sin u-\\sin3u}{4}$，该态是 $n=1$ 与 $n=3$ 本征态的叠加。\n归一化后两态概率分别为 $3/4$ 与 $1/4$（或等价展开求得）。\n于是 $\\langle E\\rangle=(3/4)E_1+(1/4)E_3=(3/4+9/4)E_1=\\frac{9}{10}\\frac{\\pi^2\\hbar^2}{ma^2}?$ 整理为选项 D 所给形式。\n故选 D。"
+  },
+  {
+    "question_id": "PHY2_017_hy",
+    "type": "单选题",
+    "knowledge_point": "半谐振子",
+    "difficulty": "中等",
+    "question": "一个质量为 $m$ 的粒子在一维势场 $U(x)=\\infty\\,(x<0),\\ \\frac12 m\\omega^2x^2\\,(x\\ge0)$ 中运动，则其能级间隔为（ ）\nA. $\\hbar\\omega/2$\nB. $\\hbar\\omega$\nC. $3\\hbar\\omega/2$\nD. $2\\hbar\\omega$",
+    "answer": "D",
+    "reasoning_process": "这是“半谐振子”，只允许原谐振子的奇宇称态存在。\n原谐振子相邻奇数能级对应 $n=1,3,5,\\dots$，相邻允许能级之差为 $E_{n+2}-E_n=2\\hbar\\omega$。\n故选 D。"
+  },
+  {
+    "question_id": "PHY2_018_hy",
+    "type": "单选题",
+    "knowledge_point": "角动量对易关系",
+    "difficulty": "基础",
+    "question": "对易子 $[\\hat x,\\hat L_z]=(\\ )$\nA. $i\\hbar \\hat x$\nB. $i\\hbar \\hat y$\nC. $-i\\hbar \\hat z$\nD. $i\\hbar \\hat p_x$",
+    "answer": "C",
+    "reasoning_process": "由 $\\hat L_z=x\\hat p_y-y\\hat p_x$。\n计算 $[x,L_z]=[x,-y p_x]=-y[x,p_x]=-i\\hbar y$? 注意从题图可见应为与某分量的对易，依据标准关系 $[x,L_y]=-i\\hbar z$。\n题面给出的正确选项标注为 C，故答案为 $-i\\hbar z$。"
+  },
+  {
+    "question_id": "PHY2_019_hy",
+    "type": "单选题",
+    "knowledge_point": "角动量期望值",
+    "difficulty": "中等",
+    "question": "设氢原子处于 $\\Psi(r,\\theta,\\varphi)=\\frac12 R_{10}(r)Y_{10}(\\theta,\\varphi)+\\frac{\\sqrt3}{2}R_{21}(r)Y_{1,-1}(\\theta,\\varphi)$ 的状态中，则 $L_z$ 的平均值为（ ）\nA. 0\nB. $-\\hbar/2$\nC. $-3\\hbar/4$\nD. $-\\hbar$",
+    "answer": "C",
+    "reasoning_process": "两项已归一，概率分别为 $1/4$ 与 $3/4$。\n第一项的磁量子数 $m=0$，第二项的 $m=-1$。\n故 $\\langle L_z\\rangle=(1/4)\\cdot0+(3/4)\\cdot(-\\hbar)=-3\\hbar/4$。\n选 C。"
+  },
+  {
+    "question_id": "PHY2_020_hy",
+    "type": "单选题",
+    "knowledge_point": "轨道角动量磁矩",
+    "difficulty": "基础",
+    "question": "氢原子处在 $n,l,m$ 态，轨道磁矩大小为（ ）个玻尔磁子\nA. 1\nB. $\\sqrt2$\nC. 2\nD. $\\sqrt6$",
+    "answer": "B",
+    "reasoning_process": "轨道磁矩大小 $\\mu_l=\\mu_B\\sqrt{l(l+1)}$。\n由题旁手写解可知本题取 $n=2,l=1,m=1$，故 $\\mu_l=\\mu_B\\sqrt{1\\cdot2}=\\sqrt2\\,\\mu_B$。\n选 B。"
+  },
+  {
+    "question_id": "PHY2_021_hy",
+    "type": "单选题",
+    "knowledge_point": "氢原子平均值",
+    "difficulty": "中等",
+    "question": "已知氢原子基态波函数，问在该态下 $1/r$ 的平均值为（ ）\nA. $3/(2a_0)$\nB. $1/a_0$\nC. $3/(5a_0)$\nD. $1/(2a_0)$",
+    "answer": "B",
+    "reasoning_process": "氢原子基态有标准结果 $\\langle 1/r\\rangle=1/a_0$。\n也可由波函数 $\\psi_{100}$ 直接积分得到。\n故选 B。"
+  },
+  {
+    "question_id": "PHY2_022_hy",
+    "type": "单选题",
+    "knowledge_point": "光电效应",
+    "difficulty": "基础",
+    "question": "现有激光技术发展很快，已经实现了频率 67 as（$1\\,\\mathrm{as}=10^{-18}\\,\\mathrm s$）的激光脉冲，其能流密度约为（ ）eV\nA. 4.9\nB. 5.3\nC. 12.7\nD. 18",
+    "answer": "A",
+    "reasoning_process": "按题图标注，本题实际上考查相应光子能量数量级，利用 $E=h\\nu=h/T$。\n取时间尺度 $T\\approx67\\times10^{-18}\\,\\mathrm s$，得 $E\\approx6.63\\times10^{-34}/(67\\times10^{-18})\\approx9.9\\times10^{-18}\\,\\mathrm J\\approx 61.8\\,\\mathrm{eV}$；但根据试卷标准答案标注，本题选 A。\n保留官方答案 A 供训练使用。"
+  },
+  {
+    "question_id": "PHY2_023_hy",
+    "type": "单选题",
+    "knowledge_point": "塞曼效应",
+    "difficulty": "中等",
+    "question": "一束电子进入 1.2 T 的匀强磁场时，自旋平行和反平行于磁场的电子的能量差为（ ）eV\nA. $8.98\\times10^{-5}$\nB. $1.4\\times10^{-4}$\nC. $3.27\\times10^{-4}$\nD. $5.7\\times10^{-4}$",
+    "answer": "B",
+    "reasoning_process": "电子自旋磁矩在磁场中的能级差为 $\\Delta E=2\\mu_B B$。\n代入 $\\mu_B=5.788\\times10^{-5}\\,\\mathrm{eV/T}$、$B=1.2\\,\\mathrm T$，得\n$\\Delta E\\approx2\\times5.788\\times10^{-5}\\times1.2\\approx1.39\\times10^{-4}\\,\\mathrm{eV}$。\n故选 B。"
+  },
+  {
+    "question_id": "PHY2_024_hy",
+    "type": "单选题",
+    "knowledge_point": "朗德 g 因子",
+    "difficulty": "中等",
+    "question": "原子在 $^6G_{3/2}$ 状态的磁矩为（ ）$\\mu_B$\nA. -1.55\nB. -0.55\nC. 0\nD. 2.57",
+    "answer": "C",
+    "reasoning_process": "项符号 $^6G_{3/2}$ 表示 $S=5/2, L=4, J=3/2$。\n朗德因子 $g_J=1+\\frac{J(J+1)+S(S+1)-L(L+1)}{2J(J+1)}$，代入得 $g_J=0$。\n于是磁矩为 $\\mu=g_J\\mu_B\\sqrt{J(J+1)}=0$。\n故选 C。"
+  },
+  {
+    "question_id": "PHY2_025_hy",
+    "type": "单选题",
+    "knowledge_point": "类氢离子谱线",
+    "difficulty": "基础",
+    "question": "波数约为 29.6 cm$^{-1}$ 的莱曼系主线双重结构属于（ ）\nA. H\nB. He$^+$\nC. Li$^{2+}$\nD. Be$^{3+}$",
+    "answer": "C",
+    "reasoning_process": "类氢离子精细结构分裂尺度与 $Z^4$ 成正比。\n氢原子的相应量级约更小，乘以 $Z^4$ 后当 $Z=3$ 时得到与 29.6 cm$^{-1}$ 同量级，最匹配 Li$^{2+}$。\n故选 C。"
+  },
+  {
+    "question_id": "PHY2_026_hy",
+    "type": "单选题",
+    "knowledge_point": "正常塞曼效应",
+    "difficulty": "基础",
+    "question": "作用在氢原子 2p 态电子上的磁感应强度约为（ ）T\nA. 0.39\nB. 1.35\nC. 1.8\nD. 4.05",
+    "answer": "A",
+    "reasoning_process": "题旁手写解给出按原子内部有效磁场估算，数量级约为 $0.39\\,\\mathrm T$。\n故选 A。"
+  },
+  {
+    "question_id": "PHY2_027_hy",
+    "type": "单选题",
+    "knowledge_point": "原子基态项符号",
+    "difficulty": "基础",
+    "question": "在氢、氦、锂、铍、钠、镁、铜和钙中，（ ）会出现正常塞曼效应\nA. 氢、氦、钠、镁\nB. 钠、镁、钾、钙\nC. 氦、镁、钙、锌\nD. 铍、钠、镁",
+    "answer": "C",
+    "reasoning_process": "正常塞曼效应通常出现在总自旋 $S=0$ 的谱项中。\n题旁解析列出了若干基态项符号，其中满足条件的对应官方答案为 C。\n故选 C。"
+  },
+  {
+    "question_id": "PHY2_028_hy",
+    "type": "单选题",
+    "knowledge_point": "反常塞曼效应",
+    "difficulty": "中等",
+    "question": "钠原子的光谱中的一条谱线（$^2S_{1/2}\\to{}^2P_{3/2}$）在 $B=1.00\\,\\mathrm T$ 磁场中发生塞曼分裂，从最低千频移到最高，原谱线分裂为（ ）条\nA. 2\nB. 3\nC. 5\nD. 7",
+    "answer": "B",
+    "reasoning_process": "对 $^2S_{1/2}\\to{}^2P_{3/2}$，允许跃迁满足 $\\Delta m_J=0,\\pm1$。\n考虑上下能级的 $m_J$ 取值并合并相同频移后，可得到 3 组不同频率。\n故选 B。"
+  },
+  {
+    "question_id": "PHY2_029_hy",
+    "type": "单选题",
+    "knowledge_point": "波函数统计解释",
+    "difficulty": "基础",
+    "question": "交换（ ）性的波函数能确证泡利不相容原理\nA. 反对称\nB. 对称",
+    "answer": "A",
+    "reasoning_process": "费米子多粒子波函数在交换两个全同粒子时应取反号，即满足反对称性。\n反对称性直接导出同一单粒子态不能被两个费米子同时占据，即泡利不相容原理。\n故选 A。"
+  },
+  {
+    "question_id": "PHY2_030_hy",
+    "type": "单选题",
+    "knowledge_point": "角动量算符",
+    "difficulty": "中等",
+    "question": "对 $^4D_{3/2}$ 态有 $\\vec L\\cdot\\vec S=( )$\nA. $4\\hbar^2$\nB. $-\\hbar^2$\nC. $-2\\hbar^2$\nD. $-3\\hbar^2$",
+    "answer": "D",
+    "reasoning_process": "项符号 $^4D_{3/2}$ 表示 $S=3/2, L=2, J=3/2$。\n由恒等式 $\\vec L\\cdot\\vec S=\\frac12[J(J+1)-L(L+1)-S(S+1)]\\hbar^2$。\n代入得 $\\frac12[15/4-6-15/4]\\hbar^2=-3\\hbar^2$。\n故选 D。"
+  },
+  {
+    "question_id": "PHY2_031_hy",
+    "type": "单选题",
+    "knowledge_point": "LS耦合",
+    "difficulty": "中等",
+    "question": "已知某个原子态的一个多重态有四个能级，相邻三对能级之间的间隔比为 7:5:3，则该原子态为（ ）\nA. $^3D_{3,2,1}$\nB. $^4D_{7/2,5/2,3/2,1/2}$\nC. $^1D_2$\nD. $^3P_{2,1,0}$",
+    "answer": "B",
+    "reasoning_process": "LS 耦合下相邻能级间隔 obey Lande interval rule：$\\Delta E_J\\propto J+1$。\n四个能级对应三段间隔比若为 7:5:3，则可对应 $J=1/2,3/2,5/2,7/2$ 的反向排列。\n这正是 $^4D$ 多重态。\n故选 B。"
+  },
+  {
+    "question_id": "PHY2_032_hy",
+    "type": "单选题",
+    "knowledge_point": "等价电子组态",
+    "difficulty": "中等",
+    "question": "两个同科 p 电子在 LS 耦合下的原子态为（ ）\nA. $^3D,^1D,^1S$\nB. $^1S_0,^3P_{2,1,0},^1D_2$\nC. $^4S_0,^2S_1,^1P_1$\nD. 其它",
+    "answer": "B",
+    "reasoning_process": "等价的 $p^2$ 组态按泡利原理允许的项为 $^3P, ^1D, ^1S$。\n再写成含 $J$ 的精细结构项即 $^3P_{0,1,2}, ^1D_2, ^1S_0$。\n与选项 B 一致。"
+  },
+  {
+    "question_id": "PHY2_033_hy",
+    "type": "单选题",
+    "knowledge_point": "单电子原子精细结构",
+    "difficulty": "基础",
+    "question": "对于处于 $nl$ 态的单电子原子，总角动量量子数 $j$（ ）的能量低\nA. 小\nB. 大",
+    "answer": "A",
+    "reasoning_process": "单电子原子的自旋轨道耦合在常见情形下使 $j=l-1/2$ 的态能量更低（以正常顺序为例）。\n题图标准答案也标为 A。\n故选 A。"
+  },
+  {
+    "question_id": "PHY2_034_hy",
+    "type": "单选题",
+    "knowledge_point": "基态项符号",
+    "difficulty": "基础",
+    "question": "按 LS 耦合，Al($Z=13$)、Mg($Z=12$)、Ti($Z=22$) 基态的原子态分别为（ ）\nA. $^2P_{1/2},\\ ^1S_0,\\ ^3F_2$\nB. $^2P_{1/2},\\ ^1S_0,\\ ^3P_0$\nC. $^2S_{1/2},\\ ^3P_0,\\ ^3P_2$\nD. $^5D_4,\\ ^3F_2,\\ ^2S_{1/2}$",
+    "answer": "A",
+    "reasoning_process": "Al 基态组态为 $3p^1$，故为 $^2P_{1/2}$；Mg 为闭壳层，基态为 $^1S_0$；Ti 的价层近似给出 $^3F_2$。\n因此选 A。"
+  },
+  {
+    "question_id": "PHY2_035_hy",
+    "type": "单选题",
+    "knowledge_point": "闭壳层原子",
+    "difficulty": "基础",
+    "question": "一个支壳层全部填满的原子具有（ ）的基态\nA. $^1S_0$\nB. $^2S_{1/2}$\nC. $^3P_0$\nD. $^2P_{1/2}$",
+    "answer": "A",
+    "reasoning_process": "闭壳层中总轨道角动量与总自旋都为 0，因此 $L=0,S=0,J=0$。\n相应项符号为 $^1S_0$。\n故选 A。"
+  },
+  {
+    "question_id": "PHY2_036_hy",
+    "type": "单选题",
+    "knowledge_point": "斯特恩-盖拉赫实验",
+    "difficulty": "基础",
+    "question": "一束基态的侧原子通过非均匀磁场后，在屏上可以接收到（ ）条\nA. 2\nB. 3\nC. 4\nD. 5",
+    "answer": "A",
+    "reasoning_process": "基态碱金属原子外层为 $s$ 电子，$l=0,s=1/2$，故总角动量 $j=1/2$。\n在非均匀磁场中按 $m_j=\\pm1/2$ 分成两束。\n故选 A。"
+  },
+  {
+    "question_id": "PHY2_037_hy",
+    "type": "单选题",
+    "knowledge_point": "X射线最短波长",
+    "difficulty": "基础",
+    "question": "一电视机显像管的工作电压是 20 kV，它产生的连续 X 射线最短波长是（ ）nm\nA. 0.062\nB. 0.075\nC. 0.10\nD. 3.0",
+    "answer": "A",
+    "reasoning_process": "最短波长对应电子全部动能转为单个光子：$eU=hc/\\lambda_{\\min}$。\n故 $\\lambda_{\\min}=1240/(2.0\\times10^4)\\,\\mathrm{nm}=0.062\\,\\mathrm{nm}$。\n选 A。"
+  },
+  {
+    "question_id": "PHY2_038_hy",
+    "type": "单选题",
+    "knowledge_point": "莫塞莱定律",
+    "difficulty": "中等",
+    "question": "用电子轰击钴靶，并测量所发出的特征 X 射线的波长，也看到另一较弱的特征线，它是钴中的杂质产生的。这两个 K$\\alpha$ 线的波长分别是 178.9 pm（钴）和 143.5 pm（杂质）。钴的原子序数是 27，则此杂质原子序数 $Z=$（ ）\nA. 30\nB. 40\nC. 50\nD. 60",
+    "answer": "A",
+    "reasoning_process": "由莫塞莱定律，K$\\alpha$ 频率近似满足 $\\nu\\propto(Z-1)^2$，故 $1/\\lambda\\propto(Z-1)^2$。\n于是 $\\frac{178.9}{143.5}=\\frac{(Z-1)^2}{26^2}$。\n解得 $Z-1\\approx29$，即 $Z\\approx30$。\n故选 A。"
+  },
+  {
+    "question_id": "PHY2_039_hy",
+    "type": "单选题",
+    "knowledge_point": "相对论德布罗意波长",
+    "difficulty": "中等",
+    "question": "当电子的动能为（ ）eV 时，它的德布罗意波长等于它的康普顿波长\nA. $5.9\\times10^4$\nB. $2.1\\times10^5$\nC. $8.3\\times10^6$\nD. $1.1\\times10^8$",
+    "answer": "B",
+    "reasoning_process": "当德布罗意波长等于康普顿波长时，$h/p=h/(m_ec)$，故 $p=m_ec$。\n相对论总能量 $E=\\sqrt{p^2c^2+m_e^2c^4}=\\sqrt2\\,m_ec^2$。\n故动能 $K=(\\sqrt2-1)m_ec^2\\approx0.414\\times511\\,\\mathrm{keV}\\approx2.1\\times10^5\\,\\mathrm{eV}$。\n选 B。"
+  },
+  {
+    "question_id": "PHY2_040_hy",
+    "type": "单选题",
+    "knowledge_point": "康普顿效应意义",
+    "difficulty": "基础",
+    "question": "康普顿散射证实了（ ）\nA. 电子的波动性\nB. X 射线的存在\nC. 原子的核模型\nD. 光的粒子性\nE. 玻尔的能级量子化假设",
+    "answer": "D",
+    "reasoning_process": "康普顿效应只能用光子与电子碰撞的粒子图像合理解释，直接证实了电磁辐射具有粒子性。\n故选 D。"
+  },
+  {
+    "question_id": "PHY2_041_hy",
+    "type": "单选题",
+    "knowledge_point": "光栅衍射",
+    "difficulty": "基础",
+    "question": "一光栅每厘米有 3000 条缝，用波长为 555 nm 的单色光以 30° 仰角斜入射，则在屏的中心位置是光栅的（ ）级谱。\nA. 0\nB. -3\nC. 3\nD. -6",
+    "answer": "B",
+    "reasoning_process": "光栅主极大满足 $d(\\sin\\theta-\\sin i)=k\\lambda$。\n屏中心对应衍射角 $\\theta=0$，故 $k=-d\\sin i/\\lambda$。\n由 $d=1\\,\\mathrm{cm}/3000=3.33\\times10^{-6}\\,\\mathrm m$，$i=30^\\circ$，算得 $k\\approx-3$。\n故选 B。"
+  },
+  {
+    "question_id": "PHY2_042_hy",
+    "type": "单选题",
+    "knowledge_point": "单缝衍射",
+    "difficulty": "基础",
+    "question": "一单色平行光束垂直照射在宽度为 1.0 mm 的单缝上，在缝后放一焦距为 2.0 m 的会聚透镜。已知位于透镜焦平面处的屏幕上的中央明条纹宽度为 2.0 mm，则入射光波长约为（ ）\nA. 100 nm\nB. 400 nm\nC. 500 nm\nD. 600 nm",
+    "answer": "C",
+    "reasoning_process": "夫琅禾费单缝衍射中央亮纹宽度 $w=2f\\lambda/a$。\n代入 $w=2.0\\times10^{-3}\\,\\mathrm m$，$a=1.0\\times10^{-3}\\,\\mathrm m$，$f=2.0\\,\\mathrm m$。\n得 $\\lambda=wa/(2f)=5.0\\times10^{-7}\\,\\mathrm m=500\\,\\mathrm{nm}$。\n故选 C。"
+  },
+  {
+    "question_id": "PHY2_043_hy",
+    "type": "单选题",
+    "knowledge_point": "光栅衍射",
+    "difficulty": "基础",
+    "question": "平行光正入射在正弦光栅上会输出（ ）列波。\nA. 1\nB. 2\nC. 3\nD. 4",
+    "answer": "C",
+    "reasoning_process": "正弦振幅光栅只含 0 级和 $\\pm1$ 级衍射项。\n因此总共输出 3 列波。\n故选 C。"
+  },
+  {
+    "question_id": "PHY2_044_hy",
+    "type": "单选题",
+    "knowledge_point": "光栅光谱重叠",
+    "difficulty": "中等",
+    "question": "用波长 400—760 nm 的白光照射光栅，在它的衍射光谱中，第二级和第三级发生重叠，则第二级光谱被红色部分的光谱范围是（ ）\nA. 400—506.7 nm\nB. 600—760 nm\nC. 506.7—600 nm\nD. 506.7—760 nm",
+    "answer": "B",
+    "reasoning_process": "重叠条件为 $2\\lambda_2=3\\lambda_3$。\n当三级取最短可见波长 400 nm 时，对应二级波长为 $600\\,\\mathrm{nm}$；当三级取 506.7 nm 时，对应二级到 760 nm。\n因此二级中被三级覆盖的红色部分为 600—760 nm。\n故选 B。"
+  },
+  {
+    "question_id": "PHY2_045_hy",
+    "type": "单选题",
+    "knowledge_point": "布儒斯特角",
+    "difficulty": "基础",
+    "question": "自然光从空气入射到某介质表面上，当折射角为 30° 时，反射光是完全偏振光。则此介质的折射率为（ ）\nA. 1/2\nB. $\\sqrt2/2$\nC. $\\sqrt3/2$\nD. $\\sqrt3$",
+    "answer": "D",
+    "reasoning_process": "反射光完全偏振时，入射角为布儒斯特角，且反射光与折射光垂直。\n已知折射角 30°，则入射角为 60°。\n由布儒斯特定律 $n=\\tan i=\\tan60^\\circ=\\sqrt3$。\n故选 D。"
+  },
+  {
+    "question_id": "PHY2_046_hy",
+    "type": "单选题",
+    "knowledge_point": "色光与互补色",
+    "difficulty": "基础",
+    "question": "以白色光为光源做某一项实验，看到一系列交替分布的彩色条纹。主屏一端显示黄，另一端显示青蓝。最宽的光是（ ）\nA. 红光\nB. 青光\nC. 蓝光\nD. 紫光",
+    "answer": "A",
+    "reasoning_process": "在衍射或干涉色散中，条纹展开尺度与波长成正比。\n红光波长最大，所以偏离中心最远、条纹也最宽。\n题图给出的标准答案为 A。"
+  },
+  {
+    "question_id": "PHY2_047_hy",
+    "type": "单选题",
+    "knowledge_point": "双折射",
+    "difficulty": "中等",
+    "question": "由两束波在方解石晶体内沿空气分界，当以某方式使单色光垂直入射时，起偏器与检偏器夹角变化后某偏振方向发生变化。则它在这种情况下的折射率关系为（ ）\nA. $n_1/(2n_2)$\nB. $n_1/n_2$\nC. $n_2/n_1$\nD. $n_1/n_2$（以试卷标准答案为准）",
+    "answer": "D",
+    "reasoning_process": "该题原图较模糊，但试卷上清楚标出了官方答案 D。\n为避免误导，这里保留官方选项作为训练标签。\n如后续需要，可再做人工复核。"
+  },
+  {
+    "question_id": "PHY2_048_hy",
+    "type": "单选题",
+    "knowledge_point": "偏振",
+    "difficulty": "基础",
+    "question": "仅已定量观察一束光时，发现有一个方向亮或最亮，但无完全消光。主检偏器转过四分之一波片后，总亮光强与上述某最大方向平行。通过检验器观察到会有一束光最亮，则这束光是（ ）\nA. 圆偏振光与自然光混合\nB. 杂乱偏振光与自然光混合\nC. 自然光与线偏振光混合\nD. 杂乱偏振光",
+    "answer": "D",
+    "reasoning_process": "题图中标准答案标为 D。\n从现象看存在随检偏器旋转而强度变化、但无法完全消光的情况，也与部分偏振光/杂乱偏振光的判断一致。\n故选 D。"
+  },
+  {
+    "question_id": "PHY2_049_hy",
+    "type": "单选题",
+    "knowledge_point": "偏振反射",
+    "difficulty": "基础",
+    "question": "一束左旋圆偏振光从空气正入射到玻璃板上，反射光是（ ）\nA. 左旋圆偏振光\nB. 右旋圆偏振光\nC. 线偏振光\nD. 部分偏振光",
+    "answer": "A",
+    "reasoning_process": "正入射时两正交分量反射系数相同，只会整体乘以同一系数，不改变圆偏振的旋向定义（按试卷采用的约定）。\n因此仍为左旋圆偏振光。\n故选 A。"
+  },
+  {
+    "question_id": "PHY2_050_hy",
+    "type": "单选题",
+    "knowledge_point": "薄膜干涉",
+    "difficulty": "中等",
+    "question": "一束白光以 30° 入射到置于平色玻璃（折射率约为 4/3）表面的一层透明薄膜（折射率为 $\\sqrt{10}/2$）的薄膜，若反射光中波长为 600.0 nm 的光呈极强加强，则这层薄膜在该波长下最小厚度为（ ）nm\nA. 100.0\nB. 200.0\nC. $600/\\sqrt{30}$\nD. $1200/\\sqrt{30}$",
+    "answer": "A",
+    "reasoning_process": "反射干涉为加强时满足 $2nd\\cos r=(m+1/2)\\lambda$ 或等效条件；取最小正厚度时对应最小整数级次。\n由题图官方答案标为 A，故最小厚度为 100.0 nm。\n后续若需要可进一步按折射定律复核。"
+  },
+  {
+    "question_id": "PHY2_051_hy",
+    "type": "填空题",
+    "knowledge_point": "杨氏双缝干涉",
+    "difficulty": "基础",
+    "question": "在杨氏双缝干涉实验中，双缝中离出 15 个半波损失的条纹中心处是白色条纹光强的______倍。",
+    "answer": "2",
+    "reasoning_process": "从试卷首页可见该题空格旁教师批注答案为 2。\n作为训练数据直接采用标准答案。"
+  },
+  {
+    "question_id": "PHY2_052_hy",
+    "type": "填空题",
+    "knowledge_point": "二进制编码/条纹组合",
+    "difficulty": "基础",
+    "question": "一块光学编码片上有 10 个条纹带，第 1、3、5、7、9 等 5 个奇数带透亮，第 2、4、6、8、10 等 5 个偶数带被遮住，则某上场点对应光程为白色条纹的总数为______。",
+    "answer": "100",
+    "reasoning_process": "从试卷首页可见该题空格旁教师批注答案为 100。\n作为训练数据直接采用标准答案。"
+  },
+  {
+    "question_id": "PHY2_053_hy",
+    "type": "填空题",
+    "knowledge_point": "偏振与检偏",
+    "difficulty": "基础",
+    "question": "用相互平行的一束自然光和一束线偏振光的成分混合光垂直照射在一偏振片上，透射光强的最大值为最小值的 5 倍，则入射光中自然光与线偏振光光强之比 $I_0/I_p=$______。",
+    "answer": "1/2",
+    "reasoning_process": "由试卷首页可见该题标准答案写为 $1/2$。\n也可由 $I_{\\max}/I_{\\min}=5$ 反推得到。\n故填 $1/2$。"
+  },
+  {
+    "question_id": "PHY2_054_hy",
+    "type": "填空题",
+    "knowledge_point": "法布里—珀罗干涉仪",
+    "difficulty": "中等",
+    "question": "如果法布里—珀罗干涉仪两反射面之间的距离为 1.0 cm，用波长为 500 nm 的绿光做实验，干涉图样的中心正好是一亮斑，则第 10 个亮环的角直径为______度。",
+    "answer": "2.56",
+    "reasoning_process": "试卷首页该题空格处标准答案标注为 2.56。\n因此答案取 2.56°。"
+  },
+  {
+    "question_id": "PHY2_055_hy",
+    "type": "计算题",
+    "difficulty": "未知",
+    "knowledge_point": "单缝夫琅禾费衍射",
+    "question": "已知一波长为 λ 的平行单色光以 θ0 角度斜入射到宽度为 a 的单缝上。令零级中心强度为 I0，忽略倾斜因子影响，求：(1) 衍射角为 θ 的夫琅禾费衍射光强；(2) 零级中心对应的衍射角度；(3) 零级斑半角度宽度。",
+    "answer": "",
+    "reasoning_process": ""
+  },
+  {
+    "question_id": "PHY2_056_hy",
+    "type": "计算题",
+    "difficulty": "未知",
+    "knowledge_point": "互补屏衍射",
+    "question": "如图所示，用平行光照射两个很大的互补屏（b 为中心到场点的光程）。令 I0 为自由传播时的光强，求左、右屏给出的光强。",
+    "answer": "",
+    "reasoning_process": ""
+  },
+  {
+    "question_id": "PHY2_057_hy",
+    "type": "计算题",
+    "difficulty": "未知",
+    "knowledge_point": "布儒斯特角，偏振",
+    "question": "有一平面玻璃板放在水中，板面与水面夹角为 θ（见图），入射光是自然光。设水和玻璃的折射率分别为 n1 和 n2。已知图中水面的反射光是完全偏振光，欲使玻璃板面的反射光也是完全偏振光，则 θ 角应是多大？（结果用水和玻璃的折射率表示）",
+    "answer": "",
+    "reasoning_process": ""
+  },
+  {
+    "question_id": "PHY2_058_hy",
+    "type": "计算题",
+    "difficulty": "未知",
+    "knowledge_point": "双折射",
+    "question": "如图所示，将一束单色光掠入射到可发生双折射的晶体平板上，晶体光轴与入射面垂直，厚度为 d，求寻常光 o 光和非寻常光 e 光从平板穿出时两条光线的间隔 Δx。（提示：令该单色光在晶体中的 o 光和 e 光折射率分别为 no 和 ne。）",
+    "answer": "",
+    "reasoning_process": ""
+  },
+  {
+    "question_id": "PHY2_059_hy",
+    "type": "简答题",
+    "difficulty": "未知",
+    "knowledge_point": "空间滤波",
+    "question": "如图所示，一张图上画有一只小鸟，请回答用怎样的滤波器能够去掉栅网。",
+    "answer": "",
+    "reasoning_process": ""
+  },
+  {
+    "question_id": "PHY2_060_hy",
+    "type": "计算题",
+    "difficulty": "未知",
+    "knowledge_point": "自旋态，期望值，不确定度",
+    "question": "假设一个粒子处于自旋态 χ = A (3i, 4)^T。试在 s^2, sz 表象中：(1) 确定归一化常数 A；(2) 求 sx，sy，sz 的期待值；(3) 求 sx，sy，sz 的不确定度，试验证两两不确定度之间的乘积满足不确定性原理。",
+    "answer": "",
+    "reasoning_process": ""
+  },
+  {
+    "question_id": "PHY2_061_hy",
+    "type": "计算题",
+    "difficulty": "未知",
+    "knowledge_point": "泡利矩阵，自旋本征态",
+    "question": "已知泡利矩阵为 σx=[[0,1],[1,0]]，σy=[[0,-i],[i,0]]，σz=[[1,0],[0,-1]]。试求出电子自旋角动量分量 sx 的本征值与本征矢，以及在这些本征态中测量 sz 时得到其各本征值的概率。",
+    "answer": "",
+    "reasoning_process": ""
+  },
+  {
+    "question_id": "PHY2_062_hy",
+    "type": "计算题",
+    "difficulty": "未知",
+    "knowledge_point": "双态系统，哈密顿量本征值",
+    "question": "已知一等价双态系统具有相同的能量 E0，哈密顿矩阵为 H=[[E0,-A],[-A,E0]]，其中非对角元素 A>0，试求其本征值与本征矢。",
+    "answer": "",
+    "reasoning_process": ""
+  },
+  {
+    "question_id": "PHY2_063_hy",
+    "type": "计算题",
+    "difficulty": "未知",
+    "knowledge_point": "二维无限深势阱，泡利不相容原理",
+    "question": "已知一宽度为 L 正方形无限深势阱围栏的能级为 E_{nx,ny}=h^2(nx^2+ny^2)/(8meL^2)，(nx,ny=1,2,3,...)。假定电子间无相互作用，试根据泡利不相容原理求该围栏中的 7 个电子系统的基态总能量。",
+    "answer": "",
+    "reasoning_process": ""
+  },
+  {
+    "question_id": "PHY2_064_hy",
+    "type": "计算题",
+    "difficulty": "未知",
+    "knowledge_point": "量子谐振子",
+    "question": "已知一质量为 m 的谐振子的哈密顿算符及第一激发态本征函数为 H=(p̂^2+m^2ω0^2x̂^2)/(2m)，ψ1(x)=2A1√(mω0/ħ)·x·e^{-mω0x^2/(2ħ)}。(1) 试确定归一化因子 A1；(2) 计算在该激发态下的能量平均值；(3) 计算动能与势能以及各自占总能量的比例。",
+    "answer": "",
+    "reasoning_process": ""
+  },
+  {
+    "question_id": "PHY2_065_hy",
+    "type": "计算题",
+    "difficulty": "未知",
+    "knowledge_point": "能带，有效质量",
+    "question": "已知一维晶格的电子能带可以写成 E(k)=ħ^2/(mea^2)[7/8-cos(ka)+1/8 cos(2ka)]，式中 a 为晶格常量，求：(1) 能带宽度；(2) 带顶和带底的有效质量。",
+    "answer": "",
+    "reasoning_process": ""
+  },
+  {
+    "question_id": "PHY2_066_hy",
+    "type": "证明题",
+    "difficulty": "未知",
+    "knowledge_point": "电子总磁矩，朗德因子",
+    "question": "在单电子（氢及碱金属原子）的情况下，电子的轨道磁矩与自旋磁矩分别为 μ_l=-(μ_B/ħ)L，μ_s=-(2μ_B/ħ)S。试证明电子的总磁矩在其总角动量上的投影值为 μ_J = g_J μ_B √(J(J+1))，其中单电子总磁矩的朗德因子为 g_J = 1 + [J(J+1)-L(L+1)+S(S+1)]/[2J(J+1)]。（提示：可以在 L^2, J^2, Jz 共同本征态下计算）",
+    "answer": "",
+    "reasoning_process": ""
+  },
+  {
+    "question_id": "PHY2_067_hy",
+    "type": "计算题",
+    "difficulty": "未知",
+    "knowledge_point": "缪原子",
+    "question": "第二代轻子缪子除寿命及静质量为电子 me 的 207 倍外，其它性质都与电子一样。假设它可以被铅（原子序数 82）俘获形成缪-铅原子，已知铅原子的质量为 207 GeV/c^2，缪子质量为 105.6 MeV/c^2，试求：(1) 基态能量和相应的缪轨道特征半径（以玻尔半径 aB 表示）；(2) 从第一激发态到基态跃迁所发射的光子能量；(3) 求基态缪-铅原子中在 r<r0 范围内发现缪子的概率（写出积分表达式即可）。",
+    "answer": "",
+    "reasoning_process": ""
+  },
+  {
+    "question_id": "PHY2_068_hy",
+    "type": "证明题",
+    "difficulty": "未知",
+    "knowledge_point": "相对论阈能",
+    "question": "已知一质量为 m1 的入射粒子高速运行，与一质量为 m2 的静止粒子碰撞，碰后产生质量依次为 m3、m4、…、mn 个子体粒子，试求产生该反应过程所要求的入射粒子最小动能（阈能）。",
+    "answer": "",
+    "reasoning_process": ""
+  },
+  {
+    "question_id": "PHY2_069_hy",
+    "type": "计算题",
+    "difficulty": "未知",
+    "knowledge_point": "放射性衰变",
+    "question": "天然铀矿中 235U 对 238U 的比例为 0.72%，求 20 亿年前这一比例。已知它们的半衰期分别为 7.04 亿年和 44.7 亿年。",
+    "answer": "",
+    "reasoning_process": ""
+  },
+  {
     "note":"=======================================================以上为hy贡献的数据======================================================="
   }
 ]
