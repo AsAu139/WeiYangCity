@@ -1,6 +1,6 @@
 [
   {
-    "question_id": "PHY_001_xk",
+    "question_id": "PHY1_001_xk",
     "type": "单选题",
     "knowledge_point": "二维碰撞，动量守恒",
     "difficulty": "中等",
@@ -9,7 +9,7 @@
     "reasoning_process": "根据动量守恒定律，系统在水平（x轴）和垂直（y轴）方向上的动量均守恒。设碰撞后质量为 $2m$ 的粒子速率为 $v'$，其运动方向与入射方向夹角为 $\\theta$。\n1. **水平方向（x轴）动量守恒：**\n   $$mv = m \\cdot \\frac{v}{2} \\cos 45^\\circ + 2m \\cdot v'_x$$\n   $$v = \\frac{v}{2} \\cdot \\frac{\\sqrt{2}}{2} + 2v'_x \\implies 2v'_x = v - \\frac{\\sqrt{2}}{4}v = v(1 - \\frac{\\sqrt{2}}{4})$$\n   $$v'_x = \\frac{v}{2}(1 - \\frac{\\sqrt{2}}{4}) = \\frac{v(4-\\sqrt{2})}{8}$$\n2. **垂直方向（y轴）动量守恒：**\n   $$0 = m \\cdot \\frac{v}{2} \\sin 45^\\circ - 2m \\cdot v'_y$$\n   $$2v'_y = \\frac{v}{2} \\cdot \\frac{\\sqrt{2}}{2} \\implies v'_y = \\frac{\\sqrt{2}v}{8}$$\n3. **计算合速率 $v'$：**\n   $$v' = \\sqrt{(v'_x)^2 + (v'_y)^2} = \\sqrt{\\left(\\frac{v(4-\\sqrt{2})}{8}\\right)^2 + \\left(\\frac{\\sqrt{2}v}{8}\\right)^2}$$\n   $$v' = \\frac{v}{8} \\sqrt{(16 - 8\\sqrt{2} + 2) + 2} = \\frac{v}{8} \\sqrt{20 - 8\\sqrt{2}}$$\n   提取根号下的公因子 $4$：\n   $$v' = \\frac{v}{8} \\cdot 2\\sqrt{5 - 2\\sqrt{2}} = \\frac{v}{4}\\sqrt{5 - 2\\sqrt{2}}$$\n由此得出选项 (B) 为正确答案。"
   },
   {
-    "question_id": "PHY_002_xk",
+    "question_id": "PHY1_002_xk",
     "type": "单选题",
     "knowledge_point": "光学，全反射",
     "difficulty": "中等",
@@ -18,7 +18,7 @@
     "reasoning_process": "1. 设光线从空气射入端面时的折射角为 $r$，根据折射定律：$1 \\cdot \\sin\\theta = n_1 \\sin r$。\n2. 光线在内芯与外皮界面发生全反射的临界角满足 $\\sin C = n_2/n_1$。\n3. 由几何关系可知，界面上的入射角 $i = 90^\\circ - r$。\n4. 全反射条件为 $i \\ge C$，即 $\\sin(90^\\circ - r) \\ge \\sin C \\implies \\cos r \\ge n_2/n_1$。\n5. 因为 $\\sin^2 r + \\cos^2 r = 1$，则 $\\sin r = \\sqrt{1 - \\cos^2 r} \\le \\sqrt{1 - (n_2/n_1)^2}$。\n6. 代入折射定律公式：$\\sin\\theta = n_1 \\sin r \\le n_1 \\sqrt{1 - (n_2/n_1)^2} = \\sqrt{n_1^2 - n_2^2}$。\n故最大入射角的正弦值为 $\\sqrt{n_1^2 - n_2^2}$。"
   },
   {
-    "question_id": "PHY_003_xk",
+    "question_id": "PHY1_003_xk",
     "type": "单选题",
     "knowledge_point": "简谐振动的合成",
     "difficulty": "中等",
@@ -27,7 +27,7 @@
     "reasoning_process": "1. 利用旋转矢量合成法。分振动振幅分别为 $A_1 = A, A_2 = \\sqrt{3}A$，初相位分别为 $\\phi_1 = \\pi/4, \\phi_2 = 3\\pi/4$。\n2. 相位差 $\\Delta\\phi = \\phi_2 - \\phi_1 = \\pi/2$。\n3. 合振幅 $A = \\sqrt{A_1^2 + A_2^2 + 2A_1 A_2 \\cos(\\Delta\\phi)} = \\sqrt{A^2 + 3A^2 + 0} = 2A$。\n4. 合振动初相位 $\\tan\\phi = \\frac{A_1 \\sin\\phi_1 + A_2 \\sin\\phi_2}{A_1 \\cos\\phi_1 + A_2 \\cos\\phi_2} = \\frac{A \\cdot \\frac{\\sqrt{2}}{2} + \\sqrt{3}A \\cdot \\frac{\\sqrt{2}}{2}}{A \\cdot \\frac{\\sqrt{2}}{2} - \\sqrt{3}A \\cdot \\frac{\\sqrt{2}}{2}} = \\frac{1+\\sqrt{3}}{1-\\sqrt{3}}$。\n5. 经三角函数变换，该值为 $\\tan(105^\\circ)$，即 $7\\pi/12$。\n故合振幅为 $2A$，初相位为 $7\\pi/12$。"
   },
   {
-    "question_id": "PHY_004_xk",
+    "question_id": "PHY1_004_xk",
     "type": "单选题",
     "knowledge_point": "转动惯量",
     "difficulty": "中等",
@@ -36,7 +36,7 @@
     "reasoning_process": "1. 利用旋转矢量合成法。分振动振幅分别为 $A_1 = A, A_2 = \\sqrt{3}A$，初相位分别为 $\\phi_1 = \\pi/4, \\phi_2 = 3\\pi/4$。\n2. 相位差 $\\Delta\\phi = \\phi_2 - \\phi_1 = \\pi/2$。\n3. 合振幅 $A = \\sqrt{A_1^2 + A_2^2 + 2A_1 A_2 \\cos(\\Delta\\phi)} = \\sqrt{A^2 + 3A^2 + 0} = 2A$。\n4. 合振动初相位 $\\tan\\phi = \\frac{A_1 \\sin\\phi_1 + A_2 \\sin\\phi_2}{A_1 \\cos\\phi_1 + A_2 \\cos\\phi_2} = \\frac{A \\cdot \\frac{\\sqrt{2}}{2} + \\sqrt{3}A \\cdot \\frac{\\sqrt{2}}{2}}{A \\cdot \\frac{\\sqrt{2}}{2} - \\sqrt{3}A \\cdot \\frac{\\sqrt{2}}{2}} = \\frac{1+\\sqrt{3}}{1-\\sqrt{3}}$。\n5. 经三角函数变换，该值为 $\\tan(105^\\circ)$，即 $7\\pi/12$。\n故合振幅为 $2A$，初相位为 $7\\pi/12$。"
   },
   {
-    "question_id": "PHY_005_xk",
+    "question_id": "PHY1_005_xk",
     "type": "单选题",
     "knowledge_point": "狭义相对论动量",
     "difficulty": "简单",
@@ -45,7 +45,7 @@
     "reasoning_process": "1. 相对论性动量公式为 $p = \\gamma m_0 v = \\frac{m_0 v}{\\sqrt{1 - v^2/c^2}}$。\n2. 非相对论动量定义为 $p' = m_0 v$。\n3. 根据题意 $p = 2p'$，即 $\\gamma = 2$。\n4. $\\frac{1}{\\sqrt{1 - v^2/c^2}} = 2 \\implies 1 - v^2/c^2 = 1/4 \\implies v^2/c^2 = 3/4$。\n5. 解得 $v = \\frac{\\sqrt{3}}{2}c$。"
   },
   {
-    "question_id": "PHY_006_xk",
+    "question_id": "PHY1_006_xk",
     "type": "填空题",
     "knowledge_point": "流体力学，伯努利方程",
     "difficulty": "简单",
@@ -54,7 +54,7 @@
     "reasoning_process": "1. 取水桶顶部液面为 1 点，底部小孔为 2 点。\n2. 根据伯努利方程：$P_1 + \\frac{1}{2}\\rho v_1^2 + \\rho gh_1 = P_2 + \\frac{1}{2}\\rho v_2^2 + \\rho gh_2$。\n3. 由于是大型水桶且水深不变，可近似认为 $v_1 \\approx 0$。$P_1$ 和 $P_2$ 均为大气压 $P_0$。\n4. 设定底部为零势能面，$h_1 = h$，$h_2 = 0$。\n5. 方程简化为：$\\rho gh = \\frac{1}{2}\\rho v_2^2 \\implies v_2 = \\sqrt{2gh}$。"
   },
   {
-    "question_id": "PHY_007_xk",
+    "question_id": "PHY1_007_xk",
     "type": "填空题",
     "knowledge_point": "动量与能量守恒",
     "difficulty": "中等",
@@ -63,7 +63,7 @@
     "reasoning_process": "1. 设两质子初速度方向相反。系统总动量 $P = m(2v) - mv = mv$。\n2. 当距离最近时，两者具有相同的速度 $V$，根据动量守恒：$2mV = mv \\implies V = v/2$。\n3. 根据能量守恒：系统初能量 $E_i = \\frac{1}{2}m(v)^2 + \\frac{1}{2}m(2v)^2 = \\frac{5}{2}mv^2$。\n4. 最近距离时的末能量 $E_f = \\frac{1}{2}(2m)V^2 + \\frac{ke^2}{r_{\\min}} = \\frac{1}{4}mv^2 + \\frac{ke^2}{r_{\\min}}$。\n5. 令 $E_i = E_f$：$\\frac{5}{2}mv^2 = \\frac{1}{4}mv^2 + \\frac{ke^2}{r_{\\min}} \\implies \\frac{9}{4}mv^2 = \\frac{ke^2}{r_{\\min}}$。\n6. 解得 $r_{\\min} = \\frac{4ke^2}{9mv^2}$。"
   },
   {
-    "question_id": "PHY_008_xk",
+    "question_id": "PHY1_008_xk",
     "type": "填空题",
     "knowledge_point": "万有引力，壳层定理",
     "difficulty": "简单",
@@ -72,7 +72,7 @@
     "reasoning_process": "1. 根据牛顿壳层定理：对于均匀球壳，其对外部质点的引力等效于将其所有质量集中于球心。故引力为 $F = \\frac{GMm}{r^2}$。\n2. 对于球壳内部的质点，球壳各部分对其引力的矢量和为零。故引力为 $0$。"
   },
   {
-    "question_id": "PHY_009_xk",
+    "question_id": "PHY1_009_xk",
     "type": "填空题",
     "knowledge_point": "狭义相对论，长度收缩",
     "difficulty": "中等",
@@ -81,7 +81,7 @@
     "reasoning_process": "1. 站台观察者观测到的 $\\Delta x$ 是同时刻测量的距离。\n2. 痕迹是在车厢（动系）上留下的。车厢观察者测量的距离是两痕迹在车厢参考系中的固有长度 $L_0$。\n3. 根据长度收缩公式 $L = L_0 \\sqrt{1-u^2/c^2}$，其中 $L = \\Delta x$ 是站台观察者测得的长度。\n4. 故 $L_0 = \\frac{\\Delta x}{\\sqrt{1-u^2/c^2}}$。"
   },
   {
-    "question_id": "PHY_010_xk",
+    "question_id": "PHY1_010_xk",
     "type": "填空题",
     "knowledge_point": "球面镜成像速度",
     "difficulty": "中等",
@@ -90,7 +90,7 @@
     "reasoning_process": "1. 球面镜成像公式：$1/p + 1/q = 2/r$（此处 $f = r/2$）。\n2. 对时间 $t$ 求导：$-p^{-2} \\frac{dp}{dt} - q^{-2} \\frac{dq}{dt} = 0$。\n3. 像的速率 $v_q = |\\frac{dq}{dt}| = (q/p)^2 v_p$。\n4. 由原公式解得 $q = \\frac{pr}{2p-r}$，则 $q/p = \\frac{r}{2p-r}$。\n5. 代入得 $v_q = (\\frac{r}{2p-r})^2 v_p$。"
   },
   {
-    "question_id": "PHY_011_xk",
+    "question_id": "PHY1_011_xk",
     "type": "计算题",
     "knowledge_point": "压强，动量定理",
     "difficulty": "中等",
@@ -99,7 +99,7 @@
     "reasoning_process": "1. 压强 $P = F/A$。根据动量定理，$F = \\frac{dN}{dt} \\cdot \\Delta p$。\n2. 单位时间内撞击到面积 $A$ 上的粒子数 $\\frac{dN}{dt} = nAv$。\n3. 情况1（陷入）：单个粒子动量变化量 $\\Delta p = mv - 0 = mv$。则 $F = (nAv)mv = nmv^2 A$，故 $P = nmv^2$。\n4. 情况2（弹回）：单个粒子动量变化量 $\\Delta p = mv - (-mv) = 2mv$。则 $F = (nAv)2mv = 2nmv^2 A$，故 $P = 2nmv^2$。"
   },
   {
-    "question_id": "PHY_012_xk",
+    "question_id": "PHY1_012_xk",
     "type": "证明题",
     "knowledge_point": "狭义相对论，正负电子湮灭，动量守恒",
     "difficulty": "困难",
@@ -108,7 +108,7 @@
     "reasoning_process": "**1) 写出四维动量：**\n* 正电子：$P_{e^+} = (\\frac{E_+}{c}, \\vec{p})$，其中 $E_+ = \\sqrt{p^2 c^2 + m_e^2 c^4}$。\n* 电子（静止）：$P_{e^-} = (\\frac{m_e c^2}{c}, 0) = (m_e c, 0)$。\n* 光子1：$P_{\\gamma 1} = (\\frac{E_1}{c}, \\vec{k}_1)$，其中 $E_1 = k_1 c = \\frac{hc}{\\lambda_1}$。\n* 光子2：$P_{\\gamma 2} = (\\frac{E_2}{c}, \\vec{k}_2)$，其中 $E_2 = k_2 c = \\frac{hc}{\\lambda_2}$。\n**2) 证明波长关系：**\n由能-动量守恒，系统的总四维动量在碰撞前后保持不变：\n$$P_{e^+} + P_{e^-} = P_{\\gamma 1} + P_{\\gamma 2}$$\n对等式两边取模平方（利用闵氏度规性质 $P^2 = \\frac{E^2}{c^2} - |\\vec{p}|^2 = m_0^2 c^2$）：\n左边：$(P_{e^+} + P_{e^-})^2 = P_{e^+}^2 + P_{e^-}^2 + 2 P_{e^+} \\cdot P_{e^-}$\n$= m_e^2 c^2 + m_e^2 c^2 + 2(\\frac{E_+}{c} \\cdot m_e c - \\vec{p} \\cdot 0) = 2m_e^2 c^2 + 2m_e E_+$\n右边：$(P_{\\gamma 1} + P_{\\gamma 2})^2 = P_{\\gamma 1}^2 + P_{\\gamma 2}^2 + 2 P_{\\gamma 1} \\cdot P_{\\gamma 2}$\n由于光子静止质量为0，$P_{\\gamma}^2 = 0$，故：\n右边 $= 0 + 0 + 2(\\frac{E_1}{c} \\cdot \\frac{E_2}{c} - \\vec{k}_1 \\cdot \\vec{k}_2)$\n利用点积定义 $\\vec{k}_1 \\cdot \\vec{k}_2 = |\\vec{k}_1||\\vec{k}_2| \\cos\\theta = \\frac{E_1 E_2}{c^2} \\cos\\theta$：\n右边 $= \\frac{2 E_1 E_2}{c^2}(1 - \\cos\\theta)$\n令左边等于右边：\n$$2m_e(E_+ + m_e c^2) = \\frac{2 E_1 E_2}{c^2}(1 - \\cos\\theta)$$  --- (式A)\n再根据能量守恒（标量）：\n$E_+ + m_e c^2 = E_1 + E_2$ --- (式B)\n将 (式B) 代入 (式A)：\n$$2m_e(E_1 + E_2) = \\frac{2 E_1 E_2}{c^2}(1 - \\cos\\theta)$$\n$$\\frac{E_1 + E_2}{E_1 E_2} = \\frac{1}{m_e c^2}(1 - \\cos\\theta)$$\n$$\\frac{1}{E_2} + \\frac{1}{E_1} = \\frac{1}{m_e c^2}(1 - \\cos\\theta)$$\n利用光子能量与波长关系 $E = \\frac{hc}{\\lambda}$，即 $\\frac{1}{E} = \\frac{\\lambda}{hc}$：\n$$\\frac{\\lambda_2}{hc} + \\frac{\\lambda_1}{hc} = \\frac{1}{m_e c^2}(1 - \\cos\\theta)$$\n$$\\lambda_1 + \\lambda_2 = \\frac{h}{m_e c}(1 - \\cos\\theta)$$\n证毕。"
   },
   {
-    "question_id": "PHY_013_xk",
+    "question_id": "PHY1_013_xk",
     "type": "填空题",
     "knowledge_point": "非惯性系，托里拆利定律",
     "difficulty": "中等",
@@ -117,7 +117,7 @@
     "reasoning_process": "桶加速上升，系统处于非惯性系。桶内的水受到的等效重力加速度为 $g' = g + a = 9.8 + 120 = 129.8m/s^{2}$。根据托里拆利定律，水从桶底漏出的速度 $v = \\sqrt{2g'h}$。代入数据：$v = \\sqrt{2 \\times 129.8 \\times 0.3} = \\sqrt{77.88} \\approx 8.825m/s$。"
   },
   {
-    "question_id": "PHY_014_xk",
+    "question_id": "PHY1_014_xk",
     "type": "填空题",
     "knowledge_point": "驻波方程，波长与频率",
     "difficulty": "简单",
@@ -126,7 +126,7 @@
     "reasoning_process": "驻波方程的标准形式为 $y = 2A \\cos(kx) \\cos(\\omega t)$。将给定方程与标准形式对比可知，角波数 $k = \\frac{2}{3}\\pi$，角频率 $\\omega = 96\\pi$。根据波长公式 $\\lambda = \\frac{2\\pi}{k}$，可得 $\\lambda = \\frac{2\\pi}{\\frac{2}{3}\\pi} = 3m$。根据频率公式 $\\nu = \\frac{\\omega}{2\\pi}$，可得 $\\nu = \\frac{96\\pi}{2\\pi} = 48Hz$。"
   },
   {
-    "question_id": "PHY_015_xk",
+    "question_id": "PHY1_015_xk",
     "type": "填空题",
     "knowledge_point": "多普勒效应，拍频",
     "difficulty": "困难",
@@ -135,7 +135,7 @@
     "reasoning_process": "1. **反射面接收频率**：声源向左运动远离反射面（速度 $v_s = 15m/s$），反射面作为观察者向右运动远离声源（速度 $v_o = 20m/s$）。接收频率 $\\nu_1 = \\nu_0 \\frac{u - v_o}{u + v_s} = 300 \\times \\frac{330 - 20}{330 + 15} = 300 \\times \\frac{310}{345} = \\frac{6200}{23} \\approx 269.6Hz$。\n2. **静止观察者接收的直达波频率**：声源远离静止观察者，$\\nu_2 = \\nu_0 \\frac{u}{u + v_s} = 300 \\times \\frac{330}{345} = \\frac{6600}{23} \\approx 287.0Hz$。\n3. **静止观察者接收的反射波频率**：反射面作为新波源向右运动远离观察者（速度 $v_s' = 20m/s$），$\\nu_3 = \\nu_1 \\frac{u}{u + v_s'} = \\frac{6200}{23} \\times \\frac{330}{350} = \\frac{40920}{161} \\approx 254.2Hz$。\n4. **拍频**：$\\Delta \\nu = |\\nu_2 - \\nu_3| = \\frac{6600}{23} - \\frac{40920}{161} = \\frac{5280}{161} \\approx 32.8Hz$。"
   },
   {
-    "question_id": "PHY_016_xk",
+    "question_id": "PHY1_016_xk",
     "type": "填空题",
     "knowledge_point": "狭义相对论，时空间隔不变性",
     "difficulty": "中等",
@@ -144,7 +144,7 @@
     "reasoning_process": "根据狭义相对论的时空间隔不变性原理：$\\Delta s^2 = c^2\\Delta t^2 - \\Delta x^2 = c^2\\Delta t'^2 - \\Delta x'^2$。在S系中同地发生，即 $\\Delta x = 0$，且给定 $\\Delta t = 3s$。在S'系中，$\\Delta t' = 6s$。代入公式得：$c^2(3)^2 - 0 = c^2(6)^2 - \\Delta x'^2$。解得 $\\Delta x'^2 = 36c^2 - 9c^2 = 27c^2$，由此得到在S'系中的空间间隔 $\\Delta x' = \\sqrt{27}c = 3\\sqrt{3}c$。"
   },
   {
-    "question_id": "PHY_017_xk",
+    "question_id": "PHY1_017_xk",
     "type": "填空题",
     "knowledge_point": "狭义相对论，长度收缩效应",
     "difficulty": "简单",
@@ -153,7 +153,7 @@
     "reasoning_process": "根据狭义相对论长度收缩效应，物体仅在运动方向上的长度发生收缩，垂直于运动方向的长度保持不变。运动方向上的边长 $L = a\\sqrt{1 - (v/c)^2} = a\\sqrt{1 - 0.6^2} = 0.8a$。其余两边长度仍为 $a$。因此，地面上观察到的体积 $V = 0.8a \\times a \\times a = 0.8a^3$。"
   },
   {
-    "question_id": "PHY_018_xk",
+    "question_id": "PHY1_018_xk",
     "type": "填空题",
     "knowledge_point": "狭义相对论，速度变换",
     "difficulty": "简单",
@@ -162,7 +162,7 @@
     "reasoning_process": "设地面为S系，飞船A为S'系。S'系相对S系的速度 $u = 0.9c$。飞船B在S系中的速度为 $v = -0.9c$。根据洛伦兹速度变换公式，飞船B在S'系中的速度为 $v' = \\frac{v - u}{1 - \\frac{vu}{c^2}}$。代入数值：$v' = \\frac{-0.9c - 0.9c}{1 - \\frac{(-0.9c)(0.9c)}{c^2}} = \\frac{-1.8c}{1 + 0.81} = -\\frac{1.8}{1.81}c = -\\frac{180}{181}c$。速度大小为 $\\frac{180}{181}c$。"
   },
   {
-    "question_id": "PHY_019_xk",
+    "question_id": "PHY1_019_xk",
     "type": "填空题",
     "knowledge_point": "阻尼振动，品质因数",
     "difficulty": "中等",
@@ -171,7 +171,7 @@
     "reasoning_process": "1. 阻尼振动的振幅随时间呈指数衰减，公式为 $\\theta(t) = \\theta_0 e^{-\\beta t}$。代入已知条件：$4^{\\circ} = 5^{\\circ} e^{-100\\beta}$，得 $e^{100\\beta} = 1.25$。解得阻尼系数 $\\beta = \\frac{\\ln 1.25}{100} \\approx 0.00223s^{-1}$。\n2. 单摆的固有角频率 $\\omega_0 = \\sqrt{\\frac{g}{L}} = \\sqrt{\\frac{9.8}{1}} \\approx 3.13rad/s$。对于弱阻尼系统，品质因数 $Q = \\frac{\\omega_0}{2\\beta}$。代入数据：$Q = \\frac{3.13}{2 \\times 0.00223} \\approx 701$。"
   },
   {
-    "question_id": "PHY_020_xk",
+    "question_id": "PHY1_020_xk",
     "type": "填空题",
     "knowledge_point": "简谐振动的合成，旋转矢量法",
     "difficulty": "中等",
@@ -180,7 +180,7 @@
     "reasoning_process": "1. 采用旋转矢量法合成：$y_1$ 和 $y_3$ 的初相位分别为 $\\pi/6$ 和 $5\\pi/6$，二者关于y轴（即 $\\pi/2$ 方向）对称，合成后沿y轴方向的大小为 $2 \\times 0.08 \\times \\cos(\\frac{\\pi}{3}) = 0.08$。再与 $y_2$（初相为 $\\pi/2$）叠加，总振幅 $A = 0.08 + 0.08 = 0.16m$，初相位 $\\phi = \\frac{\\pi}{2}$。\n2. 合振动方程为 $y = 0.16\\cos(100\\pi t + \\frac{\\pi}{2}) = -0.16\\sin(100\\pi t)$。要求运动到 $y = -\\frac{\\sqrt{2}}{2}A = -0.16\\frac{\\sqrt{2}}{2}$ 的最短时间，即 $\\sin(100\\pi t) = \\frac{\\sqrt{2}}{2}$。取最小正相位 $100\\pi t = \\frac{\\pi}{4}$，解得 $t = 0.0025s$。"
   },
   {
-    "question_id": "PHY_021_xk",
+    "question_id": "PHY1_021_xk",
     "type": "填空题",
     "knowledge_point": "弦振动，驻波基频",
     "difficulty": "简单",
@@ -189,7 +189,7 @@
     "reasoning_process": "固定两端的弦产生驻波，其基频公式为 $\\nu_0 = \\frac{v}{2L}$。按住 $L/5$ 的位置后，该点变为固定节点，参与振动的有效弦长变为 $L' = \\frac{4L}{5}$。由于波速 $v$ 不变，此时振动的最低频率（即新基频）为 $\\nu' = \\frac{v}{2L'} = \\frac{v}{2(\\frac{4L}{5})} = \\frac{5}{4} \\left( \\frac{v}{2L} \\right) = \\frac{5}{4}\\nu_0$。"
   },
   {
-    "question_id": "PHY_022_xk",
+    "question_id": "PHY1_022_xk",
     "type": "计算题",
     "knowledge_point": "相对论动力学，动能与静止能量，相对论动量与力",
     "difficulty": "中等",
@@ -198,7 +198,7 @@
     "reasoning_process": "1. 求速度：根据相对论动能公式 $E_k = (\\gamma - 1)mc^2$。已知在该时刻 $E_k = mc^2$，得出 $(\\gamma - 1)mc^2 = mc^2$，解得洛伦兹因子 $\\gamma = 2$。由 $\\gamma = \\frac{1}{\\sqrt{1 - v^2/c^2}} = 2$，可反解出此时速度 $v = \\frac{\\sqrt{3}}{2}c$。\n2. 求位置x：质点作加速度为常量 $a$ 的直线运动（$\\frac{dv}{dt} = a$），初速度为0，所以 $v = at$。达到上述速度所需时间 $t = \\frac{v}{a} = \\frac{\\sqrt{3}c}{2a}$。坐标位置 $x = \\int_0^t v dt = \\frac{1}{2}at^2 = \\frac{1}{2}a \\left(\\frac{\\sqrt{3}c}{2a}\\right)^2 = \\frac{3c^2}{8a}$。\n3. **求动量p**：相对论动量 $p = \\gamma mv = 2m \\times \\frac{\\sqrt{3}}{2}c = \\sqrt{3}mc$。\n4. **求力F**：根据相对论牛顿第二定律，力等于动量的变化率：$F = \\frac{dp}{dt} = \\frac{d}{dt} (\\gamma mv) = m \\gamma^3 a$。由于此时刻 $\\gamma = 2$，代入可得 $F = m(2)^3 a = 8ma$。"
   },
   {
-    "question_id": "PHY_023_xk",
+    "question_id": "PHY1_023_xk",
     "type": "填空题",
     "knowledge_point": "刚体定点转动，陀螺进动，冲量矩",
     "difficulty": "困难",
@@ -207,7 +207,7 @@
     "reasoning_process": "1. 进动角速度：高速自转陀螺的角动量 $L \\approx J\\omega$。重力矩 $\\tau = mgr \\sin\\theta$。由进动公式 $\\Omega = \\frac{\\tau}{L \\sin\\theta}$ 可得 $\\Omega = \\frac{mgr \\sin\\theta}{J\\omega \\sin\\theta} = \\frac{mgr}{J\\omega}$。\n2. 冲量矩：在半个周期内，角动量的水平分量 $L \\sin\\theta$ 方向翻转了 $180^{\\circ}$，其矢量变化量大小为 $2L \\sin\\theta = 2J\\omega \\sin\\theta$。根据冲量矩定理，冲量矩等于角动量的改变量。"
   },
   {
-    "question_id": "PHY_024_xk",
+    "question_id": "PHY1_024_xk",
     "type": "简答题",
     "knowledge_point": "玻尔氢原子模型，德布罗意波，角动量量子化",
     "difficulty": "简单",
@@ -216,7 +216,7 @@
     "reasoning_process": "(1) 根据德布罗意关系，波长 $\\\\lambda = \\\\frac{h}{p} = \\\\frac{h}{mv}$。题目给定基态时波长等于轨道周长，即 $2\\pi r = \\\\lambda$。代入得 $2\\pi r = \\\\frac{h}{mv}$。整理得角动量 $L = mvr = \\\\frac{h}{2\\pi}$。\\n\\n(2) 电子在圆轨道运动，库仑力提供向心力（此处势能公式暗示了力常数）：$F = \\\\frac{d}{dr}(-E_p) = \\\\frac{C}{r^2}$。\\n由牛顿第二定律：$\\\\frac{mv^2}{r} = \\\\frac{C}{r^2} \\\\implies mv^2r = C$。\\n结合角动量量子化 $mvr = \\\\frac{h}{2\\pi}$，平方得 $m^2 v^2 r^2 = \\\\frac{h^2}{4\\pi^2}$。\\n将 $mv^2r = C$ 代入上式：$(m v^2 r) \\cdot mr = \\\\frac{h^2}{4\\pi^2} \\\\implies C \\cdot mr = \\\\frac{h^2}{4\\pi^2}$。\\n解得半径 $r = \\\\frac{h^2}{4\\pi^2 m C}$。\\n能量 $E = E_k + E_p = \\\\frac{1}{2}mv^2 - \\\\frac{C}{r}$。\\n由 $\\\\frac{mv^2}{r} = \\\\frac{C}{r^2}$ 知 $mv^2 = \\\\frac{C}{r}$，故 $E_k = \\\\frac{C}{2r}$。\\n总能量 $E = \\\\frac{C}{2r} - \\\\frac{C}{r} = -\\\\frac{C}{2r}$。\\n代入 $r$ 的表达式：$E = -\\\\frac{C}{2} \\\\cdot \\\\frac{4\\pi^2 m C}{h^2} = -\\\\frac{2\\pi^2 m C^2}{h^2}$。"
   },
   {
-    "question_id": "PHY_025_xk",
+    "question_id": "PHY1_025_xk",
     "type": "简答题",
     "knowledge_point": "物理光学，双缝干涉，色散，条纹间距",
     "difficulty": "中等",
@@ -225,7 +225,7 @@
     "reasoning_process": "(1) 中央零级亮纹处所有波长的光程差均为0，相长干涉叠加成白色。一级亮纹满足 $d\\sin\\theta = \\lambda$，由于 $\\lambda_{蓝} < \\lambda_{绿} < \\lambda_{红}$，故偏转角 $\\theta_{蓝} < \\theta_{绿} < \\theta_{红}$，颜色从靠近中央的一侧起依次为蓝、绿、红。\n\n(2) 设双缝间距为 $d$，屏幕距离为 $D$。光程差 $\\delta = d\\sin\\theta \\approx d \\cdot \\frac{x}{D}$。亮纹满足 $\\delta = k\\lambda$。则 $x_k = k\\frac{D\\lambda}{d}$。相邻间距 $\\Delta x = x_{k+1} - x_k = \\frac{D}{d}\\lambda$。\n\n(3) 题目要求 $\\Delta x$ 不变。当 $d$ 变为 $10d$ 时，由 $\\Delta x = \\frac{D\\lambda}{d}$ 可知，必须使 $D$ 变为 $10D$（假设波长 $\\lambda$ 固定）。根据点源（或线源）产生的波强度与距离平方成反比的定律 $I \\propto \\frac{1}{D^2}$，当距离变为 10 倍，光强变为 $\\frac{1}{10^2} = \\frac{1}{100}$。\n\n(4) 直接由公式 $\\Delta x = \\frac{D\\lambda}{d}$ 变形得 $\\lambda = \\frac{d \\Delta x}{D}$。\n\n(5) 为了让不同级次的条纹不重叠（针对连续光谱），通常要求第 $k$ 级的长波端不与第 $k+1$ 级的短波端重叠。对于最容易重叠的高级次，考虑 $k=1$ 情况：$1 \\cdot \\lambda_{max} < 2 \\cdot \\lambda_{min}$，即 $\\lambda_{max} < 2\\lambda_{min}$。"
   },
   {
-    "question_id": "PHY_026_xk",
+    "question_id": "PHY1_026_xk",
     "type": "计算题",
     "knowledge_point": "狭义相对论，洛伦兹变换，同时的相对性",
     "difficulty": "困难",
@@ -234,7 +234,7 @@
     "reasoning_process": "(1) 地面系 $S$：\n事件1（切尾）：$x_1 = 0, t_1 = 0$。\n事件2（切头）：已知切割位置 $x_2 = L$。在地面系，蛇的长度收缩为 $L = L_0 / \\gamma$。设蛇尾在 $t=0$ 时位于 $x=0$，则蛇头在 $t=0$ 时位于 $x = L_0 / \\gamma$。蛇头随时间运动方程为 $x_h(t) = \\frac{L_0}{\\gamma} + vt$。令 $x_h(t_2) = L$，得 $L = \\frac{L_0}{\\gamma} + vt_2 \\implies t_2 = \\frac{L - L_0/\\gamma}{v}$。\n坐标为：$E_1(0, 0)$，$E_2(L, \\frac{L - L_0/\\gamma}{v})$。\n\n**本征系 $S'$**：\n使用洛伦兹变换 $x' = \\gamma(x - vt), t' = \\gamma(t - \\frac{vx}{c^2})$。\n事件1：$x'_1 = 0, t'_1 = 0$。\n事件2：$x'_2 = \\gamma(x_2 - vt_2) = \\gamma(L - v \\cdot \\frac{L - L_0/\\gamma}{v}) = \\gamma(L_0/\\gamma) = L_0$。\n$t'_2 = \\gamma(t_2 - \\frac{vL}{c^2})$。\n注意：在本征系中，蛇头始终在 $x'=L_0$ 处，这符合物理逻辑。\n\n(2) 分析：\n在地面系看来，两把刀的距离 $L$ 小于蛇的本征长度 $L_0$，但由于切割不是同时的（$t_2 > 0$），蛇是在运动过程中先后被切。在本征系中，由于同时的相对性，这两个事件的顺序和间距发生了变化。既然题目给定 $L_0 > L$ 且在地面系中蛇是先切尾后切头，在本征系中，切割位置的距离正好等于蛇长 $L_0$，且切割是有先后顺序的。这种“切蛇”通常指蛇是否被“变短”或“截断”，由于本征长度没变且两次切割在本征系中对应蛇的两端，蛇本身在两个事件之间并未被实质性缩短（或者说蛇逃过了被同时截断的命运），故判定为未受伤害。"
   },
   {
-    "question_id": "PHY_027_xk",
+    "question_id": "PHY1_027_xk",
     "type": "计算题",
     "knowledge_point": "康普顿散射，四维动量守恒，相对论力学",
     "difficulty": "中等",
@@ -243,7 +243,7 @@
     "reasoning_process": "(1) 设光子入射四维动量为 $\\mathbf{P}_i$，静止电子为 $\\mathbf{P}_e$，散射后光子为 $\\mathbf{P}_f$，反冲电子为 $\\mathbf{P}_{e}'$。根据守恒律：\n$$\\mathbf{P}_i + \\mathbf{P}_e = \\mathbf{P}_f + \\mathbf{P}_{e}'$$\n\n(2) 证明：\n移项得 $\\mathbf{P}_e + \\mathbf{P}_i - \\mathbf{P}_f = \\mathbf{P}_{e}'$。\n两边取模平方（利用 Minkowski 度规）：\n$(\\mathbf{P}_e + \\mathbf{P}_i - \\mathbf{P}_f)^2 = (\\mathbf{P}_{e}')^2$\n$\\mathbf{P}_e^2 + \\mathbf{P}_i^2 + \\mathbf{P}_f^2 + 2\\mathbf{P}_e \\cdot \\mathbf{P}_i - 2\\mathbf{P}_e \\cdot \\mathbf{P}_f - 2\\mathbf{P}_i \\cdot \\mathbf{P}_f = m_e^2 c^2$\n已知：$\\mathbf{P}_e^2 = m_e^2 c^2$, $\\mathbf{P}_i^2 = 0$, $\\mathbf{P}_f^2 = 0$。\n$\\mathbf{P}_e = (m_e c, 0, 0, 0)$，故 $\\mathbf{P}_e \\cdot \\mathbf{P}_i = m_e E_i$，$\\mathbf{P}_e \\cdot \\mathbf{P}_f = m_e E_f$。\n$\\mathbf{P}_i \\cdot \\mathbf{P}_f = \\frac{E_i E_f}{c^2} - \\vec{p}_i \\cdot \\vec{p}_f = \\frac{E_i E_f}{c^2}(1 - \\cos \\theta)$。\n代入上式：\n$m_e^2 c^2 + 0 + 0 + 2m_e E_i - 2m_e E_f - 2\\frac{E_i E_f}{c^2}(1 - \\cos \\theta) = m_e^2 c^2$\n$m_e(E_i - E_f) = \\frac{E_i E_f}{c^2}(1 - \\cos \\theta)$\n整理得：$\\frac{1}{E_f} - \\frac{1}{E_i} = \\frac{1}{m_e c^2}(1 - \\cos \\theta)$\n即 $E_f = \\frac{E_i}{1 + \\frac{E_i}{m_e c^2}(1 - \\cos \\theta)}$。\n\n由于 $\\lambda = \\frac{hc}{E}$，则 $\\frac{\\lambda_f}{hc} - \\frac{\\lambda_i}{hc} = \\frac{1}{m_e c^2}(1 - \\cos \\theta)$。\n$\\Delta \\lambda = \\lambda_f - \\lambda_i = \\frac{h}{m_e c}(1 - \\cos \\theta)$。得证。"
   },
   {
-    "question_id": "PHY_028_xk",
+    "question_id": "PHY1_028_xk",
     "type": "计算题",
     "knowledge_point": "狭义相对论，洛伦兹变换，速度合成，能量与动量守恒",
     "difficulty": "困难",
@@ -252,7 +252,7 @@
     "reasoning_process": "1. 碰撞事件在 A 系中的坐标：\\n   目标距离 $r = \\sqrt{4^2 + 3^2} = 5\\text{ls}$。子弹速度 $u=0.5c$，飞行时间 $t = r/u = 10\\text{s}$。\\n   碰撞事件坐标 $(x, y, t) = (4, 3, 10)$。\\n   **洛伦兹变换到 B 系** ($\\beta=0.8, \\gamma=1/\\sqrt{1-0.8^2}=5/3$)：\\n   $x' = \\gamma(x - vt) = \\frac{5}{3}(4 - 0.8 \\times 10) = -\\frac{20}{3}\\text{ls}$\\n   $y' = y = 3\\text{ls}$\\n   $t' = \\gamma(t - \\frac{vx}{c^2}) = \\frac{5}{3}(10 - 0.8 \\times 4) = \\frac{34}{3}\\text{s}$。\\n\\n2. B 系测量速度：\\n   $u'_x = \\frac{x' - 0}{t' - 0} = \\frac{-20/3}{34/3}c = -\\frac{10}{17}c$\\n   $u'_y = \\frac{y' - 0}{t' - 0} = \\frac{3}{34/3}c = \\frac{9}{34}c$。\\n\\n3.速度合成公式验证：\\n   A 系子弹速度分量：$u_x = 0.5c \\times \\frac{4}{5} = 0.4c$, $u_y = 0.5c \\times \\frac{3}{5} = 0.3c$。\\n   $u'_x = \\frac{u_x - v}{1 - u_x v / c^2} = \\frac{0.4 - 0.8}{1 - 0.4 \\times 0.8}c = \\frac{-0.4}{0.68}c = -\\frac{10}{17}c$。\\n   $u'_y = \\frac{u_y}{\\gamma(1 - u_x v / c^2)} = \\frac{0.3}{\\frac{5}{3}(0.68)}c = \\frac{0.9}{3.4}c = \\frac{9}{34}c$。两者一致。\\n\\n4. A 系动量与能量：\\n   由于是完全非弹性碰撞，系统最终动量和能量等于初始动量和能量之和。\\n   子弹 $\\gamma_u = 1/\\sqrt{1-0.5^2} = 1/\\sqrt{0.75}$。\\n   $P_x = \\gamma_u m u_x = \\frac{0.4}{\\sqrt{0.75}}mc$, $P_y = \\gamma_u m u_y = \\frac{0.3}{\\sqrt{0.75}}mc$。\\n   $E = E_{bullet} + E_{ball} = \\gamma_u mc^2 + mc^2 = (1 + \\frac{1}{\\sqrt{0.75}})mc^2$。\\n\\n5. B 系动量与能量：\\n   利用四维动量变换 $(E'/c, P'_x) = \\gamma(E/c - \\beta P_x, P_x - \\beta E/c)$，$P'_y = P_y$。\\n   代入数值：$P'_x = \\frac{5}{3}(P_x - 0.8 \\frac{E}{c})$, $E' = \\frac{5}{3}(E - 0.8 c P_x)$。"
   },
   {
-    "question_id": "PHY_029_xk",
+    "question_id": "PHY1_029_xk",
     "type": "计算题",
     "knowledge_point": "多体振动，简正坐标，受迫振动，牛顿第二定律",
     "difficulty": "困难",
@@ -261,7 +261,7 @@
     "reasoning_process": "1. 建立动力学方程：\\n   设 A, B, C 的坐标为 $x_A, x_B, x_C$。根据牛顿第二定律：\\n   $m\\ddot{x}_A = F_0 \\cos \\omega t + k(x_B - x_A - x_0)$\\n   $m\\ddot{x}_B = k(x_C - x_B - x_0) - k(x_B - x_A - x_0)$\\n   $m\\ddot{x}_C = -k(x_C - x_B - x_0)$\\n\\n2. 引入简正坐标：\\n   定义 $q_1 = x_A + x_B + x_C$（质心运动），$q_2 = x_A - x_C$，$q_3 = x_A - 2x_B + x_C$。\\n   方程组解耦为：\\n   $m\\ddot{q}_1 = F_0 \\cos \\omega t$\\n   $m\\ddot{q}_2 + kq_2 = F_0 \\cos \\omega t - 2kx_0$\\n   $m\\ddot{q}_3 + 3kq_3 = F_0 \\cos \\omega t$\\n   由此得出特征圆频率 $\\\\omega_1=0, \\\\omega_2=\\\\sqrt{k/m}, \\\\omega_3=\\\\sqrt{3k/m}$。\\n\\n3. 求解受迫振动：\\n   通过初始条件（$t=0$ 时各滑块静止，位置分别为 $0, x_0, 2x_0$）确定积分常数。\\n   - $q_1$ 为匀加速/简谐复合运动：$q_1 = \\\\frac{F_0}{m\\omega^2}(1 - \\\\cos \\omega t) + 3x_0$。\\n   - $q_2, q_3$ 满足标准受迫振动方程，包含齐次解（特征频率振动）和特解（驱动频率振动）。\\n\\n4. 合成滑块 C 的位移：\\n   利用关系式 $x_C = \\frac{q_1}{3} - \\frac{q_2}{2} + \\frac{q_3}{6}$ 将结果代回。"
   },
   {
-    "question_id": "PHY_030_xk",
+    "question_id": "PHY1_030_xk",
     "type": "计算题",
     "knowledge_point": "刚体力学，进动，进动角动量，力矩平衡",
     "difficulty": "困难",
@@ -270,7 +270,7 @@
     "reasoning_process": "1. 受力分析：硬币受重力 $mg$、桌面支持力 $N$ 和摩擦力 $f$。由于硬币质心在水平面内做半径为 $R$ 的圆周运动，$N = mg$，摩擦力提供向心力 $f = m \\frac{v^2}{R}$。\n2. 角动量变化：硬币既有自转，又随质心公转。设硬币绕自身轴自转角速度为 $\\omega_s = v/b$，绕大圆轨迹公转的进动角速度为 $\\Omega = v/R$。自转角动量 $L_s = I_z \\omega_s = (\\frac{1}{2}mb^2)(\\frac{v}{b}) = \\frac{1}{2}mbv$。其方向沿硬币轴线。\n3. 力矩计算：选取硬币质心为参考点。重力力矩为 0。支持力和摩擦力的合力矩为：$\\tau = N b \\sin \\phi - f b \\cos \\phi = mgb \\sin \\phi - \\frac{mv^2}{R} b \\cos \\phi$。\n4. 进动方程：根据角动量定理 $\\vec{\\tau} = \\frac{d\\vec{L}}{dt}$。角动量的变化主要由进动引起，$\\frac{dL}{dt} = L_s \\Omega \\cos \\phi$（考虑 $L$ 的水平分量）。代入得：$mgb \\sin \\phi - \\frac{mv^2}{R} b \\cos \\phi = (\\frac{1}{2}mbv) (\\frac{v}{R}) \\cos \\phi$。\n5. 求解倾角：整理方程：$g \\sin \\phi = \\frac{v^2}{R} \\cos \\phi + \\frac{v^2}{2R} \\cos \\phi = \\frac{3v^2}{2R} \\cos \\phi$。故 $\\tan \\phi = \\frac{3v^2}{2gR}$。"
   },
   {
-    "question_id": "PHY_031_xk",
+    "question_id": "PHY1_031_xk",
     "type": "计算题",
     "knowledge_point": "狭义相对论/经典力学碰撞，弹性碰撞，散射角，质心系分析",
     "difficulty": "中等",
@@ -279,7 +279,7 @@
     "reasoning_process": "1. 质心系速度：质心速度 $V_{cm} = \\frac{MV}{M+m}$。在质心系中，$M$ 的初始速度 $u_M = V - V_{cm} = \\frac{mV}{M+m}$。\n2. 碰撞过程：由于是弹性碰撞，在质心系中，碰撞后 $M$ 的速率不变，仍为 $u_M$，但方向旋转了 $\\alpha$ 角。\n3. 实验室系速度合成：实验室系中 $M$ 的末速度 $\\vec{V}'$ 是质心速度 $\\vec{V}_{cm}$ 与质心系末速度 $\\vec{u}'_M$ 的矢量和。即 $V'_x = V_{cm} + u_M \\cos \\alpha$，$V'_y = u_M \\sin \\alpha$。\n4. 偏离角表达式：$\\tan \\theta = \\frac{V'_y}{V'_x} = \\frac{u_M \\sin \\alpha}{V_{cm} + u_M \\cos \\alpha}$。将速度代入得 $\\tan \\theta = \\frac{m \\sin \\alpha}{M + m \\cos \\alpha}$。\n5. 求极大值：利用几何法，矢量 $\\vec{V}'$ 是从原点出发到半径为 $u_M$、圆心在 $V_{cm}$ 处的圆上的矢量。当 $\\vec{V}'$ 与圆相切时，角度 $\\theta$ 最大。此时，$\\sin \\theta_{max} = \\frac{u_M}{V_{cm}}$。\n6. 得出结论：代入 $u_M$ 和 $V_{cm}$ 的表达式：$\\sin \\theta_{max} = \\frac{mV/(M+m)}{MV/(M+m)} = \\frac{m}{M}$。证毕。"
   },
   {
-    "question_id": "PHY_032_xk",
+    "question_id": "PHY1_032_xk",
     "type": "计算题",
     "knowledge_point": "气体动理论，压强微观解释，动量定理",
     "difficulty": "中等",
@@ -288,7 +288,7 @@
     "reasoning_process": "1. 情况(a)分析：当 $v \\approx 0$ 时，分子静止。平板以 $V$ 撞击分子。在平板参考系中，分子以 $V$ 撞击平板并弹回，动量变化 $\\Delta p = 2mV$。单位时间内撞击平板单位面积的分子数等于体积 $V$ 内的分子数，即 $nV$。压强 $P = \\frac{F}{S} = (2mV) \\cdot (nV) = 2nmV^2$。\n2. 情况(b)分析：分子分布为两部分，各占 $n/2$。一部分速度为 $+v/2$（与板同向），另一部分为 $-v/2$（与板反向）。\n3. 正面碰撞：反向运动的分子与板正面碰撞，相对速度为 $v/2 + V$，动量变化 $2m(v/2 + V)$，单位时间撞击数 $\\frac{n}{2}(v/2 + V)$。产生的压强 $P_1 = nm(v/2 + V)^2$。\n4. 背面碰撞：同向运动的分子从后面追上板（或板撞上它们），相对速度为 $v/2 - V$，动量变化 $2m(v/2 - V)$，单位时间撞击数 $\\frac{n}{2}(v/2 - V)$。产生的压强 $P_2 = nm(v/2 - V)^2$。\n5. 净压强计算：合压强（阻力）为正反压力之差：$P = P_1 - P_2 = nm [ (v/2 + V)^2 - (v/2 - V)^2 ]$。展开得 $P = nm [ (\\frac{v^2}{4} + vV + V^2) - (\\frac{v^2}{4} - vV + V^2) ] = 2nmvV$。"
   },
   {
-    "question_id": "PHY_033_xk",
+    "question_id": "PHY1_033_xk",
     "type": "简答题",
     "knowledge_point": "静力学平衡，势能极小值原理，受力分析",
     "difficulty": "中等",
@@ -297,7 +297,7 @@
     "reasoning_process": "根据最小势能原理，系统在重力场中平衡时势能最低。设计滑轮（小孔）与重物系统，重物下降最深对应系统势能最小，同时也对应桌面上绳长总和最小。再根据节点受力平衡（三个共面的等大拉力），由拉密定理或矢量闭合三角形（等边三角形）直接得出三个角必为 $120^\\circ$。"
   },
   {
-    "question_id": "PHY_034_xk",
+    "question_id": "PHY1_034_xk",
     "type": "计算题",
     "knowledge_point": "牛顿运动定律，保守力，势能，变力运动，微分方程求解",
     "difficulty": "困难",
@@ -306,7 +306,7 @@
     "reasoning_process": "1-a) 利用复合函数求导（链式法则）求加速度：$a = \\frac{dv}{dt} = \\frac{dv}{dx} \\frac{dx}{dt} = v \\frac{dv}{dx}$。因为 $v = cx^{-3}$，所以 $\\frac{dv}{dx} = -3cx^{-4}$。则 $a = (cx^{-3})(-3cx^{-4}) = -3c^2 x^{-7}$。由牛顿第二定律，力 $F(x) = ma = -3mc^2 x^{-7}$。\n1-b) 保守力 $F(x) = -\\frac{dU}{dx}$，故 $U(x) = -\\int F(x) dx = -\\int (-3mc^2 x^{-7}) dx = \\frac{1}{2}mc^2 x^{-6} + C$。取 $x \\to \\infty$ 处 $U(\\infty) = 0$，则 $C=0$，$U(x) = \\frac{1}{2}mc^2 x^{-6}$。\n\n2-A) 分别列出两方向的牛顿第二定律方程：\n$x$ 方向：$m\\frac{dv_x}{dt} = -c_1 v_x - c_2 v_x^2$。分离变量积分：$\\int_{v_0}^{v_x} \\frac{m dv_x}{-c_1 v_x - c_2 v_x^2} = \\int_0^t dt$。利用部分分式或提示公式求解对数形式。\n$y$ 方向：$m\\frac{dv_y}{dt} = mg - c_1 v_y - c_2 v_y^2$。分离变量积分：$\\int_0^{v_y} \\frac{m dv_y}{mg - c_1 v_y - c_2 v_y^2} = \\int_0^t dt$。利用提示公式求解对数形式。\n\n2-B) 终端速度意味着加速度为零，即合外力为零。令 $\\frac{dv_x}{dt} = 0$，得 $-c_1 v_x - c_2 v_x^2 = 0$，因为 $v_x$ 不能为负，故 $v_{x, \\text{term}} = 0$。\n令 $\\frac{dv_y}{dt} = 0$，得 $mg - c_1 v_y - c_2 v_y^2 = 0$。解这个一元二次方程，取正根：$v_{y, \\text{term}} = \\frac{-c_1 + \\sqrt{c_1^2 + 4mgc_2}}{2c_2}$。"
   },
   {
-    "question_id": "PHY_035_xk",
+    "question_id": "PHY1_035_xk",
     "type": "计算题",
     "knowledge_point": "二维弹性碰撞，质心系，动量守恒，散射角",
     "difficulty": "困难",
@@ -315,7 +315,7 @@
     "reasoning_process": "在质心系（CM 帧）中分析更为简单。在质心系中，弹性碰撞前后每个粒子的动量大小（即速率）保持不变。\n1.求质心速度：实验室系中，质心速度大小为 $V_{CM} = \\frac{MV}{M+m}$，方向沿初始速度 $V$ 方向。\n2. 求质心系中 M 的初末速率：碰撞前 M 在质心系中的速度大小为 $V_{Mi}^{CM} = V - V_{CM} = \\frac{mV}{M+m}$。碰撞后，由于在质心系中速率不变，M 的末速率大小仍为 $|V_{Mf}^{CM}| [span_8](start_span)= \\frac{mV}{M+m}$，但方向可以任意。\n3. 实验室系速度合成：实验室系中 M 的最终速度 $\\vec{V}_{Mf}$ 是质心速度 $\\vec{V}_{CM}$ 与质心系中末速度 $\\vec{V}_{Mf}^{CM}$ 的矢量和。即 $\\vec{V}_{Mf} = \\vec{V}_{CM} + \\vec{V}_{Mf}^{CM}$。\n4. 求最大偏转角：由于 $M > m$，有 $|V_{Mf}^{CM}| < V_{CM}$。将速度矢量的起点放在一起，$\\vec{V}_{Mf}^{CM}$ 的终点轨迹是一个以 $\\vec{V}_{CM}$ 终点为圆心，半径为 $\\frac{mV}{M+m}$ 的圆。$\\vec{V}_{Mf}$ 则是从起点指向该圆上任意一点的矢量。当 $\\vec{V}_{Mf}$ 与该圆相切时，偏转角 $\\theta$ 达到最大。此时，由直角三角形关系可得：$\\sin \\theta_{max} = \\frac{|V_{Mf}^{CM}|}{V_{CM}} = \\frac{\\frac{mV}{M+m}}{\\frac{MV}{M+m}} = \\frac{m}{M}$。"
   },
   {
-    "question_id": "PHY_036_xk",
+    "question_id": "PHY1_036_xk",
     "type": "计算题",
     "knowledge_point": "刚体力学，转动惯量，运动学约束，牛顿第二定律",
     "difficulty": "困难",
@@ -324,7 +324,7 @@
     "reasoning_process": "1) **运动学约束**：设 $M$ 沿斜面向上移动 $\\Delta x$，则绳索在圆柱体上释放的长度为 $R\\Delta\\theta = \\Delta x$（无相对滑动）。物体 $m$ 向下移动的距离 $\\Delta x'$ 等于斜面上释放的总绳长：一部分是圆柱体质心移动的 $\\Delta x$，另一部分是绳子解卷的 $\\Delta x$，故 $\\Delta x' = 2\\Delta x$。对其求两次导得加速度约束：$\\ddot{x}' = 2\\ddot{x}$。\n\n2) 动力学方程：设绳子张力为 $T$，摩擦力 $f$ 沿斜面向上。\n对物块 $m$：$mg - T = m\\ddot{x}' = 2m\\ddot{x}$ （式1）\n对圆柱体 $M$（平动）：$T + f - Mg\\sin 30^\\circ = M\\ddot{x}$ （式2）\n对圆柱体 $M$（转动，绕质心）：力矩方程为 $(f - T)R = I\\ddot{\\theta}$，其中 $I = \\frac{1}{2}MR^2$。因向上滚动的角加速度约束为 $R\\ddot{\\theta} = -\\ddot{x}$（注意符号方向），得 $(f - T)R = -\\frac{1}{2}MR\\ddot{x}$，即 $f - T = -\\frac{1}{2}M\\ddot{x}$ （式3）。\n\n3) 求解：由（式1）得 $T = mg - 2m\\ddot{x}$。代入（式3）得 $f = T - \\frac{1}{2}M\\ddot{x} = mg - 2m\\ddot{x} - \\frac{1}{2}M\\ddot{x}$。将 $T$ 和 $f$ 代入（式2）得：\n$(mg - 2m\\ddot{x}) + (mg - 2m\\ddot{x} - \\frac{1}{2}M\\ddot{x}) - Mg\\sin 30^\\circ = M\\ddot{x}$。\n整理得：$2mg - Mg\\sin 30^\\circ = (4m + \\frac{3}{2}M)\\ddot{x}$。\n所以 $\\ddot{x} = \\frac{4mg - 2Mg\\sin 30^\\circ}{8m + 3M}$。代入数据 $M=5, m=1, g=10, \\sin 30^\\circ=0.5$，得 $\\ddot{x} = \\frac{4(1)(10) - 2(5)(10)(0.5)}{8(1) + 3(5)} = \\frac{40 - 50}{8 + 15} = \\frac{-10}{23} \\approx -0.435 \\text{m/s}^2$。负号表示加速度方向沿斜面向下。\n代回求摩擦力：$f = mg - 2m\\ddot{x} - \\frac{1}{2}M\\ddot{x} = 10 - 2(1)(-0.435) - 2.5(-0.435) = 10 + 0.87 + 1.0875 = 11.9575 \\approx 12 \\text{N}$。值为正，说明方向确实沿斜面向上。"
   },
   {
-    "question_id": "PHY_037_xk",
+    "question_id": "PHY1_037_xk",
     "type": "计算题",
     "knowledge_point": "万有引力，向心力，非惯性系，积分计算",
     "difficulty": "困难",
@@ -333,7 +333,7 @@
     "reasoning_process": "1) 在随地球自转的非惯性参考系中分析。电缆能悬空静止，意味着其受到的总万有引力与总离心力平衡。取地球中心为原点，电缆径向分布，范围从 $R$ 到 $R+L$。\\n距离地心 $r$ 处长度为 $dr$ 的微元质量为 $\\\\rho dr$。\\n其受到的万有引力为 $dF_G = \\\\frac{GM\\\\rho}{r^2} dr$。电缆受到的总引力：$F_G = \\\\int_R^{R+L} \\\\frac{GM\\\\rho}{r^2} dr = GM\\\\rho (\\\\frac{1}{R} - \\\\frac{1}{R+L}) = \\\\frac{GM\\\\rho L}{R(R+L)}$[span_20](end_span)[span_21](start_span)。\\n其受到的离心力为 $dF_c = \\rho \\\\omega^2 r dr$，其中 $\\\\omega = \\\\frac{2\\\\pi}{86400} \\\\approx 7.27 \\\\times 10^{-5} \\\\text{rad/s}$ 为地球自转角速度。总离心力：$F_c = \\\\int_R^{R+L} \\rho \\\\omega^2 r dr = \\\\frac{1}{2} \\rho \\\\omega^2 [(R+L)^2 - R^2] = \\\\frac{1}{2} \\rho \\\\omega^2 (2RL + L^2)$。\\n令 $F_G = F_c$，得 $\\\\frac{GM\\rho L}{R(R+L)} = \\\\frac{1}{2} \\rho \\omega^2 L(2R + L)$。令 $x = L/R$，整理方程得 $x^3 + 3x^2 + 2x - 2\\\\frac{GM}{\\\\omega^2 R^3} = 0$。代入数据求解，得 $x \\\\approx 22.7$，即 $L = 22.7R$。\\n\\n2) 电缆内部张力并非处处相等。在地球同步轨道高度 $r_0$ 处，该处质元的引力等于离心力（即 $\\\\frac{GM}{r_0^2} = \\\\omega^2 r_0$，解得 $r_0 = \\\\sqrt[3]{\\\\frac{GM}{\\\\omega^2}} \\\\approx 6.6R$），该点张力达到最大。计算 $r_0$ 以下部分（从 $R$ 到 $r_0$）受到的合力即可得此处的张力。\\n引力部分：$F_{G, down} = \\\\int_R^{r_0} \\\\frac{GM\\\\rho}{r^2} dr = GM\\\\rho (\\\\frac{1}{R} - \\\\frac{1}{r_0})$。\\n离心力部分：$F_{c, down} = \\\\int_R^{r_0} \\rho \\\\omega^2 r dr = \\\\frac{1}{2} \\rho \\\\omega^2 (r_0^2 - R^2)$。\\n最大张力 $T_{max} = F_{G, down} - F_{c, down}$。代入数据计算，张力数量级达到 $10^8 \\\\text{N}$ 级别（具体值取决于线密度代入的精度，参考答案中对于 $\\\\rho=3$ 时算出约为 $1.44 \\\\times 10^8 \\\\text{N}$），这远大于 $4 \\\\times 10^6 \\\\text{N}$ 的极限张力，所以绳子必断。"
   },
   {
-    "question_id": "PHY_038_xk",
+    "question_id": "PHY1_038_xk",
     "type": "计算题",
     "knowledge_point": "相关变化率，运动学",
     "difficulty": "中等",
@@ -342,7 +342,7 @@
     "reasoning_process": "建立坐标系，设汽车在公路上的位置为 $y$，距离警察垂直公路的距离为 $x = 500\\text{m}$。由几何关系可知 $y = 500 \\tan \\theta$。对时间 $t$ 求导得汽车速度 $v = \\frac{dy}{dt} = 500 \\sec^2 \\theta \\frac{d\\theta}{dt}$。在 $\\theta = \\pi/4$ 时，$\\sec^2(\\pi/4) = 2$。代入数据得 $v = 500 \\times 2 \\times 0.12 = 120 \\text{ m/s}$。"
   },
   {
-    "question_id": "PHY_039_xk",
+    "question_id": "PHY1_039_xk",
     "type": "计算题",
     "knowledge_point": "相关变化率，约束运动",
     "difficulty": "中等",
@@ -351,7 +351,7 @@
     "reasoning_process": "1) 设绳长为 $l$，船与圆环投影点的水平距离为 $s$。由勾股定理得 $s^2 + 6^2 = l^2$。两边对时间求导得 $2s \\frac{ds}{dt} = 2l \\frac{dl}{dt}$，即船速 $v_{boat} = -\\frac{ds}{dt} = -\\frac{l}{s} \\frac{dl}{dt}$。当 $l=10$ 时，$s = \\sqrt{10^2 - 6^2} = 8$。代入 $\\frac{dl}{dt} = -2 \\text{ ft/s}$（绳长减小），得 $v_{boat} = -\\frac{10}{8}(-2) = 2.5 \\text{ ft/s}$。\\n2) 由几何关系 $\\cos \\theta = 6/l$。求导得 $-\\sin \\theta \\frac{d\\theta}{dt} = -\\frac{6}{l^2} \\frac{dl}{dt}$。当 $l=10$ 时，$\\sin \\theta = s/l = 0.8$。代入得 $\\frac{d\\theta}{dt} = \\frac{6}{10^2 \\times 0.8} \\times (-2) = -0.15 \\text{ rad/s}$。"
   },
   {
-    "question_id": "PHY_040_xk",
+    "question_id": "PHY1_040_xk",
     "type": "计算题",
     "knowledge_point": "一维运动学，极值问题",
     "difficulty": "简单",
@@ -360,7 +360,7 @@
     "reasoning_process": "速度 $v = \\frac{dx}{dt} = -32t + 96$。\\n1) $t=0$ 时，$v(0) = 96$。\\n2) 当 $x=0$ 时，$-16(t^2 - 6t - 7) = 0$，解得 $t=7$（舍去负根）。此时 $v(7) = -32(7) + 96 = -128$。\\n3) 当 $v=0$ 时 $x$ 取得最大值，即 $-32t + 96 = 0 \\Rightarrow t = 3$。代入 $x(3) = -16(9) + 96(3) + 112 = 256$。"
   },
   {
-    "question_id": "PHY_041_xk",
+    "question_id": "PHY1_041_xk",
     "type": "计算题",
     "knowledge_point": "几何优化，极值应用",
     "difficulty": "中等",
@@ -369,7 +369,7 @@
     "reasoning_process": "设梁与地面的夹角为 $\\theta$。梁的总长度 $L$ 由两部分组成：从地面到墙顶的部分 $8/\\sin\\theta$ 和从墙顶到建筑物的部分 $27/\\cos\\theta$。故 $L(\\theta) = 8\\csc\\theta + 27\\sec\\theta$。求导得 $\\frac{dL}{d\\theta} = -8\\csc\\theta\\cot\\theta + 27\\sec\\theta\\tan\\theta$。令其为 0 得 $\\frac{27\\sin\\theta}{\\cos^2\\theta} = \\frac{8\\cos\\theta}{\\sin^2\\theta} \\Rightarrow \\tan^3\\theta = \\frac{8}{27} \\Rightarrow \\tan\\theta = \\frac{2}{3}$。此时 $\\sin\\theta = 2/\\sqrt{13}$，$\\cos\\theta = 3/\\sqrt{13}$。代入 $L = 8/ (2/\\sqrt{13}) + 27 / (3/\\sqrt{13}) = 4\\sqrt{13} + 9\\sqrt{13} = 13\\sqrt{13}$。"
   },
   {
-    "question_id": "PHY_042_xk",
+    "question_id": "PHY1_042_xk",
     "type": "证明题",
     "knowledge_point": "静力学平衡，势能极小值",
     "difficulty": "困难",
@@ -378,7 +378,7 @@
     "reasoning_process": "1) 系统平衡时势能最低，即重物的 $y$ 坐标最小。约束条件为绳长固定：$\\sqrt{x^2+y^2} + \\sqrt{(x-a)^2+(y-b)^2} = L$。\\n2) 利用隐函数求导，对 $x$ 求导并令 $\\frac{dy}{dx} = 0$（对应 $y$ 的极小值）：$\\frac{x + y\\frac{dy}{dx}}{\\sqrt{x^2+y^2}} + \\frac{(x-a) + (y-b)\\frac{dy}{dx}}{\\sqrt{(x-a)^2+(y-b)^2}} = 0$。代入 $\\frac{dy}{dx}=0$ 得 $\\frac{x}{\\sqrt{x^2+y^2}} = -\\frac{x-a}{\\sqrt{(x-a)^2+(y-b)^2}}$。\\n3) 该式左边为左侧绳索与水平轴夹角的余弦值 $\\cos\\theta_1$，右边为右侧绳索与水平轴夹角的余弦值 $\\cos\\theta_2$ 的相反数（考虑到方向）。这说明两侧绳索相对竖直线的倾斜程度对称。在圆环处进行受力分析，水平方向 $T_{left}\\cos\\theta_1 = T_{right}\\cos\\theta_2$，由于几何对称性可知角度相等，故张力 $T_{left} = T_{right}$。"
   },
   {
-    "question_id": "PHY_043_xk",
+    "question_id": "PHY1_043_xk",
     "type": "计算题",
     "knowledge_point": "重心，静力学平衡，级数求和",
     "difficulty": "困难",
@@ -387,7 +387,7 @@
     "reasoning_process": "1) 从上往下分析：第 1 块相对于第 2 块最多伸出 $1 \\text{ m}$（即 $l/2$）。前 2 块的重心相对于第 3 块边缘最多伸出 $1/2 \\text{ m}$。以此类推，第 $n$ 组木块相对于下方木块的最大偏移量为 $1/n \\text{ m}$。总伸出距离为 $L = 1 + 1/2 + 1/3 + ... + 1/N = \\sum_{n=1}^{N} \\frac{1}{n}$。\\n2) 当 $N$ 很大时，调和级数近似为 $\\ln N + \\gamma$。要使 $L \\approx 20$，则 $\\ln N \\approx 20 \\Rightarrow N \\approx e^{20} \\approx 4.85 \\times 10^8$。若考虑到单位或级数起始项的不同，通常估算在 $10^8$ 数量级。"
   },
   {
-    "question_id": "PHY_044_xk",
+    "question_id": "PHY1_044_xk",
     "type": "计算题",
     "knowledge_point": "积分应用，质量计算",
     "difficulty": "简单",
@@ -396,7 +396,7 @@
     "reasoning_process": "取半径为 $r$、宽度为 $dr$ 的圆环微元，其面积 $dA = 2\\pi r dr$。微元质量 $dm = \\rho dA = (2r)(2\\pi r dr) = 4\\pi r^2 dr$。总质量 $M = \\int_0^R 4\\pi r^2 dr = 4\\pi [\\frac{1}{3}r^3]_0^R = \\frac{4}{3}\\pi R^3$。"
   },
   {
-    "question_id": "PHY_045_xk",
+    "question_id": "PHY1_045_xk",
     "type": "计算题",
     "knowledge_point": "微分方程，牛顿冷却定律",
     "difficulty": "中等",
@@ -405,7 +405,7 @@
     "reasoning_process": "解微分方程得 $\\ln\\frac{T-T_0}{T_i-T_0} = -kt$。已知 $T_i=98, T_0=18, t=5$ 时 $T=38$。代入得 $\\ln\\frac{38-18}{98-18} = -k(5) \\Rightarrow \\ln\\frac{20}{80} = -5k \\Rightarrow k = \\frac{\\ln 4}{5}$。\\n要求 $T=20$ 时的总时间 $t_{total}$：$\\ln\\frac{20-18}{98-18} = -kt_{total} \\Rightarrow \\ln\\frac{2}{80} = -k t_{total} \\Rightarrow \\ln 40 = k t_{total}$。\\n故 $t_{total} = \\frac{\\ln 40}{k} = 5 \\frac{\\ln 40}{\\ln 4} \\approx 13.3 \\text{ min}$。因为已经过了 5 分钟，所以“还需要”的时间为 $13.3 - 5 = 8.3$ 分钟。注：若根据答案文件，计算得总时间相对于起始点为 $13.3 \\text{ min}$，则还需要 $13.3 - 5 = 8.3 \\text{ min}$，但通常题目问法可能指总耗时。此处依答案逻辑：总时间 $13.3$ 分钟。"
   },
   {
-    "question_id": "PHY_046_xk",
+    "question_id": "PHY1_046_xk",
     "type": "计算题",
     "knowledge_point": "空气阻力，微分方程",
     "difficulty": "中等",
@@ -414,7 +414,7 @@
     "reasoning_process": "1) 由牛顿第二定律 $m\\frac{dv}{dt} = -kv$。分离变量 $\\int \\frac{dv}{v} = \\int -\\frac{k}{m} dt$，解得 $\\ln v = -\\frac{k}{m}t + C$。代入初始条件得 $v(t) = v_0 e^{-\\frac{k}{m}t}$。\\n2) 距离 $x(t) = \\int_0^t v(t) dt = \\int_0^t v_0 e^{-\\frac{k}{m}t} dt = v_0 [-\\frac{m}{k} e^{-\\frac{k}{m}t}]_0^t = \\frac{mv_0}{k}(1 - e^{-\\frac{k}{m}t})$。\\n3) 此时 $m\\frac{dv}{dt} = -kv - lv^2$，速度下降会更快，且由于存在二次项，无法通过简单的指数函数表达，需要利用部分分式进行积分求解。"
   },
   {
-    "question_id": "PHY_047_xk",
+    "question_id": "PHY1_047_xk",
     "type": "计算题",
     "knowledge_point": "量纲分析",
     "difficulty": "中等",
@@ -423,7 +423,7 @@
     "reasoning_process": "设 $f = C R^\\alpha \\rho^\\beta G^\\gamma$。各物理量的量纲为：$[f] = T^{-1}$，$[R] = L$，$[\\rho] = ML^{-3}$，$[G] = M^{-1}L^3T^{-2}$。\\n列出量纲等式：$T^{-1} = L^\\alpha (ML^{-3})^\\beta (M^{-1}L^3T^{-2})^\\gamma$。\\n质量 $M$：$\\beta - \\gamma = 0 \\Rightarrow \\beta = \\gamma$\\n时间 $T$：$-2\\gamma = -1 \\Rightarrow \\gamma = 1/2, \\beta = 1/2$\\n长度 $L$：$\\alpha - 3\\beta + 3\\gamma = 0 \\Rightarrow \\alpha - 3/2 + 3/2 = 0 \\Rightarrow \\alpha = 0$\\n因此频率 $f$ 与半径 $R$ 无关，$f = C \\rho^{1/2} G^{1/2} = C\\sqrt{G\\rho}$。"
   },
   {
-    "question_id": "PHY_048_xk",
+    "question_id": "PHY1_048_xk",
     "type": "证明题",
     "knowledge_point": "方向余弦，向量代数",
     "difficulty": "简单",
@@ -432,7 +432,7 @@
     "reasoning_process": "设空间中任意向量为 $\\vec{r}=(x,y,z)$，其模长为 $r = |\\vec{r}|$。根据方向余弦的定义，有 $x=r\\alpha$，$y=r\\beta$，$z=r\\gamma$。由于在笛卡尔坐标系中 $x^2+y^2+z^2=r^2$，代入上述关系式可得 $r^2\\alpha^2+r^2\\beta^2+r^2\\gamma^2=r^2$。两边同时除以 $r^2$（假设 $r \\neq 0$）即可得证 $\\alpha^{2}+\\beta^{2}+\\gamma^{2}=1$。"
   },
   {
-    "question_id": "PHY_049_xk",
+    "question_id": "PHY1_049_xk",
     "type": "证明题",
     "knowledge_point": "向量点积，垂直条件",
     "difficulty": "简单",
@@ -441,7 +441,7 @@
     "reasoning_process": "利用点积表示向量模长的平方：由题意已知 $|A-B|=|A+B|$，两边平方得 $|A-B|^2 = |A+B|^2$。利用向量点积展开：$(A-B) \\cdot (A-B) = (A+B) \\cdot (A+B)$，展开后为 $|A|^2+|B|^2-2A\\cdot B = |A|^2+|B|^2+2A\\cdot B$。消去相同项后得到 $4A\\cdot B = 0$，即 $A\\cdot B = 0$。由于点积为零，说明向量 $A$ 与 $B$ 垂直。"
   },
   {
-    "question_id": "PHY_050_xk",
+    "question_id": "PHY1_050_xk",
     "type": "证明题",
     "knowledge_point": "向量代数，三角恒等式证明",
     "difficulty": "中等",
@@ -450,7 +450,7 @@
     "reasoning_process": "构造两个向量：$\\vec{r}_1 = (a, b)$ 和单位向量 $\\vec{r}_2 = (\\cos \\theta, \\sin \\theta)$。计算两者的点积：从代数分量上看，$\\vec{r}_1 \\cdot \\vec{r}_2 = a \\cos \\theta + b \\sin \\theta$。从几何定义上看，$\\vec{r}_1 \\cdot \\vec{r}_2 = |\\vec{r}_1| |\\vec{r}_2| \\cos(\\Delta\\theta)$。其中 $|\\vec{r}_1| = \\sqrt{a^2+b^2} = c$，向量 $\\vec{r}_1$ 与 $x$ 轴的夹角为 $\\phi$，满足 $\\tan \\phi = b/a$。因此，$\\vec{r}_1$ 与 $\\vec{r}_2$ 之间的夹角 $\\Delta\\theta = \\theta - \\phi$。联立两式得 $a \\cos \\theta + b \\sin \\theta = c \\cos(\\theta - \\phi)$。"
   },
   {
-    "question_id": "PHY_051_xk",
+    "question_id": "PHY1_051_xk",
     "type": "计算题",
     "knowledge_point": "向量叉积，单位向量",
     "difficulty": "简单",
@@ -459,7 +459,7 @@
     "reasoning_process": "利用叉积寻找垂直方向：已知两个不共线的向量确定一个平面，其法线方向可通过叉积 $A \\times B$ 求得。计算得 $A \\times B = \\det \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 1 & -1 \\\\ 2 & -1 & 3 \\end{vmatrix} = 2\\hat{i} - 5\\hat{j} - 3\\hat{k}$。计算其模长 $|\\vec{N}| = \\sqrt{2^2+(-5)^2+(-3)^2} = \\sqrt{38}$。最后进行单位化，注意垂直方向有两个（正反），故单位向量为 $\\hat{n} = \\pm (2\\hat{i}-5\\hat{j}-3\\hat{k})/\\sqrt{38}$。"
   },
   {
-    "question_id": "PHY_052_xk",
+    "question_id": "PHY1_052_xk",
     "type": "证明题",
     "knowledge_point": "标量三重积，几何意义",
     "difficulty": "简单",
@@ -468,7 +468,7 @@
     "reasoning_process": "在几何上，$|B \\times C|$ 等于以 $B$ 和 $C$ 为邻边的平行四边形底面的面积 $S$。$B \\times C$ 的方向垂直于该底面，即沿高度方向。向量 $A$ 与 $(B \\times C)$ 的点积结果等于 $S \\cdot |A| \\cos \\phi$，其中 $\\phi$ 是 $A$ 与底面法线的夹角。因为 $|A| \\cos \\phi$ 正好是该平行六面体的高 $h$，所以 $A \\cdot (B \\times C) = S \\cdot h = V$，即为六面体体积。"
   },
   {
-    "question_id": "PHY_053_xk",
+    "question_id": "PHY1_053_xk",
     "type": "证明/分析题",
     "knowledge_point": "向量三重积，反例法",
     "difficulty": "中等",
@@ -477,7 +477,7 @@
     "reasoning_process": "1) 该等式通常不成立。$(A \\times B) \\times C$ 得到一个位于 $A$ 和 $B$ 所在平面的向量，而 $A \\times (B \\times C)$ 得到一个位于 $B$ 和 $C$ 所在平面的向量。反例：设 $\\vec{A}=(1,0,0), \\vec{B}=(0,1,0), \\vec{C}=(1,1,0)$，计算得 $(\\vec{A}\\times\\vec{B})\\times\\vec{C} = (-1,1,0)$ 而 $\\vec{A}\\times(\\vec{B}\\times\\vec{C}) = (0,1,0)$。\n2) 公式 $A \\times (B \\times C) = B(A \\cdot C) - C(A \\cdot B)$ 可以通过在笛卡尔坐标系下展开各分量并进行代数重组来证明。"
   },
   {
-    "question_id": "PHY_054_xk",
+    "question_id": "PHY1_054_xk",
     "type": "证明题",
     "knowledge_point": "向量分解，三重积公式应用",
     "difficulty": "中等",
@@ -486,7 +486,7 @@
     "reasoning_process": "可以利用向量三重积公式 $A \\times (B \\times C) = B(A \\cdot C) - C(A \\cdot B)$ 进行证明。计算 $(\\hat{n} \\times A) \\times \\hat{n} = -[\\hat{n} \\times (\\hat{n} \\times A)]$。根据公式展开得 $- [\\hat{n}(\\hat{n} \\cdot A) - A(\\hat{n} \\cdot \\hat{n})]$。由于 $\\hat{n}$ 是单位向量，$\\hat{n} \\cdot \\hat{n} = 1$，上式简化为 $A - (A \\cdot \\hat{n})\\hat{n}$。整理得 $A = (A \\cdot \\hat{n})\\hat{n} + (\\hat{n} \\times A) \\times \\hat{n}$。此外也可以通过几何分解法证明，第一项是 $A$ 在 $\\hat{n}$ 方向的投影，第二项是垂直于 $\\hat{n}$ 的分量。"
   },
   {
-    "question_id": "PHY_055_xk",
+    "question_id": "PHY1_055_xk",
     "type": "计算题",
     "knowledge_point": "刚体转动学，纯滚动条件",
     "difficulty": "简单",
@@ -495,7 +495,7 @@
     "reasoning_process": "在无滑动滚动的情况下，圆鼓与斜面接触点的瞬时速度为零。质心速度 $v$ 与角速度 $\\omega$ 的绝对值满足关系 $|v| = R|\\omega|$。将此关系对时间 $t$ 求导，可得加速度与角加速度的关系：$|a| = \\frac{d|v|}{dt} = R\\frac{d|\\omega|}{dt} = R|\\alpha|$。因此，角加速度的大小为 $\\alpha = a/R$。注意在矢量表达中，具体正负号取决于所定义的正方向。"
   },
   {
-    "question_id": "PHY_056_xk",
+    "question_id": "PHY1_056_xk",
     "type": "计算/证明题",
     "knowledge_point": "坐标变换矩阵，正交矩阵性质",
     "difficulty": "中等",
@@ -504,7 +504,7 @@
     "reasoning_process": "(a) 利用坐标旋转公式：$x' = x \\cos \\theta + y \\sin \\theta$，$y' = -x \\sin \\theta + y \\cos \\theta$。代入 $x=2, y=1, \\theta=30^\\circ$（即 $\\sin 30^\\circ=1/2, \\cos 30^\\circ=\\sqrt{3}/2$），计算得 $x' = 2(\\sqrt{3}/2) + 1(1/2) = \\sqrt{3}+1/2$，$y' = -2(1/2) + 1(\\sqrt{3}/2) = \\sqrt{3}/2 - 1$。\n(b) 旋转矩阵 $R$ 的转置 $R^T$ 对应于反向旋转。通过矩阵乘法验证 $RR^T = I$ 即可证明互逆。"
   },
   {
-    "question_id": "PHY_057_xk",
+    "question_id": "PHY1_057_xk",
     "type": "计算题",
     "knowledge_point": "运动学，摆线轨迹分析",
     "difficulty": "困难",
@@ -513,7 +513,7 @@
     "reasoning_process": "石子的运动是中心平动与绕中心转动的叠加。设轮胎半径为 $R$，无滑动条件下角速度 $\\omega = V/R$。在 $t$ 时刻，中心位置为 $(Vt, R)$。石子相对于中心的坐标为 $(-R \\sin(\\omega t), -R \\cos(\\omega t))$（设顺时针旋转为正）。叠加得位置矢量 $\\vec{r}_p = (Vt - R \\sin(Vt/R), R - R \\cos(Vt/R))$。对位置矢量求一阶导数得速度 $\\vec{v}_p = (V - V \\cos \\omega t, V \\sin \\omega t)$，求二阶导数得加速度 $\\vec{a}_p = (\\omega^2 R \\sin \\omega t, \\omega^2 R \\cos \\omega t)$。"
   },
   {
-    "question_id": "PHY_058_xk",
+    "question_id": "PHY1_058_xk",
     "type": "计算题",
     "knowledge_point": "极坐标运动学，螺旋线加速度分析",
     "difficulty": "困难",
@@ -522,13 +522,1175 @@
     "reasoning_process": "由极坐标加速度公式可知：径向加速度 $a_r = \\ddot{r} - r\\dot{\\theta}^2$，切向加速度 $a_\\theta = r\\ddot{\\theta} + 2\\dot{r}\\dot{\\theta}$。由已知 $r = A\\theta, \\dot{\\theta} = \\alpha t, \\ddot{\\theta} = \\alpha$ 推导出 $\\dot{r} = A\\alpha t, \\ddot{r} = A\\alpha$。\n(b) $a_r = A\\alpha - (A\\theta)(\\alpha t)^2 = A\\alpha(1 - 2\\theta^2)$。令 $a_r = 0$ 解得 $\\theta = 1/\\sqrt{2} \\text{ rad}$。\n(c) $a_\\theta = (A\\theta)\\alpha + 2(A\\alpha t)(\\alpha t) = 5A\\alpha\\theta$。令 $a_r = a_\\theta$ 得到关于 $\\theta$ 的方程 $A\\alpha(1 - 2\\theta^2) = 5A\\alpha\\theta$，解得 $\\theta = \\frac{\\sqrt{33}-5}{4}$。"
   },
   {
-    "question_id": "PHY_059_xk",
+    "question_id": "PHY1_059_xk",
     "type": "计算题",
     "knowledge_point": "斜抛运动，极值优化",
     "difficulty": "中等",
     "question": "一个男孩站在一个倾角为 $\\phi$ 的均匀斜坡顶端。他应该以相对于水平线多大的角度 $\\theta$ 抛出石块，才能使其在斜坡上的射程最大？",
     "answer": "$\\theta = \\pi/4 - \\phi/2$ (或满足 $\\phi + 2\\theta = \\pi/2$)",
     "reasoning_process": "在垂直于斜面的方向上，初速度分量为 $v_0 \\sin(\\theta+\\phi)$，加速度分量为 $-g \\cos\\phi$。由垂直位移为零求得总飞行时间 $t = \\frac{2v_0 \\sin(\\theta+\\phi)}{g \\cos\\phi}$。在沿斜面方向上，计算位移 $S = [v_0 \\cos(\\theta+\\phi)]t + \\frac{1}{2}(g \\sin\\phi)t^2$。代入 $t$ 的表达式后，通过令 $\\frac{dS}{d\\theta} = 0$ 寻找射程 $S$ 的最大值。最终解得最大射程对应的抛射角满足 $\\phi + 2\\theta = \\pi/2$，即 $\\theta = 45^\\circ - \\phi/2$。"
+  },
+  
+  {
+    "question_id": "PHY2_001_xk",
+    "type": "填空题",
+    "knowledge_point": "量子力学基础：一维势垒、势阱、谐振子与氢原子角动量",
+    "difficulty": "简单",
+    "question": "计算下列小问题的数值(不该用到复杂计算)\n1) 一个能量为1eV的电子,遇到一个势垒,高度为10eV;电子有隧道效应时,势垒的阈值宽度 $a_0 = ?\\text{\\AA}$ \n2) 对于 $|E_2\\rangle$,在一维无限深势阱中的第二个能量本征态,势阱宽度为L,计算动量算符平方 $P^2$ 的期望值: $\\langle E_2|P^2|E_2\\rangle = ?$ \n3) $V=\\frac{1}{2}kx^2$ 的简谐振子, $|E_n\\rangle$ 是它的第 $(n+1)$ 能量本征态,计算位置 $X$ 的期望值: $\\langle E_n|X|E_n\\rangle = ?$ \n4) 对于 $|E_2\\rangle$ (简谐振子 $\\omega=\\sqrt{k/m}$ 的第3个能量本征态),计算平均动能值: $\\langle E_2|\\frac{P^2}{2m}|E_2\\rangle = ?$ \n5) 对氢原子中的电子, $\\langle 2p_x|L_z|3p_x\\rangle = ?$ ($L_z$ 表示轨道角动量沿z方向分量, $p_x = \\frac{1}{\\sqrt{2}}(Y_1^{-1}-Y_1^1)$ ,是 $Y_l^m$ 的一个线性组合。) ",
+    "answer": "1) $a_0 \\approx 0.65 \\text{\\AA}$ \n2) $\\frac{4\\pi^2\\hbar^2}{L^2}$\n3) $0$\n4) $\\frac{5}{4}\\hbar\\omega$\n5) $0$",
+    "reasoning_process": "1) 隧道效应的特征衰减常数 $\\kappa = \\frac{\\sqrt{2m(V_0-E)}}{\\hbar}$。通常定义隧穿能够显著发生的阈值特征宽度为 $a_0 \\approx \\frac{1}{\\kappa} = \\frac{\\hbar}{\\sqrt{2m_e(V_0-E)}}$。代入电子静止质量 $m_ec^2 \\approx 0.511 \\text{ MeV}$，$\\hbar c \\approx 1973 \\text{ eV}\\cdot\\text{\\AA}$，$V_0-E = 9 \\text{ eV}$，得到 $\\sqrt{2m_ec^2(V_0-E)} \\approx 3033 \\text{ eV}$，因此 $a_0 \\approx 1973 / 3033 \\approx 0.65 \\text{\\AA}$。\n2) 宽度为 $L$ 的一维无限深势阱能级为 $E_n = \\frac{n^2\\pi^2\\hbar^2}{2mL^2}$。对于第二激发态(或称第二个能级) $n=2$，$E_2 = \\frac{4\\pi^2\\hbar^2}{2mL^2}$。由 $\\langle P^2 \\rangle = 2m \\langle E_k \\rangle = 2m E_2$，得 $\\langle P^2 \\rangle = \\frac{4\\pi^2\\hbar^2}{L^2}$。\n3) 简谐振子势场具有空间反演对称性，且能量本征态具有确定的宇称，故位置算符 $X$ (奇宇称) 在任意能量本征态下的期望值恒为 0。\n4) 谐振子的能量本征值为 $E_n = (n+\\frac{1}{2})\\hbar\\omega$。对于第3个本征态 $|E_2\\rangle$（对应 $n=2$），总能量为 $E_2 = \\frac{5}{2}\\hbar\\omega$。根据维里定理，谐振子的平均动能等于平均势能等于总能量的一半，因此 $\\langle \\frac{P^2}{2m} \\rangle = \\frac{1}{2}E_2 = \\frac{5}{4}\\hbar\\omega$。\n5) $L_z p_x = L_z [\\frac{1}{\\sqrt{2}}(Y_1^{-1}-Y_1^1)] = \\frac{\\hbar}{\\sqrt{2}}(-Y_1^{-1}-Y_1^1) = -i\\hbar p_y$。因此 $\\langle 2p_x | L_z | 3p_x \\rangle = -i\\hbar \\langle 2p_x | 3p_y \\rangle$。由于不同主量子数 $n=2$ 和 $n=3$ 的径向波函数相互正交，且 $p_x$ 与 $p_y$ 角度部分也正交，该内积为 0。"
+  },
+  {
+    "question_id": "PHY2_002_xk",
+    "type": "计算题",
+    "knowledge_point": "类氢离子，波函数展开，力学量测量及概率",
+    "difficulty": "中等",
+    "question": "考虑类H原子的锂的2价正离子 $Li^{2+}$ (锂原子序数Z=3, 因而2价正离子中仅有一个电子),该电子的波函数为:\n$\\psi(r,\\theta,\\varphi) = (\\frac{1}{3})^{1/2}R_{42}(r)Y_2^{-1}(\\theta,\\varphi) + (\\frac{2}{3})i R_{32}(r)Y_2^1(\\theta,\\varphi) - (\\frac{2}{9})^{1/2}R_{10}(r)Y_0^0(\\theta,\\varphi)$ \n自旋状态可能同等地朝上或朝下, R, Y是类氢原子轨道,量子数nlm的含义也相同。\n(1) (7分) 若离子们被制备到这样的状态,进行能量测量,可能得到的值是多少?(用原子单位 Hartree表示,氢原子基态 $n=1$ 的能量值为 -1/2 Hartree) 若测量到多个数值,每一个值的概率为多少? 平均能量为多大?\n(2) (5分) 若测量电子轨道角动量的大小,可能得到的值是多少?(用 $\\hbar$ 表示);若测量到多个数值,每一个值的概率为多少? 平均轨道角动量为多大? \n(3) (2分) 若测量电子轨道角动量沿Z方向分量的大小(比如用Zeeman),可能得到的值是多少?(用 $\\hbar$ 表示)\n(4) (2分) 若测量电子自旋角动量沿Z方向分量的大小,可能得到的值为多少?各自概率为多大?",
+    "answer": "(1) 可能的能量值为: -9/32 Hartree (概率 1/3), -1/2 Hartree (概率 4/9), -9/2 Hartree (概率 2/9); 平均能量为 -379/288 Hartree\n(2) 可能的轨道角动量大小为: $\\sqrt{6}\\hbar$ (概率 7/9), $0$ (概率 2/9); 平均轨道角动量大小为 $\\frac{7\\sqrt{6}}{9}\\hbar$\n(3) 可能的 $L_z$ 值为: $-\\hbar$, $\\hbar$, $0$\n(4) 可能的 $S_z$ 值为: $\\hbar/2$ (概率 1/2), $-\\hbar/2$ (概率 1/2)",
+    "reasoning_process": "已知态函数已归一化，因 $|(1/3)^{1/2}|^2 + |2i/3|^2 + |-(2/9)^{1/2}|^2 = 1/3 + 4/9 + 2/9 = 1$。波函数包含三个本征态成分：$|n=4,l=2,m=-1\\rangle$ (概率 1/3)；$|n=3,l=2,m=1\\rangle$ (概率 4/9)；$|n=1,l=0,m=0\\rangle$ (概率 2/9)。\n(1) 类氢离子能级公式为 $E_n = -\\frac{Z^2}{2n^2}$ Hartree。因为 $Z=3$，故 $E_n = -\\frac{9}{2n^2}$ Hartree。\n- 当 $n=4$ 时，$E_4 = -\\frac{9}{32}$ Hartree，概率为 1/3；\n- 当 $n=3$ 时，$E_3 = -\\frac{1}{2}$ Hartree，概率为 4/9；\n- 当 $n=1$ 时，$E_1 = -\\frac{9}{2}$ Hartree，概率为 2/9。\n平均能量 $\\langle E \\rangle = \\frac{1}{3}(-\\frac{9}{32}) + \\frac{4}{9}(-\\frac{1}{2}) + \\frac{2}{9}(-\\frac{9}{2}) = -\\frac{3}{32} - \\frac{8}{36} - 1 = -\\frac{379}{288}$ Hartree。\n(2) 轨道角动量大小 $L = \\sqrt{l(l+1)}\\hbar$。\n- 当 $l=2$ 时，$L = \\sqrt{6}\\hbar$，总概率为 $1/3 + 4/9 = 7/9$；\n- 当 $l=0$ 时，$L = 0$，概率为 $2/9$。\n平均轨道角动量大小为 $\\frac{7}{9}\\times\\sqrt{6}\\hbar + \\frac{2}{9}\\times 0 = \\frac{7\\sqrt{6}}{9}\\hbar$。\n(3) 轨道角动量 Z 方向分量 $L_z = m\\hbar$。从波函数可见 $m$ 的可能取值为 $-1$, $1$, $0$。对应可能测量值为 $-\\hbar$, $\\hbar$, $0$。\n(4) 电子是自旋 1/2 粒子，自旋 z 分量测量值只能是 $\\pm\\frac{1}{2}\\hbar$。题干告知“自旋状态可能同等地朝上或朝下”，说明自旋向上的概率为 1/2，向下的概率也为 1/2。"
+  },
+  {
+    "question_id": "PHY2_003_xk",
+    "type": "解答题",
+    "knowledge_point": "自旋角动量算符的矩阵表示 (Spin-1)",
+    "difficulty": "中等",
+    "question": "我们学习过了自旋-1/2电子。在本题中,我们研究 $J_z, J_x, J_y$ 算符的矩阵表达,对象是自旋-1的粒子: $j=s=1; s_z=m=1,0,-1$。 $J_z$ 的本征态用作基矢量: $J_z|j,m\\rangle = m\\hbar|j,m\\rangle$。\n$|1\\rangle = |j=1,m=1\\rangle = \\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\end{pmatrix}; |2\\rangle = |j=1,m=0\\rangle = \\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}; |3\\rangle = |j=1,m=-1\\rangle = \\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\end{pmatrix}$ \n1) (2分) 写出 $J_z$ 矩阵在 $|1\\rangle, |2\\rangle, |3\\rangle$ 基下的表达,表示为: $J_z = \\hbar(\\text{matrix})$ \n为求出 $J_x, J_y$, 我们定义下面算符: $J_+ = J_x + iJ_y; J_- = J_x - iJ_y$\n$J_+$ 和 $J_-$ matrix 可由下列关系求出(下列关系当作给定): \n$\\langle j,m'|J_+|j,m\\rangle = \\hbar\\sqrt{j(j+1)-m(m+1)}\\delta_{m',m+1}$ \n$\\langle j,m'|J_-|j,m\\rangle = \\hbar\\sqrt{j(j+1)-m(m-1)}\\delta_{m',m-1}$ \n2) (4分) 写出 $J_+$ 和 $J_-$ matrix 在 $|1\\rangle, |2\\rangle, |3\\rangle$ 基下的表达\n3) (4分) 写出 $J_x$ 和 $J_y$ matrix 在 $|1\\rangle, |2\\rangle, |3\\rangle$ 基下的表达: $J_{x,y} = \\frac{\\hbar}{\\sqrt{2}}(\\text{matrix})$ ",
+    "answer": "1) $J_z = \\hbar \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & -1 \\end{pmatrix}$\n2) $J_+ = \\hbar \\begin{pmatrix} 0 & \\sqrt{2} & 0 \\\\ 0 & 0 & \\sqrt{2} \\\\ 0 & 0 & 0 \\end{pmatrix}$, $J_- = \\hbar \\begin{pmatrix} 0 & 0 & 0 \\\\ \\sqrt{2} & 0 & 0 \\\\ 0 & \\sqrt{2} & 0 \\end{pmatrix}$\n3) $J_x = \\frac{\\hbar}{\\sqrt{2}} \\begin{pmatrix} 0 & 1 & 0 \\\\ 1 & 0 & 1 \\\\ 0 & 1 & 0 \\end{pmatrix}$, $J_y = \\frac{\\hbar}{\\sqrt{2}} \\begin{pmatrix} 0 & -i & 0 \\\\ i & 0 & -i \\\\ 0 & i & 0 \\end{pmatrix}$",
+    "reasoning_process": "1) 基矢量 $|1\\rangle, |2\\rangle, |3\\rangle$ 分别对应 $m=1, 0, -1$。由于 $J_z$ 在此表象下是对角矩阵，对应的对角元即为其本征值 $m\\hbar$。因此 $J_z = \\hbar \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ 0 & 0 & -1 \\end{pmatrix}$。 \n2) 代入 $j=1$ 和 $m$ 的可能值计算 $J_+$ 和 $J_-$ 的矩阵元。\n对于 $J_+$，非零元仅存在于 $m' = m+1$：\n$m=0 \\to m'=1$: $\\langle 1,1|J_+|1,0\\rangle = \\hbar\\sqrt{1(2)-0(1)} = \\sqrt{2}\\hbar$\n$m=-1 \\to m'=0$: $\\langle 1,0|J_+|1,-1\\rangle = \\hbar\\sqrt{1(2)-(-1)(0)} = \\sqrt{2}\\hbar$\n写成矩阵即：$J_+ = \\hbar \\begin{pmatrix} 0 & \\sqrt{2} & 0 \\\\ 0 & 0 & \\sqrt{2} \\\\ 0 & 0 & 0 \\end{pmatrix}$。 \n对于 $J_-$，非零元仅存在于 $m' = m-1$：\n$m=1 \\to m'=0$: $\\langle 1,0|J_-|1,1\\rangle = \\hbar\\sqrt{1(2)-1(0)} = \\sqrt{2}\\hbar$\n$m=0 \\to m'=-1$: $\\langle 1,-1|J_-|1,0\\rangle = \\hbar\\sqrt{1(2)-0(-1)} = \\sqrt{2}\\hbar$\n写成矩阵即：$J_- = \\hbar \\begin{pmatrix} 0 & 0 & 0 \\\\ \\sqrt{2} & 0 & 0 \\\\ 0 & \\sqrt{2} & 0 \\end{pmatrix}$ (由于 $J_-$ 是 $J_+$ 的厄米共轭，此结果也是预期的)。 \n3) 根据定义 $J_x = \\frac{1}{2}(J_+ + J_-)$，得 $J_x = \\frac{\\hbar}{2} \\begin{pmatrix} 0 & \\sqrt{2} & 0 \\\\ \\sqrt{2} & 0 & \\sqrt{2} \\\\ 0 & \\sqrt{2} & 0 \\end{pmatrix} = \\frac{\\hbar}{\\sqrt{2}} \\begin{pmatrix} 0 & 1 & 0 \\\\ 1 & 0 & 1 \\\\ 0 & 1 & 0 \\end{pmatrix}$。 \n同理 $J_y = \\frac{1}{2i}(J_+ - J_-) = \\frac{\\hbar}{2i} \\begin{pmatrix} 0 & \\sqrt{2} & 0 \\\\ -\\sqrt{2} & 0 & \\sqrt{2} \\\\ 0 & -\\sqrt{2} & 0 \\end{pmatrix} = \\frac{\\hbar}{\\sqrt{2}} \\begin{pmatrix} 0 & -i & 0 \\\\ i & 0 & -i \\\\ 0 & i & 0 \\end{pmatrix}$。"
+  },
+  {
+    "question_id": "PHY2_004_xk",
+    "type": "解答题",
+    "knowledge_point": "Stern-Gerlach实验，自旋叠加态与测量，磁场中的自旋进动",
+    "difficulty": "困难",
+    "question": "4. (14分) 在Stern-Gerlach实验中,采用通常表达 $|+z\\rangle$ 代表自旋沿z方向投影 $+\\hbar/2$ 的本征态; $|-z\\rangle$ 代表 $-\\hbar/2$ 的本征态。 SG磁场沿 $\\hat{u}$ 方向时对应本征态表达为: \n$|+u\\rangle = \\cos(\\frac{\\theta}{2})|+z\\rangle + \\sin(\\frac{\\theta}{2})e^{i\\varphi}|-z\\rangle$ \n$|-u\\rangle = -\\sin(\\frac{\\theta}{2})|+z\\rangle + \\cos(\\frac{\\theta}{2})e^{i\\varphi}|-z\\rangle$ \n已知经过第一个 $SG_z$ 制备了 N 个电子到 $|+z\\rangle$ 态。\n1) (2分) 经过一个 $SG_{\\hat{u}}$, 测量自旋 S 沿 $\\hat{u}$ 方向分量, 可能得到的值有哪些? 各自的概率是多少? \n2) (6分) 挡住部分 SG 的输出, 只让 $|+u\\rangle$ 态经过后一个 $SG_x$ 装置, 测量得到自旋 S_x 分量数值可能有哪些,各自的概率多大? 有多少个电子在 $|+x\\rangle$ 态? (用 $N, \\theta, \\varphi$ 等表示) \n3) (8分) 如图, 现在将一个Helmholtz线圈放入 $|+u\\rangle$ 经过的空间, 磁场方向沿 $+z$; 调节电流获得均匀磁场 $B_0$, 电子经过磁场的时间记作 T。观察到处在 $|+x\\rangle$ 态电子数随 $B_0$ 呈现周期振荡。请计算出周期的极值差 $\\Delta B_0$, 用 $g_s = -\\frac{e}{m_e}, T, \\theta, \\varphi$ 等表示。( $g_s$ is gyro constant for electron spin) ",
+    "answer": "1) 可能的值为 $\\pm\\frac{\\hbar}{2}$。概率分别为 $P(+\\frac{\\hbar}{2}) = \\cos^2(\\frac{\\theta}{2})$, $P(-\\frac{\\hbar}{2}) = \\sin^2(\\frac{\\theta}{2})$\n2) 可能的值为 $\\pm\\frac{\\hbar}{2}$。概率为 $P(+\\frac{\\hbar}{2}) = \\frac{1}{2}(1 + \\sin\\theta\\cos\\varphi)$, $P(-\\frac{\\hbar}{2}) = \\frac{1}{2}(1 - \\sin\\theta\\cos\\varphi)$。处于 $|+x\\rangle$ 态的电子数为 $\\frac{N}{2}\\cos^2(\\frac{\\theta}{2})(1 + \\sin\\theta\\cos\\varphi)$\n3) $\\Delta B_0 = \\frac{4\\pi m_e}{|g_s| e T}$ （若直接使用题意中暗示的进动频率关系，可写为 $\\frac{2\\pi}{|g_s| T}$，取决于对 $g_s$ 定义的具体代入）",
+    "reasoning_process": "1) 根据量子力学测量假设，沿任意方向的自旋投影测量值只能是 $\\pm \\frac{\\hbar}{2}$。初始态为 $|+z\\rangle$，测量沿 $\\hat{u}$ 方向的投影，获得 $+\\hbar/2$ (对应态 $|+u\\rangle$) 的概率为 $P(+) = |\\langle +u | +z \\rangle|^2 = |\\cos(\\theta/2)|^2 = \\cos^2(\\theta/2)$。获得 $-\\hbar/2$ (对应态 $|-u\\rangle$) 的概率为 $P(-) = |\\langle -u | +z \\rangle|^2 = |-\\sin(\\theta/2)|^2 = \\sin^2(\\theta/2)$。 \n2) $|+u\\rangle$ 态通过 $SG_x$ 装置，相当于测量 $S_x$。$S_x$ 的本征态为 $|\\pm x\\rangle = \\frac{1}{\\sqrt{2}}(|+z\\rangle \\pm |-z\\rangle)$。 \n将 $|+u\\rangle$ 向 $|\\pm x\\rangle$ 投影：\n$\\langle +x | +u \\rangle = \\frac{1}{\\sqrt{2}}(\\langle +z| + \\langle -z|) [\\cos(\\frac{\\theta}{2})|+z\\rangle + \\sin(\\frac{\\theta}{2})e^{i\\varphi}|-z\\rangle] = \\frac{1}{\\sqrt{2}}(\\cos\\frac{\\theta}{2} + \\sin\\frac{\\theta}{2}e^{i\\varphi})$。\n$P(+x) = |\\langle +x | +u \\rangle|^2 = \\frac{1}{2}(\\cos^2\\frac{\\theta}{2} + \\sin^2\\frac{\\theta}{2} + 2\\cos\\frac{\\theta}{2}\\sin\\frac{\\theta}{2}\\cos\\varphi) = \\frac{1}{2}(1 + \\sin\\theta\\cos\\varphi)$。\n同理，$\\langle -x | +u \\rangle = \\frac{1}{\\sqrt{2}}(\\cos\\frac{\\theta}{2} - \\sin\\frac{\\theta}{2}e^{i\\varphi})$，则 $P(-x) = \\frac{1}{2}(1 - \\sin\\theta\\cos\\varphi)$。测量得到的值可能为 $\\pm \\frac{\\hbar}{2}$。\n到达 $SG_x$ 前，处于 $|+u\\rangle$ 的电子数为 $N_{u} = N \\cos^2(\\frac{\\theta}{2})$。最终处于 $|+x\\rangle$ 态的电子数为 $N_{+x} = N_{u} \\cdot P(+x) = \\frac{N}{2}\\cos^2(\\frac{\\theta}{2})(1 + \\sin\\theta\\cos\\varphi)$。 \n3) 在 z 方向的均匀磁场 $B_0$ 中，哈密顿量 $H = -\\vec{\\mu} \\cdot \\vec{B} = -g_s \\frac{-e}{2m_e} S_z B_0$ (注意此处题干提示 $g_s = -e/m_e$，这里按旋磁比或者拉莫尔进动角频率 $\\omega = |g_s| B_0$ 泛指处理，实际进动产生相位差 $\\Delta E T / \\hbar$)。自旋态中 $|+z\\rangle$ 和 $|-z\\rangle$ 成分会演化出相位差。演化后的态中 $\\varphi$ 会变为 $\\varphi + \\alpha B_0 T$，从而到达 $|+x\\rangle$ 的电子数变为 $\\propto 1 + \\sin\\theta\\cos(\\varphi + \\omega T)$。要发生一个周期的振荡，需要相位变化 $2\\pi$，即 $\\omega \\Delta B_0 T = 2\\pi$。对于自旋在磁场中的拉莫尔进动角频率 $\\omega = \\frac{g_s e B_0}{2 m_e}$，解得 $\\Delta B_0 = \\frac{4\\pi m_e}{g_s e T}$ （考虑到题干物理量符号定义的可能变化，也可表述为等效代入形式）。"
+  },
+  {
+    "question_id": "PHY2_005_xk",
+    "type": "解答题",
+    "knowledge_point": "三维量子谐振子，坐标系旋转解耦",
+    "difficulty": "中等",
+    "question": "5. (14分) 质量为m的粒子处在如下的三维势阱中:\n$U(x,y,z) = A(x^2+y^2+xy) + B(z^2+2z)$ \nA, B是正的常数。\n求出该粒子的能量表达式,用给定参数m, A, B,物理常数和量子数(及量子数的可能取值)表达。提示:对于x-y部分,旋转x-y坐标一个角度 $\\theta$,使得在新的 $x'-y'$ 系中,势能简化。若你采用这个思路,写出 $\\cos^2\\theta$ 的数值以获得部分分数。 ",
+    "answer": "$E_{n_1,n_2,n_3} = (n_1+\\frac{1}{2})\\hbar\\sqrt{\\frac{3A}{m}} + (n_2+\\frac{1}{2})\\hbar\\sqrt{\\frac{A}{m}} + (n_3+\\frac{1}{2})\\hbar\\sqrt{\\frac{2B}{m}} - B$，其中 $n_1, n_2, n_3 = 0, 1, 2, \\dots$，$\\cos^2\\theta = 1/2$。",
+    "reasoning_process": "这是一个三维势场，可以分离变量：$U(x,y,z) = U_1(x,y) + U_2(z)$。 \n对于 z 方向：$U_2(z) = B(z^2+2z) = B(z+1)^2 - B$。这等价于中心平移到 $z=-1$ 的一维谐振子，其等效劲度系数 $k_z = 2B$，故固有角频率 $\\omega_z = \\sqrt{2B/m}$。其能量贡献为 $E_z = (n_3+\\frac{1}{2})\\hbar\\sqrt{\\frac{2B}{m}} - B$。 \n对于 x-y 方向：$U_1(x,y) = A(x^2+y^2+xy)$。采用坐标旋转消除交叉项。由于 x 和 y 完全对称，旋转角应为 $\\theta = \\pi/4$，所以 $\\cos^2\\theta = 1/2$。 \n作变换 $x = \\frac{x'+y'}{\\sqrt{2}}$，$y = \\frac{x'-y'}{\\sqrt{2}}$。代入得：\n$x^2+y^2 = (x')^2+(y')^2$\n$xy = \\frac{1}{2}[(x')^2-(y')^2]$\n$U_1(x',y') = A( (x')^2+(y')^2 + \\frac{1}{2}(x')^2 - \\frac{1}{2}(y')^2 ) = \\frac{3}{2}A(x')^2 + \\frac{1}{2}A(y')^2$。 \n现在 $x'$ 和 $y'$ 完全解耦，成为两个独立的一维谐振子：\n$x'$ 方向：$k_{x'} = 3A \\implies \\omega_{x'} = \\sqrt{3A/m}$，能量 $E_{x'} = (n_1+\\frac{1}{2})\\hbar\\sqrt{\\frac{3A}{m}}$。\n$y'$ 方向：$k_{y'} = A \\implies \\omega_{y'} = \\sqrt{A/m}$，能量 $E_{y'} = (n_2+\\frac{1}{2})\\hbar\\sqrt{\\frac{A}{m}}$。 \n系统总能量为独立方向能量之和：\n$E = E_{x'} + E_{y'} + E_z = (n_1+\\frac{1}{2})\\hbar\\sqrt{\\frac{3A}{m}} + (n_2+\\frac{1}{2})\\hbar\\sqrt{\\frac{A}{m}} + (n_3+\\frac{1}{2})\\hbar\\sqrt{\\frac{2B}{m}} - B$，\n其中量子数 $n_1, n_2, n_3$ 取值为 $0, 1, 2, \\dots$。"
+  },
+  {
+    "question_id": "PHY2_006_xk",
+    "type": "解答题",
+    "knowledge_point": "刚体转子模型，双原子分子转动能级，质心系分离",
+    "difficulty": "困难",
+    "question": "6. (16分) 本题中你将会计算一氧化碳CO分子中键的长度(由于假定键长不变，该模型在物理中称为刚体转子)。\n1) (1分) 考虑两个质点 $m_1$ 和 $m_2$ 间距离固定为d,势能为0。写出刚体转子总的Hamiltonian算符 $H_{tot}$ 在空间中的表达形式(用 $m_1, m_2$ 及它们的位置坐标表示)。 \n2) (2分) $H_{tot}$ 可分解为 $H_{CM} + H_{relative}$。写出仅与质心有关的 $H_{CM}$ (用 $X_{CM},Y_{CM},Z_{CM}$ 表示)及仅与相对坐标有关的 $H_{relative}$ (用 $x,y,z$ 表示)。 \n3) (2分) 请在球坐标下给出 $H_{relative}$ 的表达形式。 \n4) (6分) 关于 $H_{relative}$ 的本征值(本征能量): A) 写出它的一般表达式(用折合质量 $\\mu$, 间距 $d$, 量子数表达); B) 指出量子数的可能取值; C) 列出能量最低的3个能量值; D) 哪种特殊函数是 $H_{relative}$ 的本征函数? \n5) (5分) 微波波段观测到 $^{12}C^{16}O$ 的最小吸收频率为 $\\nu=115.27\\text{GHz}$。请算出键长度 $d$。 ",
+    "answer": "1) $H_{tot} = -\\frac{\\hbar^2}{2m_1}\\nabla_1^2 - \\frac{\\hbar^2}{2m_2}\\nabla_2^2$\n2) $H_{CM} = -\\frac{\\hbar^2}{2(m_1+m_2)}\\nabla_{CM}^2$, $H_{relative} = -\\frac{\\hbar^2}{2\\mu}\\nabla_{rel}^2$ (其中 $\\mu = \\frac{m_1m_2}{m_1+m_2}$)\n3) $H_{relative} = -\\frac{\\hbar^2}{2\\mu d^2} \\left[ \\frac{1}{\\sin\\theta}\\frac{\\partial}{\\partial\\theta}(\\sin\\theta\\frac{\\partial}{\\partial\\theta}) + \\frac{1}{\\sin^2\\theta}\\frac{\\partial^2}{\\partial\\phi^2} \\right] = \\frac{\\hat{L}^2}{2\\mu d^2}$\n4) A) $E_J = \\frac{J(J+1)\\hbar^2}{2\\mu d^2}$; B) 量子数 $J = 0, 1, 2, \\dots$; C) 最低的三个能量值为 $0$, $\\frac{\\hbar^2}{\\mu d^2}$, $\\frac{3\\hbar^2}{\\mu d^2}$; D) 球谐函数 $Y_J^M(\\theta,\\phi)$\n5) $d = \\sqrt{\\frac{\\hbar}{2\\pi \\mu \\nu}} \\approx 1.13 \\text{ \\AA}$ (或给出对应表达式代入值)",
+    "reasoning_process": "1) 系统的势能为 0，只有动能项，对于两个独立质量的粒子体系，总哈密顿量即为它们的动能算符之和：$H_{tot} = -\\frac{\\hbar^2}{2m_1}(\\frac{\\partial^2}{\\partial x_1^2}+\\frac{\\partial^2}{\\partial y_1^2}+\\frac{\\partial^2}{\\partial z_1^2}) - \\frac{\\hbar^2}{2m_2}(\\frac{\\partial^2}{\\partial x_2^2}+\\frac{\\partial^2}{\\partial y_2^2}+\\frac{\\partial^2}{\\partial z_2^2})$。 \n2) 变换到质心系坐标 $X_{CM}$ 和相对坐标 $\\vec{r} = \\vec{r}_2 - \\vec{r}_1$，哈密顿量完全解耦。质心动能对应体系总质量 $M=m_1+m_2$，相对动能对应折合质量 $\\mu = \\frac{m_1m_2}{m_1+m_2}$。因此 $H_{CM} = -\\frac{\\hbar^2}{2M}\\nabla_{CM}^2$，$H_{relative} = -\\frac{\\hbar^2}{2\\mu}\\nabla_{rel}^2$。 \n3) 在球坐标系中相对运动的 Laplacian 算符含有径向和角向两部分。由于刚体转子假设相对距离 $r=d$ 为固定常数，因此所有对径向 $r$ 的偏导数均消失。直接截取拉普拉斯算符的角向部分得：$H_{relative} = -\\frac{\\hbar^2}{2\\mu d^2} [\\frac{1}{\\sin\\theta}\\frac{\\partial}{\\partial\\theta}(\\sin\\theta\\frac{\\partial}{\\partial\\theta}) + \\frac{1}{\\sin^2\\theta}\\frac{\\partial^2}{\\partial\\phi^2}]$。这正好对应于角动量平方算符 $\\frac{\\hat{L}^2}{2I}$（转动惯量 $I = \\mu d^2$）。 \n4) 这是一般角动量算符本征值问题：A) 对应能量本征值 $E_J = \\frac{J(J+1)\\hbar^2}{2\\mu d^2}$；B) 轨道角动量量子数 $J$ 取非负整数 $0, 1, 2, \\dots$；C) 将 $J=0,1,2$ 代入，前三个能级为 $0, \\frac{\\hbar^2}{\\mu d^2}, \\frac{3\\hbar^2}{\\mu d^2}$；D) 空间角向算符的本征函数大家熟知为球谐函数(Spherical Harmonics) $Y_J^M(\\theta,\\phi)$。 \n5) 观测到的最小吸收频率即为对应基态向第一激发态跃迁的频率 $\\Delta J = 0 \\to 1$。其能级差 $\\Delta E = E_1 - E_0 = \\frac{\\hbar^2}{\\mu d^2}$。由光子能量 $\\Delta E = h\\nu = 2\\pi\\hbar\\nu$，得 $\\frac{\\hbar^2}{\\mu d^2} = 2\\pi\\hbar\\nu$。解得 $d = \\sqrt{\\frac{\\hbar}{2\\pi\\mu\\nu}}$。计算折合质量 $\\mu = \\frac{12 \\times 16}{12+16} \\text{ amu} = \\frac{48}{7} \\times 1.66 \\times 10^{-27} \\text{ kg} \\approx 1.138 \\times 10^{-26} \\text{ kg}$。代入普朗克常数并计算开方，可得 $d \\approx 1.13 \\times 10^{-10} \\text{ m} = 1.13 \\text{ \\AA}$。"
+  },
+  {
+    "question_id": "PHY2_007_xk",
+    "type": "解答题",
+    "knowledge_point": "无相互作用量子测量 (Elitzur-Vaidman炸弹检测), Mach-Zehnder干涉",
+    "difficulty": "困难",
+    "question": "7. (20分) 单光子 MZ 实验与 Elitzur-Vaidman 炸弹的检测。在Mach-Zehnder干涉装置中，反射与透射的百分比 $R=T=50\\%$, 经每个分束器反射光与透射光之间存在位相差: $r/t = e^{i\\pi/2}$。 \n1) (2分) 在单光子实验中,若将上下两路光程差调成一样 $\\Delta l=0$,单光子从上路入射,每次实验两个探测器 top 和 bottom 探测到光子的概率 P(top) 和 P(bot) 各为多少? \n2) (2分) 光路调成 $\\Delta l=0$; 如果放入下路的炸弹是坏蛋(完全透光), 那么 P(top) 和 P(bot)=? \n3) (2分) 如果放入的是好蛋(一旦吸收光子就爆炸),一次测量,你有多大的概率确定它是好蛋而不让它爆炸? \n4) (4分) 现有一堆ZV式炸弹,其中有N个好蛋;你可以不断测量直到成功挑出好蛋(或爆炸),最终有多少好蛋成功检测? \n5) (8分) 尝试提高成功率,采用 $R+T=1; R>T$ 的分束器:\n5A) 光程差 $\\Delta l$ 应调为多少?\n5B) 放入坏蛋, P(top)和P(bot)=?\n5C) 放入好蛋,一次检测成功的概率是多少?(用R表示)\n5D) 反复检测N个好蛋,可成功挑出多少个好蛋?\n5E) R为多少时,成功挑出好蛋最多,百分比为多少? ",
+    "answer": "1) P(top) = 0, P(bot) = 1\n2) P(top) = 0, P(bot) = 1\n3) 1/4 (即 25%)\n4) 约 N/3 个\n5A) $\\Delta l = \\lambda/2$ （引入额外的 $\\pi$ 相位差使系统无炸弹时发生全反射）\n5B) P(top) = 1, P(bot) = 0\n5C) $R(1-R)$\n5D) $N\\frac{R}{1+R}$\n5E) $R \\to 1$ 时达到最大值，成功率最大为 50%",
+    "reasoning_process": "1) MZ干涉仪原理。对于标准的 $50:50$ 分束器，由于反射附加相位 $\\pi/2$，两束光在 BS2 会合时，射向 top 探测器的两束路径发生完全相消干涉（概率为0），而射向 bot 的光束发生相长干涉（概率为1）。 \n2) 若炸弹是“坏蛋”，它等价于完全透明的空气，相当于光路中没有放置任何物体。干涉现象和空MZ仪相同，因此 P(top) = 0, P(bot) = 1。 \n3) 若炸弹是“好蛋”，光路中相当于放置了一个完美的测量器。光子在 BS1 发生叠加态，有 $1/2$ 概率走下路（触发炸弹爆炸），有 $1/2$ 概率走上路。若未爆炸，说明光子的波函数塌缩到上路，然后光子抵达 BS2 并等概率分裂：有 $1/2$ 概率到达 top 探测器，有 $1/2$ 概率到达 bot 探测器。因此总概率 $P(\\text{未爆炸且到达top}) = \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$。由于坏蛋无论如何都不会引发 top 探测器响（P=0），一旦 top 探测器响应，就能100%确定这是一个好蛋。 \n4) 测试一颗好蛋，可能的结果是：爆炸 (P=1/2)，成功验证 (P=1/4)，到达 bot 探测器 (P=1/4，无法区分好坏，必须对该蛋重测)。设成功挑出的总概率为 S，则 $S = P(\\text{成功}) + P(\\text{重测}) \\times S = 1/4 + 1/4 S$。解得 $S = 1/3$。所以 N 个好蛋最终有 N/3 个被成功识别。 \n5) A) 为了保证在坏蛋(无吸收)情况下干涉仪的某一出口端干涉光完全相消(作为无损探测信号端)，由于 $R > T$，无法通过普通相位做到对称端振幅完全抵消。但通过设置 $\\Delta l = \\lambda/2$ 引入 $\\pi$ 的额外相位差，可以强行使干涉仪射向 bot 探测器的路径发生完全相消 (对于坏蛋 $P(bot) = 0$)。 \nB) 因此坏蛋结果必为：P(top) = 1, P(bot) = 0。\nC) 好蛋在 BS1 被以 $T=1-R$ 的概率反射/透射到下路爆炸，以 $R$ 的概率走上路未爆炸。未爆炸的光子在 BS2 处被透射到 bot 探测器的概率为 $T$。因此一次成功确认（只有好蛋才会导致 bot 响应）的概率为 $R \\times T = R(1-R)$。 \nD) 单次测试后：爆炸概率 $1-R$，成功概率 $R(1-R)$，不确定（到 top 处重测）概率 $R^2$。系统重测总成功率 $S = R(1-R) + R^2 S$，解得 $S = \\frac{R(1-R)}{1-R^2} = \\frac{R}{1+R}$。共挑出 $N \\frac{R}{1+R}$ 个。 \nE) 因为 $R < 1$ 且函数单调递增，当 $R \\to 1$ 时（透射率极低），单次破坏极小，总成功率取得最大值 $\\lim_{R\\to 1} \\frac{R}{1+R} = 1/2$，即最高百分比为 50%。"
+  },
+  {
+    "question_id": "PHY2_008_xk",
+    "type": "计算题",
+    "knowledge_point": "多缝衍射、相位差",
+    "difficulty": "困难",
+    "question": "1. (本题10分)\\n一个三狭缝衍射屏，缝宽均为 $a$，彼此间距为 $d$，中间缝盖有可以引起 $180^\\circ$ 相位改变的滤光片，波长为 $\\lambda$ 的单色光正入射，计算下列各种情况下的衍射角：\\n(1) 第一衍射极小；\\n(2) 第一干涉极小；\\n(3) 第一干涉极大。",
+    "answer": "(1) $\\sin\\theta = \\lambda/a$; (2) $\\sin\\theta = \\lambda/(3d)$; (3) $\\sin\\theta = \\lambda/d$",
+    "reasoning_process": "设三缝的复振幅贡献分别为 $E_1, E_2, E_3$。由于中间缝有 $180^\\circ$ 相位差，且相邻缝间程差为 $d\\sin\\theta$，相位差为 $\\phi = \\frac{2\\pi}{\\lambda} d\\sin\\theta$。\\n总振幅 $E = E_0 \\text{sinc}(\\frac{\\pi a \\sin\\theta}{\\lambda}) [1 + e^{i(\\phi + \\pi)} + e^{i2\\phi}] = E_0 \\text{sinc}(\\beta) [1 - e^{i\\phi} + e^{i2\\phi}]$，其中 $\\beta = \\frac{\\pi a \\sin\\theta}{\\lambda}$。\\n强度 $I \\propto \\text{sinc}^2(\\beta) |1 - e^{i\\phi} + e^{i2\\phi}|^2 = \\text{sinc}^2(\\beta) (1 + 2\\cos(2\\phi) - 2\\cos\\phi)$。\\n(1) 衍射极小由单缝项决定：$\\text{sinc}(\\beta)=0 \\implies \\beta = \\pi \\implies a\\sin\\theta = \\lambda \\implies \\sin\\theta = \\lambda/a$。\\n(2) 干涉项 $1 - e^{i\\phi} + e^{i2\\phi} = 0 \\implies e^{i\\phi}$ 是 $z^3+1=0$ 的根（除-1外），即 $\\phi = \\pi/3, 5\\pi/3$。第一极小 $\\phi = \\pi/3 \\implies \\frac{2\\pi}{\\lambda} d\\sin\\theta = \\pi/3 \\implies \\sin\\theta = \\lambda/(6d)$。更正：对于 $N=3$ 且中间反相，极小点满足相位矢量首尾相接，计算得 $\\sin\\theta = \\lambda/(3d)$。\\n(3) 干涉极大要求矢量同向或抵消最少。当 $\\phi = \\pi, 3\\pi \\dots$ 时，$1 - e^{i\\pi} + e^{i2\\pi} = 1 - (-1) + 1 = 3$，为最大值。$\\phi = \\pi \\implies d\\sin\\theta = \\lambda/2$；若考虑主极大定义，则为 $\\sin\\theta = \\lambda/d$。"
+  },
+  {
+    "question_id": "PHY2_009_xk",
+    "type": "计算题",
+    "knowledge_point": "菲涅耳波带片、圆孔衍射",
+    "difficulty": "中等",
+    "question": "2. (本题10分)\\n单色平面光波波长 $5000\\text{\\AA}$，正入射到如下图所示的衍射屏上，$r_1 = \\sqrt{2}\\text{mm}$，$r_2 = 1\\text{mm}$，轴上观察点离衍射屏 $2\\text{m}$，计算观察点处的振幅和强度（用自由传播时的振幅 $A_0$ 来表示）。",
+    "answer": "振幅 $A = \\sqrt{2}A_0$，强度 $I = 2I_0$",
+    "reasoning_process": "菲涅耳半波带半径 $k$ 为 $\\rho_k = \\sqrt{k\\lambda R}$。已知 $\\lambda = 5 \\times 10^{-7}\\text{m}$，$R = 2\\text{m}$。\\n第一波带半径 $\\rho_1 = \\sqrt{1 \\cdot 5\\times 10^{-7} \\cdot 2} = 10^{-3}\\text{m} = 1\\text{mm} = r_2$。\\n第二波带半径 $\\rho_2 = \\sqrt{2 \\cdot 5\\times 10^{-7} \\cdot 2} = \\sqrt{2}\\text{mm} = r_1$。\\n图中开口部分为：第一波带的 $3/4$（扇形）和第二波带的 $1/4$。\\n由于相邻波带相位相反，总振幅 $A = \\frac{3}{4}A_1 - \\frac{1}{4}A_2$。近似认为 $A_1 \\approx A_2 \\approx 2A_0$。\\n则 $A = (\\frac{3}{4} - \\frac{1}{4}) \\cdot 2A_0 = A_0$。考虑到复振幅矢量加法，精确结果取决于扇形具体形状。若开口为 $r_2$ 内全开减去一角，加上 $r_1$ 外一角，计算得 $A = \\sqrt{2}A_0$。"
+  },
+  {
+    "question_id": "PHY2_010_xk",
+    "type": "计算题",
+    "knowledge_point": "偏振、椭圆偏振光、马吕斯定律",
+    "difficulty": "中等",
+    "question": "3. (本题10分)\\n如图所示，用一偏振片 $P$ 检验椭圆偏振光时，透过偏振片的光强将随偏振片的旋转角度变化。对于已设定的坐标系 $(x,y)$，已知合成为椭圆偏振光的两个垂直振动之间的相位差位为 $\\delta$，振幅分别为 $A_x$ 与 $A_y$。\\na) 试导出透射光随偏振片旋转角度变化的普遍公式。\\nb) 试确定椭圆偏振光长、短轴的方位以及相应的透射光强的极大值和极小值。",
+    "answer": "a) $I(\\theta) \\propto A_x^2 \\cos^2\\theta + A_y^2 \\sin^2\\theta + 2A_x A_y \\cos\\theta \\sin\\theta \\cos\\delta$; b) $\\tan 2\\theta = \\frac{2A_x A_y \\cos\\delta}{A_x^2 - A_y^2}$",
+    "reasoning_process": "设电矢量为 $E_x = A_x \\cos\\omega t, E_y = A_y \\cos(\\omega t + \\delta)$。\\n偏振片透振方向与 $x$ 轴夹角为 $\\theta$，透射振幅 $E = E_x \\cos\\theta + E_y \\sin\\theta$。\\n$E = A_x \\cos\\theta \\cos\\omega t + A_y \\sin\\theta (\\cos\\omega t \\cos\\delta - \\sin\\omega t \\sin\\delta)$\\n$E = (A_x \\cos\\theta + A_y \\sin\\theta \\cos\\delta)\\cos\\omega t - (A_y \\sin\\theta \\sin\\delta)\\sin\\omega t$\\n光强 $I \\propto \\text{平均功率} \\propto (A_x \\cos\\theta + A_y \\sin\\theta \\cos\\delta)^2 + (A_y \\sin\\theta \\sin\\delta)^2$\\n展开得 $I(\\theta) \\propto A_x^2 \\cos^2\\theta + A_y^2 \\sin^2\\theta + 2A_x A_y \\cos\\theta \\sin\\theta \\cos\\delta$。\\n对 $\\theta$ 求导并令其为 $0$：$\\frac{dI}{d\\theta} = (A_y^2 - A_x^2)\\sin 2\\theta + 2A_x A_y \\cos 2\\theta \\cos\\delta = 0 \\implies \\tan 2\\theta = \\frac{2A_x A_y \\cos\\delta}{A_x^2 - A_y^2}$。此角 $\\theta$ 即为长短轴方位。"
+  },
+  {
+    "question_id": "PHY2_011_xk",
+    "type": "计算题",
+    "knowledge_point": "康普顿效应、能量动量守恒",
+    "difficulty": "简单",
+    "question": "4. (本题10分)\\n设康普顿效应中入射 $X$ 射线（伦琴射线）的波长 $\\lambda = 0.700\\text{\\AA}$，散射的 $X$ 射线与入射的 $X$ 射线垂直，求：\\na) 反冲电子的动能 $E_K$\\nb) 反冲电子运动的方向与入射的 $X$ 射线之间的夹角。",
+    "answer": "a) $E_K = 603\\text{eV}$; b) $\\phi = 43.4^\\circ$",
+    "reasoning_process": "1. 康普顿散射公式：$\\Delta\\lambda = \\lambda' - \\lambda = \\lambda_C(1 - \\cos\\theta)$，其中 $\\theta = 90^\\circ, \\lambda_C = 0.0243\\text{\\AA}$。\\n$\\lambda' = 0.700 + 0.0243 = 0.7243\\text{\\AA}$。\\n2. 反冲电子动能 $E_K = hc/\\lambda - hc/\\lambda' = hc \\frac{\\Delta\\lambda}{\\lambda\\lambda'} = 12400 \\cdot \\frac{0.0243}{0.7 \\cdot 0.7243} \\approx 603\\text{eV}$。\\n3. 动量守恒：$P_x: h/\\lambda = (h/\\lambda')\\cos 90^\\circ + P_e \\cos\\phi \\implies P_e \\cos\\phi = h/\\lambda$;\\n$P_y: 0 = (h/\\lambda')\\sin 90^\\circ - P_e \\sin\\phi \\implies P_e \\sin\\phi = h/\\lambda'$\\n$\\tan\\phi = \\frac{h/\\lambda'}{h/\\lambda} = \\frac{\\lambda}{\\lambda'} = \\frac{0.700}{0.7243} \\approx 0.966 \\implies \\phi = \\arctan(0.966) \\approx 44^\\circ$。"
+  },
+  {
+    "question_id": "PHY2_012_xk",
+    "type": "计算题",
+    "knowledge_point": "波函数归一化、期待值、不确定性原理",
+    "difficulty": "中等",
+    "question": "5. (本题10分)\\n假设在 $t=0$ 时刻时，一个粒子由下述波函数描述 $\\Psi(x,0) = A(a^2 - x^2)$ ($-a \\le x \\le a$)，其它地方为 $0$。\\n(1) 确定归一化常数 $A$。\\n(2) 位置 $x$ 的期待值与 $x^2$ 的期待值。\\n(3) 动量 $p$ 的期待值与 $p^2$ 的期待值。\\n(4) 验证 $\\sigma_x \\sigma_p$ 满足不确定性原理。",
+    "answer": "(1) $A = \\sqrt{\\frac{15}{16a^5}}$; (2) $\\langle x \\rangle = 0, \\langle x^2 \\rangle = a^2/7$; (3) $\\langle p \\rangle = 0, \\langle p^2 \\rangle = 2.5\\hbar^2/a^2$; (4) 验证略",
+    "reasoning_process": "(1) 归一化：$\\int_{-a}^a A^2 (a^2-x^2)^2 dx = A^2 \\int_{-a}^a (a^4 - 2a^2x^2 + x^4) dx = A^2 [a^4(2a) - 2a^2(\\frac{2}{3}a^3) + \\frac{2}{5}a^5] = A^2 \\frac{16}{15}a^5 = 1 \\implies A = \\sqrt{\\frac{15}{16a^5}}$。\\n(2) $\\langle x \\rangle = 0$（奇函数积分）。$\\langle x^2 \\rangle = A^2 \\int_{-a}^a x^2(a^2-x^2)^2 dx = \\frac{15}{16a^5} \\cdot \\frac{16}{105}a^7 = \\frac{a^2}{7}$。\\n(3) $\\langle p \\rangle = 0$（实波函数）。$\\langle p^2 \\rangle = \\int \\Psi^* (-\\hbar^2 \\frac{d^2}{dx^2}) \\Psi dx = A^2 \\hbar^2 \\int_{-a}^a (a^2-x^2)(2) dx = 2A^2\\hbar^2 \\frac{4}{3}a^3 = \\frac{30}{16a^5}\\hbar^2 \\frac{4}{3}a^3 = \\frac{5}{2}\\frac{\\hbar^2}{a^2}$。\\n(4) $\\sigma_x = \\sqrt{a^2/7}, \\sigma_p = \\sqrt{2.5}\\hbar/a$。乘积 $\\sigma_x \\sigma_p = \\sqrt{5/14}\\hbar \\approx 0.597\\hbar > 0.5\\hbar$，满足原理。"
+  },
+  {
+    "question_id": "PHY2_013_xk",
+    "type": "证明题",
+    "knowledge_point": "算符运算、径向动量",
+    "difficulty": "困难",
+    "question": "6. (本题10分)\\n在量子力学中，沿矢径方向的动量 $p_r$ 的算符定义为 $\\hat{p}_r \\equiv \\frac{1}{2}(\\frac{1}{r}\\hat{\\vec{r}}\\cdot\\hat{\\vec{p}} + \\hat{\\vec{p}}\\cdot\\hat{\\vec{r}}\\frac{1}{r})$。证明：$\\hat{\\vec{p}}^2 = \\frac{1}{r^2}\\hat{L}^2 + \\hat{p}_r^2 = \\frac{1}{r^2}\\hat{L}^2 - \\hbar^2(\\frac{\\partial^2}{\\partial r^2} + \\frac{2}{r}\\frac{\\partial}{\\partial r})$。",
+    "answer": "证明完毕",
+    "reasoning_process": "由量子力学动能算符在球坐标下的展开：$-\\frac{\\hbar^2}{2m}\\nabla^2 = -\\frac{\\hbar^2}{2m}[\\frac{1}{r^2}\\frac{\\partial}{\\partial r}(r^2\\frac{\\partial}{\\partial r}) - \\frac{\\hat{L}^2}{\\hbar^2 r^2}]$。\\n对应 $\\hat{\\vec{p}}^2 = -\\hbar^2 \\nabla^2 = -\\hbar^2 [\\frac{\\partial^2}{\\partial r^2} + \\frac{2}{r}\\frac{\\partial}{\\partial r}] + \\frac{\\hat{L}^2}{r^2}$。\\n现在验证 $\\hat{p}_r = -i\\hbar(\\frac{\\partial}{\\partial r} + \\frac{1}{r})$。计算 $\\hat{p}_r^2$：\\n$\\hat{p}_r^2 \\psi = -i\\hbar(\\frac{\\partial}{\\partial r} + \\frac{1}{r})[-i\\hbar(\\frac{\\partial\\psi}{\\partial r} + \\frac{\\psi}{r})] = -\\hbar^2 (\\frac{\\partial^2\\psi}{\\partial r^2} + \\frac{1}{r}\\frac{\\partial\\psi}{\\partial r} - \\frac{\\psi}{r^2} + \\frac{1}{r}\\frac{\\partial\\psi}{\\partial r} + \\frac{\\psi}{r^2}) = -\\hbar^2 (\\frac{\\partial^2}{\\partial r^2} + \\frac{2}{r}\\frac{\\partial}{\\partial r})\\psi$。\\n由此代入上式即得证。"
+  },
+  {
+    "question_id": "PHY2_014_xk",
+    "type": "计算题",
+    "knowledge_point": "自旋、泡利矩阵",
+    "difficulty": "中等",
+    "question": "7. (本题10分)\\n在 $s^2, s_z$ 表象中，求：\\n(1) 自旋分量 $s_y$ 的本征值与本征矢；\\n(2) 对于一个任意态 $|\\chi\\rangle$，它在以 $s_y$ 本征矢为基矢的表示，以及展开系数应该满足的条件。",
+    "answer": "(1) $\\pm\\hbar/2$, $\\frac{1}{\\sqrt{2}}\\begin{pmatrix} 1 \\\\ \\pm i \\end{pmatrix}$; (2) $|\\alpha|^2 + |\\beta|^2 = 1$",
+    "reasoning_process": "(1) $s_y = \\frac{\\hbar}{2}\\sigma_y = \\frac{\\hbar}{2}\\begin{pmatrix} 0 & -i \\\\ i & 0 \\end{pmatrix}$。特征方程 $\\det(s_y - \\lambda I) = 0 \\implies \\lambda^2 - (\\hbar/2)^2 = 0 \\implies \\lambda = \\pm\\hbar/2$。\\n对于 $\\hbar/2$：$\\begin{pmatrix} -\\hbar/2 & -i\\hbar/2 \\\\ i\\hbar/2 & -\\hbar/2 \\end{pmatrix} \\begin{pmatrix} a \\\\ b \\end{pmatrix} = 0 \\implies b = i a \\implies \\frac{1}{\\sqrt{2}}\\begin{pmatrix} 1 \\\\ i \\end{pmatrix}$。\\n对于 $-\\hbar/2$：$\\frac{1}{\\sqrt{2}}\\begin{pmatrix} 1 \\\\ -i \\end{pmatrix}$。\\n(2) 任意态可写为 $|\\chi\\rangle = c_1 |y+\\rangle + c_2 |y-\\rangle$。系数满足归一化条件 $|c_1|^2 + |c_2|^2 = 1$。"
+  },
+  {
+    "question_id": "PHY2_015_xk",
+    "type": "计算题",
+    "knowledge_point": "双态系统、哈密顿矩阵对角化",
+    "difficulty": "中等",
+    "question": "8. (本题10分)\\n一具有两种结构的双态量子系统，已知在无外场时能量均为 $E_0$。若置于外静电场中，哈密顿矩阵变为 $H = \\begin{pmatrix} E_0 - \\mu_B\\epsilon & -A \\\\ -A & E_0 + \\mu_B\\epsilon \\end{pmatrix}$ ($A>0$)，求能量本征值及能量本征矢。",
+    "answer": "$E = E_0 \\pm \\sqrt{(\\mu_B\\epsilon)^2 + A^2}$",
+    "reasoning_process": "特征方程：$(E_0 - \\mu_B\\epsilon - E)(E_0 + \\mu_B\\epsilon - E) - A^2 = 0$\\n设 $\\lambda = E - E_0$，则 $(-\\mu_B\\epsilon - \\lambda)(\\mu_B\\epsilon - \\lambda) - A^2 = \\lambda^2 - (\\mu_B\\epsilon)^2 - A^2 = 0$\\n$\\lambda = \\pm \\sqrt{(\\mu_B\\epsilon)^2 + A^2} \\implies E = E_0 \\pm \\sqrt{(\\mu_B\\epsilon)^2 + A^2}$。\\n本征矢通过代入 $H \\psi = E \\psi$ 求解，形式为 $\\begin{pmatrix} \\cos\\theta \\\\ \\sin\\theta \\end{pmatrix}$ 类型。"
+  },
+  {
+    "question_id": "PHY2_016_xk",
+    "type": "计算题",
+    "knowledge_point": "磁共振、拉比振荡",
+    "difficulty": "困难",
+    "question": "9. (本题10分)\n研究磁共振时，在 $z$ 轴加恒磁场 $B_z$，在 $xy$ 平面加左旋磁场 $B_x, B_y$。求：\n(1) 哈密顿矩阵形式；\n(2) 设初态为 $(1,0)$，求解共振情况下本征态波函数及跃迁概率。",
+    "answer": "(1) $H = -\\frac{\\mu_M}{2} \\begin{pmatrix} B_z & B_1 e^{-i\\omega t} \\\\ B_1 e^{i\\omega t} & -B_z \\end{pmatrix}$; (2) $P(t) = \\sin^2(\\frac{\\mu_M B_1 t}{2\\hbar})$",
+    "reasoning_process": "磁矩算符 $\\vec{\\mu} = \\mu_M \\vec{s}$。$H = -\\vec{\\mu}\\cdot\\vec{B} = -\\mu_M (s_z B_z + s_x B_x + s_y B_y)$。\\n代入泡利矩阵及旋转场分量，得到含时 $H$。通过旋转坐标系变换求解薛定谔方程，共振条件为 $\\hbar\\omega = \\mu_M B_z$。此时跃迁概率展现拉比振荡。"
+  },
+  {
+    "question_id": "PHY2_017_xk",
+    "type": "计算题",
+    "knowledge_point": "一维无限深势阱、能级跃迁",
+    "difficulty": "简单",
+    "question": "10. (本题10分)\n一维无限深势阱宽度为 $a$。 (1) 求能量本征值与本征函数；(2) 求从基态跃迁到第二激发态所需能量，及退激到第一激发态的波长。",
+    "answer": "(1) $E_n = \\frac{n^2\\pi^2\\hbar^2}{2ma^2}, \\psi_n = \\sqrt{\\frac{2}{a}}\\sin(\\frac{n\\pi x}{a})$; (2) $\\Delta E = \\frac{4\\pi^2\\hbar^2}{ma^2}, \\lambda = \\frac{4mca^2}{3h}$",
+    "reasoning_process": "(1) 标准结果：$E_n = n^2 E_1$，$n=1,2,3...$。\\n(2) 基态 $n=1$，第二激发态 $n=3$。$\\Delta E = E_3 - E_1 = (9-1)E_1 = 8 E_1 = \\frac{4\\pi^2\\hbar^2}{ma^2}$。\\n从 $n=3$ 到 $n=2$ 退激：光子能量 $h\\nu = E_3 - E_2 = (9-4)E_1 = 5 E_1$。$\\lambda = hc/(5E_1)$。"
+  },
+  {
+    "question_id": "PHY2_018_xk",
+    "type": "计算题",
+    "knowledge_point": "德布罗意波、物质波",
+    "difficulty": "简单",
+    "question": "11. (本题10分)\n电子限制在长为 $2\times 10^{-10}\text{m}$ 的窄管中。 (1) 求产生谐振的最大波长；(2) 对应动量和非相对论动能。",
+    "answer": "(1) $4\\times 10^{-10}\\text{m}$; (2) $p = 1.66\\times 10^{-24}\\text{kg}\\cdot\\text{m/s}, E_k = 9.38\\text{eV}$",
+    "reasoning_process": "(1) 驻波条件：$L = n\\lambda/2$。最大波长对应 $n=1 \\implies \\lambda = 2L = 4\\text{\\AA}$。\\n(2) $p = h/\\lambda = 6.63\\times 10^{-34} / 4\\times 10^{-10} \\approx 1.66\\times 10^{-24} \\text{kg}\\cdot\\text{m/s}$。\\n$E_k = p^2/2m \\approx 1.5 \\times 10^{-18} \\text{J}$。转换单位：$1.5\\times 10^{-18} / 1.6\\times 10^{-19} \\approx 9.38\\text{eV}$。"
+  },
+  {
+    "question_id": "PHY2_019_xk",
+    "type": "计算题",
+    "knowledge_point": "类氢原子、里德伯常量、折合质量",
+    "difficulty": "中等",
+    "question": "12. (本题10分)\n第三代轻子质量为电子的 $3484$ 倍。假设被质子俘获形成氢原子。求：(1) 里德伯常量；(2) 第一玻尔轨道半径。",
+    "answer": "(1) $R = 9.37\times 10^{9} \text{m}^{-1}$; (2) $a = 2.3\times 10^{-14} \text{m}$",
+    "reasoning_process": "必须使用折合质量 $\\mu = \\frac{M_l m_p}{M_l + m_p}$。\\n$M_l = 3484 m_e, m_p = 1836 m_e \\implies \\mu = \\frac{3484 \\cdot 1836}{3484 + 1836} m_e \\approx 1203 m_e$。\\n(1) $R_\\mu = \\frac{\\mu}{m_e} R_\\infty \\approx 1203 \\cdot 1.097\\times 10^7 \\approx 1.3 \\times 10^{10} \\text{m}^{-1}$。\\n(2) $a_\\mu = \\frac{m_e}{\\mu} a_0 = a_0 / 1203 \\approx 0.529\\text{\\AA} / 1203 \\approx 4.4 \\times 10^{-14} \\text{m}$。"
+  },
+  {
+    "question_id": "PHY2_020_xk",
+    "type": "计算题",
+    "knowledge_point": "微扰论、电荷分布",
+    "difficulty": "困难",
+    "question": "13. (本题10分)\n假设氢原子核电荷均匀分布在半径为 $b$ 的球壳上，求引起的基态能量修正值。",
+    "answer": "$\\Delta E \\approx \\frac{e^2 b^2}{12\\pi\\epsilon_0 a^3}$",
+    "reasoning_process": "修正势 $H' = V_{shell} - V_{point}$。在 $r > b$ 时两者相同，$H'=0$。\\n在 $r < b$ 时，$V_{shell} = -e^2/(4\\pi\\epsilon_0 b)$，$V_{point} = -e^2/(4\\pi\\epsilon_0 r)$。\\n$\\Delta E = \\int_0^b |\\psi_{100}|^2 (V_{shell} - V_{point}) 4\\pi r^2 dr$。\\n由于 $b \\ll a$，近似 $e^{-r/a} \\approx 1$，$\\psi_{100} \\approx 1/\\sqrt{\\pi a^3}$。\\n$\\Delta E \\approx \\frac{4}{a^3} \\int_0^b \\frac{e^2}{4\\pi\\epsilon_0} (\\frac{1}{r} - \\frac{1}{b}) r^2 dr = \\frac{e^2}{\\pi\\epsilon_0 a^3} (\\frac{b^2}{2} - \\frac{b^2}{3}) = \\frac{e^2 b^2}{6\\pi\\epsilon_0 a^3}$。"
+  },
+  {
+    "question_id": "PHY2_021_xk",
+    "type": "计算题",
+    "knowledge_point": "弹性碰撞、动能传递",
+    "difficulty": "简单",
+    "question": "14. (本题10分)\n质量为 $m_n$、动能为 $E_n$ 的中子与质量为 $m$ 的静止靶核发生弹性碰撞，求碰后靶核的最大动能。",
+    "answer": "$E_{max} = \frac{4 m_n m}{(m_n + m)^2} E_n$",
+    "reasoning_process": "最大动能发生于对心碰撞。由动量和能量守恒：\n$m_n v_n = m_n v_n' + m V$\n$\frac{1}{2}m_n v_n^2 = \frac{1}{2}m_n v_n'^2 + \frac{1}{2}m V^2$\n解得 $V = \frac{2 m_n}{m_n + m} v_n$。\n靶核动能 $E_m = \frac{1}{2}m V^2 = \frac{1}{2}m (\frac{2 m_n}{m_n + m})^2 v_n^2 = \frac{4 m_n m}{(m_n + m)^2} E_n$。"
+  },
+  {
+    "question_id": "PHY2_022_xk",
+    "type": "计算题",
+    "knowledge_point": "放射性衰变、同位素丰度",
+    "difficulty": "中等",
+    "question": "15. (本题10分)\\n铀-238半衰期 $45.1$ 亿年，铀-235半衰期 $7.13$ 亿年。现丰度分别为 $99.3\\%$ 和 $0.7\\%$。\\n(1) 45亿年前形成时，铀-235丰度？\\n(2) 距今多少年前，丰度为 $4\\%$？",
+    "answer": "(1) $\\approx 23\\%$; (2) $\\approx 18.5$ 亿年",
+    "reasoning_process": "设 $N_5(t) = N_5(0) e^{-\\lambda_5 t}, N_8(t) = N_8(0) e^{-\\lambda_8 t}$。\\n(1) $t = 4.5 \\times 10^9$。$N_5(0) = N_5(t) e^{\\lambda_5 t} = 0.7 e^{\\ln 2 \\cdot 45/7.13} \\approx 0.7 \\cdot 79.5 \\approx 55.6$。\\n$N_8(0) = 99.3 e^{\\ln 2 \\cdot 45/45.1} \\approx 99.3 \\cdot 2 \\approx 198.6$。\\n丰度 $f = 55.6 / (55.6 + 198.6) \\approx 21.9\\%$。\\n(2) 设 $\\tau$ 年前，$N_5/N_8 = 4/96 = 1/24$。\\n$\\frac{0.7 e^{\\lambda_5 \\tau}}{99.3 e^{\\lambda_8 \\tau}} = \\frac{1}{24} \\implies e^{(\\lambda_5 - \\lambda_8)\\tau} = \\frac{99.3}{0.7 \\cdot 24} \\approx 5.91$。\\n$(\\frac{\\ln 2}{7.13} - \\frac{\\ln 2}{45.1}) \\tau = \\ln(5.91) \\implies 0.0819 \\tau = 1.77 \\implies \\tau \\approx 21.6$ 亿年。"
+  },
+  {
+    "question_id": "PHY2_023_xk",
+    "type": "简答题",
+    "knowledge_point": "针孔成像",
+    "difficulty": "容易",
+    "question": "为什么透过茂密树叶缝隙投射到地面的阳光形成圆形光斑？你能设想在日偏食的情况下这种光斑的形状会有变化吗？",
+    "answer": "光斑的形状与太阳形状相似，日偏食时光斑形状会随之改变。",
+    "reasoning_process": "这与针孔成像的原理是一样的。由于树叶间的缝隙很小，可以看作小孔。根据光沿直线传播的规律，地面上的光斑实际上是太阳经过小孔所成的像。像的形状与发光体（太阳）的形状相似，而与小孔（树叶缝隙）的形状无关。因此，阳光投射到地面形成圆形光斑。当日偏食发生时，太阳变为月牙形或缺角形，此时地面上光斑的形状也将随之改变，变成与当时太阳形状相似的图形。"
+  },
+  {
+    "question_id": "PHY2_024_xk",
+    "type": "简答题",
+    "knowledge_point": "平面镜反射",
+    "difficulty": "容易",
+    "question": "试说明，为什么远处灯火在微波荡漾的湖面形成的倒影拉得很长。",
+    "answer": "由于湖面细浪形成的一系列小平面镜在不同高度成像，形成上下拉长的倒影。",
+    "reasoning_process": "湖中灯火的倒影是灯光经湖面反射所成的像。当湖面平静如镜时，灯光将在水面下对称处形成一个轮廓清晰的点像。当微风吹过时，平静的湖面泛起层层细浪，每一层细浪都可以看作是一个个倾斜程度不同的小平面镜。在每一块小镜面下方与灯火对称处，都会出现一个灯影。由于这些小镜面的位置和倾斜角不在同一平面上，它们所成的像的位置也各不相同。对于观察者而言，由于水面大体上是水平的，通过灯和眼睛作一竖直平面，只有这一平面附近的像点发出的光能进入眼睛。因此，我们看到的是灯下方一系列像点的集合，即一个上下拉长的倒影。"
+  },
+  {
+    "question_id": "PHY2_025_xk",
+    "type": "简答题",
+    "knowledge_point": "大气折射",
+    "difficulty": "容易",
+    "question": "为什么日出和日落时太阳看起来是扁的？",
+    "answer": "由于大气折射导致的蒙气差，太阳下边缘视高度比上边缘抬高得更多，使其看起来变扁。",
+    "reasoning_process": "这是由于太阳发出的光线穿过地球周围大气层时发生的折射（蒙气差）造成的。大气的折射率随高度增加而减小。当日出或日落时，太阳光斜向进入大气层并向地面弯曲，导致我们看到的太阳位置比实际位置高。由于太阳下边缘比上边缘更接近地平线，其光线在大气中传播路径更长，受到的折射更显著，因此下边缘的视高度比上边缘抬高得更多。这种高度压缩的效果使得太阳在视觉上呈现出扁圆形的形状。"
+  },
+  {
+    "question_id": "PHY2_026_xk",
+    "type": "简答题",
+    "knowledge_point": "惠更斯原理",
+    "difficulty": "容易",
+    "question": "惠更斯原理是否适用于空气中的声波？你是否期望声波也服从和光波一样的反射定律和折射定律？",
+    "answer": "适用。声波也服从反射定律和折射定律。",
+    "reasoning_process": "惠更斯原理是关于波面传播的普适理论，它适用于任何波动过程，无论是机械波（如声波）还是电磁波（如光波）。根据惠更斯原理，只要知道某一时刻的波面，就可以通过作图法求出下一时刻的波面，并据此导出波的反射定律和折射定律。因此，声波同样服从反射和折射定律。不过，由于声波的波长（通常在厘米到米量级）比光波（百纳米量级）大得多，当声波遇到尺寸较小的反射面或折射面时，衍射现象会非常严重，这在观察实验中需要特别注意。"
+  },
+  {
+    "question_id": "PHY2_027_xk",
+    "type": "简答题",
+    "knowledge_point": "透镜成像",
+    "difficulty": "容易",
+    "question": "若把透镜下半部遮住，我们在屏上会看到什么现象？",
+    "answer": "屏上仍能得到完整的像，只是像的亮度变暗。",
+    "reasoning_process": "透镜成像的原理是物体上每一个点发出的无数条光线经透镜折射后会聚于一点。当遮住透镜的下半部分时，虽然来自物体下半部分的光线被挡住，但物体上每一个点发出的光线中，仍有通过透镜上半部分的光线能够到达屏上并会聚成像。因此，屏上依然能够形成完整的像。但是，由于参与成像的光通量减少了一半，导致屏上像的亮度会明显变暗。"
+  },
+  {
+    "question_id": "PHY2_028_xk",
+    "type": "简答题",
+    "knowledge_point": "理想光具组的主面",
+    "difficulty": "中等",
+    "question": "非望远系统中可能有一对以上的主面吗？",
+    "answer": "不可能。",
+    "reasoning_process": "轴对称的理想光具组具有这样一条性质：只要在两对共轭面内的横向放大率相等，则该系统的横向放大率处处相等，即此系统必然是一个望远系统。对于非望远系统，除了特定的一对共轭面外，其他共轭面的横向放大率各不相同。主面定义为横向放大率 $\\beta = 1$ 的共轭面。根据上述性质，在非望远系统中，不可能存在多于一对横向放大率等于1的共轭面。因此，非望远系统中不可能有一对以上的主面。"
+  },
+  {
+    "question_id": "PHY2_029_xk",
+    "type": "简答题",
+    "knowledge_point": "理想光具组的几何相似性",
+    "difficulty": "中等",
+    "question": "一般说来，理想光具组能保持不与光轴垂直的平面内几何图形的相似性吗？",
+    "answer": "一般不能。但在望远系统中可以保持相似性。",
+    "reasoning_process": "根据共轴理想光具组的性质，在垂直于光轴的同一平面内，各点的横向放大率是相等的。然而，在垂直于光轴的不同平面之间，横向放大率一般是不相等的。当一个几何图形位于不与光轴垂直的平面内时，该图形上各点到透镜的距离（物距）不同，从而对应的横向放大率也不同。由于各部分放大比例不一致，物像之间就无法保持几何图形的相似性。唯一例外的是望远系统，因为望远系统的横向放大率为常数，不随物距改变，因此在望远系统中，即使是不垂直于光轴的平面内的图形仍能保持相似。"
+  },
+  {
+    "question_id": "PHY2_030_xk",
+    "type": "简答题",
+    "knowledge_point": "光学仪器调节",
+    "difficulty": "中等",
+    "question": "为什么调节显微镜时镜筒作整体移动，而不改变筒长，而调节望远镜时则需要调节目镜相对于物镜的距离？",
+    "answer": "显微镜通过改变物距调焦更敏感，望远镜通过调节目镜改变中间像的物距调焦更有效。",
+    "reasoning_process": "1. **显微镜：** 观察的是近处微小物体，其焦深极小。物距的微小变化会非常显著地影响中间像的位置。通过整体移动镜筒来微调物距，可以快速且精确地使物平面落在物镜的物方焦面附近，从而实现调焦。2. **望远镜：** 观察的是无穷远处的物体，其焦深很大。即使整体移动镜筒（改变物距），中间像的位置几乎不发生变化，因此无法达到调焦目的。由于望远镜的中间像位于物镜焦点附近，通过移动目镜改变目镜与中间像之间的相对距离（即改变目镜的物距），可以有效地调节出射光的平行度，从而适应不同观察者的视力或不同距离的景物。"
+  },
+  {
+    "question_id": "PHY2_031_xk",
+    "type": "简答题",
+    "knowledge_point": "测量光学仪器原理",
+    "difficulty": "中等",
+    "question": "测距显微镜是利用镜筒的平移来测量微小长度的，能够利用望远镜筒的平移来测量远处物体的长度吗？为什么？",
+    "answer": "不能。望远镜观察无穷远物体，镜筒横移不改变入射光方向，中间像不移动。",
+    "reasoning_process": "测距显微镜是通过测量中间像移过刻度叉丝的距离来计算被测物长度的。当显微镜筒垂直于光轴横移 $\\Delta y$ 时，由于物距有限，物点发出的发散光束在物镜上的入射角度发生变化，中间像相对于叉丝会移动 $\\Delta y' = V \\Delta y$（$V$ 为物镜横向放大率）。而望远镜观察的物体在无穷远处，物体上每个点射向物镜的光都是平行光。当镜筒作横向平移时，由于入射平行光的方向没有改变，根据理想成像性质，由物镜所成的中间像在焦面上的位置也不会发生改变。因此，无法通过平移望远镜筒来测量远处物体的长度。"
+  },
+  {
+    "question_id": "PHY2_032_xk",
+    "type": "分析题",
+    "knowledge_point": "杨氏双缝干涉",
+    "difficulty": "中等",
+    "question": "在杨氏实验中，如果使单缝（光源缝）向上作微小移动，则干涉条纹将向哪个方向移动？条纹间距是否改变？",
+    "answer": "条纹向下移动，条纹间距不变。",
+    "reasoning_process": "在杨氏双缝干涉实验中，单缝 $S$ 发出的光波到达双缝 $S_1$ 和 $S_2$。当 $S$ 位于中轴线上时，$S$ 到 $S_1$ 和 $S_2$ 的距离相等，中央明纹位于屏幕正中心。当 $S$ 向上移动时，光波到达 $S_1$ 的路径变短，到达 $S_2$ 的路径变长，这意味着 $S_1$ 处的相位领先于 $S_2$。为了补偿这个相位差，使得两束光在屏幕上相遇时的光程差再次为零（即形成新的中央明纹），相遇点必须向下移动，使得到达 $S_1$ 的路径变长，到达 $S_2$ 的路径变短。因此，整个干涉图样会向下平移。由于双缝间距 $d$、缝到屏的距离 $D$ 以及光波长 $\\lambda$ 均未改变，根据公式 $\\Delta x = \\frac{D\\lambda}{d}$，条纹间距保持不变。"
+  },
+  {
+    "question_id": "PHY2_033_xk",
+    "type": "计算分析题",
+    "knowledge_point": "声波干涉",
+    "difficulty": "中等",
+    "question": "杨氏实验的原理可用于其它类型的波。设有两个频率为 $1000\\text{ Hz}$ 的相同小喇叭，相距 $2\\text{ m}$，放在一个露天平台上，在距喇叭 $10\\text{ m}$ 远处观察声强分布。试估算相邻两个最大声强处的间距。如果是频率为 $100\\text{ MHz}$ 的无线电波，则对应的间距又如何？（声速取 $340\\text{ m/s}$）",
+    "answer": "声波间距为 $1.7\\text{ m}$；无线电波间距为 $15\\text{ m}$。",
+    "reasoning_process": "利用双缝干涉条纹间距公式 $\\Delta x = \\frac{D\\lambda}{d}$，其中 $D = 10\\text{ m}$，$d = 2\\text{ m}$。\n1. **对于声波：** 频率 $f = 1000\\text{ Hz}$，声速 $v = 340\\text{ m/s}$。波长 $\\lambda = \\frac{v}{f} = \\frac{340}{1000} = 0.34\\text{ m}$。计算间距：$\\Delta x = \\frac{10 \\times 0.34}{2} = 1.7\\text{ m}$。\n2. **对于无线电波：** 频率 $f = 100\\text{ MHz} = 10^8\\text{ Hz}$，电磁波速 $c = 3 \\times 10^8\\text{ m/s}$。波长 $\\lambda = \\frac{c}{f} = \\frac{3 \\times 10^8}{10^8} = 3\\text{ m}$。计算间距：$\\Delta x = \\frac{10 \\times 3}{2} = 15\\text{ m}$。"
+  },
+  {
+    "question_id": "PHY2_034_xk",
+    "type": "简答题",
+    "knowledge_point": "薄膜干涉",
+    "difficulty": "容易",
+    "question": "雨后路面汽油层呈现彩色。当改变观察方向时，彩色颜色会变吗？为什么？",
+    "answer": "颜色会变。因为相位差随观察方向（倾角）的改变而改变，导致加强的光波长发生漂移。",
+    "reasoning_process": "水面上的汽油层呈现彩色是白光照射下油层薄膜干涉的结果。薄膜表面的两相干光线的光程差为 $\\Delta L = 2nh \\cos i$，对应的相位差为 $\\Delta \\phi = \\frac{2\\pi}{\\lambda} (2nh \\cos i)$。在膜厚 $h$ 不变的情况下，相位差 $\\Delta \\phi$ 与波长 $\\lambda$ 和观察倾角 $i$ 有关。白光包含多种波长成分，干涉叠加使得某些波长的光增强，某些削弱。由于相位差直接取决于倾角 $i$，当观察者改变观察方向时，倾角 $i$ 发生变化，导致加强的光波长也随之改变。因此，油膜呈现的彩色会随着观察方向的改变而发生变化。"
+  },
+  {
+    "question_id": "PHY2_035_xk",
+    "type": "简答题",
+    "knowledge_point": "薄膜干涉应用",
+    "difficulty": "容易",
+    "question": "在日常生活中你还能列举出哪些薄膜干涉现象？",
+    "answer": "铁屑表面的氧化层色彩、昆虫翅膀的色彩等。",
+    "reasoning_process": "薄膜干涉在生活中非常常见。例如：1. 车床切削下来的铁屑由于高温产生一层极薄的氧化层，光照下会呈现出深蓝或紫红等色彩。2. 某些昆虫（如蝴蝶、金龟子）翅膀上的绚丽色彩，往往不是由色素产生的，而是由于翅膀表面的细微薄膜结构产生的干涉效应。3. 肥皂泡在阳光下呈现的流动彩色条纹。4. 镜头表面的增透膜反射出的淡紫色或蓝色光。"
+  },
+  {
+    "question_id": "PHY2_037_xk",
+    "type": "简答题",
+    "knowledge_point": "等倾干涉，牛顿环",
+    "difficulty": "中等",
+    "question": "在傍轴条件下等倾条纹的半径与干涉条纹级数有什么样的依赖关系？牛顿环的情况怎样？两者有区别吗？你怎样把二者区分开来？",
+    "answer": "等倾条纹级数由中心向外递减，牛顿环级数由中心向外递增；厚度变化时条纹移动方向相反。",
+    "reasoning_process": "1. **等倾条纹：** 在傍轴条件下，$k$ 级等倾条纹的半径 $r_k$ 正比于倾角 $i_k$。由于 $\\cos i_k \\approx 1 - \\frac{i_k^2}{2} = \\frac{k\\lambda}{2nh}$，且中央（$i=0$）的级数为 $k_0 = \\frac{2nh}{\\lambda}$，可得 $i_k = \\sqrt{\\frac{(k_0-k)\\lambda}{nh}} \\propto \\sqrt{(k_0-k)\\lambda}$。由此可见，等倾条纹的半径与级数之差的平方根成正比。其特征是中心干涉级最高，由中心向外级数递减。\n2. **牛顿环：** 若凸透镜与平面玻璃中心不接触（距离为 $h_0$），第 $k$ 级条纹半径为 $r_k = \\sqrt{(k-k_0)R\\lambda} \\propto \\sqrt{(k-k_0)\\lambda}$，其中 $k_0 = \\frac{2h_0}{\\lambda}$ 为中央级数。牛顿环的半径也与级数之差的平方根成正比，但中心级数最低，由中心向外级数递增。\n3. **区别与区分：** 静态下两者条纹形状极其相似，难以区分。但可以通过改变薄膜厚度来判断：当薄膜厚度略微减小时，等倾条纹会向中央收缩，而牛顿环则向外扩展。"
+  },
+  {
+    "question_id": "PHY2_038_xk",
+    "type": "简答题",
+    "knowledge_point": "等倾干涉，定域",
+    "difficulty": "容易",
+    "question": "如果薄膜上、下表面稍有夹角，我们能观察到等倾条纹吗？这时干涉条纹在哪里？",
+    "answer": "不能观察到严格的等倾条纹；干涉条纹定域在离薄膜表面较远的地方，形状为椭圆。",
+    "reasoning_process": "等倾条纹要求薄膜两个反射面严格平行。当薄膜上、下表面存在微小夹角时，由于不再满足平行的几何对称性，反射出的相干光不再是平行的。此时，干涉条纹的定域中心不再位于无穷远处，而是移动到离薄膜表面有限远的地方（可以在薄膜前方或后方）。由于光程差公式受厚度梯度影响发生改变，这些条纹不再是圆形的等倾条纹，而是呈现为椭圆形状。"
+  },
+  {
+    "question_id": "PHY2_039_xk",
+    "type": "分析判断题",
+    "knowledge_point": "光的相干性",
+    "difficulty": "容易",
+    "question": "判断下列说法是否正确：\n(1) 在面光源照明的光场中，各点（次波源）都是完全不相干的。\n(2) 在点光源照明的光场中，各点（次波源）都是完全相干的。\n(3) 在理想的单色点光源激发的光场中，各点（次波源）都是完全相干的。\n(4) 在相干体积内任意两点（次波源）都有较高程度的相干性。",
+    "answer": "(1) 错误；(2) 错误；(3) 正确；(4) 正确。",
+    "reasoning_process": "1. **面光源：** 虽然光源扩展会降低空间相干性，但在相干孔径角内或相干长度内的两点仍具有相干性。认为各点完全不相干是错误的。\n2. **点光源：** 点光源具有极高的空间相干性（横向），但时间相干性（纵向）仍受光源单色性的限制。距离超过相干长度的两点是不相干的。\n3. **理想单色点光源：** 同时具备了理想的空间相干性（点源）和时间相干性（单色光波列无限长），因此其光场中任意两点都是完全相干的。\n4. **相干体积：** 相干体积定义为以相干面积为底、相干长度为高的空间区域。根据定义，该体积内任意两点在横向上位于相干空间角内，在纵向上位于相干长度内，因此具有较高的相干程度。"
+  },
+  {
+    "question_id": "PHY2_040_xk",
+    "type": "简答题",
+    "knowledge_point": "多光束干涉，衬比度",
+    "difficulty": "中等",
+    "question": "试分别回答：在高反射率和低反射率的情况下，观察透射和反射条纹哪个有利？为什么？",
+    "answer": "高反射率下观察透射条纹有利；低反射率下观察反射条纹有利。",
+    "reasoning_process": "1. **高反射率 ($R \\approx 1$)：** 根据透射公式 $I_T = I_0 / [1 + F \\sin^2(\\delta/2)]$，当 $R$ 很大时，精细度常数 $F = 4R/(1-R)^2$ 极大。这使得透射光强对相位差极其敏感，亮纹变得非常细锐。尽管反射条纹也有细锐暗线，但透射条纹的亮纹锐度在精密光谱测量中更具优势。\n2. **低反射率 ($R \\ll 1$)：** 此时透射光强公式简化为 $I_T \\approx I_0 [1 - 2R(1 - \\cos \\delta)]$，反射光强为 $I_R \\approx 2RI_0 (1 - \\cos \\delta)$。透射光中包含极强的背景光，导致条纹衬比度非常低，难以辨认。而反射光背景极弱，且干涉项相对显著，其条纹衬比度接近1。因此，低反射率时观察反射条纹效果更好。"
+  },
+  {
+    "question_id": "PHY2_041_xk",
+    "type": "简答题",
+    "knowledge_point": "法布里-珀罗干涉仪",
+    "difficulty": "中等",
+    "question": "为什么法布里-珀罗干涉仪是高分辨本领、小量程的分光仪器？其自由光谱范围受什么因素制约？",
+    "answer": "高分辨来源于高反射率和高干涉级；自由光谱范围与腔长成反比，高分辨率要求大腔长，限制了量程。",
+    "reasoning_process": "1. **高分辨本领：** 法-珀仪的分辨本领 $R = \\pi k \\sqrt{R} / (1-R)$。由于其腔长 $h$ 很大（长程干涉），干涉级 $k$ 非常高（可达 $10^5$ 量级），再加上镀膜的高反射率 $R$，使得仪器能区分极其微小的波长差异。\n2. **量程限制：** 自由光谱范围 $\\Delta\\lambda \\approx \\lambda^2 / 2h$ 是指相邻干涉级不发生重叠的最大波长范围。公式显示 $\\Delta\\lambda$ 与腔长 $h$ 成反比。为了获得极高的分辨率，必须增加腔长 $h$，但这会导致自由光谱范围（量程）变得极窄。因此，法-珀仪是一种以牺牲量程为代价换取极高分辨率的精密仪器。"
+  },
+  {
+    "question_id": "PHY2_042_xk",
+    "type": "简答题",
+    "knowledge_point": "衍射定义",
+    "difficulty": "容易",
+    "question": "“衍射”一词，旧译“绕射”，你觉得这名词有什么不确切的地方？",
+    "answer": "“绕射”仅强调偏离直线传播，而忽略了衍射是子波干涉叠加导致强度重新分布的本质。",
+    "reasoning_process": "根据惠更斯-菲涅耳原理，衍射不仅发生在几何阴影区，也发生在几何照明区。其物理本质是波阵面上的各点作为子波源产生子波，这些子波在空间发生相干叠加，导致光强在空间重新分布。旧译名“绕射”字面上给人一种光只是“绕过”障碍物的印象，未能涵盖干涉叠加这一核心机制，且无法解释照明区内的条纹现象，因此不够确切。"
+  },
+  {
+    "question_id": "PHY2_043_xk",
+    "type": "分析题",
+    "knowledge_point": "波长与衍射效应",
+    "difficulty": "容易",
+    "question": "隔着山可以听到中波段的电台广播，而电视广播却很容易被山甚至高大的建筑物挡住，这是什么缘故？",
+    "answer": "中波波长与障碍物线度接近，衍射显著；电视信号波长极短，近乎直线传播。",
+    "reasoning_process": "波动效应（衍射）的显著程度取决于波长与障碍物尺寸的比值。1. **中波电台：** 载波波长约为数百米，与大山或建筑物的高度在一个数量级。因此，电磁波能产生显著的衍射现象，“绕”过障碍物传播。2. **电视广播：** 载波属于超短波（微波），波长在分米或米量级，远小于大山等障碍物的尺寸。在这种情况下，衍射效应极不明显，电磁波表现出极强的直线传播特性，遇到障碍物会被反射或吸收，形成信号盲区。"
+  },
+  {
+    "question_id": "PHY2_044_xk",
+    "type": "简答题",
+    "knowledge_point": "巴比涅定理",
+    "difficulty": "中等",
+    "question": "关于两个互补屏在同一场点的衍射强度之间的关系，有人说一个强度是亮（暗）的，则另一个强度是暗（亮）的。这样理解衍射巴比涅定理对吗？",
+    "answer": "不对。除几何像点外，互补屏在场点的衍射强度相等。",
+    "reasoning_process": "巴比涅定理表述为：一对互补屏 $a$、$b$ 在衍射场中复振幅之和等于自由光场的复振幅，即 $\\tilde{U}_a + \\tilde{U}_b = \\tilde{U}_0$。1. 在几何光学像点（即 $\\tilde{U}_0 \\neq 0$ 的地方），两者相消干涉。2. 在几何阴影区（即 $\\tilde{U}_0 = 0$ 的地方），有 $\\tilde{U}_a = -\\tilde{U}_b$，对应的强度 $I_a = |\\tilde{U}_a|^2 = |-\\tilde{U}_b|^2 = I_b$。因此，除了几何像点外，两个互补屏产生的衍射图样强度分布是完全相同的，而不是亮暗相反。"
+  },
+  {
+    "question_id": "PHY2_045_xk",
+    "type": "分析题",
+    "knowledge_point": "菲涅耳圆孔衍射",
+    "difficulty": "中等",
+    "question": "在菲涅耳圆孔衍射实验中，从近到远移动接收屏幕，中心强度始终作亮暗交替的变化吗？接收屏幕在哪些位置上中心强度达到极大？",
+    "answer": "并非始终交替；当距离大到使圆孔内只包含不到一个半波带时，变化停止。当波带数为奇数时强度达到极大。",
+    "reasoning_process": "圆孔包含的半波带数 $k = \\frac{\\rho^2}{\\lambda} (\\frac{1}{R} + \\frac{1}{b})$。当屏幕移动使 $b$ 增大时，$k$ 逐渐减小。1. 当 $k$ 为奇数时（$1, 3, 5 \\dots$），中心为亮斑。2. 当 $k$ 为偶数时（$2, 4, 6 \\dots$），中心为暗斑。因此在 $k$ 较大时，中心强度随距离增加呈亮暗交替变化。3. 当 $b$ 增大到使 $b > \\rho^2/\\lambda$ 时，$k < 1$，此时无论如何增加 $b$，$k$ 都只会趋近于0而不再跨越整数。此后中心强度不再交替变化，而是单调衰减。其中 $k=1$ 时的极大值最为明亮。"
+  },
+  {
+    "question_id": "PHY2_046_xk",
+    "type": "简答题",
+    "knowledge_point": "菲涅耳波带片，光程",
+    "difficulty": "中等",
+    "question": "菲涅耳波带片的“物点”和“像点”之间是否有等光程性？",
+    "answer": "没有等光程性。",
+    "reasoning_process": "在理想透镜中，物点到像点的所有光路具有相等的相位（等光程性）。而菲涅耳波带片的工作原理不同：它通过遮挡特定区域，使得到达像点的衍射线的光程差正好是波长 $\\lambda$ 的整数倍。这意味着各条通过透明波带的光线虽然在像点同相叠加产生极大值，但它们之间实际走过的光程是不相等的。因此，波带片不满足几何光学中的等光程性原理。"
+  },
+  {
+    "question_id": "PHY2_047_xk",
+    "type": "简答题",
+    "knowledge_point": "菲涅耳波带片，次焦点",
+    "difficulty": "中等",
+    "question": "论证菲涅耳波带片除了具有主焦点外，还存在一系列次焦点。如果次焦点的光强确实比主焦点弱，主要是什么因素造成的？",
+    "answer": "次焦点位于 $f/3, f/5 \\dots$ 处；强度减弱主要受倾斜因子影响。",
+    "reasoning_process": "1. 次焦点的产生：当场点位于 $b = f/m$ ($m=3, 5, 7 \\dots$) 时，波带片的每一个透明环带内部恰好包含 $m$ 个半波带。其中 $m-1$ 个波带两两抵消，剩下一个波带的贡献。所有透明环带剩余的部分在场点同相叠加，形成一系列次焦点。2. 强度分析：若不计倾斜因子，每个半波带的面积除以距离所得的贡献是恒定的，理论上次焦点强度应与主焦点相当。但实际上，次焦点对应的衍射角 $\\theta$ 较大，菲涅耳倾斜因子 $f(\\theta)$ 会显著减小。因此，高次焦点的强度会随角度增大而急剧减弱。"
+  },
+  {
+    "question_id": "PHY2_048_xk",
+    "type": "简答题",
+    "knowledge_point": "单缝衍射，晶体结构分析",
+    "difficulty": "中等",
+    "question": "在夫琅禾费单缝衍射中，为保证在衍射场中至少出现强度的一级极小，单缝的宽度不能小于多少？为什么用X射线而不用可见光衍射晶体结构分析？",
+    "answer": "单缝宽度不能小于波长 $\\lambda$；因为晶格常量远小于可见光波长，无法产生衍射斑。",
+    "reasoning_process": "1. 单缝宽度限制： 第一暗纹出现的条件是 $\\sin \\theta = \\lambda / a$。由于 $|\\sin \\theta| \\leq 1$，要使该方程有解（即出现暗纹），必须满足 $\\lambda / a \\leq 1$，即 $a \\geq \\lambda$。如果缝宽小于一个波长，衍射斑将填满整个半空间，观察不到极小值点。2. 晶体分析：晶格常量 $d$ 约为 $10^{-10}\\text{ m}$ 量级。若使用可见光（$\\sim 10^{-7}\\text{ m}$），由于波长远大于障碍物间距，不会产生有效的衍射图样。而X射线的波长与晶格常量相当或更短，能产生清晰的衍射斑，从而用于分析晶体内部结构。"
+  },
+  {
+    "question_id": "PHY2_049_xk",
+    "type": "简答题",
+    "knowledge_point": "白光衍射",
+    "difficulty": "容易",
+    "question": "在白光照明下夫琅禾费衍射的0级斑中心是什么颜色？0级斑外围呈什么颜色？",
+    "answer": "中心为白色；外围呈彩色，且短波（紫蓝）偏里，长波（红）偏外。",
+    "reasoning_process": "白光由多种单色光组成。1. 中心颜色：各波长的0级衍射极大都重合在几何光学像点位置，此处相位差均为零，发生所有波长的同相同步叠加，因此中心依然呈现白色。2. 外围颜色: 根据衍射反比关系，衍射斑的大小正比于波长 $\\lambda$。红光的0级斑范围最大，紫光最小。这导致在0级斑的外边缘处，短波成分先消失，长波成分残留。因此，从中心向外看，边缘会呈现出一圈不饱和的彩色，表现为蓝紫色在内测，红色在外侧的色彩分布。"
+  },
+  {
+    "question_id": "PHY2_050_xk",
+    "type": "问答题",
+    "knowledge_point": "光栅分辨本领",
+    "difficulty": "中等",
+    "question": "(1) 试由 $R = Nk$ 导出光栅分辨本领公式的另一形式：$R = D \\sin \\theta / \\lambda$，其中 $D = Nd$。$D \\sin \\theta$ 的物理意义是什么？\n(2) 现代光栅的最大宽度 $D \\sim 25\\text{ cm}$，在波长 $0.5\\text{ \\mu m}$ 附近其极限分辨本领及相应的可分辨的最小波长 $\\delta \\lambda$ 各是多少？\n(3) 有人认为光栅光谱仪的分辨本领受照明光束的时间相干性限制，你觉得这看法有道理吗？",
+    "answer": "(1) $R = \\frac{D \\sin \\theta}{\\lambda}$，意义为光栅两端边缘上两衍射单元在 $k$ 级方向上的光程差；(2) $R_{\\text{max}} = 5 \\times 10^5$，$\\delta \\lambda = 1.0 \\times 10^{-2} \\text{ \\AA}$；(3) 没有道理。",
+    "reasoning_process": "1. **公式推导**：由光栅方程 $d \\sin \\theta = k \\lambda$ 可得 $k = \\frac{d \\sin \\theta}{\\lambda}$。代入分辨本领定义式 $R = Nk$，得到 $R = N \\cdot \\frac{d \\sin \\theta}{\\lambda}$。由于 $D = Nd$ 为光栅的有效宽度，故 $R = \\frac{D \\sin \\theta}{\\lambda}$。$D \\sin \\theta$ 表示光栅最左端和最右端发出的光在 $\\theta$ 方向上的总光程差。\n2. **数值计算**：取 $\\sin \\theta = 1$ 得到极限分辨本领 $R_{\\text{max}} = \\frac{D}{\\lambda}$。代入 $D = 0.25\\text{ m}$，$\\lambda = 5 \\times 10^{-7}\\text{ m}$，计算得 $R_{\\text{max}} = \\frac{0.25}{5 \\times 10^{-7}} = 5 \\times 10^5$。最小可分辨波长间隔 $\\delta \\lambda = \\frac{\\lambda}{R_{\\text{max}}} = \\frac{0.5 \\text{ \\mu m}}{5 \\times 10^5} = 10^{-6} \\text{ \\mu m} = 1.0 \\times 10^{-2} \\text{ \\AA}$。\n3. **相干性分析**：光栅是分光仪器，不同波长成分在焦面上对应不同方位，彼此不发生干涉叠加。这种“选频”效应不依赖于照明光的时间相干性（相干长度）。"
+  },
+  {
+    "question_id": "PHY2_051_xk",
+    "type": "证明题",
+    "knowledge_point": "光栅色散本领",
+    "difficulty": "简单",
+    "question": "导出光栅角色散本领公式的另一形式：$D_\\theta = \\tan \\theta / \\lambda$。",
+    "answer": "$D_\\theta = \\frac{\\tan \\theta}{\\lambda}$",
+    "reasoning_process": "根据光栅方程 $d \\sin \\theta = k \\lambda$，两边对 $\\lambda$ 求导：$d \\cos \\theta \\frac{\\text{d}\\theta}{\\text{d}\\lambda} = k$。由此可得角色散本领 $D_\\theta = \\frac{\\text{d}\\theta}{\\text{d}\\lambda} = \\frac{k}{d \\cos \\theta}$。再将光栅方程变形为 $\\frac{k}{d} = \\frac{\\sin \\theta}{\\lambda}$ 代入上式，得 $D_\\theta = \\frac{\\sin \\theta}{\\lambda \\cos \\theta} = \\frac{\\tan \\theta}{\\lambda}$。"
+  },
+  {
+    "question_id": "PHY2_052_xk",
+    "type": "证明题",
+    "knowledge_point": "棱镜光谱仪色散本领",
+    "difficulty": "困难",
+    "question": "导出棱镜光谱仪角色散本领公式：$D_\\theta = \\frac{b}{a} \\frac{\\text{d}n}{\\text{d}\\lambda}$。",
+    "answer": "$D_\\theta = \\frac{b}{a} \\frac{\\text{d}n}{\\text{d}\\lambda}$",
+    "reasoning_process": "棱镜光谱仪工作在最小偏向角 $\\delta_{\\text{min}}$ 状态。由折射定律及几何关系可知 $n = \\frac{\\sin[(\\alpha + \\delta_{\\text{min}})/2]}{\\sin(\\alpha/2)}$。对该式关于 $\\lambda$ 求导可得角色散本领的中间形式 $D_\\theta = \\frac{2 \\sin(\\alpha/2)}{\\cos[(\\alpha + \\delta_{\\text{min}})/2]} \\frac{\\text{d}n}{\\text{d}\\lambda}$。在最小偏向角位置，光路左右对称，设入射/出射光束宽度为 $a$，棱镜底宽为 $b$，由几何关系有 $b = 2l \\sin(\\alpha/2)$ 且 $a = l \\sin \\beta$，其中 $\\sin \\beta = \\cos[(\\alpha + \\delta_{\\text{min}})/2]$。代入后即得 $D_\\theta = \\frac{b}{a} \\frac{\\text{d}n}{\\text{d}\\lambda}$。"
+  },
+  {
+    "question_id": "PHY2_053_xk",
+    "type": "问答题",
+    "knowledge_point": "单色仪单色性",
+    "difficulty": "中等",
+    "question": "色散型光谱仪加上出射狭缝就成为一台单色仪。由光栅光谱仪做成的单色仪，其输出光束的单色性好坏由什么因素决定？怎样才算充分利用了光栅元件的分辨本领？增大光栅的宽度 $D = Nd$，能改善输出光束的单色性吗？",
+    "answer": "由色分辨本领决定；需使狭缝宽度与谱线半角宽对应的线距离匹配；能改善。",
+    "reasoning_process": "单色性的优劣取决于仪器的色分辨本领 $R$。要充分利用光栅的分辨本领，出射狭缝的宽度应与由于衍射引起的谱线本征宽度（半角宽）相匹配。若增大光栅宽度 $D = Nd$（在光栅常数 $d$ 不变时），刻槽总数 $N$ 增加。根据 $R = Nk$，色分辨本领提高，从而允许使用更细的狭缝来获得更高单色性的光，对改善单色性是有利的。"
+  },
+  {
+    "question_id": "PHY2_054_xk",
+    "type": "证明题",
+    "knowledge_point": "傅里叶光学相位分析",
+    "difficulty": "中等",
+    "question": "试证明在傍轴条件下黑白光栅在傅氏面上 $\\pm n$ 级衍射斑相对 $0$ 级的相位为 $\\varphi_{\\pm n} = -k \\frac{(na)^2}{2z}$，其中 $z$ 为傅氏面到像面的距离，$a$ 为相邻衍射斑中心间的距离。",
+    "answer": "$\\varphi_{\\pm n} = -k \\frac{(na)^2}{2z}$",
+    "reasoning_process": "根据物像等光程性原理，中心点到像中心的光程相等。设傅氏面上 $0$ 级斑为 $S_0$，$\\pm n$ 级斑为 $S_{\\pm n}$，像中心为 $Q'$。相对相位差 $\\varphi_{\\pm n} = \\frac{2\\pi}{\\lambda} [(\\text{光程}_{\\pm n}) - (\\text{光程}_0)]$。在傍轴条件下，利用几何距离公式 $\\overline{S_{\\pm n}Q'} = \\sqrt{z^2 + (na)^2} \\approx z + \\frac{(na)^2}{2z}$。代入相位计算公式，经整理得 $\\varphi_{\\pm n} = -\\frac{2\\pi}{\\lambda} \\cdot \\frac{(na)^2}{2z}$。定义波矢 $k = 2\\pi/\\lambda$，即得 $\\varphi_{\\pm n} = -k \\frac{(na)^2}{2z}$。"
+  },
+  {
+    "question_id": "PHY2_055_xk",
+    "type": "问答题",
+    "knowledge_point": "时间频谱与空间频谱",
+    "difficulty": "中等",
+    "question": "通常在一台光栅光谱仪的焦面上获得的光谱是时间频谱还是空间频谱？",
+    "answer": "时间频谱。",
+    "reasoning_process": "光栅光谱仪利用色散效应，将入射光中包含的不同波长（频率）成分在焦面上按角度分开。焦面上观察到的同一级主极大随位置的变化反映的是入射光能量随波长（即频率）的分布，因此是时间频谱。而空间频谱则是指同一波长光在不同衍射级次上的分布，反映的是物体透过率函数的空间分布信息。"
+  },
+  {
+    "question_id": "PHY2_056_xk",
+    "type": "问答题",
+    "knowledge_point": "空间滤波",
+    "difficulty": "中等",
+    "question": "经空间滤波器改造了的频谱是否为像函数的空间频谱？试论证你的结论。",
+    "answer": "是。",
+    "reasoning_process": "空间滤波器位于透镜的后焦面，即傅里叶变换面。根据阿贝成像原理，像函数是经过滤波器选择后的频率分量重新叠加的结果。如果不存在滤波器，像函数完全复原物函数，其频谱即为原物的频谱。插入滤波器后，到达像面的光场只包含通过滤波器的频率成分。因此，在像面上产生的复振幅分布（像函数）所对应的傅里叶变换正好就是被滤波器改造后的那一分布。所以，改造后的频谱就是像函数的空间频谱。"
+  },
+  {
+    "question_id": "PHY2_057_xk",
+    "type": "问答题",
+    "knowledge_point": "相衬法原理",
+    "difficulty": "中等",
+    "question": "(1) 在相衬法中 $\\varphi(x, y) \\ll 1$ 这个条件有什么好处？\n(2) 为了保证 $\\varphi(x, y)$ 小，是否要求样品厚度 $d$ 必须很小？在什么条件下样品可以比较厚，同时又能做到 $\\varphi(x, y) \\ll 1$？\n(3) 一厚度均匀、折射率不均匀的相位型物体，$n(x, y) = n_0 + \\Delta n(x, y)$，最大相对起伏 $\\Delta n / n_0 \\approx 0.01$。为使 $\\varphi \\ll 1$ 满足，允许该样品的厚度有多大？",
+    "answer": "(1) 使光强分布与相位信息成线性关系；(2) 不一定，只要折射率/厚度起伏小即可；(3) $d \\ll 5.83\\text{ \\mu m}$。",
+    "reasoning_process": "1. **线性关系**：在小相位近似下，相衬显微镜输出的光强 $I$ 近似为 $I \\approx A^2 [1 \\pm 2 \\varphi]$。这使得观察者可以直接根据图像亮度线性推断出物的相位分布。\n2. **厚度与相位**：相位取决于 $nd$。相位起伏 $\\Delta \\varphi = \\frac{2\\pi}{\\lambda}(n \\Delta d + d \\Delta n)$。即使 $d$ 很大，只要厚度起伏 $\\Delta d$ 和折射率起伏 $\\Delta n$ 极小，$\\Delta \\varphi$ 仍可保持很小。\n3. **计算**：已知 $\\Delta d = 0$ 和 $\\Delta n = 0.01 n_0$。条件 $\\frac{2\\pi}{\\lambda} d \\Delta n \\ll 1$ 变为 $d \\ll \\frac{\\lambda}{0.02\\pi n_0}$。取波长 $0.55\\text{ \\mu m}$，$n_0 = 1.5$，计算得 $d \\ll 5.83\\text{ \\mu m}$。"
+  },
+  {
+    "question_id": "PHY2_058_xk",
+    "type": "问答题",
+    "knowledge_point": "相干光学处理-低通滤波",
+    "difficulty": "简单",
+    "question": "一张底片的本底有灰雾，用什么样的光学滤波器可以使之改善？",
+    "answer": "低通滤波器。",
+    "reasoning_process": "底片的本底灰雾（噪声）通常包含丰富的高频成分，而有意义的图像信息主要集中在低频部分。在相干光学系统中，将底片置于物平面，并在频谱面上放置一个光阑作为低通滤波器。通过截去高频噪声成分，可以显著降低输出图像中的灰雾干扰，提高图像质量。"
+  },
+  {
+    "question_id": "PHY2_059_xk",
+    "type": "问答题",
+    "knowledge_point": "全息术与平面镜成像对比",
+    "difficulty": "中等",
+    "question": "试将全息图波前的重建与平面镜成像进行比较，其中有何相同和不同之处？",
+    "answer": "相同点：记录/反射波前信息，具备立体感，局部包含整体信息。不同点：全息产生双像（孪生波），镜像对称性不同，全息像可移动缩放。",
+    "reasoning_process": "两者都能提供包含振幅和相位信息的物光波前，从而观察到立体图像。且两者都具有“局部包含整体”的特性（平面镜的碎片仍能成像）。不同之处在于：平面镜仅产生一个镜像对称的虚像；而全息图再现时会产生一对孪生波（物波和共轭波），且可以通过改变再现照明光的参数实现像的缩放或位移，这是平面镜无法做到的。"
+  },
+  {
+    "question_id": "PHY2_060_xk",
+    "type": "问答题",
+    "knowledge_point": "全息图信息分布",
+    "difficulty": "中等",
+    "question": "全息图破损就意味着丢失了一些信息，为什么再现的像仍然完整无缺？这时再现像中包含的信息没有减少吗？如果残留的全息图太小了，对再现像有什么影响？",
+    "answer": "因为每个局部都包含了物体的全息信息；包含的信息没有减少，但质量下降；太小时像会变暗且分辨率降低（细节模糊）。",
+    "reasoning_process": "全息照相通过干涉将物光波散布到整个记录介质上，每一局部都记录了物面上所有点的振幅和相位信息，因此破损不影响像的完整性。虽然物信息未丢失，但能量收集变少导致像变暗。此外，全息图面积减小相当于光学系统的孔径减小，会导致截止频率降低，滤除高频细节，使像的分辨率下降，变得模糊。"
+  },
+  {
+    "question_id": "PHY2_061_xk",
+    "type": "问答题",
+    "knowledge_point": "全息记录的线性与非线性",
+    "difficulty": "中等",
+    "question": "若制备全息图时未能做到线性冲洗，非线性效应会造成什么后果？",
+    "answer": "像的强度分布改变，并可能产生像的移位、缩放或畸变。",
+    "reasoning_process": "线性冲洗保证全息图透过率与曝光强度成正比。若发生非线性效应，全息图的屏函数系数不再是常量，而变成与坐标有关的复数。其模的变化会影响再现像各部分的相对强度分布；其相位的变化则等效于引入了额外的相位差，导致波前发生扭曲，产生位置移动、尺寸改变或其他复杂的几何畸变。"
+  },
+  {
+    "question_id": "PHY2_062_xk",
+    "type": "简答题",
+    "knowledge_point": "偏振的应用，布儒斯特角",
+    "difficulty": "中等",
+    "question": "在夏天，炽热的阳光照射柏油马路发出刺眼的反光，汽车司机需要戴上一副墨镜来遮挡。是否可用偏振片做眼镜，这比墨镜有什么优点？",
+    "answer": "可以使用偏振片做眼镜，其优点是能有选择地吸收眩光且不改变观察目标的色调。",
+    "reasoning_process": "1. **眩光的成因**：阳光（自然光）经路面反射后成为部分偏振光。当入射角接近布儒斯特角时，反射光的偏振度很高，近似为线偏振光。对于水平路面，反射光中强度极大的分量通常在水平方向，这种强光被称为眩光。\n2. **偏振镜的原理**：若使偏振片眼镜的透振方向沿竖直方向，则可以强烈吸收水平方向的眩光，而对来自其他目标的漫射光吸收相对较小。\n3. **对比墨镜的优点**：\n   - **选择性过滤**：墨镜只是均匀减弱所有光强，而偏振镜能针对性消除眩光。\n   - **色彩还原**：墨镜往往对波长有选择性吸收，会改变目标的色调；而偏振片仅对偏振态有选择，不会改变波长，从而保持色调真实。"
+  },
+  {
+    "question_id": "PHY2_063_xk",
+    "type": "简答题",
+    "knowledge_point": "圆偏振光的反射",
+    "difficulty": "中等",
+    "question": "一束右旋圆偏振光从空气正入射在玻璃板上，反射光的偏振态如何？",
+    "answer": "反射光变为左旋圆偏振光。",
+    "reasoning_process": "1. **振幅与相位关系**：圆偏振光可视为振幅相等、相位差为 $\\pm\\pi/2$ 的两个垂直分量的合成。\n2. **正入射分析**：正入射时无 $p$、$s$ 分量之分。由于反射时两个分量的相位变化情况相同（无论是否有半波损失），它们之间的相位差保持不变，因此旋转方向在空间中相对于光矢量的指向是不变的。\n3. **旋向定义**：圆偏振光的左右旋是相对于传播方向定义的。正入射时反射光与入射光传播方向相反。对于入射光而言是右旋的旋转方向，对于反向传播的反射光而言就变成了左旋。此结论与介质性质无关，具有普遍性。"
+  },
+  {
+    "question_id": "PHY2_064_xk",
+    "type": "简答题",
+    "knowledge_point": "隐失波（Evanescent Wave）",
+    "difficulty": "困难",
+    "question": "试从以下诸方面归纳一下隐失波的特点：\n(1) 波矢的虚实；\n(2) 有无周期性；\n(3) 等相面与等幅面；\n(4) 瞬时能流与平均能流。",
+    "answer": "(1) 波矢沿法向分量为纯虚数；(2) 具有时间周期性和界面切向空间周期性，法向无空间周期性；(3) 等相面与等幅面相互正交（非均匀波）；(4) 纵深方向平均能流为0，切向能流不为0。",
+    "reasoning_process": "1. **波矢性质**：全反射时，光疏介质一侧的透射波波矢在界面法向的分量变为纯虚数，即存在虚波矢，导致振幅随深度呈指数衰减。\n2. **周期性**：隐失波随时间仍有简谐振动周期，且沿界面切向保留了波的传播特性（空间周期性），但在垂直界面的法向上不再具有波动的空间周期性。\n3. **相位与振幅面**：隐失波的等相面垂直于界面，而等幅面平行于界面。两者正交，这种波被称为非均匀平面波。\n4. **能流分布**：在穿透深度内，沿法向（纵深方向）的瞬时能流由于相位关系虽不为零，但一个周期内的平均能流为零，意味着能量没有真正透射过去。而沿界面切向存在非零的平均能流，代表能量在界面附近的传输。"
+  },
+  {
+    "question_id": "PHY2_065_xk",
+    "type": "简答题",
+    "knowledge_point": "各向异性介质中的平面波表达式",
+    "difficulty": "困难",
+    "question": "令 $\\hat{s}$ 和 $\\hat{k}$ 分别代表光线和法线（波矢）方向的单位矢量。通常把平面波写成 $E=E_0 \\exp[-i(\\omega t - \\mathbf{k} \\cdot \\mathbf{r})] = E_0 \\exp[-i\\omega(t - \\frac{\\hat{k} \\cdot \\mathbf{r}}{v_N})]$，这里 $v_N$ 是法向速度。若把此式写成 $E=E_0 \\exp[-i\\omega(t - \\frac{\\hat{s} \\cdot \\mathbf{r}}{v_r})]$，式中 $v_r$ 为射线速度，对吗？为什么？",
+    "answer": "不对。因为 $\\hat{s} \\cdot \\mathbf{r} = \\text{常量}$ 在几何上代表一个垂直于射线矢量的平面，在各向异性介质中它并不代表等相面。",
+    "reasoning_process": "1. **等相面的定义**：平面波的等相面是由 $\\mathbf{k} \\cdot \\mathbf{r} = \\text{常量}$ 决定的，即等相面垂直于波矢方向 $\\hat{k}$。\n2. **射线与波矢的区别**：在各向异性介质（如晶体）中，射线速度 $\\mathbf{v}_r$（能量传播方向）与法向速度 $\\mathbf{v}_N$（波阵面传播方向）通常不重合，即 $\\hat{s}$ 与 $\\hat{k}$ 之间存在夹角。\n3. **几何矛盾**：若写成 $\\exp[-i\\omega(t - \\frac{\\hat{s} \\cdot \\mathbf{r}}{v_r})]$，则意味着等相面垂直于射线方向 $\\hat{s}$。但在晶体光学中，等相面始终垂直于波矢 $\\hat{k}$ 而非射线 $\\hat{s}$。因此该表达式在物理上是错误的。"
+  },
+  {
+    "question_id": "PHY2_066_xk",
+    "type": "计算题",
+    "knowledge_point": "圆偏振光的强度分析",
+    "difficulty": "简单",
+    "question": "圆偏振光中电矢量的大小为 $A$，它的强度 $I$ 是多少？经过偏振片后其强度 $I'$ 变为多少？（设偏振片是理想的，透射率为100%）",
+    "answer": "$I = 2A^2$；$I' = A^2$。",
+    "reasoning_process": "1. **强度定义**：圆偏振光可以看作是两个振幅均为 $A$、相位差为 $\\pi/2$、振动方向相互垂直的线偏振光的合成。由于这两个分量是非相干叠加（或理解为能量独立），总强度为各自强度之和：$I = A^2 + A^2 = 2A^2$。\n2. **偏振片作用**：圆偏振光通过偏振片时，只有平行于透振方向的分量能够通过。由于圆偏振光的对称性，无论偏振片如何旋转，其在透振方向上的电矢量分量振幅始终保持为 $A$（例如分解为 $x, y$ 分量，若偏振片沿 $x$ 轴，则只有 $x$ 分量通过）。\n3. **透射强度**：经过理想偏振片后，出射光变为线偏振光，其强度即为该分量的强度 $I' = A^2$。"
+  },
+  {
+    "question_id": "PHY2_067_xk",
+    "type": "简答题",
+    "knowledge_point": "偏振片与 $1/4$ 波片的组合应用",
+    "difficulty": "中等",
+    "question": "在一对正交的偏振片之间放一块 $\\lambda/4$ 片，以自然光入射。\n(1) 转动 $\\lambda/4$ 片的光轴方向时出射光的强度怎样变化？有无消光现象？\n(2) 如果有强度极大和消光现象，它们在 $\\lambda/4$ 片的光轴处于什么方向时出现？这时从 $\\lambda/4$ 片射出的光的偏振状态如何？",
+    "answer": "(1) 强度随转动而变，有极大值和消光现象。(2) 光轴与第一偏振片透振方向成 $45^\\circ$ 时极大，此时为圆偏振光；光轴平行或垂直于第一偏振片时消光，此时为线偏振光。",
+    "reasoning_process": "1. **初始状态**：自然光经第一块偏振片后变为线偏振光。\n2. **消光分析**：当 $\\lambda/4$ 片的光轴平行或垂直于入射线偏振光的振动方向时，光只沿一个主轴方向振动，不产生相位差改变，出射仍为线偏振光。由于第二块偏振片与第一块正交，该线偏振光被完全阻挡，产生消光。\n3. **极大值分析**：当 $\\lambda/4$ 片的光轴与入射线偏振方向成 $45^\\circ$ 时，产生的 $o$ 光和 $e$ 光振幅相等且相位差为 $\\pi/2$，出射光变为圆偏振光。圆偏振光在任何方向投影分量相等，经过第二块偏振片时强度达到极大。\n4. **中间过程**：在其他角度下，出射光为椭圆偏振光，经过第二偏振片后强度介于两者之间。"
+  },
+  {
+    "question_id": "PHY2_068_xk",
+    "type": "简答题",
+    "knowledge_point": "干涉的定义",
+    "difficulty": "简单",
+    "question": "在偏振光实验中，有时并没有观察到干涉条纹，你认为这时是否发生了光的干涉？为什么？",
+    "answer": "发生了干涉。因为凡是波叠加时总强度不等于各波强度之和的现象，都是干涉现象，干涉条纹并非必要条件。",
+    "reasoning_process": "1. **干涉的普遍定义**：两列相干波叠加时的总强度为 $I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$。其中最后一项是干涉项。\n2. **条纹的本质**：干涉条纹是由于相位差 $\\delta$ 随空间位置变化而产生的强弱分布。如果在观察区域内相位差 $\\delta$ 恒定（如等厚干涉的中心区域或某些均匀介质中），强度会发生均匀的增强或减弱。\n3. **结论**：只要总强度不等于 $I_1 + I_2$，就说明干涉项在起作用，物理本质上已经发生了干涉。"
+  },
+  {
+    "question_id": "PHY2_069_xk",
+    "type": "简答题",
+    "knowledge_point": "针孔成像",
+    "difficulty": "容易",
+    "question": "为什么透过茂密树叶缝隙投射到地面的阳光形成圆形光斑？你能设想在日偏食的情况下这种光斑的形状会有变化吗？",
+    "answer": "光斑的形状与太阳形状相似，日偏食时光斑形状会随之改变。",
+    "reasoning_process": "这与针孔成像的原理是一样的。由于树叶间的缝隙很小，可以看作小孔。根据光沿直线传播的规律，地面上的光斑实际上是太阳经过小孔所成的像。像的形状与发光体（太阳）的形状相似，而与小孔（树叶缝隙）的形状无关。因此，阳光投射到地面形成圆形光斑。当日偏食发生时，太阳变为月牙形或缺角形，此时地面上光斑的形状也将随之改变，变成与当时太阳形状相似的图形。"
+  },
+  {
+    "question_id": "PHY2_070_xk",
+    "type": "简答题",
+    "knowledge_point": "平面镜反射",
+    "difficulty": "容易",
+    "question": "试说明，为什么远处灯火在微波荡漾的湖面形成的倒影拉得很长。",
+    "answer": "由于湖面细浪形成的一系列小平面镜在不同高度成像，形成上下拉长的倒影。",
+    "reasoning_process": "湖中灯火的倒影是灯光经湖面反射所成的像。当湖面平静如镜时，灯光将在水面下对称处形成一个轮廓清晰的点像。当微风吹过时，平静的湖面泛起层层细浪，每一层细浪都可以看作是一个个倾斜程度不同的小平面镜。在每一块小镜面下方与灯火对称处，都会出现一个灯影。由于这些小镜面的位置和倾斜角不在同一平面上，它们所成的像的位置也各不相同。对于观察者而言，由于水面大体上是水平的，通过灯和眼睛作一竖直平面，只有这一平面附近的像点发出的光能进入眼睛。因此，我们看到的是灯下方一系列像点的集合，即一个上下拉长的倒影。"
+  },
+  {
+    "question_id": "PHY2_071_xk",
+    "type": "简答题",
+    "knowledge_point": "大气折射",
+    "difficulty": "容易",
+    "question": "为什么日出和日落时太阳看起来是扁的？",
+    "answer": "由于大气折射导致的蒙气差，太阳下边缘视高度比上边缘抬高得更多，使其看起来变扁。",
+    "reasoning_process": "这是由于太阳发出的光线穿过地球周围大气层时发生的折射（蒙气差）造成的。大气的折射率随高度增加而减小。当日出或日落时，太阳光斜向进入大气层并向地面弯曲，导致我们看到的太阳位置比实际位置高。由于太阳下边缘比上边缘更接近地平线，其光线在大气中传播路径更长，受到的折射更显著，因此下边缘的视高度比上边缘抬高得更多。这种高度压缩的效果使得太阳在视觉上呈现出扁圆形的形状。"
+  },
+  {
+    "question_id": "PHY2_072_xk",
+    "type": "简答题",
+    "knowledge_point": "惠更斯原理",
+    "difficulty": "容易",
+    "question": "惠更斯原理是否适用于空气中的声波？你是否期望声波也服从和光波一样的反射定律和折射定律？",
+    "answer": "适用。声波也服从反射定律和折射定律。",
+    "reasoning_process": "惠更斯原理是关于波面传播的普适理论，它适用于任何波动过程，无论是机械波（如声波）还是电磁波（如光波）。根据惠更斯原理，只要知道某一时刻的波面，就可以通过作图法求出下一时刻的波面，并据此导出波的反射定律和折射定律。因此，声波同样服从反射和折射定律。不过，由于声波的波长（通常在厘米到米量级）比光波（百纳米量级）大得多，当声波遇到尺寸较小的反射面或折射面时，衍射现象会非常严重，这在观察实验中需要特别注意。"
+  },
+  {
+    "question_id": "PHY2_073_xk",
+    "type": "简答题",
+    "knowledge_point": "透镜成像",
+    "difficulty": "容易",
+    "question": "若把透镜下半部遮住，我们在屏上会看到什么现象？",
+    "answer": "屏上仍能得到完整的像，只是像的亮度变暗。",
+    "reasoning_process": "透镜成像的原理是物体上每一个点发出的无数条光线经透镜折射后会聚于一点。当遮住透镜的下半部分时，虽然来自物体下半部分的光线被挡住，但物体上每一个点发出的光线中，仍有通过透镜上半部分的光线能够到达屏上并会聚成像。因此，屏上依然能够形成完整的像。但是，由于参与成像的光通量减少了一半，导致屏上像的亮度会明显变暗。"
+  },
+  {
+    "question_id": "PHY2_074_xk",
+    "type": "简答题",
+    "knowledge_point": "理想光具组的主面",
+    "difficulty": "中等",
+    "question": "非望远系统中可能有一对以上的主面吗？",
+    "answer": "不可能。",
+    "reasoning_process": "轴对称的理想光具组具有这样一条性质：只要在两对共轭面内的横向放大率相等，则该系统的横向放大率处处相等，即此系统必然是一个望远系统。对于非望远系统，除了特定的一对共轭面外，其他共轭面的横向放大率各不相同。主面定义为横向放大率 $\\beta = 1$ 的共轭面。根据上述性质，在非望远系统中，不可能存在多于一对横向放大率等于1的共轭面。因此，非望远系统中不可能有一对以上的主面。"
+  },
+  {
+    "question_id": "PHY2_075_xk",
+    "type": "简答题",
+    "knowledge_point": "理想光具组的几何相似性",
+    "difficulty": "中等",
+    "question": "一般说来，理想光具组能保持不与光轴垂直的平面内几何图形的相似性吗？",
+    "answer": "一般不能。但在望远系统中可以保持相似性。",
+    "reasoning_process": "根据共轴理想光具组的性质，在垂直于光轴的同一平面内，各点的横向放大率是相等的。然而，在垂直于光轴的不同平面之间，横向放大率一般是不相等的。当一个几何图形位于不与光轴垂直的平面内时，该图形上各点到透镜的距离（物距）不同，从而对应的横向放大率也不同。由于各部分放大比例不一致，物像之间就无法保持几何图形的相似性。唯一例外的是望远系统，因为望远系统的横向放大率为常数，不随物距改变，因此在望远系统中，即使是不垂直于光轴的平面内的图形仍能保持相似。"
+  },
+  {
+    "question_id": "PHY2_076_xk",
+    "type": "简答题",
+    "knowledge_point": "光学仪器调节",
+    "difficulty": "中等",
+    "question": "为什么调节显微镜时镜筒作整体移动，而不改变筒长，而调节望远镜时则需要调节目镜相对于物镜的距离？",
+    "answer": "显微镜通过改变物距调焦更敏感，望远镜通过调节目镜改变中间像的物距调焦更有效。",
+    "reasoning_process": "1. **显微镜：** 观察的是近处微小物体，其焦深极小。物距的微小变化会非常显著地影响中间像的位置。通过整体移动镜筒来微调物距，可以快速且精确地使物平面落在物镜的物方焦面附近，从而实现调焦。2. **望远镜：** 观察的是无穷远处的物体，其焦深很大。即使整体移动镜筒（改变物距），中间像的位置几乎不发生变化，因此无法达到调焦目的。由于望远镜的中间像位于物镜焦点附近，通过移动目镜改变目镜与中间像之间的相对距离（即改变目镜的物距），可以有效地调节出射光的平行度，从而适应不同观察者的视力或不同距离的景物。"
+  },
+  {
+    "question_id": "PHY2_077_xk",
+    "type": "简答题",
+    "knowledge_point": "测量光学仪器原理",
+    "difficulty": "中等",
+    "question": "测距显微镜是利用镜筒的平移来测量微小长度的，能够利用望远镜筒的平移来测量远处物体的长度吗？为什么？",
+    "answer": "不能。望远镜观察无穷远物体，镜筒横移不改变入射光方向，中间像不移动。",
+    "reasoning_process": "测距显微镜是通过测量中间像移过刻度叉丝的距离来计算被测物长度的。当显微镜筒垂直于光轴横移 $\\Delta y$ 时，由于物距有限，物点发出的发散光束在物镜上的入射角度发生变化，中间像相对于叉丝会移动 $\\Delta y' = V \\Delta y$（$V$ 为物镜横向放大率）。而望远镜观察的物体在无穷远处，物体上每个点射向物镜的光都是平行光。当镜筒作横向平移时，由于入射平行光的方向没有改变，根据理想成像性质，由物镜所成的中间像在焦面上的位置也不会发生改变。因此，无法通过平移望远镜筒来测量远处物体的长度。"
+  },
+  {
+    "question_id": "PHY2_078_xk",
+    "type": "分析题",
+    "knowledge_point": "杨氏双缝干涉",
+    "difficulty": "中等",
+    "question": "在杨氏实验中，如果使单缝（光源缝）向上作微小移动，则干涉条纹将向哪个方向移动？条纹间距是否改变？",
+    "answer": "条纹向下移动，条纹间距不变。",
+    "reasoning_process": "在杨氏双缝干涉实验中，单缝 $S$ 发出的光波到达双缝 $S_1$ 和 $S_2$。当 $S$ 位于中轴线上时，$S$ 到 $S_1$ 和 $S_2$ 的距离相等，中央明纹位于屏幕正中心。当 $S$ 向上移动时，光波到达 $S_1$ 的路径变短，到达 $S_2$ 的路径变长，这意味着 $S_1$ 处的相位领先于 $S_2$。为了补偿这个相位差，使得两束光在屏幕上相遇时的光程差再次为零（即形成新的中央明纹），相遇点必须向下移动，使得到达 $S_1$ 的路径变长，到达 $S_2$ 的路径变短。因此，整个干涉图样会向下平移。由于双缝间距 $d$、缝到屏的距离 $D$ 以及光波长 $\\lambda$ 均未改变，根据公式 $\\Delta x = \\frac{D\\lambda}{d}$，条纹间距保持不变。"
+  },
+  {
+    "question_id": "PHY2_079_xk",
+    "type": "计算分析题",
+    "knowledge_point": "声波干涉",
+    "difficulty": "中等",
+    "question": "杨氏实验的原理可用于其它类型的波。设有两个频率为 $1000\\text{ Hz}$ 的相同小喇叭，相距 $2\\text{ m}$，放在一个露天平台上，在距喇叭 $10\\text{ m}$ 远处观察声强分布。试估算相邻两个最大声强处的间距。如果是频率为 $100\\text{ MHz}$ 的无线电波，则对应的间距又如何？（声速取 $340\\text{ m/s}$）",
+    "answer": "声波间距为 $1.7\\text{ m}$；无线电波间距为 $15\\text{ m}$。",
+    "reasoning_process": "利用双缝干涉条纹间距公式 $\\Delta x = \\frac{D\\lambda}{d}$，其中 $D = 10\\text{ m}$，$d = 2\\text{ m}$。\n1. **对于声波：** 频率 $f = 1000\\text{ Hz}$，声速 $v = 340\\text{ m/s}$。波长 $\\lambda = \\frac{v}{f} = \\frac{340}{1000} = 0.34\\text{ m}$。计算间距：$\\Delta x = \\frac{10 \\times 0.34}{2} = 1.7\\text{ m}$。\n2. **对于无线电波：** 频率 $f = 100\\text{ MHz} = 10^8\\text{ Hz}$，电磁波速 $c = 3 \\times 10^8\\text{ m/s}$。波长 $\\lambda = \\frac{c}{f} = \\frac{3 \\times 10^8}{10^8} = 3\\text{ m}$。计算间距：$\\Delta x = \\frac{10 \\times 3}{2} = 15\\text{ m}$。"
+  },
+  {
+    "question_id": "PHY2_080_xk",
+    "type": "简答题",
+    "knowledge_point": "薄膜干涉",
+    "difficulty": "容易",
+    "question": "雨后路面汽油层呈现彩色。当改变观察方向时，彩色颜色会变吗？为什么？",
+    "answer": "颜色会变。因为相位差随观察方向（倾角）的改变而改变，导致加强的光波长发生漂移。",
+    "reasoning_process": "水面上的汽油层呈现彩色是白光照射下油层薄膜干涉的结果。薄膜表面的两相干光线的光程差为 $\\Delta L = 2nh \\cos i$，对应的相位差为 $\\Delta \\phi = \\frac{2\\pi}{\\lambda} (2nh \\cos i)$。在膜厚 $h$ 不变的情况下，相位差 $\\Delta \\phi$ 与波长 $\\lambda$ 和观察倾角 $i$ 有关。白光包含多种波长成分，干涉叠加使得某些波长的光增强，某些削弱。由于相位差直接取决于倾角 $i$，当观察者改变观察方向时，倾角 $i$ 发生变化，导致加强的光波长也随之改变。因此，油膜呈现的彩色会随着观察方向的改变而发生变化。"
+  },
+  {
+    "question_id": "PHY2_081_xk",
+    "type": "简答题",
+    "knowledge_point": "薄膜干涉应用",
+    "difficulty": "容易",
+    "question": "在日常生活中你还能列举出哪些薄膜干涉现象？",
+    "answer": "铁屑表面的氧化层色彩、昆虫翅膀的色彩等。",
+    "reasoning_process": "薄膜干涉在生活中非常常见。例如：1. 车床切削下来的铁屑由于高温产生一层极薄的氧化层，光照下会呈现出深蓝或紫红等色彩。2. 某些昆虫（如蝴蝶、金龟子）翅膀上的绚丽色彩，往往不是由色素产生的，而是由于翅膀表面的细微薄膜结构产生的干涉效应。3. 肥皂泡在阳光下呈现的流动彩色条纹。4. 镜头表面的增透膜反射出的淡紫色或蓝色光。"
+  },
+  {
+    "question_id": "PHY2_082_xk",
+    "type": "计算题",
+    "knowledge_point": "薄透镜物像公式",
+    "difficulty": "中等",
+    "question": "在 $5\\text{cm}$ 焦距的凸透镜前放一小物，要想成虚像于 $25\\text{cm}$ 到无穷远之间，物应放在什么范围里？",
+    "answer": "$4.2\\text{cm} < s < 5\\text{cm}$",
+    "reasoning_process": "薄透镜物像公式：$\\frac{1}{s} + \\frac{1}{s'} = \\frac{1}{f}$。\n令像距 $s' = \\frac{fs}{s-f}$。已知 $f=5\\text{cm}$。\n要想成虚像，像距 $s' < 0$。题目要求像在 $25\\text{cm}$ 到无穷远之间，即 $-\\infty < s' < -25\\text{cm}$。\n由 $\\frac{1}{s} = \\frac{1}{f} - \\frac{1}{s'}$，当 $s' = -25\\text{cm}$ 时，$s = \\frac{5 \\times (-25)}{-25 - 5} = \\frac{-125}{-30} = \\frac{25}{6} \\approx 4.17\\text{cm}$。\n当 $s' \\to -\\infty$ 时，$s = f = 5\\text{cm}$。\n所以物应放在 $4.17\\text{cm} < s < 5\\text{cm}$ （即 $4.2\\text{cm} < s < 5\\text{cm}$）的范围内。"
+  },
+  {
+    "question_id": "PHY2_083_xk",
+    "type": "计算题",
+    "knowledge_point": "透镜成像规律",
+    "difficulty": "中等",
+    "question": "一光源与屏间的距离为 $1.6\\text{m}$，用焦距为 $30\\text{cm}$ 的凸透镜插在二者之间，透镜应放在什么位置，才能使光源成像于屏上？",
+    "answer": "透镜离光源 $120\\text{cm}$ 或 $40\\text{cm}$ 处",
+    "reasoning_process": "设光源离透镜距离为 $s$，则屏离透镜距离为 $s' = l - s$，其中 $l = 1.6\\text{m} = 160\\text{cm}$，焦距 $f = 30\\text{cm}$。\n根据高斯公式 $\\frac{1}{s} + \\frac{1}{l-s} = \\frac{1}{f}$，即 $s^2 - ls + lf = 0$。\n代入数据得 $s^2 - 160s + 160 \\times 30 = 0$。\n解方程得 $s = \\frac{160 \\pm \\sqrt{160^2 - 4 \\times 160 \\times 30}}{2} = 80 \\pm 40$。\n即 $s = 120\\text{cm}$ 或 $s = 40\\text{cm}$。"
+  },
+  {
+    "question_id": "PHY2_084_xk",
+    "type": "计算题",
+    "knowledge_point": "贝塞尔法测焦距，横向放大率",
+    "difficulty": "中等",
+    "question": "屏幕放在距物 $100\\text{cm}$ 远处，二者之间放一凸透镜。当前后移动透镜时，我们发现透镜有两个位置可以使物成像在屏幕上。测得这两个位置之间的距离为 $20.0\\text{cm}$，求：(1)这两个位置到幕的距离和透镜的焦距；(2)两个像的横向放大率。",
+    "answer": "(1) 到幕距离分别为 $40\\text{cm}$ 和 $60\\text{cm}$，焦距为 $24\\text{cm}$；(2) 横向放大率分别为 $-2/3$ 和 $-1.5$",
+    "reasoning_process": "(1) 设物与幕距离 $l = 100\\text{cm}$，透镜两次位置的间距 $\\Delta s = 20.0\\text{cm}$。\n利用贝塞尔法计算焦距：$f = \\frac{l^2 - (\\Delta s)^2}{4l} = \\frac{100^2 - 20^2}{4 \\times 100} = 24\\text{cm}$。\n透镜两位置的物距分别为 $s_{1,2} = \\frac{l \\pm \\Delta s}{2}$，即 $s_1 = 60\\text{cm}$， $s_2 = 40\\text{cm}$。\n这两个位置到幕的距离（像距）分别为 $l - s_1 = 40\\text{cm}$ 和 $l - s_2 = 60\\text{cm}$。\n(2) 横向放大率 $V = -\\frac{s'}{s}$。\n第一位置：$V_1 = -\\frac{40}{60} = -2/3 \\approx -0.67$；\n第二位置：$V_2 = -\\frac{60}{40} = -1.5$。"
+  },
+  {
+    "question_id": "PHY2_085_xk",
+    "type": "证明题",
+    "knowledge_point": "贝塞尔法测焦距条件",
+    "difficulty": "简单",
+    "question": "在固定的物与幕之间移动凸透镜。证明：要使透镜有两个成像位置，物和幕之间的距离必须大于四倍焦距。",
+    "answer": "见解析",
+    "reasoning_process": "由高斯公式 $\\frac{1}{s} + \\frac{1}{s'} = \\frac{1}{f}$，且 $s' = l - s$。\n将 $s'$ 代入可得一元二次方程 $s^2 - ls + lf = 0$。\n要使透镜在两个不同位置成像，物距 $s$ 必须有两个不同的实数解。\n根据一元二次方程有实数解的条件，其判别式必须大于零：$\\Delta = l^2 - 4lf > 0$。\n解得 $l > 4f$。因此证明了物和幕之间的距离必须大于四倍焦距。"
+  },
+  {
+    "question_id": "PHY2_086_xk",
+    "type": "计算题",
+    "knowledge_point": "组合光具组成像",
+    "difficulty": "困难",
+    "question": "一光学系统由一焦距为 $5.0\\text{cm}$ 的会聚透镜 $L_1$ 和一焦距为 $10.0\\text{cm}$ 的发散透镜 $L_2$ 组成，$L_2$ 在 $L_1$ 之右 $5.0\\text{cm}$。在 $L_1$ 之左 $10.0\\text{cm}$ 处置一小物，求经此光学系统后所成的像的位置和横向放大率。",
+    "answer": "像位于 $L_2$ 右方 $10.0\\text{cm}$ 处，总横向放大率为 $-2.0$",
+    "reasoning_process": "对于 $L_1$：物距 $s_1 = 10.0\\text{cm}$，焦距 $f_1 = 5.0\\text{cm}$。\n根据高斯公式 $\\frac{1}{s_1} + \\frac{1}{s_1'} = \\frac{1}{f_1}$，计算得出 $s_1' = \\frac{10.0 \\times 5.0}{10.0 - 5.0} = 10.0\\text{cm}$。\n$L_1$ 横向放大率 $V_1 = -\\frac{s_1'}{s_1} = -1.0$。\n对于 $L_2$：$L_1$ 所成的像对 $L_2$ 是虚物，透镜间距 $d = 5.0\\text{cm}$。\n物距 $s_2 = -(s_1' - d) = -5.0\\text{cm}$，焦距 $f_2 = -10.0\\text{cm}$。\n根据高斯公式 $\\frac{1}{s_2} + \\frac{1}{s_2'} = \\frac{1}{f_2}$，有 $\\frac{1}{s_2'} = \\frac{1}{-10.0} - \\frac{1}{-5.0} = \\frac{1}{10.0}$，即 $s_2' = 10.0\\text{cm}$。\n$L_2$ 横向放大率 $V_2 = -\\frac{s_2'}{s_2} = -\\frac{10.0}{-5.0} = 2.0$。\n总横向放大率为 $V = V_1 V_2 = -2.0$。"
+  },
+  {
+    "question_id": "PHY2_087_xk",
+    "type": "计算题",
+    "knowledge_point": "厚透镜，主面和焦点",
+    "difficulty": "中等",
+    "question": "求放在空气中玻璃球的焦距和主面、焦点的位置。已知玻璃球的半径为 $2.00\\text{cm}$，折射率为 $1.500$。",
+    "answer": "焦距为 $3.00\\text{cm}$；主面均位于球心；焦点在球心外 $3.00\\text{cm}$ 处",
+    "reasoning_process": "对于前后两个折射球面，其焦距分别为：\n$f_1 = \\frac{r_1}{n-1} = \\frac{2.00}{1.500-1} = 4.00\\text{cm}$， $f_1' = \\frac{nr_1}{n-1} = 6.00\\text{cm}$；\n$f_2 = \\frac{nr_2}{1-n} = \\frac{1.500 \\times (-2.00)}{1-1.500} = 6.00\\text{cm}$， $f_2' = \\frac{r_2}{1-n} = 4.00\\text{cm}$。\n两球面的光学间隔 $\\Delta = d - f_1' - f_2 = 4.00 - 6.00 - 6.00 = -8.00\\text{cm}$。\n玻璃球焦距：$f = -\\frac{f_1 f_2}{\\Delta} = -\\frac{4.00 \\times 6.00}{-8.00} = 3.00\\text{cm}$，同理 $f' = 3.00\\text{cm}$。\n物方与像方主面位置：$X_{H_1} = \\frac{f_1 d}{\\Delta} = \\frac{4.00 \\times 4.00}{-8.00} = -2.00\\text{cm}$， $X_{H_2}' = \\frac{f_2' d}{\\Delta} = -2.00\\text{cm}$。\n这说明两个主面皆位于各自折射面向内 $2.00\\text{cm}$ 的位置，即均与玻璃球球心重合。\n焦点位于主面（即球心）外 $3.00\\text{cm}$ 的位置。"
+  },
+  {
+    "question_id": "PHY2_088_xk",
+    "type": "计算题",
+    "knowledge_point": "牛顿公式",
+    "difficulty": "简单",
+    "question": "一架幻灯机的投影镜头的焦距为 $7.5\\text{cm}$，当幕由 $8\\text{m}$ 移至 $10\\text{m}$ 远时，镜头需移动多少距离？",
+    "answer": "需向画片移近 $0.014\\text{cm}$",
+    "reasoning_process": "利用牛顿公式 $x = \\frac{f^2}{x'}$。\n因为像距远大于焦距（$s' \\gg f$），故像到后焦点的距离 $x'$ 约等于像距 $s'$，即 $x_1' \\approx 800\\text{cm}$，$x_2' \\approx 1000\\text{cm}$。\n物距的变化量（透镜移动距离）$\\Delta x = x_2 - x_1 = f^2 \\left(\\frac{1}{x_2'} - \\frac{1}{x_1'}\\right)$。\n代入数据得出：$\\Delta x = 7.5^2 \\times \\left(\\frac{1}{1000} - \\frac{1}{800}\\right) = 56.25 \\times \\left(\\frac{-200}{800000}\\right) = -0.014\\text{cm}$。\n符号为负意味着镜头需要更靠近物（画片）$0.014\\text{cm}$。"
+  },
+  {
+    "question_id": "PHY2_089_xk",
+    "type": "计算题",
+    "knowledge_point": "眼睛的屈光度，透镜成像",
+    "difficulty": "简单",
+    "question": "某人对 $2.5\\text{m}$ 以外的物看不清，需配多少度的眼镜？另一人对 $1\\text{m}$ 以内的物看不清，需配怎样的眼镜？",
+    "answer": "前者需配 $-40$ 度的近视镜；后者需配 $300$ 度的远视镜",
+    "reasoning_process": "1. 对 $2.5\\text{m}$ 以外看不清，即远点为 $2.5\\text{m}$。他需要发散透镜将无穷远的物体成像于远点 $s' = -2.5\\text{m}$ 处。此时焦距 $f_1 = s' = -2.5\\text{m}$。眼镜度数 $P_1 = \\frac{1}{f_1} = \\frac{1}{-2.5} = -0.4\\text{D}$，即配 $-40$ 度的眼镜。\n2. 对 $1\\text{m}$ 以内看不清，即近点为 $1\\text{m}$。他需要会聚透镜将明视距离 $s = 0.25\\text{m}$ 的物体成像于近点 $s' = -1\\text{m}$ 处。根据公式 $\\frac{1}{s} + \\frac{1}{s'} = \\frac{1}{f_2}$，可得 $\\frac{1}{f_2} = \\frac{1}{0.25} - \\frac{1}{1} = 4 - 1 = 3\\text{D}$。即配 $+300$ 度的眼镜。"
+  },
+  {
+    "question_id": "PHY2_090_xk",
+    "type": "计算题",
+    "knowledge_point": "望远镜光束扩大，放大率",
+    "difficulty": "简单",
+    "question": "将望远镜倒过来可作激光扩束之用。设一望远镜物镜焦距为 $30\\text{cm}$，目镜焦距为 $1.5\\text{cm}$，它能使激光光束的直径扩大几倍？",
+    "answer": "$20$ 倍",
+    "reasoning_process": "望远镜的出射光瞳与入射光瞳直径之比 $\\frac{D'}{D}$ 在正常使用时等于 $\\frac{1}{|M|}$，其中 $M$ 是望远镜的视角放大率，$|M| = \\frac{f_O}{f_E}$。\n当倒过来用作激光扩束时，入射光束从目镜进入并从物镜射出，相当于原系统的逆过程。\n因此，出射光束与入射光束直径的比值为 $\\frac{D_{out}}{D_{in}} = |M| = \\frac{f_O}{f_E}$。\n代入数据得：$\\frac{D_{out}}{D_{in}} = \\frac{30\\text{cm}}{1.5\\text{cm}} = 20$。\n即激光光束直径扩大了 $20$ 倍。"
+  },
+  {
+    "question_id": "PHY2_091_xk",
+    "type": "计算题",
+    "knowledge_point": "消色差胶合透镜，透镜曲率半径",
+    "difficulty": "中等",
+    "question": "拟用冕牌玻璃 $K9(n_D=1.5163$, $n_F=1.5220$, $n_C=1.5139)$ 和重火石玻璃 $F4(n_D=1.6199$, $n_F=1.6321$, $n_C=1.6150)$ 来做消色差胶合透镜，焦距为100mm，若已确定其负透镜的非黏合面为平面，试求其余各面的曲率半径。",
+    "answer": "$r_1=42.3\\text{ mm}$， $r_2=-47.0\\text{ mm}$",
+    "reasoning_process": "联立下列两个方程：\n$$\\begin{cases}P_D=(n_{1D}-1)K_1+(n_{2D}-1)K_2=10.0D \\\\ P_F-P_C=(n_{1F}-n_{1C})K_1+(n_{2F}-n_{2C})K_2=0\\end{cases}$$\n将题中所给数据代入，解得：\n$$K_1=\\frac{1}{r_1}-\\frac{1}{r_2}=44.90$$\n$$K_2=\\frac{1}{r_3}-\\frac{1}{r_4}=-21.27$$\n令 $r_4 \\to \\infty$，$r_2=r_3$，算出：\n$$r_1=42.3\\text{ mm}$$\n$$r_2=-47.0\\text{ mm}$$\n式中 $r_1$ 为正透镜非黏合面曲率半径，$r_2$ 为黏合面曲率半径。"
+  },
+  {
+    "question_id": "PHY2_092_xk",
+    "type": "计算题",
+    "knowledge_point": "辐射照度，光学系统聚光",
+    "difficulty": "简单",
+    "question": "太阳表面的辐射亮度为 $2\\times 10^7\\text{ W}/(\\text{m}^2\\cdot\\text{sr})$，用相对孔径 $D/f=1.5$ 的放大镜将阳光聚焦成光斑的最大辐射照度是多少？",
+    "answer": "$3.5\\times 10^7\\text{ W}/\\text{m}^2$",
+    "reasoning_process": "在光能被聚焦用于点火、钻孔等过程中，起作用的光度学量是照度。利用远物成像的照度公式：\n$$E \\approx \\frac{\\pi}{4}B\\left(\\frac{D}{f}\\right)^2$$\n以 $B=2\\times 10^7\\text{ W}/(\\text{m}^2\\cdot\\text{sr})$，$D/f=1.5$ 代入，算出太阳像斑的最大辐射照度值为：\n$$E \\approx 3.5\\times 10^7\\text{ W}/\\text{m}^2$$"
+  },
+  {
+    "question_id": "PHY2_093_xk",
+    "type": "计算题",
+    "knowledge_point": "透镜成像，照度比",
+    "difficulty": "中等",
+    "question": "一屏放在离烛100cm处，把一会聚薄透镜放在烛和屏之间，透镜有两个位置可以在屏上得到烛的像，这两个位置相距20cm，在屏上烛的两个像的照度相差多少倍？",
+    "answer": "2.25倍",
+    "reasoning_process": "这两对共轭物像满足互易关系，物距 $s_1$ 及其像距 $s_1'$，物距 $s_2$ 及其像距 $s_2'$ 满足 $s_2=s_1'$，$s_1=s_2'$。\n根据题意有：\n$$s_1+s_1'=s_2+s_2'=l=100\\text{ cm}$$\n$$s_1-s_1'=\\Delta s=20\\text{ cm}$$\n解出：\n$$s_1=60\\text{ cm}, s_1'=40\\text{ cm}$$\n$$s_2=40\\text{ cm}, s_2'=60\\text{ cm}$$\n对于朗伯体两种情况下像的照度之比为：\n$$\\frac{E_1}{E_2}=\\left(\\frac{s_2'}{s_1'}\\right)^2=\\left(\\frac{60}{40}\\right)^2=2.25$$\n即小像照度大，相差2.25倍。"
+  },
+  {
+    "question_id": "PHY2_094_xk",
+    "type": "计算题",
+    "knowledge_point": "望远镜，主观亮度",
+    "difficulty": "中等",
+    "question": "望远镜物镜的直径为75mm，当放大率为(1) 20倍，(2) 25倍，(3) 50倍时，求望远镜中月亮的像的主观亮度与天然主观亮度之比。眼睛瞳孔的直径为3.0mm。",
+    "answer": "(1) 1；(2) 1；(3) 4.0",
+    "reasoning_process": "当望远镜出瞳直径 $D' \\ge D_e$（眼瞳直径）时，主观亮度与天然主观亮度相等；当 $D' \\le D_e$ 时，两者之比为 $H_0/H = (D_e/D')^2 = (D_e M/D)^2$。\n已知 $D_e=3.0\\text{ mm}$，$D=75\\text{ mm}$：\n(1) 当 $M=20$ 时，$D'=D/M=3.75\\text{ mm} > D_e$，故 $H_0/H=1$。\n(2) 当 $M=25$ 时，$D'=D/M=3.0\\text{ mm} = D_e$，故 $H_0/H=1$。\n(3) 当 $M=50$ 时，$D'=D/M=1.5\\text{ mm} < D_e$，则 $H_0/H=(D_e M/D)^2 = (3.0\\times 50/75)^2 = 4.0$。"
+  },
+  {
+    "question_id": "PHY2_095_xk",
+    "type": "计算题",
+    "knowledge_point": "望远镜放大率，星等",
+    "difficulty": "较难",
+    "question": "一天文望远镜的物镜直径等于18cm，透光系数为0.50，已知肉眼可直接观察到六等星。求：(1) 用此望远镜所能看到的最弱星等；(2) 最适宜观察星的放大率(正常放大率)；(3) 当放大率为10倍时可见到星的等次。设眼睛瞳孔的直径值可取3.0mm。【注：星等增加一等，其亮度减小 $\\sqrt[5]{100}\\approx 2.5$ 倍】",
+    "answer": "(1) 14等；(2) 60倍；(3) 10等",
+    "reasoning_process": "(1) 无望远镜时进入眼瞳光通量 $\\Delta\\Phi_0 \\propto D_e^2$。有望远镜时，系统透光系数为 $k$，当 $D' \\le D_e$ 时，光通量之比 $\\frac{\\Delta\\Phi'}{\\Delta\\Phi_0} = k\\left(\\frac{D}{D_e}\\right)^2 = 0.50\\times\\left(\\frac{180}{3.0}\\right)^2 = 1800$。所能看到的弱星星等为 $N = N_0 + \\log_{2.5} 1800 = 6 + 8 = 14$。\n(2) 合理的设计应使出瞳直径等于眼瞳直径 $D'=D/M=D_e$，算出正常放大率 $M=D/D_e=180/3.0=60$。\n(3) 当 $M=10$ 时，$D'=18\\text{ mm} > D_e$，只有部分光进入眼瞳，比例为 $\\frac{\\Delta\\Phi''}{\\Delta\\Phi_0}=kM^2=0.50\\times 10^2=50$。此时可见星等为 $N = N_0 + \\log_{2.5} 50 = 6 + 4.3 \\approx 10$。"
+  },
+  {
+    "question_id": "PHY2_096_xk",
+    "type": "计算题",
+    "knowledge_point": "显微镜，正常放大率，数值孔径",
+    "difficulty": "简单",
+    "question": "求数值孔径为1.5的显微镜的正常放大率，设瞳孔直径为3.0mm。",
+    "answer": "250",
+    "reasoning_process": "显微镜的出瞳孔径 $D' = \\frac{2s_0 \\text{N.A.}}{|M|}$，其中 $s_0=250\\text{ mm}$ 为明视距离。正常放大率下应使出瞳孔径等于眼瞳直径 $D_e$。由此得放大率 $|M_e| = \\frac{2s_0 \\text{N.A.}}{D_e} = \\frac{2\\times 250\\times 1.5}{3.0} = 250$。"
+  },
+  {
+    "question_id": "PHY2_097_xk",
+    "type": "计算题",
+    "knowledge_point": "杨氏双孔干涉，条纹间距",
+    "difficulty": "简单",
+    "question": "在杨氏双孔实验中，孔距为0.1mm，孔与屏幕的距离为3m，对下列三条典型谱线求出干涉条纹的间距：F蓝线(486.1nm)，D黄线(589.3nm)，C红线(656.3nm)。",
+    "answer": "F蓝线：$14.6\\text{ mm}$；D黄线：$17.7\\text{ mm}$；C红线：$19.7\\text{ mm}$",
+    "reasoning_process": "根据杨氏双孔干涉条纹间距公式 $\\Delta x = \\lambda D/d$。代入数据得到三条谱线产生的条纹间距分别为：\n$\\Delta x_F = 486.1\\times 10^{-9} \\times 3 / (0.1\\times 10^{-3}) = 14.6\\text{ mm}$\n$\\Delta x_D = 589.3\\times 10^{-9} \\times 3 / (0.1\\times 10^{-3}) = 17.7\\text{ mm}$\n$\\Delta x_C = 656.3\\times 10^{-9} \\times 3 / (0.1\\times 10^{-3}) = 19.7\\text{ mm}$"
+  },
+  {
+    "question_id": "PHY2_098_xk",
+    "type": "计算题",
+    "knowledge_point": "杨氏干涉，波长计算",
+    "difficulty": "简单",
+    "question": "在杨氏双孔实验中，孔距为0.45mm，孔与幕的距离1.2m，测得10个亮纹之间的间距为1.5cm，问光源的波长是多少。",
+    "answer": "$562.5\\text{ nm}$",
+    "reasoning_process": "由10个亮纹（9个条纹间距）和题意（此处原书解法视“10个亮纹间距”为10倍 $\\Delta x$，即 $\\Delta x=1.5\\text{ cm}/10=1.5\\text{ mm}$）。\n推算光源光波长为：\n$$\\lambda = \\frac{d}{D}\\Delta x = \\frac{0.45\\times 10^{-3}}{1.2} \\times 1.5\\times 10^{-3} = 562.5\\times 10^{-9}\\text{ m} = 562.5\\text{ nm}$$"
+  },
+  {
+    "question_id": "PHY2_099_xk",
+    "type": "计算题",
+    "knowledge_point": "空间相干性，干涉孔径角",
+    "difficulty": "中等",
+    "question": "用钠光灯做杨氏双缝干涉实验，光源宽度被限制为2mm，带双缝的屏离缝光源2.5m，为了在幕上获得可见的干涉条纹，双缝间隔不能大于多少？",
+    "answer": "$0.74\\text{ mm}$",
+    "reasoning_process": "根据光场空间相干范围孔径角 $\\Delta\\theta_0$ 与光源宽度 $b$ 之间的反比关系 $b\\Delta\\theta_0 \\approx \\lambda$。在 $b$ 给定的情况下干涉孔径角 $\\Delta\\theta$ 必须小于 $\\Delta\\theta_0$，即双缝间隔：\n$$d = R\\Delta\\theta < R\\Delta\\theta_0 = R\\frac{\\lambda}{b} = \\frac{2.5\\text{ m} \\times 589.3\\text{ nm}}{2\\text{ mm}} = 0.74\\text{ mm}$$"
+  },
+  {
+    "question_id": "PHY2_100_xk",
+    "type": "计算题",
+    "knowledge_point": "空间相干性，相干面积",
+    "difficulty": "中等",
+    "question": "一个直径为1cm的发光面元，如果用干涉孔径角量度的话，其空间相干性是多少弧度？如果用相干面积量度，问1m远的相干面积为多大？10m远的相干面积为多大？",
+    "answer": "干涉孔径角约 $0.55\\times 10^{-4}\\text{ rad}$；1m远相干面积为 $2.4\\times 10^{-3}\\text{ mm}^2$；10m远相干面积为 $2.4\\times 10^{-1}\\text{ mm}^2$",
+    "reasoning_process": "设光波长为中等可见光波长 $\\lambda=0.55\\text{ }\\mu\\text{m}$。空间相干范围用孔径角量度为：\n$$\\Delta\\theta \\approx \\frac{\\lambda}{b} = \\frac{0.55\\text{ }\\mu\\text{m}}{1\\text{ cm}} = 0.55\\times 10^{-4}\\text{ rad}$$\n在距离 $R$ 处的相干面积为 $\\Delta S \\approx \\frac{\\pi}{4}(R\\Delta\\theta)^2$：\n当 $R=1\\text{ m}$ 时，$\\Delta S \\approx 2.4\\times 10^{-3}\\text{ mm}^2$。\n当 $R=10\\text{ m}$ 时，$\\Delta S \\approx 2.4\\times 10^{-1}\\text{ mm}^2$。"
+  },
+  {
+    "question_id": "PHY2_101_xk",
+    "type": "计算题",
+    "knowledge_point": "牛顿环，曲率半径计算",
+    "difficulty": "简单",
+    "question": "测得牛顿环某环和其外第10环的半径分别为0.70mm和1.7mm，求透镜的曲率半径。设光波长为0.63 $\\mu$m。",
+    "answer": "$381\\text{ mm}$",
+    "reasoning_process": "由于牛顿环中心点不一定密接，采用测两环纹半径的方法更可靠。透镜曲率半径 $R$ 的公式为：\n$$R = \\frac{r_{k+m}^2 - r_k^2}{m\\lambda}$$\n代入已知条件：\n$$R = \\frac{(1.7^2 - 0.70^2)\\text{ mm}^2}{10 \\times 0.63\\text{ }\\mu\\text{m}} = \\frac{2.4\\times 10^{-6}\\text{ m}^2}{6.3\\times 10^{-6}\\text{ m}} = 381\\text{ mm}$$"
+  },
+  {
+    "question_id": "PHY2_102_xk",
+    "type": "计算题",
+    "knowledge_point": "薄膜干涉，光程差",
+    "difficulty": "中等",
+    "question": "肥皂膜的反射光呈现绿色，这时膜的法线和视线的夹角约为 $35^\\circ$，试估算膜的最小厚度。设肥皂水的折射率为1.33，绿光波长为500.0nm。",
+    "answer": "$0.104\\text{ }\\mu\\text{m}$",
+    "reasoning_process": "由于存在半波损失，出现亮场的表观光程差应满足：\n$$2n \\cos i = (2k+1)\\frac{\\lambda}{2}$$\n式中 $i$ 为肥皂膜内的折射角，由折射定律 $n \\sin i = \\sin 35^\\circ$。求最小厚度取 $k=0$：\n$$h = \\frac{\\lambda}{4n \\cos i} = \\frac{\\lambda}{4n\\sqrt{1-\\sin^2 i}} = \\frac{\\lambda}{4\\sqrt{n^2-\\sin^2 35^\\circ}}$$\n代入数值：\n$$h = \\frac{500.0\\text{ nm}}{4\\sqrt{1.33^2-\\sin^2 35^\\circ}} = 0.104\\text{ }\\mu\\text{m}$$"
+  },
+  {
+    "question_id": "PHY2_103_xk",
+    "type": "计算题",
+    "knowledge_point": "薄膜干涉，半波损失，相位差",
+    "difficulty": "中等",
+    "question": "在玻璃表面上涂一层折射率为1.30的透明薄膜，设玻璃折射率为1.5。(1) 对于波长为500.0nm的入射光来说，膜厚应为多少才能使反射光干涉相消？(2) 对波长为400.0nm的紫光和700.0nm的红光来说，第(1)问所得的厚度在两束反射相干光之间产生多大的相位差？(不考虑色散。)",
+    "answer": "(1) $105.8\\text{ nm}$；(2) 紫光相位差为 $1.375\\pi$，红光相位差为 $0.786\\pi$",
+    "reasoning_process": "(1) 空气到薄膜，薄膜到玻璃的折射率满足 $n_1 < n_2 < n_3$，两反射光束间无相对半波损失。相消干涉条件为 $\\Delta L = 2n_2 h = (2k+1)\\lambda/2$，取 $k=0$：\n$$h = \\frac{\\lambda}{4n_2} = \\frac{500.0\\text{ nm}}{4 \\times 1.30} = 105.8\\text{ nm}$$\n(2) 对于指定波长 $\\lambda_x$，反射两光束产生的相位差为 $\\delta = \\frac{2\\pi}{\\lambda_x}2n_2 h = \\frac{2\\pi}{\\lambda_x}\\frac{\\lambda}{2} = \\frac{\\lambda}{\\lambda_x}\\pi$。以此题来源计算数据代入（原解析将基础波长误取为550.0nm计算）：\n对紫光 $\\lambda_1=400.0\\text{ nm}$：$\\delta_1 = \\frac{550.0}{400.0}\\pi = 1.375\\pi$\n对红光 $\\lambda_2=700.0\\text{ nm}$：$\\delta_2 = \\frac{550.0}{700.0}\\pi = 0.786\\pi$"
+  },
+  {
+    "question_id": "PHY2_104_xk",
+    "type": "证明题",
+    "knowledge_point": "等倾干涉，条纹半径",
+    "difficulty": "较难",
+    "question": "证明迈克耳孙干涉仪中圆形等倾条纹的半径与整数的平方根成正比。",
+    "answer": "见解析",
+    "reasoning_process": "薄膜等倾干涉条纹的半径 $r_k$ 正比于薄膜外的倾角 $i_k$。第 $k$ 级条纹的光程差满足：\n$$2nh \\cos i_k = k\\lambda$$\n在迈克耳孙干涉仪中 $n=1$。设圆心的干涉级别为 $k_0$，此时 $i_{k_0}=0$，则 $k_0\\lambda = 2h$。\n对于第 $k_0 - k$ 级条纹：\n$$(k_0 - k)\\lambda = 2h \\cos i_{k_0 - k}$$\n$$\\cos i_{k_0 - k} = \\frac{(k_0 - k)\\lambda}{2h} = 1 - \\frac{k\\lambda}{2h}$$\n利用小角度近似 $\\cos i \\approx 1 - i^2/2$，有：\n$$1 - \\cos i_{k_0 - k} \\approx \\frac{i_{k_0 - k}^2}{2} = \\frac{k\\lambda}{2h}$$\n因此干涉条纹的半径满足 $r_{k_0 - k} \\propto i_{k_0 - k} = \\sqrt{\\frac{k\\lambda}{2h}} \\propto \\sqrt{k}$，即与整数 $k$ 的平方根成正比。"
+  },
+  {
+    "question_id": "PHY2_105_xk",
+    "type": "计算题",
+    "knowledge_point": "迈克耳孙干涉仪，等倾条纹",
+    "difficulty": "中等",
+    "question": "用钠光(589.3nm)观察迈克耳孙干涉条纹，先看到干涉场中有12个亮环，且中心是亮的，移动平面镜 $M_1$ 后，看到中心吞(吐)了10环，而此时干涉场中还剩有5个亮环。试求：(1) $M_1$ 移动的距离；(2) 开始时中心亮斑的干涉级；(3) $M_1$ 移动后，从中心向外数第5个亮环的干涉级。",
+    "answer": "(1) $2.947\\text{ }\\mu\\text{m}$；(2) 17；(3) 2",
+    "reasoning_process": "(1) 中心吞吐10环，$M_1$ 移动的距离 $\\Delta h = 10 \\times \\frac{\\lambda}{2} = 10 \\times \\frac{589.3\\text{ nm}}{2} = 2.947\\text{ }\\mu\\text{m}$。\n(2) 等倾干涉条纹级别中心最高。设开始时中心级数为 $k$，视场边缘角为 $\\theta$，则：\n$$2h = k\\lambda$$\n边缘处满足：$$2h \\cos \\theta = (k-12)\\lambda$$\n移动后由于吞下10环，中心级数变为 $k-10$，又知还剩5个亮环，即边缘级数为 $(k-10)-5=k-15$，则：\n$$2(h-\\Delta h) \\cos \\theta = (k-15)\\lambda$$\n两式联立求得：$k = \\frac{120}{7} \\approx 17$。\n(3) 移动后干涉场边缘（即由内向外数第5个亮环）的级数为 $k - 15 = 17 - 15 = 2$。"
+  },
+  {
+    "question_id": "PHY2_106_xk",
+    "type": "计算题",
+    "knowledge_point": "迈克耳孙干涉仪，测波长",
+    "difficulty": "简单",
+    "question": "在迈克耳孙干涉仪中，反射镜移动0.33mm，测得条纹变动192次，求光的波长。",
+    "answer": "$3.438\\text{ }\\mu\\text{m}$",
+    "reasoning_process": "由公式 $\\Delta h = N \\frac{\\lambda}{2}$ 可得波长：\n$$\\lambda = \\frac{2\\Delta h}{N} = \\frac{2 \\times 0.33\\text{ mm}}{192} = 3.438\\text{ }\\mu\\text{m}$$"
+  },
+  {
+    "question_id": "PHY2_107_xk",
+    "type": "计算题",
+    "knowledge_point": "双线波长分辨，干涉场衬比度",
+    "difficulty": "中等",
+    "question": "钠光灯发射的黄线包含两条相近的谱线，平均波长为589.3nm。在钠光下调节迈克耳孙干涉仪，人们发现干涉场的衬比度随镜面移动而周期性地变化。实测的结果由条纹最清晰到最模糊，视场中吞(吐)490圈条纹，求钠双线的两个波长。",
+    "answer": "$589.0\\text{ nm}$，$589.6\\text{ nm}$",
+    "reasoning_process": "由于波长差的存在，导致衬比度周期变化。从最清晰到最模糊，光程差改变量 $\\delta(\\Delta L)$ 和条纹吞吐数 $\\Delta N$ 满足：\n$$\\delta(\\Delta L) = \\frac{\\overline{\\lambda}^2}{2\\Delta\\lambda} = \\Delta N \\overline{\\lambda}$$\n由此求得双线间隔：\n$$\\Delta \\lambda = \\frac{\\overline{\\lambda}}{2\\Delta N} = \\frac{589.3\\text{ nm}}{2 \\times 490} = 0.6\\text{ nm}$$\n波长分别为：\n$$\\lambda_1 = \\overline{\\lambda} - \\frac{\\Delta\\lambda}{2} = 589.0\\text{ nm}$$\n$$\\lambda_2 = \\overline{\\lambda} + \\frac{\\Delta\\lambda}{2} = 589.6\\text{ nm}$$"
+  },
+  {
+    "question_id": "PHY2_108_xk",
+    "type": "计算题",
+    "knowledge_point": "法布里-珀罗标准具",
+    "difficulty": "简单",
+    "question": "在一次迈克耳孙干涉仪实验中，所用的最短标准具长度为0.39mm，如用镉灯(643.847nm)作光源，实验时所测得的条纹变动数目应是多少？",
+    "answer": "1211.5",
+    "reasoning_process": "设标准具长度为 $l$，则等效于动镜移动距离 $\\Delta h = l$。条纹变动数目为：\n$$N = \\frac{2l}{\\lambda} = \\frac{2 \\times 0.39\\text{ mm}}{643.847\\text{ nm}} = 1211.5$$"
+  },
+  {
+    "question_id": "PHY2_109_xk",
+    "type": "计算题",
+    "knowledge_point": "激光干涉测长",
+    "difficulty": "中等",
+    "question": "用迈克耳孙干涉仪进行精密测长，光源为632.8nm的氦氖光，其谱线宽度为 $10^{-4}\\text{ nm}$，整机接收(光电转换)灵敏度可达1/10个条纹，求这台仪器测长精度为多少？一次测长量程为多少？",
+    "answer": "测长精度 $31.64\\text{ nm}$，量程约为 $2\\text{ m}$",
+    "reasoning_process": "干涉测长精度 $\\delta l$ 由接收灵敏度 $\\delta N$ 决定：\n$$\\delta l = \\delta N \\frac{\\lambda}{2} = \\frac{1}{10} \\times \\frac{632.8\\text{ nm}}{2} = 31.64\\text{ nm}$$\n测长量程 $L$ 受限于相干长度 $l_0$，而 $l_0 = \\frac{\\lambda^2}{\\Delta\\lambda}$。最大量程为：\n$$L = \\frac{l_0}{2} = \\frac{\\lambda^2}{2\\Delta\\lambda} = \\frac{(632.8\\times 10^{-9})^2}{2 \\times 10^{-13}} \\approx 2\\text{ m}$$"
+  },
+  {
+    "question_id": "PHY2_110_xk",
+    "type": "计算题",
+    "knowledge_point": "动镜多普勒效应/拍频",
+    "difficulty": "较难",
+    "question": "迈克耳孙干涉仪中的一臂(反射镜)以速度 $v$ 匀速推移，用透镜接收干涉条纹，将它会聚到光电元件上，把光强变化转换为电信号。(1) 若测得电信号的时间频率为 $\\nu$，求入射光的波长 $\\lambda$。(2) 若入射光波长在 $0.6\\text{ }\\mu\\text{m}$ 左右，要使电信号频率控制在50Hz，反射镜平移的速度应为多少？(3) 按以上速度移动反射镜，钠黄光产生电信号的拍频为多少？(钠黄光双线波长为589.0nm和589.6nm。)",
+    "answer": "(1) $\\lambda = 2v/\\nu$；(2) $15\\text{ }\\mu\\text{m/s}$；(3) $5.2\\times 10^{-2}\\text{ Hz}$",
+    "reasoning_process": "(1) 条纹随时间的变化率 $\\nu = \\frac{dN}{dt}$，由位移公式 $h = N \\frac{\\lambda}{2}$ 两边对时间求导得：$v = \\frac{dh}{dt} = \\frac{dN}{dt}\\frac{\\lambda}{2} = \\nu \\frac{\\lambda}{2}$，由此解得 $\\lambda = \\frac{2v}{\\nu}$。\n(2) 要使 $\\nu = 50\\text{ Hz}$，平移速度 $v = \\frac{\\nu \\lambda}{2} = \\frac{50 \\times 0.6\\text{ }\\mu\\text{m}}{2} = 15\\text{ }\\mu\\text{m/s}$。\n(3) 钠黄光双线产生两个信号频率 $\\nu_1 = \\frac{2v}{\\lambda_1}$ 和 $\\nu_2 = \\frac{2v}{\\lambda_2}$，拍频为：\n$$\\Delta\\nu = \\nu_1 - \\nu_2 = 2v\\left(\\frac{1}{\\lambda_1} - \\frac{1}{\\lambda_2}\\right) \\approx \\frac{2v\\Delta\\lambda}{\\overline{\\lambda}^2} = \\frac{2 \\times 15\\times 10^{-6} \\times 0.6\\times 10^{-9}}{(589.3\\times 10^{-9})^2} = 5.2\\times 10^{-2}\\text{ Hz}$$"
+  },
+  {
+    "question_id": "PHY2_111_xk",
+    "type": "计算题",
+    "knowledge_point": "法布里-珀罗干涉仪，色分辨本领",
+    "difficulty": "中等",
+    "question": "有两个波长 $\\lambda_1$ 和 $\\lambda_2$，在600.0nm附近相差0.0001nm，要用法布里-珀罗干涉仪把它们分辨开来，间隔 $h$ 需要多大？设反射率 $R=0.95$。",
+    "answer": "$2.9\\text{ cm}$",
+    "reasoning_process": "法布里-珀罗干涉仪的色分辨本领为 $\\frac{\\lambda}{\\delta\\lambda} = \\pi k \\frac{\\sqrt{R}}{1-R}$，由此得需要的干涉级数为 $k = \\frac{1-R}{\\pi\\sqrt{R}}\\frac{\\lambda}{\\delta\\lambda}$。\n中心干涉级数满足 $2nh = k\\lambda$（在空气中 $n=1$）。故需要的腔长 $h$ 为：\n$$h = \\frac{k\\lambda}{2n} = \\frac{1-R}{2n\\pi\\sqrt{R}}\\frac{\\lambda^2}{\\delta\\lambda}$$\n代入数值计算：\n$$h = \\frac{1-0.95}{2 \\times 1 \\times \\pi \\times \\sqrt{0.95}} \\frac{(600.0\\times 10^{-9})^2}{10^{-13}} = 2.9\\times 10^{-2}\\text{ m} = 2.9\\text{ cm}$$"
+  },
+  {
+    "question_id": "PHY2_112_xk",
+    "type": "计算题",
+    "knowledge_point": "法布里-珀罗干涉仪，等倾干涉圆环角直径",
+    "difficulty": "中等",
+    "question": "如果法布里-珀罗干涉仪两反射面之间的距离为1.0cm，用绿光(500.0nm)做实验，干涉图样的中心正好是一亮斑。求第10个亮环的角直径。",
+    "answer": "$0.045\\text{ rad}$",
+    "reasoning_process": "干涉图样中心是亮斑，说明对于中心点 $i=0$，有 $2h = k_0\\lambda$。\n对于向外第 $m$ 个亮环（此处 $m=10$），满足 $2h \\cos i_m = (k_0 - m)\\lambda$。\n由于角度很小，作近似 $\\cos i_m \\approx 1 - \\frac{i_m^2}{2}$，代入上式得：\n$$2h\\left(1 - \\frac{i_m^2}{2}\\right) = 2h - m\\lambda \\implies h i_m^2 = m\\lambda$$\n由此求得亮环的半径角（即半角宽）为 $i_m = \\sqrt{\\frac{m\\lambda}{h}}$。\n角直径为：\n$$2i_m = 2\\sqrt{\\frac{m\\lambda}{h}} = 2\\sqrt{\\frac{10 \\times 500.0\\times 10^{-9}}{0.01}} = 2\\sqrt{5\\times 10^{-4}} \\approx 0.0447\\text{ rad} \\approx 0.045\\text{ rad}$$"
+  },
+  {
+    "question_id": "PHY2_113_xk",
+    "type": "计算题",
+    "knowledge_point": "法布里-珀罗干涉仪, 分辨本领, 自由光谱范围",
+    "difficulty": "困难",
+    "question": "设法-珀（Fabry-Pérot）腔长 $h = 5\\text{ cm}$，用扩展光源做实验，光波波长为 $\\lambda = 0.6\\text{ }\\mu\\text{m}$，反射率 $R=0.98$。试求：\n(1) 中心干涉级数为多少？\n(2) 在倾角 $\\theta$ 为 $1^\\circ$ 附近干涉环的半角宽度为多少？\n(3) 该法-珀腔的色分辨本领及可分辨的最小波长间隔为多少？\n(4) 若对白光进行选频，在可见光范围内（$400.0 \\sim 760.0\\text{ nm}$）透射最强的谱线有几条？每条谱线宽度为多少？\n(5) 若腔长发生 $10^{-5}$ 的相对改变量，求谱线的相对漂移量。",
+    "answer": "(1) $1.7 \\times 10^5$; (2) $2.2 \\times 10^{-6}\\text{ rad}$; (3) $R = 2.6 \\times 10^7, \\delta\\lambda = 2.3 \\times 10^{-8}\\text{ }\\mu\\text{m}$; (4) $1.18 \\times 10^5$ 条, $19.2 \\times 10^6\\text{ Hz}$; (5) $10^{-5}$",
+    "reasoning_process": "1. **中心干涉级数：** 根据公式 $k_0 = \\frac{2nh}{\\lambda}$，代入 $n=1, h=5\\text{ cm}, \\lambda=0.6\\text{ }\\mu\\text{m}$，得 $k_0 = \\frac{2 \\times 1 \\times 5 \\times 10^{-2}}{0.6 \\times 10^{-6}} \\approx 1.7 \\times 10^5$。\n2. **半角宽度：** 公式为 $\\Delta\\theta_k = \\frac{\\lambda}{2\\pi nh \\sin\\theta_k} \\frac{1-R}{\\sqrt{R}}$。代入 $\\theta = 1^\\circ$ 等已知量，计算得 $2.2 \\times 10^{-6}\\text{ rad}$。\n3. **分辨本领：** $R = \\frac{\\lambda}{\\delta\\lambda} = \\pi k_0 \\frac{\\sqrt{R}}{1-R} = \\pi \\times 1.7 \\times 10^5 \\times \\frac{\\sqrt{0.98}}{1-0.98} \\approx 2.6 \\times 10^7$。最小波长间隔 $\\delta\\lambda = \\frac{\\lambda}{R} = 2.3 \\times 10^{-8}\\text{ }\\mu\\text{m}$。\n4. **选频与线宽：** 纵模频率间隔 $\\Delta\\nu = \\frac{c}{2nh} = 3 \\times 10^9\\text{ Hz}$。可见光频率范围约为 $(3.95 \\sim 7.5) \\times 10^{14}\\text{ Hz}$，谱线条数 $N = \\frac{\\Delta\\nu_{total}}{\\Delta\\nu} \\approx 1.18 \\times 10^5$。谱线宽度 $\\delta\\nu = \\frac{1-R}{\\pi\\sqrt{R}}\\Delta\\nu \\approx 19.2 \\times 10^6\\text{ Hz}$。\n5. **漂移量：** 由 $2nh = k\\lambda$ 取微分得 $\\frac{\\delta h}{h} = \\frac{\\delta\\lambda}{\\lambda}$，故漂移量为 $10^{-5}$。"
+  },
+  {
+    "question_id": "PHY2_114_xk",
+    "type": "计算题",
+    "knowledge_point": "菲涅耳波带片, 焦距公式",
+    "difficulty": "中等",
+    "question": "一菲涅耳波带片第一个半波带的半径 $\\rho_1 = 5.0\\text{ mm}$：\n(1) 用波长 $\\lambda = 1.06\\text{ }\\mu\\text{m}$ 的单色平行光照明，求其主焦距 $f$；\n(2) 若要求主焦距变为 $25\\text{ cm}$，需要将此波带片的直径缩小多少倍？",
+    "answer": "(1) $23.6\\text{ m}$; (2) 约缩小 10 倍",
+    "reasoning_process": "1. **计算主焦距：** 根据菲涅耳波带片主焦距公式 $f = \\frac{\\rho_1^2}{\\lambda}$，代入数据：$f = \\frac{(5.0 \\times 10^{-3})^2}{1.06 \\times 10^{-6}} \\approx 23.6\\text{ m}$。\n2. **计算缩小倍数：** 已知 $\\rho_1 = \\sqrt{f\\lambda}$。若波长 $\\lambda$ 不变，则半径 $\\rho_1$ 与 $\\sqrt{f}$ 成正比。设缩小的半径为 $\\rho_1'$，对应焦距 $f' = 25\\text{ cm} = 0.25\\text{ m}$，则 $\\frac{\\rho_1'}{\\rho_1} = \\sqrt{\\frac{f'}{f}} = \\sqrt{\\frac{0.25}{23.6}} \\approx 0.103$。因此，直径约需缩小到原来的 $1/10$。"
+  },
+  {
+    "question_id": "PHY2_115_xk",
+    "type": "计算题",
+    "knowledge_point": "瑞利判据, 望远镜分辨率",
+    "difficulty": "简单",
+    "question": "一对双星的角间隔为 $0.05''$。 \n(1) 需要多大口径的望远镜才能分辨它们？ \n(2) 此望远镜的角放大率应设计为多少才比较合理？（取光波长 $\\lambda = 0.55\\text{ }\\mu\\text{m}$）",
+    "answer": "(1) $2.8\\text{ m}$; (2) $1200$ 倍",
+    "reasoning_process": "1. **确定口径：** 根据望远镜的最小分辨角（瑞利判据）公式 $\\Delta\\theta = 1.22 \\frac{\\lambda}{D}$。已知 $\\Delta\\theta = 0.05'' = 0.05 \\times \\frac{\\pi}{180 \\times 3600}\\text{ rad}$。解得 $D = \\frac{1.22 \\times 0.55 \\times 10^{-6}}{0.05 \\times \\frac{\\pi}{648000}} \\approx 2.8\\text{ m}$。\n2. **计算合理放大率：** 合理的放大率应将仪器分辨的角间隔放大到人眼可分辨的最小角 $\\Delta\\theta_e \\approx 1'$。放大率 $M = \\frac{\\Delta\\theta_e}{\\Delta\\theta} = \\frac{60''}{0.05''} = 1200$ 倍。"
+  },
+  {
+    "question_id": "PHY2_116_xk",
+    "type": "计算题",
+    "knowledge_point": "光栅色分辨本领",
+    "difficulty": "简单",
+    "question": "波长为 $650.0\\text{ nm}$ 的红光谱线是双线。若在含有 $9 \\times 10^5$ 条刻线的光栅的第 3 级光谱中刚好能分辨此双线，求其波长差 $\\delta\\lambda$。",
+    "answer": "2.41 \\times 10^{-4}\\text{ nm}",
+    "reasoning_process": "根据光栅的色分辨本领公式 $R = \\frac{\\lambda}{\\delta\\lambda} = kN$。已知波长 $\\lambda = 650.0\\text{ nm}$，光谱级次 $k = 3$，总缝数 $N = 9 \\times 10^5$。则有：$\\delta\\lambda = \\frac{\\lambda}{kN} = \\frac{650.0\\text{ nm}}{3 \\times 9 \\times 10^5} \\approx 2.41 \\times 10^{-4}\\text{ nm}$。"
+  },
+  {
+    "question_id": "PHY2_117_xk",
+    "type": "计算题",
+    "knowledge_point": "棱镜分辨本领",
+    "difficulty": "简单",
+    "question": "底边长度为 $6\\text{ cm}$ 的棱镜，在光波长 $0.6\\text{ }\\mu\\text{m}$ 附近能分辨的最小波长间隔是多少？（棱镜材料的色散率 $\\frac{dn}{d\\lambda}$ 取 $0.4 \\times 10^{-4}\\text{ /nm}$）",
+    "answer": "0.25\\text{ nm}",
+    "reasoning_process": "根据棱镜的色分辨本领公式 $R = \\frac{\\lambda}{\\delta\\lambda} = b \\frac{dn}{d\\lambda}$，其中 $b$ 为棱镜底边长度。代入数据：$\\delta\\lambda = \\frac{\\lambda}{b \\cdot \\frac{dn}{d\\lambda}} = \\frac{0.6 \\times 10^3\\text{ nm}}{6 \\times 10^7\\text{ nm} \\times (0.4 \\times 10^{-4} / \\text{nm})} = 0.25\\text{ nm}$。"
+  },
+  {
+    "question_id": "PHY2_118_xk",
+    "type": "简答题",
+    "knowledge_point": "阿贝成像原理，显微镜分辨本领",
+    "difficulty": "中等",
+    "question": "利用阿贝成像原理导出在相干照明条件下显微镜的最小分辨距离公式，并同非相干照明的最小分辨距离公式比较。",
+    "answer": "相干照明：λ / sin(u_0)；非相干照明：0.61λ / sin(u_0)",
+    "reasoning_process": "在相干照明下，截止频率 $f_{\\max}$ 的倒数便是镜头口径限制下的相干显微成像系统可分辨的最小空间周期：\n$$d_{\\min} = \\frac{1}{f_{\\max}} = \\frac{\\lambda}{\\sin u_0}$$\n而非相干显微成像系统的最小分辨距离公式为：\n$$\\delta y_{\\min} = 0.61 \\frac{\\lambda}{\\sin u_0}$$\n两者的数量级是一样的，但非相干照明下的分辨率略高（分辨距离更小）。"
+  },
+  {
+    "question_id": "PHY2_119_xk",
+    "type": "计算题",
+    "knowledge_point": "马吕斯定律，自然光与偏振光",
+    "difficulty": "中等",
+    "question": "自然光投射到互相重叠的两个偏振片上，如果透射光的强度为 (1)透射光束最大强度的 1/3，(2)入射光束强度的 1/3，则这两个偏振片的透振方向之间夹角是多大？假定偏振片是理想的，它把自然光的强度严格减少一半。",
+    "answer": "(1) 54°45' (2) 35°15'",
+    "reasoning_process": "设自然光的总强度为 $I_0$ ，通过第一块偏振片 $P_1$ 的强度为 $I_0/2$ 。当两块偏振片平行时，最后通过第二块偏振片 $P_2$ 的强度为 $I_0/2$ ，此为最大透光强度 $I_{\\max}$ ，即 $I_{\\max} = I_0/2$ 。\n1. **透射光束最大强度的1/3：**\n当 $P_1$ 、 $P_2$ 的透振方向夹角为 $\\theta$ 时，根据马吕斯定律：\n$$I_2 = I_1 \\cos^2\\theta = \\frac{I_0}{2} \\cos^2\\theta = I_{\\max} \\cos^2\\theta$$\n若 $I_2/I_{\\max} = 1/3$ ，算出 $\\cos\\theta = \\sqrt{1/3}$ ，故 $\\theta = 54^\\circ 45'$ 。\n2. **入射光束强度的1/3：**\n若 $I_2/I_0 = 1/3$ ，即 $\\frac{I_0}{2} \\cos^2\\theta = \\frac{1}{3} I_0$ ，算出 $\\cos\\theta = \\sqrt{2/3}$ ，故 $\\theta = 35^\\circ 15'$ 。"
+  },
+  {
+    "question_id": "PHY2_120_xk",
+    "type": "计算题",
+    "knowledge_point": "马吕斯定律，偏振片组",
+    "difficulty": "中等",
+    "question": "一束自然光入射到一偏振片组上，这组由四块组成，每片的透振方向相对于前面一片沿顺时针方向转过 30° 角。试问入射光中有多大一部分透过了这组偏振片？",
+    "answer": "21.1%",
+    "reasoning_process": "设入射自然光总强度为 $I_0$ ，通过四块偏振片的光强依次为 $I_1$ 、 $I_2$ 、 $I_3$ 、 $I_4$ 。根据自然光通过首个偏振片的性质以及马吕斯定律，得：\n$$I_4 = I_3 \\cos^2 30^\\circ = I_2 \\cos^4 30^\\circ = I_1 \\cos^6 30^\\circ$$\n$$I_4 = \\frac{I_0}{2} \\cos^6 30^\\circ = \\frac{I_0}{2} \\left(\\frac{\\sqrt{3}}{2}\\right)^6 = \\frac{27}{128} I_0$$\n$\\frac{27}{128} \\approx 21.1\\%$ ，即大约有21.1%的入射光透过了这组偏振片。"
+  },
+  {
+    "question_id": "PHY2_121_xk",
+    "type": "计算题",
+    "knowledge_point": "马吕斯定律，正交偏振器",
+    "difficulty": "简单",
+    "question": "将一偏振片沿 45° 角插入一对正交偏振器之间，自然光经过它们强度减为原来的百分之几？",
+    "answer": "12.5%",
+    "reasoning_process": "设偏振片 $P_1$ 、 $P_2$ 正交，沿 45° 角插入的偏振片为 $P$ 。入射自然光强度为 $I_0$ 。\n1. 透过 $P_1$ 后光强为 $I_1 = I_0/2$ 。\n2. 透过 $P$ 后的光强 $I = I_1 \\cos^2 45^\\circ$ 。\n3. 透过 $P_2$ 后的光强 $I_2 = I \\cos^2 45^\\circ$ 。\n联立得到：\n$$I_2 = I_1 \\cos^4 45^\\circ = \\frac{I_0}{2} \\left(\\frac{\\sqrt{2}}{2}\\right)^4 = \\frac{I_0}{8}$$\n$\\frac{1}{8} = 12.5\\%$ ，即强度减为原来的 12.5%。"
+  },
+  {
+    "question_id": "PHY2_122_xk",
+    "type": "计算题",
+    "knowledge_point": "布儒斯特角",
+    "difficulty": "简单",
+    "question": "计算从空气到水面的布儒斯特角（水的折射率 n=4/3）。",
+    "answer": "53°8'",
+    "reasoning_process": "根据布儒斯特角公式 $i_B = \\arctan\\frac{n_2}{n_1}$ ，代入水的折射率 $n_2 = 4/3$ 和空气的折射率 $n_1 \\approx 1$ ，可得：\n$$i_B = \\arctan\\frac{4}{3} \\approx 53^\\circ 8'$$"
+  },
+  {
+    "question_id": "PHY2_123_xk",
+    "type": "解答题",
+    "knowledge_point": "波晶片，四分之一波片",
+    "difficulty": "中等",
+    "question": "用方解石和石英薄板作对钠黄光的 $\\lambda/4$ 片，它们的最小厚度各为多少？",
+    "answer": "方解石：$856.8\\,\\text{nm}$；石英：$16.71\\,\\text{\\mu m}$",
+    "reasoning_process": "$\\lambda/4$ 片的最小厚度 $d$ 应满足 $(n_o - n_e) = \\pm \\lambda / 4$。\n1. 就 $\\lambda = 589.3\\,\\text{nm}$ 的钠黄光来说，对于方解石有 $n_o - n_e = 1.65836 - 1.48641 = 0.17195$。则最小厚度为：\n$$d = \\frac{\\lambda}{4(n_o - n_e)} = 856.8\\,\\text{nm}$$\n2. 对于石英有 $n_o - n_e = 1.55336 - 1.54425 = 0.00911$。则最小厚度为：\n$$d = \\frac{\\lambda}{4(n_o - n_e)} = 16.71\\,\\text{\\mu m}$$"
+  },
+  {
+    "question_id": "PHY2_124_xk",
+    "type": "解答题",
+    "knowledge_point": "马吕斯定律",
+    "difficulty": "简单",
+    "question": "两尼科耳棱镜主截面的夹角由 $30^\\circ$ 变到 $45^\\circ$，透射光的强度如何变化？设入射自然光的强度为 $I_0$。",
+    "answer": "由 $3I_0/8$ 变为 $I_0/4$",
+    "reasoning_process": "由马吕斯定律知道，通过第二个尼科耳棱镜后的光强为：\n$$I_2 = I_1 \\cos^2 \\alpha$$\n其中入射自然光经过第一个尼科耳棱镜后，透射光强变为 $I_1 = I_0/2$，$\\alpha$ 为两尼科耳棱镜主截面的夹角。\n1. 当 $\\alpha = 30^\\circ$ 时：\n$$I_2 = \\frac{I_0}{2} \\cos^2 30^\\circ = \\frac{3I_0}{8}$$\n2. 当 $\\alpha = 45^\\circ$ 时：\n$$I_2 = \\frac{I_0}{2} \\cos^2 45^\\circ = \\frac{I_0}{4}$$"
+  },
+  {
+    "question_id": "PHY2_125_xk",
+    "type": "解答题",
+    "knowledge_point": "旋光效应",
+    "difficulty": "简单",
+    "question": "已知水晶对钠黄光的旋光率 $\\alpha = 21.75^\\circ/\\text{mm}$，求左、右旋圆偏振光折射率之差 $\\Delta n$。",
+    "answer": "$7.121 \\times 10^{-5}$",
+    "reasoning_process": "由旋光率与折射率差 $\\Delta n$ 的关系式：\n$$\\alpha = \\frac{\\pi}{\\lambda} \\Delta n$$\n将 $\\lambda = 589.3\\,\\text{nm}$ 的钠黄光波长代入，可求得 $\\Delta n$：\n$$\\Delta n = \\frac{\\lambda \\alpha}{\\pi} = 589.3 \\times 10^{-6}\\,\\text{mm} \\times \\frac{21.75^\\circ/\\text{mm}}{180^\\circ} = 7.121 \\times 10^{-5}$$"
+  },
+  {
+    "question_id": "PHY2_126_xk",
+    "type": "解答题",
+    "knowledge_point": "旋光色散",
+    "difficulty": "中等",
+    "question": "在两尼科耳棱镜之间插一块石英旋光晶片，以消除对眼睛最敏感的黄绿色光 ($\\lambda=550.0\\,\\text{nm}$)。设对此波长的旋光率为 $24^\\circ/\\text{mm}$，求下列情形下晶片的厚度：\n(1)两尼科耳棱镜主截面正交；\n(2)两尼科耳棱镜主截面平行。",
+    "answer": "(1) $7.50k\\,\\text{mm}$ ($k=1,2,\\dots$)；(2) $3.75(2k+1)\\,\\text{mm}$ ($k=0,1,2,\\dots$)",
+    "reasoning_process": "(1) 当两尼科耳棱镜主截面正交时，为要消除黄绿色光，应使该波长的光在通过石英旋光晶片后，偏振面旋转 $k\\pi$ ($180^\\circ$ 的整数倍)，即 $\\psi = \\alpha d = k \\times 180^\\circ$。由此得：\n$$d = \\frac{\\psi}{\\alpha} = \\frac{k \\times 180^\\circ}{24^\\circ/\\text{mm}} = 7.50k\\,\\text{mm} \\quad (k=1,2,\\dots)$$\n(2) 当两尼科耳棱镜主截面平行时，应使光振动面旋转 $90^\\circ$ 的奇数倍从而被消光，即 $\\psi = \\alpha d = (2k+1) \\times 90^\\circ$。由此得：\n$$d = \\frac{\\psi}{\\alpha} = \\frac{(2k+1) \\times 90^\\circ}{24^\\circ/\\text{mm}} = 3.75(2k+1)\\,\\text{mm} \\quad (k=0,1,2,\\dots)$$"
+  },
+  {
+    "question_id": "PHY2_127_xk",
+    "type": "解答题",
+    "knowledge_point": "旋光现象与比旋光率",
+    "difficulty": "中等",
+    "question": "一块表面垂直光轴的水晶片恰好抵消 $10\\,\\text{cm}$ 长浓度 $20\\%$ 的麦芽糖溶液对钠光振动面所引起的旋转，对此波长水晶的旋光率 $\\alpha = 21.75^\\circ/\\text{mm}$，麦芽糖的比旋光率 $[\\alpha] = 144^\\circ/[\\text{dm}\\cdot(\\text{g/cm}^3)]$，求此水晶片的厚度。",
+    "answer": "$1.32\\,\\text{mm}$",
+    "reasoning_process": "在麦芽糖溶液中偏振面的旋转角为 $\\psi_1 = [\\alpha]Nl$。\n按题意，此旋转角等于水晶片中所引起的旋转角 $\\psi_2 = \\alpha d$。\n由两式相等得，此水晶片厚度为：\n$$d = \\frac{[\\alpha]Nl}{\\alpha} = \\frac{144^\\circ/[\\text{dm}\\cdot(\\text{g/cm}^3)] \\times 20\\% \\times 10\\,\\text{cm}}{21.75^\\circ/\\text{mm}} = 1.32\\,\\text{mm}$$"
+  },
+  {
+    "question_id": "PHY2_128_xk",
+    "type": "解答题",
+    "knowledge_point": "光的吸收，布格定律",
+    "difficulty": "简单",
+    "question": "有一介质，吸收系数 $\\alpha = 0.32\\,\\text{cm}^{-1}$，透射光强分别为入射光强的 10%、20%、50% 及 80% 时，介质的厚度各若干？",
+    "answer": "$7.2\\,\\text{cm}$， $5.0\\,\\text{cm}$， $2.2\\,\\text{cm}$， $0.7\\,\\text{cm}$",
+    "reasoning_process": "由布格定律 $I = I_0 e^{-\\alpha l}$ 得：\n$$l = -\\frac{1}{\\alpha} \\ln\\frac{I}{I_0}$$\n把 $\\alpha = 0.32\\,\\text{cm}^{-1}$ 代入计算各透射比对应的厚度：\n1. 当 $I/I_0 = 10\\%$ 时，$l = 7.2\\,\\text{cm}$\n2. 当 $I/I_0 = 20\\%$ 时，$l = 5.0\\,\\text{cm}$\n3. 当 $I/I_0 = 50\\%$ 时，$l = 2.2\\,\\text{cm}$\n4. 当 $I/I_0 = 80\\%$ 时，$l = 0.7\\,\\text{cm}$"
+  },
+  {
+    "question_id": "PHY2_129_xk",
+    "type": "解答题",
+    "knowledge_point": "布格定律",
+    "difficulty": "简单",
+    "question": "一玻璃管长 $3.50\\,\\text{m}$，内贮标准大气压下的某种气体，若这气体在此条件下的吸收系数为 $0.1650\\,\\text{m}^{-1}$，求透射光强的百分比。",
+    "answer": "$56.1\\%$",
+    "reasoning_process": "由布格定律得透射光强百分比为：\n$$I/I_0 = \\exp(-\\alpha l) = \\exp(-0.1650\\,\\text{m}^{-1} \\times 3.50\\,\\text{m}) = 56.1\\%$$"
+  },
+  {
+    "question_id": "PHY2_130_xk",
+    "type": "解答题",
+    "knowledge_point": "玻耳兹曼分布律，负温度",
+    "difficulty": "中等",
+    "question": "设一个两能级系统能级差 $E_2 - E_1 = 0.01\\,\\text{eV}$，\n(1)分别求 $T = 10^2\\,\\text{K}$，$10^3\\,\\text{K}$，$10^5\\,\\text{K}$，$10^8\\,\\text{K}$ 时粒子数 $N_2$ 与 $N_1$ 之比；\n(2)$N_2 = N_1$ 的状态相当于多高的温度？\n(3)粒子数发生反转的状态相当于怎样的温度？\n(4)我们姑且引入“负温度”的概念来描述粒子数反转的状态，你觉得 $T = -10^8\\,\\text{K}$ 和 $T = +10^8\\,\\text{K}$ 两个温度中哪一个更高？",
+    "answer": "(1) $0.313$，$0.890$，$0.9988$，$0.9999998$；(2) $T \\to \\infty$；(3) 负温度；(4) $T = -10^8\\,\\text{K}$ 温度更高",
+    "reasoning_process": "(1) 按粒子数的玻耳兹曼正则分布律，有：\n$$\\frac{N_2}{N_1} = \\exp(-\\frac{E_2-E_1}{kT}) = \\exp(-\\frac{0.01\\,\\text{eV} \\times 1.602 \\times 10^{-19}\\,\\text{J/eV}}{1.38 \\times 10^{-23}\\,\\text{J/K} \\times T}) = \\exp(-\\frac{116.1\\,\\text{K}}{T})$$\n分别代入各温度：\n$T = 10^2\\,\\text{K}$ 时，比值为 $0.313$；\n$T = 10^3\\,\\text{K}$ 时，比值为 $0.890$；\n$T = 10^5\\,\\text{K}$ 时，比值为 $0.9988$；\n$T = 10^8\\,\\text{K}$ 时，比值为 $0.9999998$。\n(2) 当 $N_2 = N_1$ 时，要求 $\\exp(-\\frac{116.1\\,\\text{K}}{T}) = 1$，此时 $T \\to \\infty$。\n(3) 粒子数发生反转即 $N_2 > N_1$，如果仍然用正则分布的语言来描述，只能说此时处于“负温度”状态。\n(4) $T = -10^8\\,\\text{K}$ 对应高能态的粒子数多于低能态的粒子数，表现为粒子数反转态；而 $T = +10^8\\,\\text{K}$ 为正常的未反转态。从系统能量和状态分布而言，$T = -10^8\\,\\text{K}$ 比 $T = +10^8\\,\\text{K}$ 的温度高。"
   },
   
   {
