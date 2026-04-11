@@ -1692,6 +1692,79 @@
     "answer": "(1) $0.313$，$0.890$，$0.9988$，$0.9999998$；(2) $T \\to \\infty$；(3) 负温度；(4) $T = -10^8\\,\\text{K}$ 温度更高",
     "reasoning_process": "(1) 按粒子数的玻耳兹曼正则分布律，有：\n$$\\frac{N_2}{N_1} = \\exp(-\\frac{E_2-E_1}{kT}) = \\exp(-\\frac{0.01\\,\\text{eV} \\times 1.602 \\times 10^{-19}\\,\\text{J/eV}}{1.38 \\times 10^{-23}\\,\\text{J/K} \\times T}) = \\exp(-\\frac{116.1\\,\\text{K}}{T})$$\n分别代入各温度：\n$T = 10^2\\,\\text{K}$ 时，比值为 $0.313$；\n$T = 10^3\\,\\text{K}$ 时，比值为 $0.890$；\n$T = 10^5\\,\\text{K}$ 时，比值为 $0.9988$；\n$T = 10^8\\,\\text{K}$ 时，比值为 $0.9999998$。\n(2) 当 $N_2 = N_1$ 时，要求 $\\exp(-\\frac{116.1\\,\\text{K}}{T}) = 1$，此时 $T \\to \\infty$。\n(3) 粒子数发生反转即 $N_2 > N_1$，如果仍然用正则分布的语言来描述，只能说此时处于“负温度”状态。\n(4) $T = -10^8\\,\\text{K}$ 对应高能态的粒子数多于低能态的粒子数，表现为粒子数反转态；而 $T = +10^8\\,\\text{K}$ 为正常的未反转态。从系统能量和状态分布而言，$T = -10^8\\,\\text{K}$ 比 $T = +10^8\\,\\text{K}$ 的温度高。"
   },
+
+  {
+    "question_id": "PHY3_001_xk",
+    "type": "计算题",
+    "knowledge_point": "静电场的高斯定理, 电场的旋度, 电势与电荷分布的关系",
+    "difficulty": "困难",
+    "question": "由静态电荷分布产生的电场，其 $x$ 分量为 $E_x = kx^2yz$。\n(a) 为电场的另外两个分量构建一个有效的形式。\n(b) 该电场对应的电势和电荷分布是什么？",
+    "answer": "(a) $E_y = \\frac{1}{3}kx^3z, E_z = \\frac{1}{3}kx^3y$; (b) $V = -\\frac{1}{3}kx^3yz + C, \\rho = 2\\epsilon_0 kxyz$",
+    "reasoning_process": "1. **构建电场分量：** 由于静电场是无旋场，即 $\\nabla \\times \\mathbf{E} = 0$。这意味着：\n   $\\frac{\\partial E_y}{\\partial x} = \\frac{\\partial E_x}{\\partial y} = kx^2z \\implies E_y = \\frac{1}{3}kx^3z + f(y, z)$\n   $\\frac{\\partial E_z}{\\partial x} = \\frac{\\partial E_x}{\\partial z} = kx^2y \\implies E_z = \\frac{1}{3}kx^3y + g(y, z)$\n   同时需满足 $\\frac{\\partial E_z}{\\partial y} = \\frac{\\partial E_y}{\\partial x} = \\frac{1}{3}kx^3$。取最简形式，令积分常数为0，得 $E_y = \\frac{1}{3}kx^3z$，$E_z = \\frac{1}{3}kx^3y$。\n2. **求电势：** 利用 $\\mathbf{E} = -\\nabla V$，则 $V = -\\int E_x dx = -\\int kx^2yz dx = -\\frac{1}{3}kx^3yz + C$。经校验，该电势的梯度符合 (a) 中求得的电场。\n3. **求电荷分布：** 利用高斯定理的微分形式 $\\nabla \\cdot \\mathbf{E} = \\rho / \\epsilon_0$：\n   $\\rho = \\epsilon_0 (\\frac{\\partial E_x}{\\partial x} + \\frac{\\partial E_y}{\\partial y} + \\frac{\\partial E_z}{\\partial z}) = \\epsilon_0 (2kxyz + 0 + 0) = 2\\epsilon_0 kxyz$。"
+  },
+  {
+    "question_id": "PHY3_002_xk",
+    "type": "计算题",
+    "knowledge_point": "静电能, 电容, 做功",
+    "difficulty": "中等",
+    "question": "一个电容为 $C$ 的平行板电容器连接在电压为 $V_0$ 的电池上。现在将板间距离减半，同时保持电池连接。请问：\n(a) 电容器储存的能量变化了多少？\n(b) 电池做了多少功？",
+    "answer": "(a) $\\Delta U = \\frac{1}{2}CV_0^2$; (b) $W_{battery} = CV_0^2$",
+    "reasoning_process": "1. **能量变化：** 初始能量 $U_i = \\frac{1}{2}CV_0^2$。平行板电容器电容 $C = \\epsilon_0 A/d$，当距离 $d$ 变为 $d/2$ 时，电容变为 $C' = 2C$。由于电池始终连接，电压 $V_0$ 不变。末状态能量 $U_f = \\frac{1}{2}(2C)V_0^2 = CV_0^2$。能量变化 $\\Delta U = U_f - U_i = \\frac{1}{2}CV_0^2$。\n2. **电池做功：** 电池做的功等于电荷量的变化乘以电池电压。初始电荷 $Q_i = CV_0$，末状态电荷 $Q_f = (2C)V_0 = 2CV_0$。电荷变化量 $\\Delta Q = CV_0$。因此电池做功 $W_{battery} = \\Delta Q \\cdot V_0 = (CV_0)V_0 = CV_0^2$。"
+  },
+  {
+    "question_id": "PHY3_003_xk",
+    "type": "计算题",
+    "knowledge_point": "电阻, 电流密度, 欧姆定律",
+    "difficulty": "中等",
+    "question": "考虑一个由内半径为 $a$、外半径为 $b$、长度为 $L$ 的半圆柱壳构成的电阻器。如果材料的电导率为 $\\sigma$，当在平坦表面（横截面）之间施加电势差 $V$ 时，求电流 $I$。",
+    "answer": "$I = \\frac{\\sigma L V}{\\pi} \\ln(\\frac{b}{a})$",
+    "reasoning_process": "1. **确定几何结构：** 电流在两个平坦的矩形横截面之间流动，路径是半圆弧。对于半径为 $r$、厚度为 $dr$、长度为 $L$ 的薄层，其横截面积为 $L dr$，电流流过的路径长度为 $\\pi r$。\n2. **计算电阻：** 该薄层的电阻为 $dR = \\frac{\\pi r}{\\sigma L dr}$。由于各个半径处的薄层是并联关系，电导 $G = 1/R$ 满足 $dG = \\frac{1}{dR} = \\frac{\\sigma L dr}{\\pi r}$。\n3. **积分求电流：** 总电导 $G = \\int_a^b \\frac{\\sigma L}{\\pi r} dr = \\frac{\\sigma L}{\\pi} \\ln(\\frac{b}{a})$。根据欧姆定律 $I = GV$，得 $I = \\frac{\\sigma L V}{\\pi} \\ln(\\frac{b}{a})$。"
+  },
+  {
+    "question_id": "PHY3_004_xk",
+    "type": "计算题",
+    "knowledge_point": "毕奥-萨伐尔定律, 磁场叠加",
+    "difficulty": "简单",
+    "question": "一根电流为 $I$ 的导线被折成一个边长为 $a$ 的等边三角形。求三角形中心处的磁场 $B$。",
+    "answer": "$B = \\frac{9\\mu_0 I}{2\\pi a}$",
+    "reasoning_process": "1. **单条边的贡献：** 对于有限长直导线，在距离为 $r$ 处的磁场为 $B = \\frac{\\mu_0 I}{4\\pi r} (\\sin\\theta_1 + \\sin\\theta_2)$。对于边长为 $a$ 的等边三角形，中心到边的距离 $r = \\frac{a}{2\\sqrt{3}}$，且 $\\theta_1 = \\theta_2 = 60^\\circ$。\n2. **计算单边数值：** $B_{single} = \\frac{\\mu_0 I}{4\\pi (a/2\\sqrt{3})} (\\sin 60^\\circ + \\sin 60^\\circ) = \\frac{\\mu_0 I \\sqrt{3}}{2\\pi a} (\\frac{\\sqrt{3}}{2} + \\frac{\\sqrt{3}}{2}) = \\frac{3\\mu_0 I}{2\\pi a}$。\n3. **总磁场：** 三条边在中心产生的磁场方向相同（垂直纸面向里），故总磁场 $B_{total} = 3 B_{single} = \\frac{9\\mu_0 I}{2\\pi a}$。"
+  },
+  {
+    "question_id": "PHY3_005_xk",
+    "type": "计算题",
+    "knowledge_point": "电偶极矩, 多极展开, 叠加原理",
+    "difficulty": "困难",
+    "question": "一个半径为 $R$ 的球体具有均匀电荷密度 $\\rho$。在球体内部有一个半径为 $R/2$ 的球形空腔，其中心位于 $z = R/2$ 处。\n(a) 当 $r > R$ 时，求精确的电势 $V$。\n(b) 求该电荷分布的偶极矩 $\\mathbf{p}$。\n(c) 求包含偶极项在内的电场 $\\mathbf{E}$。",
+    "answer": "(a) $V(r, \\theta) = \\frac{R^3\\rho}{3\\epsilon_0} [ \\frac{1}{r} - \\frac{1}{8}\\frac{1}{\\sqrt{r^2 + (R/2)^2 - rR\\cos\\theta}} ]$; (b) $\\mathbf{p} = -\\frac{\\pi R^4 \\rho}{12} \\hat{\\mathbf{z}}$; (c) $\\mathbf{E} = \\frac{7R^3\\rho}{18\\epsilon_0 r^2} \\hat{\\mathbf{r}} + \\frac{R^4\\rho}{48\\epsilon_0 r^3} (2\\cos\\theta\\hat{\\mathbf{r}} + \\sin\\theta\\hat{\\mathbf{\\theta}})$",
+    "reasoning_process": "1. **叠加原理：** 该分布等效为一个半径 $R$、密度 $\\rho$ 的完整球（中心在原点）和一个半径 $R/2$、密度 $-\\rho$ 的小球（中心在 $z=R/2$）的叠加。\n2. **精确电势 (a)：** 球体在外部产生的电势等效于电荷集中在中心。大球电荷 $Q_1 = \\frac{4}{3}\\pi R^3 \\rho$，小球电荷 $Q_2 = -\\frac{4}{3}\\pi (R/2)^3 \\rho = -\\frac{1}{6}\\pi R^3 \\rho$。利用余弦定理计算小球中心到观测点的距离，得答案中的 $V$ 表达式。\n3. **偶极矩 (b)：** 选取大球中心为原点。大球贡献为0。偶极矩 $\\mathbf{p} = \\sum q_i \\mathbf{r}_i = Q_2 \\cdot (\\frac{R}{2} \\hat{\\mathbf{z}}) = -\\frac{\\pi R^3 \\rho}{6} \\cdot \\frac{R}{2} \\hat{\\mathbf{z}} = -\\frac{\\pi R^4 \\rho}{12} \\hat{\\mathbf{z}}$。\n4. **电场展开 (c)：** 包含单极项和偶极项。单极项总电荷 $Q = Q_1 + Q_2 = \\frac{7}{6}\\pi R^3 \\rho$。对应电场 $\\mathbf{E}_{mono} = \\frac{Q}{4\\pi\\epsilon_0 r^2} \\hat{\\mathbf{r}} = \\frac{7R^3\\rho}{18\\epsilon_0 r^2} \\hat{\\mathbf{r}}$。偶极项电场公式 $\\mathbf{E}_{dip} = \\frac{1}{4\\pi\\epsilon_0 r^3} [3(\\mathbf{p} \\cdot \\hat{\\mathbf{r}})\\hat{\\mathbf{r}} - \\mathbf{p}]$，将 $\\mathbf{p}$ 代入并转为球坐标系分量即可得到结果。"
+  },
+  {
+    "question_id": "PHY3_006_xk",
+    "type": "计算证明题",
+    "knowledge_point": "静电场旋度与散度，电场构建，高斯定理积分形式，斯托克斯定理积分形式",
+    "difficulty": "困难",
+    "question": "考虑一个电场，其 x 分量由 $E_x = kxy$ 给出，其中 k 为常数。\n(1) 为电场的另外两个分量构建一个有效的形式。\n(2) 给定电场的 x 分量 $E_x = kxy$，如果坐标原点附近没有电荷，并且该场沿 z 方向平移不变，请构建电场的另外两个分量以及该电场的电势。\n(3) 对于上面(2)中找到的电场，验证圆柱体（如图1所示）的高斯定理积分形式 ($\\int_V (\\nabla\\cdot \\mathbf{E}) d\\tau = \\oint_S \\mathbf{E} \\cdot d\\mathbf{a}$)。\n(4) 对于上面(2)中找到的电场，验证 xy 平面上半径为 a 的圆环（如图2所示）的斯托克斯定理积分形式 ($\\int_S (\\nabla\\times \\mathbf{E})\\cdot d\\mathbf{a} = \\oint_P \\mathbf{E} \\cdot d\\mathbf{l}$)。",
+    "answer": "(1) $E_y = \\frac{1}{2}kx^2, E_z = 0$ (一个可能的解);\n(2) $E_y = \\frac{1}{2}k(x^2 - y^2), E_z = 0$, $V = -\\frac{k}{2}x^2y + \\frac{k}{6}y^3$;\n(3) $\\int_V (\\nabla\\cdot \\mathbf{E}) d\\tau = 0$, $\\oint_S \\mathbf{E} \\cdot d\\mathbf{a} = 0$, 左右两边相等;\n(4) $\\int_S (\\nabla\\times \\mathbf{E})\\cdot d\\mathbf{a} = 0$, $\\oint_P \\mathbf{E} \\cdot d\\mathbf{l} = 0$, 左右两边相等",
+    "reasoning_process": "(1) 构造有效电场形式，需满足旋度为零：$\\nabla \\times \\mathbf{E} = 0$。即 $\\frac{\\partial E_y}{\\partial x} - \\frac{\\partial E_x}{\\partial y} = 0 \\implies \\frac{\\partial E_y}{\\partial x} = kx \\implies E_y = \\frac{1}{2}kx^2 + f_y(y,z)$。同理 $\\frac{\\partial E_z}{\\partial x} - \\frac{\\partial E_x}{\\partial z} = 0 \\implies \\frac{\\partial E_z}{\\partial x} = 0 \\implies E_z = f_z(y,z)$。为简单起见，取 $f_y=0, f_z=0$，得 $\\mathbf{E} = kxy\\hat{x} + \\frac{1}{2}kx^2\\hat{y}$。\n(2) 由沿 z 方向平移不变知 $E_z=0$ 且 $f_y=f_y(y)$。由原点附近无电荷知 $\\nabla \\cdot \\mathbf{E} = 0$，即 $\\frac{\\partial E_x}{\\partial x} + \\frac{\\partial E_y}{\\partial y} = ky + \\frac{\\partial f_y(y)}{\\partial y} = 0$，得 $f_y(y) = -\\frac{1}{2}ky^2 + C$。令 $C=0$，则 $\\mathbf{E} = kxy\\hat{x} + \\frac{1}{2}k(x^2 - y^2)\\hat{y}$。电势 $V$ 满足 $-\\nabla V = \\mathbf{E}$。$\\frac{\\partial V}{\\partial x} = -kxy \\implies V = -\\frac{1}{2}kx^2y + C(y)$。代入 y 分量：$\\frac{\\partial V}{\\partial y} = -\\frac{1}{2}kx^2 + \\frac{\\partial C(y)}{\\partial y} = -\\frac{1}{2}k(x^2 - y^2)$，得 $\\frac{\\partial C(y)}{\\partial y} = \\frac{1}{2}ky^2 \\implies C(y) = \\frac{1}{6}ky^3$。故 $V = -\\frac{1}{2}kx^2y + \\frac{1}{6}ky^3$。\n(3) 验证高斯定理：左边因 $\\nabla \\cdot \\mathbf{E} = 0$ 积分为 0。右边闭合曲面积分，上下底面 $d\\mathbf{a}$ 沿 $\\pm \\hat{z}$，与 $\\mathbf{E}$ 点积为 0。侧面积分：转换到柱坐标系，$\\hat{x} = \\cos\\phi\\hat{s} - \\sin\\phi\\hat{\\phi}$, $\\hat{y} = \\sin\\phi\\hat{s} + \\cos\\phi\\hat{\\phi}$。将 $\\mathbf{E}$ 转为柱坐标表示，提取 $\\hat{s}$ 分量：$E_s = \\frac{1}{2}ks^2 \\sin 2\\phi$。面积元 $da = a d\\phi dz \\hat{s}$。积分 $\\oint_S \\mathbf{E} \\cdot d\\mathbf{a} = \\int_{-l/2}^{l/2} \\int_0^{2\\pi} \\frac{1}{2}ka^2 \\sin 2\\phi a d\\phi dz = 0$，因为 $\\int_0^{2\\pi} \\sin 2\\phi d\\phi = 0$。\n(4) 验证斯托克斯定理：左边因 $\\nabla \\times \\mathbf{E} = 0$ 积分为 0。右边线积分：路径元 $d\\mathbf{l} = a d\\phi \\hat{\\phi}$。提取 $\\mathbf{E}$ 的 $\\hat{\\phi}$ 分量：$E_\\phi = \\frac{1}{2}ks^2 \\cos 2\\phi$。积分 $\\oint_P \\mathbf{E} \\cdot d\\mathbf{l} = \\int_0^{2\\pi} \\frac{1}{2}ka^2 \\cos 2\\phi a d\\phi = 0$，因为 $\\int_0^{2\\pi} \\cos 2\\phi d\\phi = 0$。"
+  },
+  {
+    "question_id": "PHY3_007_xk",
+    "type": "计算分析题",
+    "knowledge_point": "点电荷系统电势与电场，静电能，均匀带电圆环",
+    "difficulty": "困难",
+    "question": "(1-3) 考虑 N 个点电荷，每个电荷量为 $Q/N$，它们均匀分布在半径为 a 的圆周上。\n(1) 求出在其中一个电荷所在位置，由所有其他电荷产生的电场和电势。（答案可以保留求和形式）\n(2) 求整个系统的静电能。\n(3) 当电荷数量无限增加（总电荷 Q 保持不变）时，电场、电势和总能量的强度将如何变化？它们是发散还是收敛到有限值？\n(4-6) 考虑一个半径为 a，具有均匀线电荷密度 $\\lambda$ 且总电荷为 Q 的圆环。\n(4) 求出沿 z 轴（当 $s \\ge a$ 时，其中 $s = \\sqrt{y^2 + z^2}$）的电场和电势。\n(5) 该系统的总能量是多少？\n(6) 比较点电荷系统和均匀线电荷密度系统的能量。它们一致吗？如果不一致，讨论原因。\n（提示）：$\\int_0^\\pi \\frac{d\\theta}{\\sqrt{\\beta - \\alpha \\cos\\theta}} = \\frac{2 \\text{EllipticK}[\\frac{2\\alpha}{\\alpha+\\beta}]}{\\sqrt{\\alpha+\\beta}}$，$\\text{EllipticK}[x] \\approx \\frac{\\pi}{2} + \\frac{\\pi}{8}x + \\frac{9\\pi}{128}x^2$",
+    "answer": "(1) $V = \\frac{Q}{8\\pi\\epsilon_0 a} \\sum_{n=1}^{N} \\frac{1}{N} \\frac{1}{|\\sin(\\frac{\\pi n}{N})|}$, $\\mathbf{E} = \\frac{Q}{16\\pi\\epsilon_0 a^2} \\sum_{n=1}^{N} \\frac{1}{N} \\frac{1}{|\\sin(\\frac{\\pi n}{N})|} \\hat{z}$ (以第0个电荷为例);\n(2) $W = \\frac{1}{2} \\frac{Q^2}{8\\pi\\epsilon_0 a} \\sum_{n=1}^{N} \\frac{1}{N} \\frac{1}{|\\sin(\\frac{\\pi n}{N})|}$;\n(3) 发散;\n(4) $V(z) = \\frac{\\lambda a}{2\\epsilon_0} (\\frac{1}{z+a} + \\frac{1}{2}\\frac{az}{(z+a)^3} + \\dots)$, $E_z(z) = \\frac{\\lambda a}{2\\epsilon_0} (\\frac{1}{(z+a)^2} + \\frac{1}{2}\\frac{a(2z-a)}{(z+a)^4} + \\dots)$;\n(5) $W = \\frac{1}{2} \\frac{Q^2}{4\\pi\\epsilon_0} \\frac{1}{2a} (1 + \\frac{1}{4} + \\frac{9}{256} + \\dots)$;\n(6) 不一致。点电荷能量发散，线电荷能量收敛（连续化消除了点电荷间无穷小距离导致的发散）。(注：官方答案指出此处题目设计存在瑕疵，给出了全分)",
+    "reasoning_process": "(1) 选择第 0 个电荷作为观测点。第 n 个电荷与其距离为 $r_n = 2a \\sin(\\frac{\\theta_n}{2}) = 2a \\sin(\\frac{\\pi n}{N})$。电势 $V = \\frac{1}{4\\pi\\epsilon_0} \\sum_{n=1}^{N-1} \\frac{Q/N}{r_n} = \\frac{Q}{8\\pi\\epsilon_0 a N} \\sum_{n=1}^{N-1} \\frac{1}{\\sin(\\frac{\\pi n}{N})}$。电场在水平方向抵消，仅剩垂直于圆面（指向中心连线方向）分量 $E_z = \\frac{1}{4\\pi\\epsilon_0} \\sum_{n=1}^{N-1} \\frac{Q/N}{r_n^2} \\sin(\\frac{\\theta_n}{2}) = \\frac{Q}{16\\pi\\epsilon_0 a^2 N} \\sum_{n=1}^{N-1} \\frac{1}{\\sin(\\frac{\\pi n}{N})}$。\n(2) 根据 $W = \\frac{1}{2} \\sum q_i V_i$，每个电荷处的电势相同，总能量 $W = \\frac{1}{2} N (\\frac{Q}{N}) V = \\frac{1}{2} Q V = \\frac{Q^2}{16\\pi\\epsilon_0 a N} \\sum_{n=1}^{N-1} \\frac{1}{\\sin(\\frac{\\pi n}{N})}$。\n(3) 当 N 趋于无穷大时，求和项 $\\sum \\frac{1}{N \\sin(\\pi n/N)}$，对于较小的 n，$\\sin(\\pi n/N) \\approx \\pi n/N$，求和近似为 $\\sum \\frac{1}{\\pi n}$，这是一个调和级数，因此结果是发散的。\n(4) 均匀圆环电势 $V(z) = \\frac{1}{4\\pi\\epsilon_0} \\int_0^{2\\pi} \\frac{\\lambda a d\\phi}{\\sqrt{z^2 + a^2 - 2za \\cos\\phi}}$。利用提示中的椭圆积分公式展开得到答案。电场 $E_z = -\\frac{\\partial V}{\\partial z}$ 对应求导即可。\n(5) 总能量 $W = \\frac{1}{2} \\int \\lambda V dl = \\frac{1}{2} Q V(z=a)$，代入展开式在 $z=a$ 处的值。\n(6) 点电荷模型中由于电荷集中在点上，自能项导致总能量发散。而连续线电荷模型消除了无限靠近的点电荷，能量是有限的。两者不一致反映了点电荷模型的局限性。"
+  },
+  {
+    "question_id": "PHY3_008_xk",
+    "type": "计算题",
+    "knowledge_point": "镜像法，电偶极子，多极展开，受力计算",
+    "difficulty": "困难",
+    "question": "考虑两个相交成直角的半无限大接地导电平面。在它们之间的区域，有一个偶极子 $\\mathbf{p}$，位置如图 5 所示（坐标为 $(a, b)$，方向角为 $\\theta$）。\n(1) 求出镜像偶极子的位置和角度，并写出由所有偶极子产生的(2) 电势和电场。证明电势满足所有边界条件。\n(3) 求偶极子 $\\mathbf{p}$ 受到的力。\n(4) 将偶极子 $\\mathbf{p}$ 从无穷远处移进来需要做多少功？",
+    "answer": "(1) 位置 $(-a, b)$ 处 $\\mathbf{p}_2 = p_x\\hat{x} - p_y\\hat{y}$；$(-a, -b)$ 处 $\\mathbf{p}_3 = -p_x\\hat{x} - p_y\\hat{y}$；$(a, -b)$ 处 $\\mathbf{p}_4 = -p_x\\hat{x} + p_y\\hat{y}$，其中 $p_x = p\\cos\\theta, p_y = p\\sin\\theta$;\n(2) $V = \\sum_{i=1}^4 \\frac{1}{4\\pi\\epsilon_0} \\frac{\\mathbf{p}_i \\cdot (\\mathbf{r} - \\mathbf{s}_i)}{|\\mathbf{r} - \\mathbf{s}_i|^3}$，边界条件得证（见解析）；\n(3) 取 $\\theta=0$ 时，$F = \\frac{p_x^2}{4\\pi\\epsilon_0} [ (\\frac{-3a^3+7ab^2}{16(a^2+b^2)^{7/2}} - \\frac{3}{16a^4})\\hat{x} + (\\frac{6a^2b+b^3}{8(a^2+b^2)^{7/2}} + \\frac{1}{8b^4})\\hat{y} ]$;\n(4) $U = -\\frac{1}{4\\pi\\epsilon_0} \\mathbf{p}_1 \\cdot \\sum_{i=2}^{4} [ \\frac{3[\\mathbf{p}_i\\cdot(\\mathbf{r}-\\mathbf{s}_i)](\\mathbf{r}-\\mathbf{s}_i)}{|\\mathbf{r}-\\mathbf{s}_i|^5} - \\frac{\\mathbf{p}_i}{|\\mathbf{r}-\\mathbf{s}_i|^3} ]$",
+    "reasoning_process": "(1) 采用镜像法。原偶极子可视为一对紧邻的正负电荷，分别对其进行镜像。在 $(-a, b)$ 处的镜像 $\\mathbf{p}_2$ 的 x 分量不变，y 分量反向。$(-a, -b)$ 处的 $\\mathbf{p}_3$ 的 x、y 分量均反向。$(a, -b)$ 处的 $\\mathbf{p}_4$ 的 x 分量反向，y 分量不变。\n(2) 总电势 $V$ 为四个偶极子电势的叠加。验证边界条件：在 $x=0$ 平面，$\\mathbf{p}_1$ 与 $\\mathbf{p}_2$ 对称，电势相互抵消；$\\mathbf{p}_4$ 与 $\\mathbf{p}_3$ 对称，电势相互抵消，总电势为0。同理在 $y=0$ 平面，$\\mathbf{p}_1$ 与 $\\mathbf{p}_4$ 抵消，$\\mathbf{p}_2$ 与 $\\mathbf{p}_3$ 抵消，满足接地条件。电场 $\\mathbf{E} = -\\nabla V$。\n(3) 偶极子受力 $\\mathbf{F} = (\\mathbf{p} \\cdot \\nabla)\\mathbf{E}$。为简化，考虑 $\\theta=0$ 即 $\\mathbf{p} = p_x \\hat{x}$，此时 $F_x = p_x \\frac{\\partial E_x}{\\partial x}$。计算另外三个镜像偶极子在 $(a, b)$ 处产生的电场 $E_x$ 并求偏导即可。\n(4) 将偶极子从无穷远移入所做的功等于系统的静电能。$U = -\\mathbf{p}_1 \\cdot \\mathbf{E}_{others}$，其中 $\\mathbf{E}_{others}$ 是另外三个镜像偶极子在 $\\mathbf{p}_1$ 处产生的电场。套用偶极子电场公式累加即可。"
+  }
   
   {
     "note":"=======================================================以上为xk贡献的数据======================================================="
