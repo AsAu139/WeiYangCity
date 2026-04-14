@@ -1,2 +1,12 @@
-# This baseline uses only Python standard library modules.
-# No third-party packages need to be installed.
+# --- API 与环境依赖 ---
+openai
+python-dotenv
+
+# --- 数据处理与 RAG 检索 ---
+jieba
+scikit-learn
+numpy
+scipy
+
+# --- 物理公式计算 (建议带上，备用) ---
+sympy

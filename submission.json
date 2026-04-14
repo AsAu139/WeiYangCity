@@ -1,5 +1,5 @@
 {
-  "Team_name": "xxx",
+  "Team_name": "纯AI战队",
   "python_version": "3.12",
   "entry_class": "BaselineAgent",
   "entry_method": "solve"
