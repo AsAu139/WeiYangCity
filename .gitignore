@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+submission.generated.json
+metrics.json
+wrong_answers.json

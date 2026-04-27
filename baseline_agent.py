@@ -5,8 +5,8 @@
   "question_id": str,
   "type": str,
   "difficulty": str,
-  "question": str,
-  "image": str  # 可选字段，仅含图题提供，内容为图片相对路径
+    "question": str,
+    "image": str  # 可选字段，仅含图题提供，内容为图片相对路径
 }
 
 输出接口（单题）:
@@ -19,41 +19,39 @@
 
 from __future__ import annotations
 
-import ast
 from dataclasses import dataclass
+import ast
 import operator
-import os
 import re
-from typing import Any, Callable
-
-try:
-    from dotenv import load_dotenv
-except ImportError:  # pragma: no cover - optional dependency
-    load_dotenv = None
-
-try:
-    from openai import OpenAI
-except ImportError:  # pragma: no cover - optional dependency
-    OpenAI = None
-
+from typing import Any, Callable, Dict
+import os
+from dotenv import load_dotenv  # 新增：用于读取 .env 文件
+from openai import OpenAI  # 导入库
 
 @dataclass
 class BaselineConfig:
-    """基础配置。默认可离线运行，外部 API 仅作为可选增强。"""
+    """基础配置。当前 baseline 默认不依赖外部 API。"""
 
     max_reasoning_chars: int = 1200
     enable_llm: bool = True
     llm_timeout: float = 30.0
-    llm_model: str = "kimi-k2.5"
+    llm_model: str = "kimi-k2.6"
+    llm_max_tokens: int = 1200
     llm_base_url: str = "https://api.moonshot.cn/v1"
     api_key_env: str = "KIMI_API_KEY"
 
 
 class BaselineAgent:
-    """一个可实例化的基础智能体。"""
+    """一个可实例化的基础智能体。
 
+    设计目标:
+    - 保持赛题输入输出字段不变
+    - 逻辑简单、稳定，方便选手二次开发
+    - 不作为脚本运行，供评测框架直接实例化调用
+    """
     def __init__(self, config: BaselineConfig | None = None) -> None:
         self.config = config or BaselineConfig()
+        self.client: OpenAI | None = None
         self._allowed_ops: dict[type[ast.operator], Callable[[float, float], float]] = {
             ast.Add: operator.add,
             ast.Sub: operator.sub,
@@ -66,221 +64,120 @@ class BaselineAgent:
             ast.UAdd: operator.pos,
             ast.USub: operator.neg,
         }
-        self._client: Any | None = None
-        self._client_init_error: str | None = None
+        
+        if self.config.enable_llm:
+            # --- 新增安全加载逻辑 ---
+            load_dotenv()  # 这一行会自动寻找根目录下的 .env 并读取
+            api_key = os.getenv(self.config.api_key_env, "").strip()
+            if api_key:
+                self.client = OpenAI(
+                    api_key=api_key,
+                    base_url=self.config.llm_base_url,
+                )
+            # ----------------------
 
-        if load_dotenv is not None:
-            load_dotenv()
 
-    def solve(self, item: dict[str, Any]) -> dict[str, str]:
-        """解单题，优先走本地兜底，再按条件调用可选 LLM。"""
+
+    def solve(self, item: Dict[str, Any]) -> Dict[str, str]:
+        """解单题，使用优化的 Prompt 调用 Kimi API。"""
         q_id = str(item.get("question_id", ""))
-        q_type = str(item.get("type", "")).strip()
-        difficulty = str(item.get("difficulty", "")).strip()
+        q_type = str(item.get("type", ""))
+        difficulty = str(item.get("difficulty", ""))
         question = str(item.get("question", "")).strip()
         image_path = item.get("image")
 
-        if not question:
-            return {
-                "question_id": q_id,
-                "reasoning_process": "题目内容为空，无法作答。",
-                "answer": "无法确定",
-            }
-
-        local_result = self._solve_by_rules(question=question, q_type=q_type, image_path=image_path)
-        if local_result is not None:
-            local_result["question_id"] = q_id
-            return local_result
-
-        llm_response = self._solve_by_llm(
-            question=question,
-            q_type=q_type,
-            difficulty=difficulty,
-            image_path=image_path,
+        # 1. 设定系统级指令
+        system_prompt = (
+            "你是一个精通清华大学《基础物理学》课程的资深教授。\n"
+            "你的任务是为学生提供严谨、准确的题目解答。请务必保持推导过程的严谨，不要发散。请遵循以下规范：\n"
+            "1. 逻辑严密：从基本定律（如牛顿定律、基尔霍夫定律 KCL/KVL）出发进行推导。\n"
+            "2. 公式规范：所有的数学公式、物理量、数值单位必须使用 LaTeX 格式（例如：$F=ma$, $10\\Omega$）。\n"
+            "3. 结构清晰：推理过程需包含‘已知条件’、‘推导步骤’、‘数值计算’。\n"
+            "4. 最终答案：请在回复的最后一行，独立起行并严格以‘答案：[具体结果]’的形式结束。"
         )
-        if llm_response is not None:
-            reasoning_process = self._truncate_reasoning(llm_response)
-            answer = self._extract_answer(reasoning_process)
+
+        # 2. 构造用户输入（提供题目信息）
+        user_content = f"题目类型：{q_type}\n难度：{difficulty}\n题目内容：{question}"
+        if image_path:
+            user_content += f"\n（注意：本题配有图示，路径为 {image_path}，请根据题目文字描述及常识进行推理解析。）"
+
+        if self.client is None:
+            return self._fallback_answer(q_id, question)
+
+        try:
+            completion = self.client.chat.completions.create(
+                model=self.config.llm_model,  # 建议根据你的 API 实际权限确认模型名（模型名在哪看，我已急哭）
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_content}
+                ],
+                timeout=self.config.llm_timeout,
+                max_tokens=self.config.llm_max_tokens,
+                extra_body={"thinking": {"type": "disabled"}},
+            )
+            
+            full_response = completion.choices[0].message.content or ""
+            
+            # 3. 简单的答案提取逻辑
+            # 尝试寻找最后一行“答案：”之后的内容
+            lines = full_response.strip().split('\n')
+            last_line = lines[-1]
+            if "答案：" in last_line:
+                answer = last_line.split("答案：")[-1].strip()
+            else:
+                answer = "请见推理过程末尾"
+            if "选" in q_type:
+                answer = self._extract_choice_letter(answer, question)
+
             return {
                 "question_id": q_id,
-                "reasoning_process": reasoning_process,
+                "reasoning_process": full_response,
                 "answer": answer,
             }
 
-        fallback_reasoning = self._truncate_reasoning(
-            self._build_fallback_reasoning(question=question, image_path=image_path)
-        )
+        except Exception as e:
+            return {
+                "question_id": q_id,
+                "reasoning_process": f"API 调用发生错误：{str(e)}",
+                "answer": "ERROR",
+            }
+
+    def _fallback_answer(self, q_id: str, question: str) -> Dict[str, str]:
+        expr = self._extract_math_expression(question)
+        if expr is not None:
+            try:
+                value = self._safe_eval(expr)
+                answer = self._format_number(value)
+                reasoning = (
+                    f"已知条件：题目中可提取表达式 ${expr.replace('**', '^')}$。\n"
+                    "推导步骤：按基础运算顺序计算。\n"
+                    f"数值计算：${expr.replace('**', '^')} = {answer}$。\n"
+                    f"答案：{answer}"
+                )
+                return {
+                    "question_id": q_id,
+                    "reasoning_process": reasoning,
+                    "answer": answer,
+                }
+            except Exception:
+                pass
+
         return {
             "question_id": q_id,
-            "reasoning_process": fallback_reasoning,
+            "reasoning_process": "LLM 未启用或 API Key 未配置，当前 baseline 无法可靠作答。",
             "answer": "无法确定",
         }
 
-    def _solve_by_rules(
-        self, question: str, q_type: str, image_path: Any | None
-    ) -> dict[str, str] | None:
-        """优先处理可直接提取表达式的基础计算题。"""
-        if image_path:
-            return None
-
-        expr = self._extract_math_expression(question)
-        if expr is None:
-            return None
-
-        try:
-            value = self._safe_eval(expr)
-        except Exception:
-            return None
-
-        answer = self._format_number(value)
-        reasoning = (
-            "已知条件：题目中可直接提取出数学表达式 "
-            f"${expr.replace('**', '^')}$。\n"
-            "推导步骤：该题可按四则运算顺序直接计算，无需额外物理建模。\n"
-            f"数值计算：${expr.replace('**', '^')} = {answer}$。\n"
-            f"答案：{answer}"
-        )
-
-        return {
-            "reasoning_process": self._truncate_reasoning(reasoning),
-            "answer": answer,
-        }
-
-    def _solve_by_llm(
-        self,
-        question: str,
-        q_type: str,
-        difficulty: str,
-        image_path: Any | None,
-    ) -> str | None:
-        client = self._get_client()
-        if client is None:
-            return None
-
-        system_prompt = (
-            "你是一个精通大学基础物理的助教。"
-            "请严格按照以下结构回答：\n"
-            "已知条件：...\n"
-            "推导步骤：...\n"
-            "数值计算：...\n"
-            "答案：...\n"
-            "请保证最后一行必须是“答案：具体结果”，不要添加额外结束语。"
-        )
-
-        user_content = (
-            f"题目类型：{q_type or '未知'}\n"
-            f"难度：{difficulty or '未知'}\n"
-            f"题目内容：{question}"
-        )
-        if image_path:
-            user_content += (
-                f"\n补充说明：本题给出了图片路径 `{image_path}`。"
-                "当前基线版本不会直接读取图片，请仅依据题干文字中可确定的信息作答；"
-                "若关键信息依赖图片，请明确说明。"
-            )
-
-        try:
-            completion = client.chat.completions.create(
-                model=self.config.llm_model,
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_content},
-                ],
-                temperature=1,
-                timeout=self.config.llm_timeout,
-            )
-        except Exception as exc:
-            self._client_init_error = f"LLM 调用失败：{exc}"
-            return None
-
-        raw_content = completion.choices[0].message.content
-        if isinstance(raw_content, str):
-            return raw_content.strip()
-        return None
-
-    def _get_client(self) -> Any | None:
-        if not self.config.enable_llm:
-            self._client_init_error = "配置中已关闭 LLM 调用。"
-            return None
-
-        if self._client is not None:
-            return self._client
-
-        if OpenAI is None:
-            self._client_init_error = "未安装 openai，跳过 LLM 调用。"
-            return None
-
-        api_key = os.getenv(self.config.api_key_env, "").strip()
-        if not api_key:
-            self._client_init_error = f"环境变量 {self.config.api_key_env} 未设置。"
-            return None
-
-        try:
-            self._client = OpenAI(
-                api_key=api_key,
-                base_url=self.config.llm_base_url,
-            )
-            return self._client
-        except Exception as exc:
-            self._client_init_error = f"LLM 客户端初始化失败：{exc}"
-            return None
-
-    def _extract_answer(self, response_text: str) -> str:
-        patterns = [
-            r"^\s*答案\s*[:：]\s*(.+?)\s*$",
-            r"^\s*最终答案\s*[:：]\s*(.+?)\s*$",
-            r"^\s*\*\*答案\*\*\s*[:：]?\s*(.+?)\s*$",
-        ]
-        for line in reversed([line.strip() for line in response_text.splitlines() if line.strip()]):
-            for pattern in patterns:
-                match = re.match(pattern, line)
-                if match:
-                    return match.group(1).strip()
-
-        for pattern in patterns:
-            matches = re.findall(pattern, response_text, flags=re.MULTILINE)
-            if matches:
-                return matches[-1].strip()
-
-        lines = [line.strip() for line in response_text.splitlines() if line.strip()]
-        return lines[-1] if lines else "无法确定"
-
-    def _build_fallback_reasoning(self, question: str, image_path: Any | None) -> str:
-        lines = [
-            f"已知条件：题目内容为“{question}”。",
-            "推导步骤：当前基线未能从题干中提取出可直接计算的表达式，且外部模型不可用，因此无法完成可靠推导。",
-        ]
-        if image_path:
-            lines.append(
-                f"补充说明：题目还引用了图片 `{image_path}`，但当前基线版本不会直接读取图片内容。"
-            )
-        if self._client_init_error:
-            lines.append(f"模型状态：{self._client_init_error}")
-        lines.append("数值计算：无可执行的可靠计算。")
-        lines.append("答案：无法确定")
-        return "\n".join(lines)
-
     def _extract_math_expression(self, text: str) -> str | None:
-        """仅提取由数字与常见运算符构成的基础表达式。"""
-        normalized = (
-            text.replace("×", "*")
-            .replace("÷", "/")
-            .replace("（", "(")
-            .replace("）", ")")
-            .replace("−", "-")
-        )
+        # 仅提取由数字与常见运算符构成的最基础表达式。
+        normalized = text.replace("×", "*").replace("÷", "/").replace("（", "(").replace("）", ")")
         candidates = re.findall(r"[\d\.\s\+\-\*/\(\)\%\^]+", normalized)
         for candidate in candidates:
-            expr = re.sub(r"\s+", "", candidate)
+            expr = candidate.strip()
             if not expr:
                 continue
-            if not re.search(r"\d", expr):
-                continue
-            if not re.search(r"[\+\-\*/\^%]", expr):
-                continue
-            if expr[0] in "*/%^" or expr[-1] in "+-*/%^":
-                continue
-            return expr.replace("^", "**")
+            if re.search(r"\d", expr) and re.search(r"[\+\-\*/\^%]", expr):
+                return expr.replace("^", "**")
         return None
 
     def _safe_eval(self, expr: str) -> float:
@@ -311,18 +208,35 @@ class BaselineAgent:
 
         raise ValueError("表达式语法不受支持")
 
-    def _truncate_reasoning(self, text: str) -> str:
-        if len(text) <= self.config.max_reasoning_chars:
-            return text
-        truncated = text[: self.config.max_reasoning_chars].rstrip()
-        if "答案：" in text and "答案：" not in truncated:
-            answer = self._extract_answer(text)
-            suffix = f"\n...\n答案：{answer}"
-            keep = max(self.config.max_reasoning_chars - len(suffix), 0)
-            truncated = text[:keep].rstrip() + suffix
-        return truncated
-
     def _format_number(self, value: float) -> str:
         if float(value).is_integer():
             return str(int(value))
         return f"{value:.10g}"
+
+    def _extract_choice_letter(self, answer: str, question: str) -> str:
+        match = re.search(r"(?:选项|答案|选择|对应选项)\s*[\(（]?([A-Da-d])[\)）]?", answer)
+        if match:
+            return match.group(1).upper()
+
+        match = re.search(r"[\(（]([A-Da-d])[\)）]", answer)
+        if match:
+            return match.group(1).upper()
+
+        normalized_answer = self._normalize_choice_text(answer)
+        for letter, option_text in re.findall(r"[\(（]([A-Da-d])[\)）]\s*([^\n]+)", question):
+            normalized_option = self._normalize_choice_text(option_text)
+            if normalized_option and (
+                normalized_option in normalized_answer
+                or normalized_answer in normalized_option
+            ):
+                return letter.upper()
+        return answer
+
+    def _normalize_choice_text(self, text: str) -> str:
+        text = text.replace("（", "(").replace("）", ")")
+        text = re.sub(r"答案\s*[:：]", "", text)
+        text = re.sub(r"[\s$，,。.;；]", "", text)
+        return text
+
+
+# agent 输出格式还需规范。熬不动了，下次再改。晚安米娜桑
