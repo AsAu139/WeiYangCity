@@ -35,6 +35,8 @@ class BaselineConfig:
     max_reasoning_chars: int = 1200
     enable_llm: bool = True
     llm_timeout: float = 30.0
+    fill_blank_timeout: float = 60.0
+    calculation_timeout: float = 180.0
     llm_model: str = "kimi-k2.6"
     llm_max_tokens: int = 1200
     llm_base_url: str = "https://api.moonshot.cn/v1"
@@ -93,7 +95,9 @@ class BaselineAgent:
             "1. 逻辑严密：从基本定律（如牛顿定律、基尔霍夫定律 KCL/KVL）出发进行推导。\n"
             "2. 公式规范：所有的数学公式、物理量、数值单位必须使用 LaTeX 格式（例如：$F=ma$, $10\\Omega$）。\n"
             "3. 结构清晰：推理过程需包含‘已知条件’、‘推导步骤’、‘数值计算’。\n"
-            "4. 最终答案：请在回复的最后一行，独立起行并严格以‘答案：[具体结果]’的形式结束。"
+            "4. 最终答案：请在回复的最后一行，独立起行并严格以‘答案：[具体结果]’的形式结束。\n"
+            "5. ‘答案：’后只写最终结果本身，不要写解释句、变量名或‘静态电阻为’等说明文字；"
+            "多个结果用中文分号‘；’分隔，例如：答案：3Ω；4Ω。选择题只写 A/B/C/D。"
         )
 
         # 2. 构造用户输入（提供题目信息）
@@ -105,13 +109,14 @@ class BaselineAgent:
             return self._fallback_answer(q_id, question)
 
         try:
+            timeout = self._timeout_for_type(q_type)
             completion = self.client.chat.completions.create(
                 model=self.config.llm_model,  # 建议根据你的 API 实际权限确认模型名（模型名在哪看，我已急哭）
                 messages=[
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_content}
                 ],
-                timeout=self.config.llm_timeout,
+                timeout=timeout,
                 max_tokens=self.config.llm_max_tokens,
                 extra_body={"thinking": {"type": "disabled"}},
             )
@@ -128,6 +133,8 @@ class BaselineAgent:
                 answer = "请见推理过程末尾"
             if "选" in q_type:
                 answer = self._extract_choice_letter(answer, question)
+            else:
+                answer = self._clean_final_answer(answer)
 
             return {
                 "question_id": q_id,
@@ -167,6 +174,13 @@ class BaselineAgent:
             "reasoning_process": "LLM 未启用或 API Key 未配置，当前 baseline 无法可靠作答。",
             "answer": "无法确定",
         }
+
+    def _timeout_for_type(self, q_type: str) -> float:
+        if "填空" in q_type:
+            return self.config.fill_blank_timeout
+        if "计算" in q_type:
+            return self.config.calculation_timeout
+        return self.config.llm_timeout
 
     def _extract_math_expression(self, text: str) -> str | None:
         # 仅提取由数字与常见运算符构成的最基础表达式。
@@ -236,6 +250,17 @@ class BaselineAgent:
         text = text.replace("（", "(").replace("）", ")")
         text = re.sub(r"答案\s*[:：]", "", text)
         text = re.sub(r"[\s$，,。.;；]", "", text)
+        return text
+
+    def _clean_final_answer(self, answer: str) -> str:
+        text = answer.strip()
+        text = re.sub(r"\\text\{([^{}]*)\}", r"\1", text)
+        text = text.replace("$", "")
+        text = text.replace("\\ \\Omega", "Ω").replace("\\Omega", "Ω")
+        text = text.replace("\\,", "").replace("\\ ", "")
+        text = text.replace("，", "；")
+        text = re.sub(r"(静态电阻|动态电阻|等效电阻|电阻|结果|答案)\s*(为|是|=|：|:)", "", text)
+        text = re.sub(r"\s+", "", text)
         return text
 
 

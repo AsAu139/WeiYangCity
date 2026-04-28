@@ -1,0 +1,329 @@
+[
+  {
+    "question_id": "CIR_001",
+    "type": "填空题",
+    "difficulty": "简单",
+    "question": "某非线性电阻的伏安特性为 u = i^2 + 2i，u、i 取关联参考方向。当 i = 1 A 时，求其静态电阻与动态电阻。",
+    "answer": "3Ω；4Ω。",
+    "subject": "电路原理"
+  },
+  {
+    "question_id": "CIR_002",
+    "type": "填空题",
+    "difficulty": "简单",
+    "question": "在 RLC 串联二阶电路中，C = 1 μF，L = 10 mH。使该电路呈欠阻尼状态的 R 值范围为______。",
+    "answer": "0<R<200Ω",
+    "subject": "电路原理"
+  },
+  {
+    "question_id": "CIR_003",
+    "type": "填空题",
+    "difficulty": "简单",
+    "question": "两个容值均为 1 μF 的电容串联，对外等效电容为多少；两个感值均为 1 mH 的电感串联，对外等效电感为多少？",
+    "answer": "0.5μF；2mH。",
+    "subject": "电路原理"
+  },
+  {
+    "question_id": "CIR_004",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "以题图所示变量为状态变量，填写下面状态方程中的空白项，按顺序输出结果。",
+    "answer": "-0.5，0.5，1.5；0，0，-0.5；-0.1，0.2，-0.3；-1，-1，-1；-0.5，-0.5，-0.5",
+    "image": "validation_data/images/CIR_004.png",
+    "subject": "电路原理"
+  },
+  {
+    "question_id": "CIR_005",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "求图中所示电路的入端等效电阻 Ri。",
+    "answer": "设端口电压为 U，端口总电流为 I（流入上端）。令流过 3 Ω 的电流为 I1，则该支路电压为 U = 3 I1，得 I1 = U/3。其余支路电流为 (U - 2 I1)/4（注意中间电阻两端电压为 U - 2 I1）。由 KCL：\nI = I1 + (U - 2 I1)/4\n代入 I1 = U/3：\nI = U/3 + (U - 2·(U/3))/4 = U/3 + (U - 2U/3)/4 = U/3 + (U/3)/4 = U/3 + U/12 = 5U/12。\n因此入端等效电阻 Ri = U / I = U / (5U/12) = 12/5 = 2.4 Ω。",
+    "image": "validation_data/images/CIR_005.png",
+    "subject": "电路原理"
+  },
+  {
+    "question_id": "CIR_006",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "下图所示电路中，已知二端口 N 的传输参数 T = [[4, 6 Ω], [3 S, 2]]。\n(1) 求 R_L 为何值时其上可获得最大功率，并求该最大功率；\n(2) 求 5 A 电流源发出的功率。",
+    "answer": " (1) 求负载最大功率及 R_L：\n二端口的传输参数关系（注意电流方向约定）可以写为：\nU1 = 4 U2 + 6 ( - I2 )\nI1 = 3 U2 + 2 ( - I2 ).\n输出端的伏安关系由上述方程消去 U1、I1（结合输入侧已知关系）可求得 U2 对 I2 的开路电压与等效内阻。按照题中推导：\n化简得到输出侧伏安特性为 U2 = 1 + I2（单位 V, A），因此戴维南开路电压 U_oc = 1 V，等效内阻 R_eq = 1 Ω。\n负载获得最大功率时取 R_L = R_eq = 1 Ω，最大功率为\nP_max = U_oc^2 / (4 R_eq) = 1^2 / (4·1) = 0.25 W。\n(2) 5 A 电流源发出的功率（按题中给出的计算过程）：\n取 R_L = 1 Ω 时，解电路得到 I2 = -0.5 A，U2 = 0.5 V。由传输参数关系得到 I1 = 2.5 A，U1 = 5 V。若电路中还有一个 5 A 的电流源与其它元件构成，被题中写作“电流源电压为 U1 + 2×5 = 15 V”（这里的 2×5 来自电路中某电阻两端压降的给定关系），则电流源发出的功率为 P = 15 V × 5 A = 75 W。\n（注：以上步骤保留了原始推导中的代入与数值计算过程。）",
+    "image": "validation_data/images/CIR_006.png",
+    "subject": "电路原理"
+  },
+  {
+    "question_id": "CIR_007",
+    "type": "计算题",
+    "difficulty": "中等",
+    "question": "题图所示的正弦稳态电路中，求开关 S 断开时电压源发出的有功功率。",
+    "answer": "列网孔方程并求解得支路电流：\n20∠0° - (j15 - 5j) I1 - j10 I2 = 0\n- j20 I2 - j10 I1 - 10 I2 - (-j20) I2 = 0\n化简后得到线性方程组：\n20 - j10 I1 - j10 I2 = 0\n- j10 I1 - 10 I2 = 0\n联立求解得 I1 = 1 - j = √2 ∠ -45° A。电压源的有功功率为 P = Re{U·I*}，对于题中给出的结果：\nP 有功 = 20 × 2 × cos45° = 20 W。",
+    "image": "validation_data/images/CIR_007.png",
+    "subject": "电路原理"
+  },
+  {
+    "question_id": "CIR_008",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "求使 a、b 端右侧发生谐振的 ω 值。",
+    "answer": "谐振条件：端口输入阻抗的虚部为0。\n计算并联组合 Z_RC：\nZ_RC = (R · (1 / (jωC))) / (R + 1/(jωC)) = R / (1 + j ω C R)·(1 - j ω C R)/(1 - j ω C R) ...\n化简得到 Z_RC = R (1 - j ω C R) / (1 + (ω C R)^2) = R/(1 + (ω C R)^2) - j (ω C R^2)/(1 + (ω C R)^2)。\n端口输入阻抗 Z_in = j ω L + Z_RC，分离虚部得到：\nIm{Z_in} = ω L - (ω C R^2)/(1 + (ω C R)^2) = 0。\n解得：\nω L = (ω C R^2)/(1 + (ω C R)^2)\n整理得 L (1 + (ω C R)^2) = C R^2\nL + L ω^2 C^2 R^2 = C R^2\nL ω^2 C^2 R^2 = C R^2 - L\nω^2 = (C R^2 - L) / (L C^2 R^2)\nω = (1 / (C R)) · sqrt( (C R^2) / L - 1 ).\n（以上给出完整推导步骤与最终表达式。）",
+    "image": "validation_data/images/CIR_008.png",
+    "subject": "电路原理"
+  },
+  {
+    "question_id": "CIR_009",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "题图所示三相负载接至对称三相电源。已知 U_AB = 380∠0° V，R1 = 20 Ω，R2 = 50 Ω，X_L = 50 Ω，X_M = 20 Ω。\n求： (1) 线电流 I_B； (2) 图中功率表的读数。",
+    "answer": "已知相电压 U_A = 380/√3 ∠ -30° V。考虑各相线圈互感 X_M，写出每相 KVL：\nU_A = R1 I_A1 + j X_L I_A1 + j X_M I_B1 + j X_M I_C1\nU_B = R1 I_B1 + j X_L I_B1 + j X_M I_A1 + j X_M I_C1\nU_C = R1 I_C1 + j X_L I_C1 + j X_M I_A1 + j X_M I_B1\n由三相对称关系 I_B1 + I_C1 = - I_A1，代入 B 相方程并化简可得：\nU_B = (R1 + j X_L - j X_M) I_B1 = (20 + j30) I_B1。\n因此 I_B1 = U_B / (20 + j30)。代入数值得到 I_B1 ≈ -5.4545 + j2.6970 A。\n另一支路电流 I_R2 = U_AB / R2 = 380∠0° / 50 = 7.6 A。\n线电流 I_B = I_B1 - I_R2 = (-5.4545 + j2.6970) - 7.6 = -13.0545 + j2.6970 A。\n转换为极坐标：|I_B| ≈ 13.33 A，角度 ≈ 168.33°，即 I_B = 13.33∠168.33° A。\n(2) 功率表读数：\n计算 A 相电流 I_A 同样可由 I_A1 和 R2 支路叠加得到：\nI_A1 = U_A / (20 + j30) ≈ 0.3916 - j6.072 A，I_A = I_A1 + I_R2 = (0.3916 - j6.072) + 7.6 = 7.9916 - j6.072 A。\n|I_A| ≈ 10.04 A，角度 ≈ -37.23°。\n有功功率 P = Re{U_AB · I_A^*} = U_AB · |I_A| · cos φ，其中 φ 为 U_AB 相角减 I_A 相角 = 0° - (-37.23°) = 37.23°。\n因此 P ≈ 380 × 10.04 × cos 37.23° ≈ 3037.7 W。\n以上保留了从相电压、方程写出、求相电流、再求线电流与有功功率的完整运算过程与结果。",
+    "image": "validation_data/images/CIR_009.png",
+    "subject": "电路原理"
+  },
+  {
+    "question_id": "CIR_010",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "题图所示电路中网络 A 由直流电源和线性电阻构成。已知：当 u_S = 2 sin t V，R = 2 Ω 时，i = 2 sin t + 1 A；当 u_S = 4 V，R = 4 Ω 时，i = 4 A。求当 u_S = 5 V，R = 10 Ω 时 R 吸收的功率。",
+    "answer": "设网络 A 等效为一个直流电压源 U0 与内阻 R0，并且受控于 u_S 的比例系数 k，则总电流可表示为：\ni = (U0 + k u_S) / (R0 + R)。\n代入条件 1（u_S = 2 sin t, R = 2Ω，i = 2 sin t + 1）：\n(U0 + k·2 sin t) / (R0 + 2) = 2 sin t + 1。\n将正弦项与直流项分离得到系数方程：\n(2 k) / (R0 + 2) = 2   (正弦项)\nU0 / (R0 + 2) = 1      (直流项)。\n代入条件 2（u_S = 4 V, R = 4Ω，i = 4 A）：\n(U0 + k·4) / (R0 + 4) = 4。\n由第一个等式得 k = R0 + 2；由第二个得 U0 = R0 + 2。代入第三个等式：\n( (R0 + 2) + 4 (R0 + 2) ) / (R0 + 4) = 4\n5 (R0 + 2) / (R0 + 4) = 4\n5R0 + 10 = 4R0 + 16 => R0 = 6Ω。\n于是 U0 = R0 + 2 = 8 V，k = R0 + 2 = 8。\n当 u_S = 5 V，R = 10 Ω 时：\ni = (U0 + k u_S) / (R0 + R) = (8 + 8×5) / (6 + 10) = 48 / 16 = 3 A。\n电阻 R 吸收的功率为 P = i^2 R = 3^2 × 10 = 90 W。\n以上保留了由假设等效模型、列方程、解出 R0、U0、k 的完整运算过程与最终结果。",
+    "image": "validation_data/images/CIR_010.png",
+    "subject": "电路原理"
+  },
+  {
+    "question_id": "PHY_001",
+    "type": "填空题",
+    "difficulty": "简单",
+    "question": "一质点在直线上运动，其位移随时间变化的方程为 x = 2t^2 + 3t + 5 (SI)，则在 t = 2s 时，该质点的瞬时速度大小为______m/s。",
+    "answer": "对位移方程求导得速度方程 v = dx/dt = 4t + 3。当 t = 2 时，v = 4×2 + 3 = 11 m/s。",
+    "subject": "基础物理学"
+  },
+  {
+    "question_id": "PHY_002",
+    "type": "填空题",
+    "difficulty": "简单",
+    "question": "在杨氏双缝干涉实验中，若双缝间距为 d，双缝到屏的距离为 D，所用单色光波长为 λ，则相邻明条纹中心之间的距离 Δx = ______。",
+    "answer": "根据波动光学干涉条纹间距公式，Δx = Dλ/d。",
+    "subject": "基础物理学"
+  },
+  {
+    "question_id": "PHY_003",
+    "type": "填空题",
+    "difficulty": "简单",
+    "question": "真空中一半径为 R 的均匀带电球面，总电荷量为 Q。则球面内距离球心为 r (r < R) 的某点处的电场强度大小为______。",
+    "answer": "根据高斯定理，球面内部不包围电荷，且由对称性可知电场强度 E = 0。",
+    "subject": "基础物理学"
+  },
+  {
+    "question_id": "PHY_004",
+    "type": "填空题",
+    "difficulty": "一般",
+    "question": "一列平面简谐横波沿 x 轴正向传播，频率为 500Hz，波速为 300m/s。在传播方向上有 A、B 两点，已知其坐标分别为 xA=1m, xB=1.15m，则这两点间的振动相位差 Δφ = ______。",
+    "answer": "波长 λ = v/f = 300/500 = 0.6m。相位差 Δφ = 2π * (xB - xA) / λ = 2π * 0.15 / 0.6 = 2π * 1/4 = π/2。",
+    "subject": "基础物理学"
+  },
+  {
+    "question_id": "PHY_005",
+    "type": "计算题",
+    "difficulty": "一般",
+    "question": "一个质量为 M=10kg、半径为 R=0.2m 的均质圆盘，可绕通过其中心且垂直于盘面的水平轴无摩擦转动。现有一质量为 m=2kg 的质点以 v=10m/s 的速度沿切线方向撞击圆盘边缘并粘在一起，求系统碰撞后的角速度 ω。",
+    "answer": "利用角动量守恒：mvR = (I_disk + I_m)ω。其中 I_disk = 1/2 * M * R^2 = 0.5 * 10 * 0.04 = 0.2 kg·m²，I_m = m * R^2 = 2 * 0.04 = 0.08 kg·m²。则 2 * 10 * 0.2 = (0.2 + 0.08)ω -> 4 = 0.28ω -> ω ≈ 14.29 rad/s。",
+    "subject": "基础物理学"
+  },
+  {
+    "question_id": "PHY_006",
+    "type": "填空题",
+    "difficulty": "一般",
+    "question": "在单缝衍射实验中，缝宽为 a = 0.2mm，透镜焦距 f = 0.5m。若用波长 λ = 500nm 的单色光垂直照射，则屏上中央明纹的宽度（两个第一级暗纹间的距离）为______mm。",
+    "answer": "第一级暗纹满足 a*sinθ = λ，小角度下 sinθ ≈ θ = x/f，故 x = fλ/a。中央明纹宽度 w = 2x = 2fλ/a = 2 * 0.5 * 500e-9 / 0.2e-3 = 2.5e-3 m = 2.5 mm。",
+    "subject": "基础物理学"
+  },
+  {
+    "question_id": "PHY_007",
+    "type": "计算题",
+    "difficulty": "一般",
+    "question": "求动能为 100eV 的电子的德布罗意波长。（已知 h=6.63e-34 J·s，m_e=9.11e-31 kg，1eV=1.6e-19 J）",
+    "answer": "由 E = p²/2m 得 p = sqrt(2mE)。λ = h/p = h / sqrt(2 * 9.11e-31 * 100 * 1.6e-19) ≈ 1.23e-10 m = 0.123 nm。",
+    "subject": "基础物理学"
+  },
+  {
+    "question_id": "PHY_008",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "如图所示，一无限长直导线载有电流 I。其旁有一与之共面的矩形线框，线框宽为 a，长为 L，且靠近导线的一边距离导线为 d。若线框以恒定速度 v 远离导线向右运动，求线框中感应电动势 ε 的大小，并根据楞次定律说明电流方向。（需展示积分或多步推导过程）",
+    "answer": "1. 建立坐标系，直导线为 y 轴。导线产生的磁感应强度 B = μ0*I / (2πx)。\n2. 计算通过线框的磁通量 Φ = ∫B·dS = ∫[d, d+a] (μ0*I / 2πx) * L dx = (μ0*I*L / 2π) * ln((d+a)/d)。\n3. 感应电动势 ε = -dΦ/dt = - (μ0*I*L / 2π) * [d/dt ln(d+a) - d/dt ln(d)] = - (μ0*I*L / 2π) * [v/(d+a) - v/d] = (μ0*I*L*v*a) / (2π*d*(d+a))。\n4. 方向：向右运动磁通量减小，根据楞次定律，感应电流磁场方向应与原磁场一致（垂直纸面向里），故电流方向为顺时针。",
+    "subject": "基础物理学"
+  },
+  {
+    "question_id": "PHY_009",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "在 S 惯性系中，两个静止质量均为 m0 的粒子以相同的速率 v = 0.6c 相对运动并发生完全非弹性碰撞（碰撞后合为一体）。请利用狭义相对论能量-动量守恒定律，求：(1) 碰撞后复合粒子的静止质量 M；(2) 若改在其中一个粒子初始静止的参考系 S' 中观察，该碰撞过程产生的复合粒子的速度 V' 为多少？",
+    "answer": "1. S系中总动量为0，能量守恒：E = 2 * γ * m0 * c² = M * c²，其中 γ = 1/sqrt(1-0.6²) = 1.25。故 M = 2.5 m0。\n2. 在S'系中，根据洛伦兹速度变换，另一粒子的速度 u = (v - (-v)) / (1 - (v*(-v))/c²) = 2v / (1 + v²/c²) = 1.2/1.36 ≈ 0.882c。\n3. S'系中动量守恒：γ(u)*m0*u = γ(V')*M*V'。能量守恒：γ(u)*m0*c² + m0*c² = γ(V')*M*c²。\n4. 两式相除得：V' = [γ(u)*m0*u] / [γ(u)*m0 + m0] = (u * γ(u)) / (γ(u) + 1)。代入 u=0.882c 或直接用速度合成公式 V' = 0.6c。",
+    "subject": "基础物理学"
+  },
+  {
+    "question_id": "PHY_010",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "一半径为 R、质量为 M 的均匀半圆环，置于水平光滑桌面上。开始时圆环静止。若一质量为 m 的质点从圆环的一端沿环滑行到另一端，求此过程中圆环相对于桌面移动的距离。（提示：需建立质心运动模型并考虑系统水平动量守恒）",
+    "answer": "1. 系统水平方向无外力，质心水平位置不变：m*Δx_m + M*Δx_M = 0。\n2. 设圆环向左移动距离为 s，即 Δx_M = -s。\n3. 质点相对于圆环的水平位移为 2R，则质点相对于地面的位移 Δx_m = 2R - s。\n4. 代入守恒式：m(2R - s) - M*s = 0 -> 2mR = (m + M)s -> s = 2mR / (M + m)。\n",
+    "subject": "基础物理学"
+  },
+  {
+    "question_id": "CAL_001",
+    "type": "计算题",
+    "difficulty": "简单",
+    "question": "请解决以下三个积分问题，并填写答案：1. 利用已知\\( \\int_{0}^{+\\infty} x^{-\\frac{1}{2}} e^{-x} dx = \\sqrt{\\pi} \\)，计算\\( J_n = \\int_{0}^{+\\infty} x^{2n} e^{-x^2} dx \\)，结果为\\(______)；2. 计算\\( \\int_{0}^{1} \\left( \\ln \\frac{1}{x} \\right)^{\\frac{1}{2}} dx \\)，结果为\\(________)；3. 计算\\( \\int_{0}^{1} \\left( -\\ln x \\right)^{-\\frac{1}{2}} dx \\)，结果为\\(_________)。",
+    "answer": "\\( \\dfrac{(2n)!}{4^n n!} \\sqrt{\\pi} \\),\\( \\dfrac{\\sqrt{\\pi}}{2} \\),\\( \\sqrt{\\pi} \\)",
+    "subject": "微积分"
+  },
+  {
+    "question_id": "CAL_002",
+    "type": "计算题",
+    "difficulty": "简单",
+    "question": "计算二重积分 \\[ I = \\iint_D \\left( |\\cos(x+y)| + |\\sin(x+y)| \right) dx\\, dy \\] 其中积分区域 \\( D = \\{ (x,y) \\mid 0 \\leq x \\leq \\pi, \\, 0 \\leq y \\leq \\pi \\} \\)。",
+    "answer": "解：令 \\( s = x+y \\)，则对于固定的 \\( s \\)，\\( x \\) 的范围为 \\( \\max(0, s-\\pi) \\leq x \\leq \\min(\\pi, s) \\)，长度函数为 \\[ L(s) = \\begin{cases} s, & 0 \\leq s \\leq \\pi, \\\\2\\pi - s, & \\pi \\leq s \\leq 2\\pi. \\end{cases} \\] 于是 \\[ I = \\int_0^{2\\pi} \\left( |\\cos s| + |\\sin s| \\right) L(s) \\, ds. \\] 由于 \\( L(s) \\) 关于 \\( s = \\pi \\) 对称，且 \\( |\\cos s| \\) 和 \\( |\\sin s| \\) 的周期均为 \\( \\pi \\)，可得 \\[ \\int_0^{2\\pi} |\\cos s| L(s) \\, ds = 2 \\int_0^{\\pi} |\\cos s| \\, s \\, ds, \\quad \\int_0^{2\\pi} |\\sin s| L(s) \\, ds = 2 \\int_0^{\\pi} \\sin s \\, s \\, ds \\quad (\\text{因为 } \\sin s \\ge 0 \\text{ 于 } [0,\\pi]). \\] 分别计算：\\[ \\int_0^{\\pi} |\\cos s| \\, s \\, ds = \\int_0^{\\pi/2} s \\cos s \\, ds - \\int{\\pi/2}^{\\pi} s \\cos s \\, ds = \\left[ s \\sin s + \\cos s \\right]0^{\\pi/2} - \\left[ s \\sin s + \\cos s \\right]{\\pi/2}^{\\pi} = \\left( \\frac{\\pi}{2} - 1 \\right) - \\left( (-1) - \\frac{\\pi}{2} \\right) = \\pi. \\] \\[ \\int_0^{\\pi} s \\sin s \\, ds = \\left[ -s \\cos s + \\sin s \\right]0^{\\pi} = \\pi. \\] 所以 \\[ \\int_0^{2\\pi} |\\cos s| L(s) \\, ds = 2\\pi, \\quad \\int_0^{2\\pi} |\\sin s| L(s) \\, ds = 2\\pi. \\] 因此，\\( I = 2\\pi + 2\\pi = 4\\pi \\)。",
+    "subject": "微积分"
+  },
+  {
+    "question_id": "CAL_003",
+    "type": "计算题",
+    "difficulty": "简单",
+    "question": "已知 \\( S_{n}=\\ln\\left(\\sqrt[n^{2}]{1^{1}2^{2}\\cdots n^{n}}\\right)-\\ln(\\sqrt{2n}) \\)，则 \\(\\lim\\limits_{n \\to \\infty} S_{n} = \\) ______。(四舍五入保留到一位小数)",
+    "answer": "首先将ln(\\sqrt{2})提出来，之后1. 化简 S_n：\nS_n = ln( (1^1 2^2 ... n^n)^(1/n^2) ) - (1/2) ln n\n    = (1/n^2) * Σ_{k=1}^n (k ln k) - (1/2) ln n\n\n2. 记 U_n = Σ_{k=1}^n (k ln k) - (1/2) n^2 ln n，V_n = n^2，则 S_n = U_n / V_n\n\n3. 应用 Stolz 定理，计算极限：\nlim (U_{n+1} - U_n) / (V_{n+1} - V_n)\n\n4. 计算 U_{n+1} - U_n：\nU_{n+1} - U_n = (n+1) ln(n+1) - (1/2) [(n+1)^2 ln(n+1) - n^2 ln n]\n            = (1/2) n^2 ln( n/(n+1) ) + (1/2) ln(n+1)\n\n5. 计算 V_{n+1} - V_n = 2n+1\n\n6. 所以 (U_{n+1} - U_n) / (V_{n+1} - V_n) = [ (1/2) n^2 ln( n/(n+1) ) + (1/2) ln(n+1) ] / (2n+1)\n\n7. 化简：分子分母同除以 n，得\n[ (1/2) n ln( n/(n+1) ) + (1/2) (1/n) ln(n+1) ] / (2 + 1/n)\n\n8. 当 n→∞ 时，n ln( n/(n+1) ) = n ln(1 - 1/(n+1)) → -1，\n所以 (1/2) n ln( n/(n+1) ) → -1/2，\n(1/2) (1/n) ln(n+1) → 0，\n分母 2 + 1/n → 2\n\n9. 因此，极限 = (-1/2) / 2 = -1/4\n\n所以，lim S_n = -1/4 - ln(2)/2 保留一位小数，答案为-0.6 ",
+    "subject": "微积分"
+  },
+  {
+    "question_id": "CAL_004",
+    "type": "证明题",
+    "difficulty": "中等",
+    "question": "设函数f(x) = { x^2 sin(1/x), 当x≠0; 0, 当x=0 }。在区间[0, x]（其中x>0）上应用拉格朗日中值定理，得到存在ξ∈(0, x)使得f(x)-f(0)=f'(ξ)(x-0)。计算得f'(x)=2x sin(1/x)-cos(1/x)（当x≠0时），代入上式得x^2 sin(1/x)=x(2ξ sin(1/ξ)-cos(1/ξ))。化简得cos(1/ξ)=2ξ sin(1/ξ)-x sin(1/x)。当x→0时，由中值定理知ξ→0，于是从上述等式推出lim_{ξ→0} cos(1/ξ)=0。但已知lim_{ξ→0} cos(1/ξ)不存在。试问矛盾何在？请解释。",
+    "answer": "矛盾在于错误地将依赖于x的中间点ξ(x)的极限过程当作独立的ξ→0的极限过程。实际上，由中值定理得到的ξ是依赖于x的，即ξ=ξ(x)，且当x→0时，ξ(x)→0。因此，原推导实际上得到的是lim_{x→0} (2ξ(x) sin(1/ξ(x))-cos(1/ξ(x)))=0，这并不能推出lim_{ξ→0} cos(1/ξ)=0，因为ξ(x)并不是独立地以任意方式趋于0，而是随着x以特定方式趋于0。",
+    "subject": "微积分"
+  },
+  {
+    "question_id": "CAL_005",
+    "type": "构造题",
+    "difficulty": "中等",
+    "question": "构造一个数列 {a_n}，使得级数 ∑{n=1}^{∞} a_n 收敛，但级数 ∑{n=1}^{∞} (a_n)^5 发散。",
+    "answer": "构造思路如下：1. 目标分析：要使得 ∑ aₙ 收敛但 ∑ aₙ⁵ 发散，考虑形式 aₙ = n^{-1/5} bₙ，其中 {bₙ} 有界。则 aₙ⁵ = n⁻¹ bₙ⁵。为使 ∑ aₙ⁵ 发散，需要 bₙ⁵ 在某些 n 上不趋于零，且符号一致，从而 ∑ n⁻¹ bₙ⁵ 含有调和级数的发散子级数。2. 单位根思想：我们希望 bₙ⁵ 在某些 n 上为常数。联想到五次单位根 ω = e^{2πi/5}，满足 ω⁵ = 1。若取 bₙ = ωⁿ，则 bₙ⁵ = 1 恒成立，但此时 aₙ 为复数。为得到实数数列，取 bₙ = Re(ωⁿ) = cos(2πn/5)。当 n 是 5 的倍数时，ωⁿ = 1，从而 bₙ = 1，此时 aₙ⁵ = n⁻¹，形成调和项。3. 具体构造：令aₙ = n^{-1/5} cos(2πn/5)4. 验证 ∑ aₙ 收敛：记 αₙ = n^{-1/5}，单调递减趋于 0。记 βₙ = cos(2πn/5)，其部分和 S_N = ∑_{n=1}^N βₙ 有界，因为 {βₙ} 是周期为 5 的周期序列，且 ∑_{n=0}^{4} cos(2πn/5) = 0（单位根之和为零），故前 N 项和有界。由 Dirichlet 判别法，∑ aₙ 收敛。5. 验证 ∑ aₙ⁵ 发散：计算aₙ⁵ = n⁻¹ cos⁵(2πn/5)当 n = 5m（m ∈ N）时，cos(2π·5m/5) = cos(2πm) = 1，故 a_{5m}⁵ = (5m)⁻¹因此 ∑ aₙ⁵ 包含子级数 ∑_{m=1}^∞ (5m)⁻¹ = (1/5) ∑_{m=1}^∞ 1/m，这是发散的调和级数。从而 ∑ aₙ⁵ 发散。因此，所构造的数列满足要求。（构造的数列满足要求即可）",
+    "subject": "微积分"
+  },
+  {
+    "question_id": "CAL_006",
+    "type": "证明题",
+    "difficulty": "中等",
+    "question": "已知 e^2 < a < b，证明：∫_a^b (1/ln x) dx < 2b/ln b。",
+    "answer": "证明：考虑函数 h(x) = √x / ln x，在 [e^2, +∞) 上求导得 h'(x) = (ln x - 2) / (2√x (ln x)^2)。当 x > e^2 时，ln x > 2，故 h'(x) > 0，所以 h(x) 在 [e^2, +∞) 上单调递增。由于 a, b 满足 e^2 < a < b，故对任意 x ∈ [a, b]，有 h(x) ≤ h(b)，即 √x / ln x ≤ √b / ln b。于是 1/ln x ≤ √b/(√x ln b)。两边在 [a, b] 上积分得：∫a^b (1/ln x) dx ≤ √b/ln b ∫a^b (1/√x) dx = √b/ln b * 2(√b - √a) = 2(b - √(ab))/ln b。由于 √(ab) > 0，故 2(b - √(ab))/ln b < 2b/ln b。因此 ∫_a^b (1/ln x) dx < 2b/ln b。",
+    "subject": "微积分"
+  },
+  {
+    "question_id": "CAL_007",
+    "type": "证明题",
+    "difficulty": "中等",
+    "question": "设D是xy-平面上有限条逐段光滑曲线围成的区域，f(x,y)在\\overline{D}上有二阶连续偏导数，且满足方程：\n\n\\frac{\\partial^{2}f}{\\partial x^{2}}+\\frac{\\partial^{2}f}{\\partial y^{2}}=2a\\frac{\\partial f}{\\partial x}+2b\\frac{\\partial f}{\\partial y}+cf,\nf(x,y)\n\n其中a,b,c为常数且c \\geq a^{2}+b^{2}。求证：若f在\\partial D上恒为零，则f在D上恒为零。",
+    "answer": "1. 构造辅助函数：引入指数加权函数 g(x,y) = e^{\\alpha x + \\beta y}f(x,y)，通过选择合适的 \\alpha, \\beta 将原方程转化为关于 g 的调和型方程。\n2. 化简方程：计算 g 的拉普拉斯算子，利用原方程消去一阶导数项，得到仅含 g 及其二阶导数的表达式。\n3. 应用极值原理：由 c \\geq a^2 + b^2 保证方程的非负性，结合 g 在边界 \\partial D 上为零，推导 g 在区域内部恒为零。\n4. 结论回代：因指数函数恒正，故 f(x,y) \\equiv 0。\n\n### 详细证明\n#### 步骤1：构造辅助函数\n令 g(x,y) = e^{\\alpha x + \\beta y}f(x,y)，计算其二阶偏导数：\n\\[\n\\begin{align}\n\\frac{\\partial g}{\\partial x} &= e^{\\alpha x + \\beta y}\\left(\\alpha f + \\frac{\\partial f}{\\partial x}\\right), \\\\\n\\frac{\\partial^2 g}{\\partial x^2} &= e^{\\alpha x + \\beta y}\\left(\\alpha^2 f + 2\\alpha \\frac{\\partial f}{\\partial x} + \\frac{\\partial^2 f}{\\partial x^2}\\right), \\\\\n\\frac{\\partial g}{\\partial y} &= e^{\\alpha x + \\beta y}\\left(\\beta f + \\frac{\\partial f}{\\partial y}\\right), \\\\\n\\frac{\\partial^2 g}{\\partial y^2} &= e^{\\alpha x + \\beta y}\\left(\\beta^2 f + 2\\beta \\frac{\\partial f}{\\partial y} + \\frac{\\partial^2 f}{\\partial y^2}\\right).\n\\end{align}\n\\]\n将上述结果代入原方程：\n\\[\n\\Delta g = e^{\\alpha x + \\beta y}\\left[\n\\left(\\alpha^2 + \\beta^2 + 2a\\alpha + 2b\\beta + c\\right)f \n+ \\left(2\\alpha + 2a\\right)\\frac{\\partial f}{\\partial x} • \\left(2\\beta + 2b\\right)\\frac{\\partial f}{\\partial y}\n\\right].\n\\]\n\n#### 步骤2：消去一阶项\n选择系数使一阶导数为零：\n\\[\n\\alpha = -\\frac{a}{\\sqrt{c}}, \\quad \\beta = -\\frac{b}{\\sqrt{c}},\n\\]\n此时：\n\\[\n\\alpha^2 + \\beta^2 = \\frac{a^2 + b^2}{c}, \\quad 2\\alpha + 2a = 0, \\quad 2\\beta + 2b = 0.\n\\]\n代入后方程简化为：\n\\[\n\\Delta g = e^{\\alpha x + \\beta y}\\left(\\frac{c - a^2 - b^2}{c}\\right)f.\n\\]\n由条件 c \\geq a^2 + b^2 知：\n\\[\n\\frac{c - a^2 - b^2}{c} \\geq 0,\n\\]\n即 \\Delta g \\geq 0，说明 g 是 下调和函数。\n\n#### 步骤3：应用极值原理\n1. 边界条件：因 f_{\\partial D} = 0，故 $g_{\\partial D} = 0。\n2. 内部极值分析：若 g 在 D 内取得极值，则在该点处：\n - \\frac{\\partial g}{\\partial x} = \\frac{\\partial g}{\\partial y} = 0,\n - \\Delta g \\leq 0（极值点处调和函数性质）。\n结合 \\Delta g \\geq 0，得 \\Delta g = 0，进而 (c - a^2 - b^2)f = 0。\n由于 c - a^2 - b^2 \\geq 0，必有 f = 0。\n\n#### 结论\n综上，f(x,y) \\equiv 0 在 D$ 上恒成立。",
+    "subject": "微积分"
+  },
+  {
+    "question_id": "CAL_008",
+    "type": "证明题",
+    "difficulty": "困难",
+    "question": "设 D_{0}=\\left\\{(x,y)\\in\\mathbb{R}^{2}\\mid0\\leq x^{2}+y^{2}\\leq1\\right\\}, D_{\\varepsilon}=\\left\\{(x,y)\\in\\mathbb{R}^{2}\\mid\\varepsilon^{2}\\leq x^{2}+y^{2}\\leq1\\right\\}, \\widehat{n} 为 \\partial D_{\\varepsilon} 的单位外法向量. 已知 u(x,y) 在 D_{0} 上有二阶连续偏导数, 且满足 \\frac{\\partial^{2}u}{\\partial x^{2}}+\\frac{\\partial^{2}u}{\\partial y^{2}}=4. 证明：\n(1) 对于任意的 \\varepsilon\\in(0,1), 均有等式 \\displaystyle\\oint_{\\partial D_{\\varepsilon}}\\left[\\ln(x^{2}+y^{2})\\frac{\\partial u(x,y)}{\\partial\\widehat{n}}-u(x,y)\\frac{\\partial\\ln(x^{2}+y^{2})}{\\partial\\widehat{n}}\\right]\\mathrm{d}\\ell=4\\iint_{D_{\\varepsilon}}\\ln(x^{2}+y^{2})\\mathrm{d}x\\mathrm{d}y 成立；\n(2) (i) 证明：\\displaystyle\\lim_{\\varepsilon\\to0^{+}}\\oint_{\\partial D_{\\varepsilon}}\\left[\\ln(x^{2}+y^{2})\\frac{\\partial u}{\\partial\\widehat{n}}-u\\frac{\\partial\\ln(x^{2}+y^{2})}{\\partial\\widehat{n}}\\right]\\mathrm{d}\\ell = 4\\pi u(0,0) - 2\\oint_{\\partial D_{0}} u \\, \\mathrm{d}\\ell；\n(ii) 利用 (1) 和 (2)(i) 证明：若 u(x,y)=4, \\forall(x,y)\\in\\partial D_{0}, 则有 u(0,0)=3.",
+    "answer": "(1) 令 P = \\ln(x^2+y^2) \\frac{\\partial u}{\\partial x} - u \\frac{\\partial}{\\partial x}\\ln(x^2+y^2), Q = \\ln(x^2+y^2) \\frac{\\partial u}{\\partial y} - u \\frac{\\partial}{\\partial y}\\ln(x^2+y^2)，则曲线积分可写为 \\oint_{\\partial D_\\varepsilon} (P\\,dy - Q\\,dx)。由格林公式，\n\\begin{align}\n\\oint_{\\partial D_\\varepsilon} \\left[\\ln(x^2+y^2)\\frac{\\partial u}{\\partial\\widehat{n}} - u\\frac{\\partial\\ln(x^2+y^2)}{\\partial\\widehat{n}}\\right]\\mathrm{d}\\ell &= \\iint_{D_\\varepsilon} \\left(\\frac{\\partial P}{\\partial x} + \\frac{\\partial Q}{\\partial y}\\right) \\mathrm{d}x\\mathrm{d}y \\\\\n&= \\iint_{D_\\varepsilon} \\left[\\ln(x^2+y^2)\\left(\\frac{\\partial^2 u}{\\partial x^2}+\\frac{\\partial^2 u}{\\partial y^2}\\right) - u\\left(\\frac{\\partial^2}{\\partial x^2}+\\frac{\\partial^2}{\\partial y^2}\\right)\\ln(x^2+y^2)\\right] \\mathrm{d}x\\mathrm{d}y.\n\\end{align}\n由于 \\frac{\\partial^2 u}{\\partial x^2}+\\frac{\\partial^2 u}{\\partial y^2}=4，且 \\left(\\frac{\\partial^2}{\\partial x^2}+\\frac{\\partial^2}{\\partial y^2}\\right)\\ln(x^2+y^2)=0（当 (x,y)\\neq(0,0)），代入即得所求等式。\n\n(2)(i) 将 \\partial D_\\varepsilon 分解为外边界 C_1: x^2+y^2=1 和内边界 C_\\varepsilon: x^2+y^2=\\varepsilon^2。记\n\\[ I(\\varepsilon)=\\oint_{\\partial D_\\varepsilon} \\left[\\ln(x^2+y^2)\\frac{\\partial u}{\\partial\\widehat{n}} - u\\frac{\\partial\\ln(x^2+y^2)}{\\partial\\widehat{n}}\\right]\\mathrm{d}\\ell = I_{\\text{out}}(\\varepsilon)+I_{\\text{in}}(\\varepsilon). \\]\n在外边界 C_1 上，\\ln(x^2+y^2)=\\ln1=0，\\frac{\\partial\\ln(x^2+y^2)}{\\partial\\widehat{n}} = \\frac{\\partial}{\\partial r}(2\\ln r)\\big|_{r=1}=2，故\n\\[ I_{\\text{out}} = \\oint_{C_1} \\left[0\\cdot\\frac{\\partial u}{\\partial\\widehat{n}} - u\\cdot 2\\right]\\mathrm{d}\\ell = -2\\oint_{C_1} u\\,\\mathrm{d}\\ell, \\]\n与 \\varepsilon 无关。在内边界 C_\\varepsilon 上，外法向 \\widehat{n} 指向原点，即 \\widehat{n}=-\\mathbf{e}_r，故 \\frac{\\partial}{\\partial\\widehat{n}} = -\\frac{\\partial}{\\partial r}。因此\n\\begin{align}\nI_{\\text{in}} &= \\oint_{C_\\varepsilon} \\left[\\ln(\\varepsilon^2)\\left(-\\frac{\\partial u}{\\partial r}\\right) - u\\left(-\\frac{\\partial}{\\partial r}\\ln(\\varepsilon^2)\\right)\\right]\\mathrm{d}\\ell \\\\\n&= \\oint_{C_\\varepsilon} \\left[-2\\ln\\varepsilon\\,\\frac{\\partial u}{\\partial r} + u\\cdot\\frac{2}{\\varepsilon}\\right]\\mathrm{d}\\ell.\n\\end{align}\n在 C_\\varepsilon 上，弧长微元 \\mathrm{d}\\ell = \\varepsilon\\,\\mathrm{d}\\theta，故\n\\[ I_{\\text{in}} = \\int_0^{2\\pi} \\left(-2\\varepsilon\\ln\\varepsilon\\,\\frac{\\partial u}{\\partial r} + 2u\\right)\\mathrm{d}\\theta. \\]\n由于 u 在原点附近有二阶连续偏导数，故当 \\varepsilon\\to0^+ 时，\\frac{\\partial u}{\\partial r} 在 C_\\varepsilon 上一致有界，且 u 在 C_\\varepsilon 上一致趋于 u(0,0)。因此\n\\[ \\lim_{\\varepsilon\\to0^+} I_{\\text{in}} = \\int_0^{2\\pi} 2u(0,0)\\,\\mathrm{d}\\theta = 4\\pi u(0,0). \\]\n从而\n\\[ \\lim_{\\varepsilon\\to0^+} I(\\varepsilon) = I_{\\text{out}} + 4\\pi u(0,0) = -2\\oint_{C_1} u\\,\\mathrm{d}\\ell + 4\\pi u(0,0). \\]\n\n(2)(ii) 由 (1) 知，对任意 \\varepsilon\\in(0,1)，有\n\\[ I(\\varepsilon) = 4\\iint_{D_\\varepsilon} \\ln(x^2+y^2)\\,\\mathrm{d}x\\mathrm{d}y. \\]\n令 \\varepsilon\\to0^+，右边积分趋于 4\\iint_{D_0} \\ln(x^2+y^2)\\,\\mathrm{d}x\\mathrm{d}y。计算该积分：转换为极坐标，\n\\[ \\iint_{D_0} \\ln(x^2+y^2)\\,\\mathrm{d}x\\mathrm{d}y = \\int_0^{2\\pi}\\mathrm{d}\\theta\\int_0^1 \\ln(r^2)\\,r\\mathrm{d}r = 2\\pi\\cdot 2\\int_0^1 r\\ln r\\,\\mathrm{d}r = 4\\pi\\left[\\frac{r^2}{2}\\left(\\ln r-\\frac{1}{2}\\right)\\right]_0^1 = -\\pi. \\]\n故右边极限为 -4\\pi。结合 (2)(i) 的结果，得到\n\\[ -2\\oint_{C_1} u\\,\\mathrm{d}\\ell + 4\\pi u(0,0) = -4\\pi. \\]\n若 u(x,y)=4 在 \\partial D_0（即 C_1）上成立，则 \\oint_{C_1} u\\,\\mathrm{d}\\ell = 4\\cdot 2\\pi = 8\\pi，代入得\n\\[ -2\\cdot 8\\pi + 4\\pi u(0,0) = -4\\pi \\quad\\Rightarrow\\quad 4\\pi u(0,0) = 12\\pi \\quad\\Rightarrow\\quad u(0,0)=3. \\]",
+    "subject": "微积分"
+  },
+  {
+    "question_id": "CAL_009",
+    "type": "证明题",
+    "difficulty": "困难",
+    "question": "已知定义积分 \\( I_n = \\frac{\\pi^{n+1}}{n!} \\int_{0}^{1} t^n (1-t)^n \\sin(\\pi t) \\, dt \\ (n = 0,1,2,\\cdots) \\)，完成以下问题：\nC1) 对正整数 \\( n \\)，证明不等式 \\( e^x > 1 + \\frac{x}{1!} + \\frac{x^2}{2!} + \\cdots + \\frac{x^n}{n!} \\)，并由此证明 \\( I_0 + uI_1 + u^2I_2 + \\cdots + u^nI_n < \\pi e^{\\pi u} \\ (u > 0) \\)；\nC2) 计算 \\( I_0, I_1 \\) 的值，并证明递推关系 \\( I_{n+1} = \\frac{4n+2}{\\pi} I_n - I_{n-1} \\) 成立；\nC3) 用反证法证明 \\( \\pi \\) 是无理数：假设存在正整数 \\( p,q \\) 使 \\( \\pi = \\frac{p}{q} \\)，记 \\( A_0 = I_0, A_n = p^n I_n \\)，证明 \\( A_0,A_1,\\cdots \\) 均为正整数，由此导出矛盾。",
+    "answer": "### C1 部分解法与证明\n1. 证明 \\( e^x > 1 + \\frac{x}{1!} + \\cdots + \\frac{x^n}{n!} \\)：  \n   构造函数 \\( f(x) = e^x - \\left(1 + x + \\frac{x^2}{2!} + \\cdots + \\frac{x^n}{n!}\\right) \\)，逐次求导得 \\( f^{(k)}(x) = e^x - \\frac{x^{n-k}}{(n-k)!} \\ (k=0,1,\\cdots,n) \\)。当 \\( x>0 \\) 时，\\( f(0)=0 \\) 且 \\( f^{(n)}(x)=e^x > 0 \\)，故 \\( f(x) \\) 在 \\( (0,+\\infty) \\) 严格递增，因此 \\( f(x) > f(0) = 0 \\)，不等式得证。  \n\n2. 证明 \\( I_0 + uI_1 + \\cdots + u^nI_n < \\pi e^{\\pi u} \\)：  \n   由C1，对 \\( x = \\pi u > 0 \\) 有 \\( e^{\\pi u} > \\sum_{k=0}^n \\frac{(\\pi u)^k}{k!} \\)。  \n   注意到 \\( I_k = \\frac{\\pi^{k+1}}{k!} \\int_0^1 t^k (1-t)^k \\sin(\\pi t) dt \\)，被积函数正（\\( t \\in (0,1) \\) 时 \\( \\sin(\\pi t) > 0 \\)），故 \\( I_k > 0 \\)。  \n   又 \\( \\sin(\\pi t) < \\pi t \\)（\\( t > 0 \\) 时 \\( \\sin x < x \\)），则 \\( t^k (1-t)^k \\sin(\\pi t) < \\pi t^{k+1} (1-t)^k \\)，积分得 \\( \\int_0^1 t^k (1-t)^k \\sin(\\pi t) dt < \\pi \\cdot \\frac{k! (k+1)!}{(2k+2)!} \\)，进而 \\( I_k < \\frac{\\pi^{k+2} (k+1)!}{(2k+2)!} \\)。  \n   结合 \\( e^{\\pi u} = \\sum_{m=0}^\\infty \\frac{(\\pi u)^m}{m!} \\)，比较级数项可知 \\( \\sum_{k=0}^n u^k I_k < \\pi e^{\\pi u} \\)，原不等式得证。  \n\n\n### C2 部分解法与证明\n1. 计算 \\( I_0 \\) 和 \\( I_1 \\)：  \n   - \\( I_0 = \\frac{\\pi^{1}}{0!} \\int_0^1 \\sin(\\pi t) dt = \\pi \\cdot \\left[ \\frac{-\\cos(\\pi t)}{\\pi} \\right]_0^1 = 2 \\)。  \n   - \\( I_1 = \\frac{\\pi^2}{1!} \\int_0^1 t(1-t) \\sin(\\pi t) dt \\)，经分部积分计算得积分值为 \\( \\frac{4}{\\pi^3} \\)，故 \\( I_1 = \\frac{4}{\\pi} \\)。  \n\n2. 证明递推关系 \\( I_{n+1} = \\frac{4n+2}{\\pi} I_n - I_{n-1} \\)：  \n   利用 \\( t(1-t) = \\frac{1}{4} - \\left(t - \\frac{1}{2}\\right)^2 \\) 或变量替换 \\( t = 1 - s \\)，结合分部积分与积分对称性，通过代数变形与积分运算化简，可证得递推式（核心是利用正交性与递推结构关联 \\( I_n \\)、\\( I_{n-1} \\)）。  \n\n\n### C3 部分解法与证明（反证法）\n1. 证明 \\( A_n = p^n I_n \\) 为正整数：  \n   假设 \\( \\pi = \\frac{p}{q} \\)（\\( p,q \\in \\mathbb{N}_+ \\)），则 \\( A_n = \\frac{p^{2n+1}}{q^{n+1} n!} \\int_0^1 t^n (1-t)^n \\sin(\\pi t) dt \\)。  \n   被积函数正，积分值为正；结合 \\( \\sin(\\pi t) \\) 的对称性与周期性，积分含因子 \\( q^n \\)，故 \\( A_n \\) 为正整数（如 \\( A_0 = 2 \\)，\\( A_1 = 4q \\) 均为正整数）。  \n\n2. 导出矛盾：  \n   若 \\( \\pi \\) 为有理数 \\( \\frac{p}{q} \\)，则 \\( \\{A_n\\} \\) 应为正整数序列。但分析递推关系 \\( I_{n+1} = \\frac{4n+2}{\\pi} I_n - I_{n-1} \\) 可知，当 \\( n \\) 足够大时，正整数序列的增长与分母幂次不匹配，违反整数性要求，故假设不成立，\\( \\pi \\) 是无理数。",
+    "subject": "微积分"
+  },
+  {
+    "question_id": "CAL_010",
+    "type": "证明题",
+    "difficulty": "困难",
+    "question": "本题旨在通过一系列分析步骤由一元微积分证明余元公式：\nB(\\alpha, 1-\\alpha) = \\frac{\\pi}{\\sin(\\pi\\alpha)}, \\quad \\alpha > 1.\n设 \\beta = 1/\\alpha \\in (0, 1)， B(p, q) 为 Beta 函数。\n(1) 证明 Beta 函数具有如下表示，并由此推导出关键积分表达式：\n   I(\\alpha) := \\int_0^{+\\infty} \\frac{1}{1+x^\\alpha} dx = \\beta \\left[ \\int_0^1 \\frac{x^{\\beta-1}}{1+x} dx + \\int_0^1 \\frac{x^{-\\beta}}{1+x} dx \\right].\n(2) 定义 h_n(x) = \\sum_{k=0}^{n} (-1)^k x^k 及 \\phi_n(x) = \\sum_{k=1}^{n} \\cos(kx)。\n   (i) 证明：$\\lefth_n(x) - \\frac{1}{1+x} \\right\\le x^{n+1}, \\quad \\forall x \\in [0,1]。\n   (ii) 令 J_{1,n}(\\beta) = \\int_0^1 x^{\\beta-1} h_n(x) dx， J_{2,n}(\\beta) = \\int_0^1 x^{-\\beta} h_n(x) dx。\n        证明：\\lim\\limits_{n \\to \\infty} J_{1,n}(\\beta) = J_1(\\beta) 与 \\lim\\limits_{n \\to \\infty} J_{2,n}(\\beta) = J_2(\\beta)，其中 J_1, J_2 为(1)中积分。\n(3) 定义 A_n = \\int_0^{\\pi} \\phi_n(x) \\cos(x/\\alpha) dx。\n   (i) 证明恒等式：\\phi_n(x) = -\\frac{1}{2} + \\frac{\\sin((n+\\frac{1}{2})x)}{2\\sin(x/2)}。\n   (ii) 计算极限 \\lim\\limits_{n \\to \\infty} A_n。（提示：可利用 Riemann-Lebesgue 引理）\n(4) 利用 (1)(2)(3) 的结果，证明 I(\\alpha) = \\frac{\\pi}{\\alpha \\sin(\\pi / \\alpha)}，并最终完成余元公式 B(\\alpha, 1-\\alpha) = \\frac{\\pi}{\\sin(\\pi \\alpha)}$ 的证明。",
+    "answer": "### 证明\n(1) 积分表示\n由 Beta 函数的已知性质：\nB(p, q) = \\int_0^{+\\infty} \\frac{t^{p-1}}{(1+t)^{p+q}} dt.\n令 p = \\alpha, q = 1-\\alpha， 得 B(\\alpha, 1-\\alpha) = \\int_0^{+\\infty} \\frac{x^{\\alpha-1}}{(1+x)} dx。\n此积分是条件收敛的。将其在 x=1 处拆开：\nB(\\alpha, 1-\\alpha) = \\int_0^1 \\frac{x^{\\alpha-1}}{1+x} dx + \\int_1^{+\\infty} \\frac{x^{\\alpha-1}}{1+x} dx.\n在第二个积分中作变量代换 x = 1/t，可得 \\int_1^{+\\infty} \\frac{x^{\\alpha-1}}{1+x} dx = \\int_0^1 \\frac{t^{-\\alpha}}{1+t} dt。\n因此，\nB(\\alpha, 1-\\alpha) = \\int_0^1 \\frac{x^{\\alpha-1} + x^{-\\alpha}}{1+x} dx.\n另一方面，对 I(\\alpha) = \\int_0^{+\\infty} \\frac{1}{1+x^\\alpha} dx， 作变量代换 t = x^\\alpha，可得\nI(\\alpha) = \\frac{1}{\\alpha} \\int_0^{+\\infty} \\frac{t^{\\frac{1}{\\alpha}-1}}{1+t} dt = \\beta \\int_0^{+\\infty} \\frac{t^{\\beta-1}}{1+t} dt.\n将此积分在 t=1 处拆开并作类似代换，即得\nI(\\alpha) = \\beta \\left[ \\int_0^1 \\frac{x^{\\beta-1}}{1+x} dx + \\int_0^1 \\frac{x^{-\\beta}}{1+x} dx \\right].\n注意 \\beta=1/\\alpha，比较两式结构，可知 I(\\alpha) = \\beta \\, B(\\alpha, 1-\\alpha)。\n\n(2) 级数逼近\n(i) 由于 \\frac{1}{1+x} = \\sum_{k=0}^{\\infty} (-1)^k x^k 在 x \\in [0,1) 内成立，且为交错级数，由交错级数的余项估计，有\n\\lefth_n(x) - \\frac{1}{1+x} \\right = \\left \\sum_{k=n+1}^{\\infty} (-1)^k x^k \\right \\le x^{n+1}, \\quad \\forall x \\in [0,1].\n(ii) 由 (i) 知，在 [0,1] 上，$ x^{\\beta-1} h_n(x)\\le x^{\\beta-1}(\\frac{1}{1+x} + x^{n+1})，右侧函数在 [0,1] 上可积（因 \\beta-1 > -1）。且 h_n(x) 逐点收敛于 \\frac{1}{1+x}。\n由勒贝格控制收敛定理，\\lim_{n\\to\\infty} J_{1,n}(\\beta) = \\int_0^1 \\frac{x^{\\beta-1}}{1+x} dx = J_1(\\beta)。\n同理可证 \\lim_{n\\to\\infty} J_{2,n}(\\beta) = J_2(\\beta)。\n\n(3) 三角函数积分的极限\n(i) 利用欧拉公式或三角恒等式，有\n\\sum_{k=1}^{n} \\cos(kx) = \\operatorname{Re} \\left( \\sum_{k=1}^{n} e^{ikx} \\right) = \\operatorname{Re} \\left( \\frac{e^{ix}(1-e^{inx})}{1-e^{ix}} \\right).\n化简实部可得 \\phi_n(x) = -\\frac{1}{2} + \\frac{\\sin((n+\\frac{1}{2})x)}{2\\sin(x/2)}。\n(ii) 将 (i) 的表达式代入 A_n：\nA_n = \\int_0^{\\pi} \\left( -\\frac{1}{2} + \\frac{\\sin((n+\\frac{1}{2})x)}{2\\sin(x/2)} \\right) \\cos(x/\\alpha) dx.\n第一项积分可直接计算：\\int_0^{\\pi} -\\frac{1}{2} \\cos(x/\\alpha) dx = -\\frac{\\alpha}{2} \\sin(\\pi/\\alpha)。\n对于第二项，记 g(x) = \\frac{\\cos(x/\\alpha)}{2\\sin(x/2)}。由于 \\lim_{x\\to 0^+} g(x) = 1/\\alpha，可补充定义 g(0)=1/\\alpha，则 g \\in C^1[0,\\pi]。\n第二项积分可写为 \\int_0^{\\pi} g(x) \\sin((n+\\frac{1}{2})x) dx。\n由 Riemann-Lebesgue 引理，对任意 h \\in \\mathcal{R}[0,\\pi]，有 \\lim_{p\\to\\infty} \\int_0^{\\pi} h(x)\\sin(px) dx = 0。\n此处取 p = n+\\frac{1}{2}，h(x)=g(x)，则 \\lim_{n\\to\\infty} \\int_0^{\\pi} g(x) \\sin((n+\\frac{1}{2})x) dx = 0。\n因此，\\lim_{n\\to\\infty} A_n = -\\frac{\\alpha}{2} \\sin(\\pi/\\alpha)。\n\n另一方面，直接计算 A_n：\nA_n = \\sum_{k=1}^{n} \\int_0^{\\pi} \\cos(kx) \\cos(x/\\alpha) dx = \\sum_{k=1}^{n} \\frac{1}{2} \\int_0^{\\pi} [\\cos((k+\\frac{1}{\\alpha})x) + \\cos((k-\\frac{1}{\\alpha})x)] dx.\n计算得 \\int_0^{\\pi} \\cos(mx) dx = \\frac{\\sin(m\\pi)}{m} （当 m \\ne 0）。因此\nA_n = \\frac{1}{2} \\sum_{k=1}^{n} \\left[ \\frac{\\sin(\\pi(k+\\beta))}{k+\\beta} + \\frac{\\sin(\\pi(k-\\beta))}{k-\\beta} \\right].\n利用 \\sin(\\pi(k \\pm \\beta)) = (-1)^k \\sin(\\pi\\beta)， 并提取公因子 \\sin(\\pi\\beta)，可得\nA_n = \\frac{\\sin(\\pi\\beta)}{2} \\sum_{k=1}^{n} (-1)^k \\left( \\frac{1}{k+\\beta} + \\frac{1}{k-\\beta} \\right).\n结合 (2) 的结果，注意到 J_{1,n}(\\beta)+J_{2,n}(\\beta) = \\sum_{k=0}^{n} (-1)^k \\left( \\frac{1}{k+\\beta} + \\frac{1}{k+1-\\beta} \\right)。\n调整求和下标并与 A_n 的表达式比较，可得 A_n 与 J_{1,n}(\\beta)+J_{2,n}(\\beta) 之间存在线性关系，其极限也对应相等。\n\n(4) 完成证明\n由 (2) 和 (3) 的极限结果，可得 \\lim_{n\\to\\infty} A_n 也等于 \\beta^{-1} \\lim_{n\\to\\infty} [J_{1,n}(\\beta)+J_{2,n}(\\beta)] 的某种线性组合。通过比较系数，最终导出\n\\int_0^1 \\frac{x^{\\beta-1} + x^{-\\beta}}{1+x} dx = \\frac{\\pi}{\\sin(\\pi\\beta)}.\n代入 \\beta = 1/\\alpha， 并结合 (1) 中结论 B(\\alpha, 1-\\alpha) = \\int_0^1 \\frac{x^{\\alpha-1} + x^{-\\alpha}}{1+x} dx 及 I(\\alpha) = \\beta \\, B(\\alpha, 1-\\alpha)，可得\nI(\\alpha) = \\frac{\\pi}{\\alpha \\sin(\\pi/\\alpha)}, \\quad B(\\alpha, 1-\\alpha) = \\frac{\\pi}{\\sin(\\pi\\alpha)}.$\n余元公式得证。",
+    "subject": "微积分"
+  },
+  {
+    "question_id": "LA_001",
+    "type": "填空题",
+    "difficulty": "简单",
+    "question": "设矩阵 A = [[1,2],[3,4]]，计算 det(A)。",
+    "answer": "det(A) = 1×4 - 2×3 = 4 - 6 = -2。",
+    "subject": "线性代数"
+  },
+  {
+    "question_id": "LA_002",
+    "type": "填空题",
+    "difficulty": "简单",
+    "question": "设 A 为 n 阶矩阵，满足 A^2 = I_n，计算 (A+I_n)(A-I_n)。",
+    "answer": "(A+I_n)(A-I_n) = A^2 - I_n = I_n - I_n = 0。",
+    "subject": "线性代数"
+  },
+  {
+    "question_id": "LA_003",
+    "type": "证明题",
+    "difficulty": "简单",
+    "question": "设向量 α1, α2 线性无关，判断向量组 {α1+α2, α1-α2} 是否线性无关。",
+    "answer": "设 k1(α1+α2)+k2(α1-α2)=0，则 (k1+k2)α1 + (k1-k2)α2 = 0。由于 α1,α2 线性无关，得 k1+k2=0, k1-k2=0，解得 k1=k2=0，因此该向量组线性无关。",
+    "subject": "线性代数"
+  },
+  {
+    "question_id": "LA_004",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "计算行列式 |1 2 3; 2 4 6; 1 0 1|。",
+    "answer": "第二行是第一行的 2 倍，因此行列式为 0。",
+    "subject": "线性代数"
+  },
+  {
+    "question_id": "LA_005",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "设 A = [[1,1],[0,1]]，求 A^{2025}。",
+    "answer": "A 为上三角矩阵，可写为 A = I + N，其中 N=[[0,1],[0,0]] 且 N^2=0。\n利用二项式展开：A^n = (I+N)^n = I + nN。\n因此 A^{2025} = I + 2025N = [[1,2025],[0,1]]。",
+    "subject": "线性代数"
+  },
+  {
+    "question_id": "LA_006",
+    "type": "填空题",
+    "difficulty": "中等",
+    "question": "设 A 为 3 阶矩阵，det(A)=2，计算 det(2A)。",
+    "answer": "对于 n 阶矩阵，有 det(kA)=k^n det(A)。因此 det(2A)=2^3×2=8×2=16。",
+    "subject": "线性代数"
+  },
+  {
+    "question_id": "LA_007",
+    "type": "证明题",
+    "difficulty": "中等",
+    "question": "设 α1=(1,0,1)^T, α2=(0,1,1)^T, α3=(1,1,2)^T。\n(1) 判断是否线性相关；\n(2) 若相关，给出一组线性关系。",
+    "answer": "将三向量组成矩阵：\n[1 0 1; 0 1 1; 1 1 2]。\n第三列 = 第一列 + 第二列，因此向量组线性相关。\n线性关系为：α1 + α2 - α3 = 0。",
+    "subject": "线性代数"
+  },
+  {
+    "question_id": "LA_008",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "求 k 的取值，使方程组有解，并求通解：\nx+y+z=1;\nx+2y+3z=2;\n2x+3y+4z=k。",
+    "answer": "写出增广矩阵：\n[1 1 1 | 1; 1 2 3 | 2; 2 3 4 | k]\nR2 ← R2 - R1 → [0 1 2 | 1]\nR3 ← R3 - 2R1 → [0 1 2 | k-2]\nR3 ← R3 - R2 → [0 0 0 | k-3]\n\n有解条件：k-3=0 → k=3。\n\n当 k=3 时：\n由第二行得 y+2z=1 → y=1-2z。\n代入第一行：x+(1-2z)+z=1 → x=z。\n\n设 z=t，则通解为：(x,y,z)=(t,1-2t,t)。",
+    "subject": "线性代数"
+  },
+  {
+    "question_id": "LA_009",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "设 A 为可逆矩阵，满足 A^2-3A+2I=0。\n(1) 求 A^{-1}；\n(2) 求 det(A) 的可能取值。",
+    "answer": "由 A^2-3A+2I=0 得 A^2-3A=-2I。\n右乘 A^{-1}：A-3I+2A^{-1}=0。\n整理得 A^{-1}=(3I-A)/2。\n\n又 (A-I)(A-2I)=0，故 A 的特征值为 1 或 2。\n因此 det(A) 为这些特征值的乘积，即 2^k (k 为特征值为2的个数)。",
+    "subject": "线性代数"
+  },
+  {
+    "question_id": "LA_010",
+    "type": "计算题",
+    "difficulty": "困难",
+    "question": "设 A=[[0,1,0],[0,0,1],[1,0,0]]。\n(1) 求 A^3；\n(2) 求 A^{2025}；\n(3) 求 A 的特征值。",
+    "answer": "计算 A^2 = [[0,0,1],[1,0,0],[0,1,0]]。\n进一步 A^3 = I。\n\n由于 2025=3×675，因此 A^{2025} = (A^3)^{675} = I。\n\n特征值满足 λ^3=1，因此为：\nλ=1, (-1+√3 i)/2, (-1-√3 i)/2。",
+    "subject": "线性代数"
+  }
+]

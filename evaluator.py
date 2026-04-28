@@ -105,6 +105,10 @@ def normalize_answer(answer: Any) -> str:
 
     text = text.replace("（", "(").replace("）", ")")
     text = text.replace("：", ":").replace("，", ",")
+    text = re.sub(r"\\(?:text|mathrm)\{([^{}]*)\}", r"\1", text)
+    text = text.replace("\\Omega", "Ω").replace("\\ \\Omega", "Ω")
+    text = text.replace("\\,", "").replace("\\ ", "")
+    text = text.replace("$", "")
     text = re.sub(r"\s+", "", text)
     text = text.rstrip("。.;；,，")
 
@@ -113,6 +117,43 @@ def normalize_answer(answer: Any) -> str:
         return upper_letter.group(0).upper()
 
     return text
+
+
+def extract_numbers(text: str) -> list[float]:
+    """提取十进制/科学计数法数字，用于本地验证集的宽松比较。"""
+    values: list[float] = []
+    for match in re.finditer(r"[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?", text):
+        try:
+            values.append(float(match.group(0)))
+        except ValueError:
+            continue
+    return values
+
+
+def extract_final_numbers(answer: Any) -> list[float]:
+    """优先从答案解析的最终结论片段中提取数字，减少中间步骤干扰。"""
+    text = normalize_answer(answer)
+    if not text:
+        return []
+
+    if "答案:" in text:
+        text = text.rsplit("答案:", 1)[-1]
+
+    segments = [part for part in re.split(r"[。.!！?\n]", text) if part]
+    if segments:
+        text = segments[-1]
+
+    for delimiter in ("=", "为", "是", ":"):
+        if delimiter in text:
+            text = text.rsplit(delimiter, 1)[-1]
+
+    return extract_numbers(text)
+
+
+def numbers_close(left: list[float], right: list[float], tol: float = 1e-8) -> bool:
+    if len(left) != len(right):
+        return False
+    return all(abs(a - b) <= tol for a, b in zip(left, right))
 
 
 def compare_answers(predicted: Any, gold: Any) -> bool:
@@ -125,7 +166,21 @@ def compare_answers(predicted: Any, gold: Any) -> bool:
     try:
         return abs(float(pred) - float(truth)) <= 1e-8
     except ValueError:
-        return False
+        pass
+
+    pred_numbers = extract_final_numbers(predicted)
+    gold_numbers = extract_final_numbers(gold)
+    if pred_numbers and gold_numbers and numbers_close(pred_numbers, gold_numbers):
+        return True
+
+    # 若标准答案是解析文本，最终句里仍可能包含代入值（如 t=2）和最终值（11）。
+    # 这时用标准答案最后若干数字的尾部与预测结果比较，避免把中间推导全部纳入。
+    if pred_numbers:
+        gold_all_numbers = extract_numbers(normalize_answer(gold))
+        if len(gold_all_numbers) >= len(pred_numbers):
+            return numbers_close(pred_numbers, gold_all_numbers[-len(pred_numbers) :])
+
+    return False
 
 
 def run_agent(
